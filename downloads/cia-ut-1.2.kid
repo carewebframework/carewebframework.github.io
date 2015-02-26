@@ -1,0 +1,7810 @@
+KIDS Distribution saved on Jan 22, 2015@19:21:51
+CIA UTILITIES 1.2
+**KIDS**:CIA UTILITIES 1.2^
+
+**INSTALL NAME**
+CIA UTILITIES 1.2
+"BLD",8482,0)
+CIA UTILITIES 1.2^CIA UTILITIES^0^3150122^n
+"BLD",8482,1,0)
+^^3^3^3030224^^
+"BLD",8482,1,1,0)
+This is the set of routines common to all modules occupying the CIA namespace.  
+"BLD",8482,1,2,0)
+They perform generic functions.  
+"BLD",8482,1,3,0)
+ 
+"BLD",8482,4,0)
+^9.64PA^^
+"BLD",8482,6.3)
+97
+"BLD",8482,"ABNS",0)
+^9.66A^1^1
+"BLD",8482,"ABNS",1,0)
+RG
+"BLD",8482,"ABNS",1,1,0)
+^9.661A^^
+"BLD",8482,"ABNS","B","RG",1)
+
+"BLD",8482,"ABPKG")
+n^n
+"BLD",8482,"INI")
+
+"BLD",8482,"INIT")
+POST^CIAUINIT
+"BLD",8482,"KRN",0)
+^9.67PA^771^18
+"BLD",8482,"KRN",.4,0)
+.4
+"BLD",8482,"KRN",.4,"NM",0)
+^9.68A^^
+"BLD",8482,"KRN",.401,0)
+.401
+"BLD",8482,"KRN",.402,0)
+.402
+"BLD",8482,"KRN",.403,0)
+.403
+"BLD",8482,"KRN",.5,0)
+.5
+"BLD",8482,"KRN",.84,0)
+.84
+"BLD",8482,"KRN",3.6,0)
+3.6
+"BLD",8482,"KRN",3.8,0)
+3.8
+"BLD",8482,"KRN",9.2,0)
+9.2
+"BLD",8482,"KRN",9.8,0)
+9.8
+"BLD",8482,"KRN",9.8,"NM",0)
+^9.68A^72^38
+"BLD",8482,"KRN",9.8,"NM",18,0)
+CIAU^^0^B38287230
+"BLD",8482,"KRN",9.8,"NM",27,0)
+CIAUSTX^^0^B18161897
+"BLD",8482,"KRN",9.8,"NM",28,0)
+CIAUSTX0^^0^B19890648
+"BLD",8482,"KRN",9.8,"NM",29,0)
+CIAUSTX1^^0^B22089177
+"BLD",8482,"KRN",9.8,"NM",33,0)
+CIAUALR^^0^B1528114
+"BLD",8482,"KRN",9.8,"NM",34,0)
+CIAUBIG^^0^B15073939
+"BLD",8482,"KRN",9.8,"NM",35,0)
+CIAUDAT^^0^B13729833
+"BLD",8482,"KRN",9.8,"NM",36,0)
+CIAUDIC^^0^B30301399
+"BLD",8482,"KRN",9.8,"NM",37,0)
+CIAUDT^^0^B5347313
+"BLD",8482,"KRN",9.8,"NM",38,0)
+CIAUEDT^^0^B50153090
+"BLD",8482,"KRN",9.8,"NM",44,0)
+CIAUIMP^^0^B12183185
+"BLD",8482,"KRN",9.8,"NM",45,0)
+CIAUIN^^1^
+"BLD",8482,"KRN",9.8,"NM",46,0)
+CIAUIN0^^0^B1602000
+"BLD",8482,"KRN",9.8,"NM",47,0)
+CIAUIN16^^0^B4464566
+"BLD",8482,"KRN",9.8,"NM",48,0)
+CIAUIN18^^0^B4685326
+"BLD",8482,"KRN",9.8,"NM",49,0)
+CIAUIN8^^0^B4326711
+"BLD",8482,"KRN",9.8,"NM",50,0)
+CIAULK2^^0^B51861902
+"BLD",8482,"KRN",9.8,"NM",51,0)
+CIAULKP^^0^B29201195
+"BLD",8482,"KRN",9.8,"NM",52,0)
+CIAUMTL^^0^B15227067
+"BLD",8482,"KRN",9.8,"NM",53,0)
+CIAUOS^^0^B8244808
+"BLD",8482,"KRN",9.8,"NM",54,0)
+CIAUOS1^^0^B10543276
+"BLD",8482,"KRN",9.8,"NM",56,0)
+CIAURPC^^0^B16953602
+"BLD",8482,"KRN",9.8,"NM",57,0)
+CIAUTSK^^0^B1191791
+"BLD",8482,"KRN",9.8,"NM",58,0)
+CIAUUSR^^0^B4318479
+"BLD",8482,"KRN",9.8,"NM",59,0)
+CIAUUU^^0^B2196200
+"BLD",8482,"KRN",9.8,"NM",60,0)
+CIAUINIT^^0^B6143020
+"BLD",8482,"KRN",9.8,"NM",61,0)
+CIAUHFS^^0^B5207554
+"BLD",8482,"KRN",9.8,"NM",62,0)
+CIAUDDR^^0^B59564846
+"BLD",8482,"KRN",9.8,"NM",63,0)
+CIAURPRT^^0^B2992421
+"BLD",8482,"KRN",9.8,"NM",64,0)
+CIAUREG^^0^B855036
+"BLD",8482,"KRN",9.8,"NM",65,0)
+CIAUBC28^^0^B10957263
+"BLD",8482,"KRN",9.8,"NM",66,0)
+CIAUBC39^^0^B7863300
+"BLD",8482,"KRN",9.8,"NM",67,0)
+CIAUBCDA^^0^B8376055
+"BLD",8482,"KRN",9.8,"NM",68,0)
+CIAUIN8U^^1^
+"BLD",8482,"KRN",9.8,"NM",69,0)
+CIAUIN68^^0^B4634876
+"BLD",8482,"KRN",9.8,"NM",70,0)
+CIAUIN58^^0^B5738292
+"BLD",8482,"KRN",9.8,"NM",71,0)
+CIAU1^^0^B958298
+"BLD",8482,"KRN",9.8,"NM",72,0)
+CIAUNTEG^^0^B4422720
+"BLD",8482,"KRN",9.8,"NM","B","CIAU",18)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAU1",71)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUALR",33)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUBC28",65)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUBC39",66)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUBCDA",67)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUBIG",34)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUDAT",35)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUDDR",62)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUDIC",36)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUDT",37)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUEDT",38)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUHFS",61)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIMP",44)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIN",45)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIN0",46)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIN16",47)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIN18",48)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIN58",70)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIN68",69)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIN8",49)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUIN8U",68)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUINIT",60)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAULK2",50)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAULKP",51)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUMTL",52)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUNTEG",72)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUOS",53)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUOS1",54)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUREG",64)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAURPC",56)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAURPRT",63)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUSTX",27)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUSTX0",28)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUSTX1",29)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUTSK",57)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUUSR",58)
+
+"BLD",8482,"KRN",9.8,"NM","B","CIAUUU",59)
+
+"BLD",8482,"KRN",19,0)
+19
+"BLD",8482,"KRN",19,"NM",0)
+^9.68A^^0
+"BLD",8482,"KRN",19.1,0)
+19.1
+"BLD",8482,"KRN",101,0)
+101
+"BLD",8482,"KRN",409.61,0)
+409.61
+"BLD",8482,"KRN",771,0)
+771
+"BLD",8482,"KRN",869.2,0)
+869.2
+"BLD",8482,"KRN",870,0)
+870
+"BLD",8482,"KRN",8994,0)
+8994
+"BLD",8482,"KRN",8994,"NM",0)
+^9.68A^11^11
+"BLD",8482,"KRN",8994,"NM",1,0)
+CIAURPC DIC^^0
+"BLD",8482,"KRN",8994,"NM",2,0)
+CIAURPC FILENT^^0
+"BLD",8482,"KRN",8994,"NM",3,0)
+CIAURPC FILNXT^^0
+"BLD",8482,"KRN",8994,"NM",4,0)
+CIAURPC MSYNTAX^^0
+"BLD",8482,"KRN",8994,"NM",5,0)
+CIAUDDR GETDD^^0
+"BLD",8482,"KRN",8994,"NM",6,0)
+CIAUDDR LOCK^^0
+"BLD",8482,"KRN",8994,"NM",7,0)
+CIAUDDR MOVETO^^0
+"BLD",8482,"KRN",8994,"NM",8,0)
+CIAURPC FILGET^^0
+"BLD",8482,"KRN",8994,"NM",9,0)
+CIAUDDR CVTPTR^^0
+"BLD",8482,"KRN",8994,"NM",10,0)
+CIAURPC STRTODAT^^0
+"BLD",8482,"KRN",8994,"NM",11,0)
+CIAUDDR FIND^^0
+"BLD",8482,"KRN",8994,"NM","B","CIAUDDR CVTPTR",9)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAUDDR FIND",11)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAUDDR GETDD",5)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAUDDR LOCK",6)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAUDDR MOVETO",7)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAURPC DIC",1)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAURPC FILENT",2)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAURPC FILGET",8)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAURPC FILNXT",3)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAURPC MSYNTAX",4)
+
+"BLD",8482,"KRN",8994,"NM","B","CIAURPC STRTODAT",10)
+
+"BLD",8482,"KRN","B",.4,.4)
+
+"BLD",8482,"KRN","B",.401,.401)
+
+"BLD",8482,"KRN","B",.402,.402)
+
+"BLD",8482,"KRN","B",.403,.403)
+
+"BLD",8482,"KRN","B",.5,.5)
+
+"BLD",8482,"KRN","B",.84,.84)
+
+"BLD",8482,"KRN","B",3.6,3.6)
+
+"BLD",8482,"KRN","B",3.8,3.8)
+
+"BLD",8482,"KRN","B",9.2,9.2)
+
+"BLD",8482,"KRN","B",9.8,9.8)
+
+"BLD",8482,"KRN","B",19,19)
+
+"BLD",8482,"KRN","B",19.1,19.1)
+
+"BLD",8482,"KRN","B",101,101)
+
+"BLD",8482,"KRN","B",409.61,409.61)
+
+"BLD",8482,"KRN","B",771,771)
+
+"BLD",8482,"KRN","B",869.2,869.2)
+
+"BLD",8482,"KRN","B",870,870)
+
+"BLD",8482,"KRN","B",8994,8994)
+
+"BLD",8482,"QUES",0)
+^9.62^^
+"BLD",8482,"REQB",0)
+^9.611^^
+"INIT")
+POST^CIAUINIT
+"KRN",8994,2579,-1)
+0^1
+"KRN",8994,2579,0)
+CIAURPC DIC^DIC^CIAURPC^2
+"KRN",8994,2579,1,0)
+^^1^1^3050820.204817
+"KRN",8994,2579,1,1,0)
+Encapsulates CIAUDIC call for broker.
+"KRN",8994,2579,2,0)
+^8994.02A^3^3
+"KRN",8994,2579,2,1,0)
+BOOKMARK^1^255^1^1
+"KRN",8994,2579,2,2,0)
+COMMAND^1^255^1^2
+"KRN",8994,2579,2,3,0)
+ARG^1^255^0^3
+"KRN",8994,2579,2,"B","ARG",3)
+
+"KRN",8994,2579,2,"B","BOOKMARK",1)
+
+"KRN",8994,2579,2,"B","COMMAND",2)
+
+"KRN",8994,2579,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2579,2,"PARAMSEQ",2,2)
+
+"KRN",8994,2579,2,"PARAMSEQ",3,3)
+
+"KRN",8994,2580,-1)
+0^2
+"KRN",8994,2580,0)
+CIAURPC FILENT^FILENT^CIAURPC^4^^^^1
+"KRN",8994,2580,1,0)
+^8994.01^1^1^3000107^^^^
+"KRN",8994,2580,1,1,0)
+Returns list of entries in a file.
+"KRN",8994,2580,2,0)
+^8994.02A^1^1
+"KRN",8994,2580,2,1,0)
+FILE NUMBER^1^250^1^1
+"KRN",8994,2580,2,"B","FILE NUMBER",1)
+
+"KRN",8994,2580,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2581,-1)
+0^4
+"KRN",8994,2581,0)
+CIAURPC MSYNTAX^MSYNTAX^CIAURPC^1
+"KRN",8994,2581,1,0)
+^8994.01^1^1^2970922.224252
+"KRN",8994,2581,1,1,0)
+Performs syntax check on line of M code.
+"KRN",8994,2581,2,0)
+^8994.02A^2^2
+"KRN",8994,2581,2,1,0)
+CODE^1^255^1^1
+"KRN",8994,2581,2,2,0)
+OPTION^1^255^0^2
+"KRN",8994,2581,2,"B","CODE",1)
+
+"KRN",8994,2581,2,"B","OPTION",2)
+
+"KRN",8994,2581,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2581,2,"PARAMSEQ",2,2)
+
+"KRN",8994,2582,-1)
+0^3
+"KRN",8994,2582,0)
+CIAURPC FILNXT^FILNXT^CIAURPC^1
+"KRN",8994,2582,2,0)
+^8994.02A^2^2
+"KRN",8994,2582,2,1,0)
+FILE NUMBER^1^100^1^1
+"KRN",8994,2582,2,2,0)
+IEN^1^100^1^2
+"KRN",8994,2582,2,"B","FILE NUMBER",1)
+
+"KRN",8994,2582,2,"B","IEN",2)
+
+"KRN",8994,2582,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2582,2,"PARAMSEQ",2,2)
+
+"KRN",8994,2583,-1)
+0^5
+"KRN",8994,2583,0)
+CIAUDDR GETDD^GETDD^CIAUDDR^4^^^^1
+"KRN",8994,2584,-1)
+0^6
+"KRN",8994,2584,0)
+CIAUDDR LOCK^LOCK^CIAUDDR^1
+"KRN",8994,2585,-1)
+0^7
+"KRN",8994,2585,0)
+CIAUDDR MOVETO^MOVETO^CIAUDDR^1
+"KRN",8994,2586,-1)
+0^8
+"KRN",8994,2586,0)
+CIAURPC FILGET^FILGET^CIAURPC^4^^^^1
+"KRN",8994,2587,-1)
+0^9
+"KRN",8994,2587,0)
+CIAUDDR CVTPTR^CVTPTR^CIAUDDR^1
+"KRN",8994,2588,-1)
+0^10
+"KRN",8994,2588,0)
+CIAURPC STRTODAT^STRTODAT^CIAURPC^1
+"KRN",8994,2588,1,0)
+^^1^1^3040313.081942
+"KRN",8994,2588,1,1,0)
+Converts a date in external format to internal FileMan date format.
+"KRN",8994,2589,-1)
+0^11
+"KRN",8994,2589,0)
+CIAUDDR FIND^FIND^CIAUDDR^4^^^^1
+"MBREQ")
+0
+"ORD",0,9.8)
+9.8;;1;RTNF^XPDTA;RTNE^XPDTA
+"ORD",0,9.8,0)
+ROUTINE
+"ORD",16,8994)
+8994;16;1;;;;;;;RPCDEL^XPDIA1
+"ORD",16,8994,0)
+REMOTE PROCEDURE
+"PKG",218,-1)
+1^1
+"PKG",218,0)
+CIA UTILITIES^CIAU^CIA UTILITIES
+"PKG",218,5)
+CIA
+"PKG",218,22,0)
+^9.49I^1^1
+"PKG",218,22,1,0)
+1.2^3150122^3140319^1
+"PKG",218,22,1,1,0)
+^^3^3^3150122
+"PKG",218,22,1,1,1,0)
+This is the set of routines common to all modules occupying the CIA namespace.  
+"PKG",218,22,1,1,2,0)
+They perform generic functions.  
+"PKG",218,22,1,1,3,0)
+ 
+"PKG",218,"DEV")
+DOUG MARTIN
+"PKG",218,"VERSION")
+1.2
+"QUES","XPF1",0)
+Y
+"QUES","XPF1","??")
+^D REP^XPDH
+"QUES","XPF1","A")
+Shall I write over your |FLAG| File
+"QUES","XPF1","B")
+YES
+"QUES","XPF1","M")
+D XPF1^XPDIQ
+"QUES","XPF2",0)
+Y
+"QUES","XPF2","??")
+^D DTA^XPDH
+"QUES","XPF2","A")
+Want my data |FLAG| yours
+"QUES","XPF2","B")
+YES
+"QUES","XPF2","M")
+D XPF2^XPDIQ
+"QUES","XPI1",0)
+YO
+"QUES","XPI1","??")
+^D INHIBIT^XPDH
+"QUES","XPI1","A")
+Want KIDS to INHIBIT LOGONs during the install
+"QUES","XPI1","B")
+NO
+"QUES","XPI1","M")
+D XPI1^XPDIQ
+"QUES","XPM1",0)
+PO^VA(200,:EM
+"QUES","XPM1","??")
+^D MG^XPDH
+"QUES","XPM1","A")
+Enter the Coordinator for Mail Group '|FLAG|'
+"QUES","XPM1","B")
+
+"QUES","XPM1","M")
+D XPM1^XPDIQ
+"QUES","XPO1",0)
+Y
+"QUES","XPO1","??")
+^D MENU^XPDH
+"QUES","XPO1","A")
+Want KIDS to Rebuild Menu Trees Upon Completion of Install
+"QUES","XPO1","B")
+NO
+"QUES","XPO1","M")
+D XPO1^XPDIQ
+"QUES","XPZ1",0)
+Y
+"QUES","XPZ1","??")
+^D OPT^XPDH
+"QUES","XPZ1","A")
+Want to DISABLE Scheduled Options, Menu Options, and Protocols
+"QUES","XPZ1","B")
+NO
+"QUES","XPZ1","M")
+D XPZ1^XPDIQ
+"QUES","XPZ2",0)
+Y
+"QUES","XPZ2","??")
+^D RTN^XPDH
+"QUES","XPZ2","A")
+Want to MOVE routines to other CPUs
+"QUES","XPZ2","B")
+NO
+"QUES","XPZ2","M")
+D XPZ2^XPDIQ
+"RTN")
+38
+"RTN","CIAU")
+0^18^B38287230
+"RTN","CIAU",1,0)
+CIAU ;MSC/IND/DKM - General purpose utilities;20-Jan-2015 13:23;DKM
+"RTN","CIAU",2,0)
+ ;;1.2;CIA UTILITIES;**1**;Mar 20, 2007;Build 97
+"RTN","CIAU",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAU",4,0)
+ ;=================================================================
+"RTN","CIAU",5,0)
+ ; Replaces delimited arguments in string, returning result
+"RTN","CIAU",6,0)
+MSG(%CIATXT,%CIADLM,%CIARPL) ;EP
+"RTN","CIAU",7,0)
+ N %CIAZ1,%CIAZ2
+"RTN","CIAU",8,0)
+ I $$NEWERR^%ZTER N $ET S $ET=""
+"RTN","CIAU",9,0)
+ S:$G(%CIADLM)="" %CIADLM="%"
+"RTN","CIAU",10,0)
+ S %CIAZ2="",@$$TRAP^CIAUOS("M1^CIAU")
+"RTN","CIAU",11,0)
+ S:$G(%CIARPL,1) %CIATXT=$TR(%CIATXT,"~","^")
+"RTN","CIAU",12,0)
+ F  Q:%CIATXT=""  D
+"RTN","CIAU",13,0)
+ .S %CIAZ2=%CIAZ2_$P(%CIATXT,%CIADLM),%CIAZ1=$P(%CIATXT,%CIADLM,2),%CIATXT=$P(%CIATXT,%CIADLM,3,999)
+"RTN","CIAU",14,0)
+ .I %CIAZ1="" S:%CIATXT'="" %CIAZ2=%CIAZ2_%CIADLM
+"RTN","CIAU",15,0)
+ .E  X "S %CIAZ2=%CIAZ2_("_%CIAZ1_")"
+"RTN","CIAU",16,0)
+M1 Q %CIAZ2
+"RTN","CIAU",17,0)
+ ; Case-insensitive string comparison
+"RTN","CIAU",18,0)
+ ; Returns 0: X=Y, 1: X>Y, -1: X<Y
+"RTN","CIAU",19,0)
+STRICMP(X,Y) ;EP
+"RTN","CIAU",20,0)
+ S X=$$UP^XLFSTR(X),Y=$$UP^XLFSTR(Y)
+"RTN","CIAU",21,0)
+ Q $S(X=Y:0,X]]Y:1,1:-1)
+"RTN","CIAU",22,0)
+ ; Output an underline X bytes long
+"RTN","CIAU",23,0)
+UND(X) ;EP
+"RTN","CIAU",24,0)
+ Q $$REPEAT^XLFSTR("-",$G(X,$G(IOM,80)))
+"RTN","CIAU",25,0)
+ ; Truncate a string if > Y bytes long
+"RTN","CIAU",26,0)
+TRUNC(X,Y) ;EP
+"RTN","CIAU",27,0)
+ Q $S($L(X)'>Y:X,1:$E(X,1,Y-3)_"...")
+"RTN","CIAU",28,0)
+ ; Formatting for singular/plural
+"RTN","CIAU",29,0)
+SNGPLR(CIANUM,CIASNG,CIAPLR) ;EP
+"RTN","CIAU",30,0)
+ N CIAZ
+"RTN","CIAU",31,0)
+ S CIAZ=CIASNG?.E1L.E,CIAPLR=$G(CIAPLR,CIASNG_$S(CIAZ:"s",1:"S"))
+"RTN","CIAU",32,0)
+ Q $S('CIANUM:$S(CIAZ:"no ",1:"NO ")_CIAPLR,CIANUM=1:"1 "_CIASNG,1:CIANUM_" "_CIAPLR)
+"RTN","CIAU",33,0)
+ ; Convert code to external form from set of codes
+"RTN","CIAU",34,0)
+SET(CIACODE,CIASET) ;EP
+"RTN","CIAU",35,0)
+ N CIAZ,CIAZ1
+"RTN","CIAU",36,0)
+ F CIAZ=1:1:$L(CIASET,";") D  Q:CIAZ1'=""
+"RTN","CIAU",37,0)
+ .S CIAZ1=$P(CIASET,";",CIAZ),CIAZ1=$S($P(CIAZ1,":")=CIACODE:$P(CIAZ1,":",2),1:"")
+"RTN","CIAU",38,0)
+ Q CIAZ1
+"RTN","CIAU",39,0)
+ ; Replace each occurrence of CIAOLD in CIASTR with CIANEW
+"RTN","CIAU",40,0)
+SUBST(CIASTR,CIAOLD,CIANEW) ;EP
+"RTN","CIAU",41,0)
+ N CIAP,CIAL1,CIAL2
+"RTN","CIAU",42,0)
+ S CIANEW=$G(CIANEW),CIAP=0,CIAL1=$L(CIAOLD),CIAL2=$L(CIANEW)
+"RTN","CIAU",43,0)
+ F  S CIAP=$F(CIASTR,CIAOLD,CIAP) Q:'CIAP  D
+"RTN","CIAU",44,0)
+ .S CIASTR=$E(CIASTR,1,CIAP-CIAL1-1)_CIANEW_$E(CIASTR,CIAP,9999)
+"RTN","CIAU",45,0)
+ .S CIAP=CIAP-CIAL1+CIAL2
+"RTN","CIAU",46,0)
+ Q CIASTR
+"RTN","CIAU",47,0)
+ ; Trim leading (Y=-1)/trailing (Y=1)/leading & trailing (Y=0) spaces
+"RTN","CIAU",48,0)
+TRIM(X,Y) ;EP
+"RTN","CIAU",49,0)
+ N CIAZ1,CIAZ2
+"RTN","CIAU",50,0)
+ S Y=+$G(Y),CIAZ1=1,CIAZ2=$L(X)
+"RTN","CIAU",51,0)
+ I Y'>0 F CIAZ1=1:1 Q:$A(X,CIAZ1)'=32
+"RTN","CIAU",52,0)
+ I Y'<0 F CIAZ2=CIAZ2:-1 Q:$A(X,CIAZ2)'=32
+"RTN","CIAU",53,0)
+ Q $E(X,CIAZ1,CIAZ2)
+"RTN","CIAU",54,0)
+ ; Format a number with commas
+"RTN","CIAU",55,0)
+FMTNUM(CIANUM) ;EP
+"RTN","CIAU",56,0)
+ N CIAZ,CIAZ1,CIAZ2,CIAZ3
+"RTN","CIAU",57,0)
+ S:CIANUM<0 CIANUM=-CIANUM,CIAZ2="-"
+"RTN","CIAU",58,0)
+ S CIAZ3=CIANUM#1,CIANUM=CIANUM\1
+"RTN","CIAU",59,0)
+ F CIAZ=$L(CIANUM):-3:1 S CIAZ1=$E(CIANUM,CIAZ-2,CIAZ)_$S($D(CIAZ1):","_CIAZ1,1:"")
+"RTN","CIAU",60,0)
+ Q $G(CIAZ2)_$G(CIAZ1)_$S(CIAZ3:CIAZ3,1:"")
+"RTN","CIAU",61,0)
+ ; Convert X to base Y padded to length L
+"RTN","CIAU",62,0)
+BASE(X,Y,L) ;EP
+"RTN","CIAU",63,0)
+ Q:(Y<2)!(Y>62) ""
+"RTN","CIAU",64,0)
+ N CIAZ,CIAZ1
+"RTN","CIAU",65,0)
+ S CIAZ1="",X=$S(X<0:-X,1:X)
+"RTN","CIAU",66,0)
+ F  S CIAZ=X#Y,X=X\Y,CIAZ1=$C($S(CIAZ<10:CIAZ+48,CIAZ<36:CIAZ+55,1:CIAZ+61))_CIAZ1 Q:'X
+"RTN","CIAU",67,0)
+ Q $S('$G(L):CIAZ1,1:$$REPEAT^XLFSTR(0,L-$L(CIAZ1))_$E(CIAZ1,1,L))
+"RTN","CIAU",68,0)
+ ; Convert a string to its SOUNDEX equivalent
+"RTN","CIAU",69,0)
+SOUNDEX(CIAVALUE) ;EP
+"RTN","CIAU",70,0)
+ N CIACODE,CIASOUND,CIAPREV,CIACHAR,CIAPOS,CIATRANS
+"RTN","CIAU",71,0)
+ S CIACODE="01230129022455012623019202"
+"RTN","CIAU",72,0)
+ S CIASOUND=$C($A(CIAVALUE)-(CIAVALUE?1L.E*32))
+"RTN","CIAU",73,0)
+ S CIAPREV=$E(CIACODE,$A(CIAVALUE)-64)
+"RTN","CIAU",74,0)
+ F CIAPOS=2:1 S CIACHAR=$E(CIAVALUE,CIAPOS) Q:","[CIACHAR  D  Q:$L(CIASOUND)=4
+"RTN","CIAU",75,0)
+ .Q:CIACHAR'?1A
+"RTN","CIAU",76,0)
+ .S CIATRANS=$E(CIACODE,$A(CIACHAR)-$S(CIACHAR?1U:64,1:96))
+"RTN","CIAU",77,0)
+ .Q:CIATRANS=CIAPREV!(CIATRANS=9)
+"RTN","CIAU",78,0)
+ .S CIAPREV=CIATRANS
+"RTN","CIAU",79,0)
+ .S:CIATRANS'=0 CIASOUND=CIASOUND_CIATRANS
+"RTN","CIAU",80,0)
+ Q $E(CIASOUND_"000",1,4)
+"RTN","CIAU",81,0)
+ ; Display formatted title
+"RTN","CIAU",82,0)
+TITLE(CIATTL,CIAVER,CIAFN) ;EP
+"RTN","CIAU",83,0)
+ I '$D(IOM) N IOM,IOF S IOM=80,IOF="#"
+"RTN","CIAU",84,0)
+ S CIAVER=$G(CIAVER,"1.0")
+"RTN","CIAU",85,0)
+ S:CIAVER CIAVER="Version "_CIAVER
+"RTN","CIAU",86,0)
+ U $G(IO,$I)
+"RTN","CIAU",87,0)
+ W @IOF,$S(IO=IO(0):$C(27,91,55,109),1:""),*13,$$ENTRY^CIAUDT(+$H_","),?(IOM-$L(CIATTL)\2),CIATTL,?(IOM-$L(CIAVER)),CIAVER,!,$S(IO=IO(0):$C(27,91,109),1:$$UND),!
+"RTN","CIAU",88,0)
+ W:$D(CIAFN) ?(IOM-$L(CIAFN)\2),CIAFN,!
+"RTN","CIAU",89,0)
+ Q
+"RTN","CIAU",90,0)
+ ; Display required header for menus
+"RTN","CIAU",91,0)
+MNUHDR(PKG,VER) ;EP
+"RTN","CIAU",92,0)
+ Q:$D(ZTQUEUED)
+"RTN","CIAU",93,0)
+ Q:$E($G(IOST),1,2)'="C-"
+"RTN","CIAU",94,0)
+ N X,%ZIS,IORVON,IORVOFF,MNU
+"RTN","CIAU",95,0)
+ S MNU=$P($G(XQY0),U,2),MNU(0)=$P($G(XQY0),U),VER=$G(VER)
+"RTN","CIAU",96,0)
+ S X=$$GETPKG($S($L($G(PKG)):PKG,1:MNU(0)))
+"RTN","CIAU",97,0)
+ I $L(X) D
+"RTN","CIAU",98,0)
+ .S PKG=$P(X,U,2),X=$P(X,U,3)
+"RTN","CIAU",99,0)
+ .I $L(X),'$L(VER) S VER=$$VERSION^XPDUTL(X)
+"RTN","CIAU",100,0)
+ S:VER VER="Version "_VER
+"RTN","CIAU",101,0)
+ S X="IORVON;IORVOFF"
+"RTN","CIAU",102,0)
+ D ENDR^%ZISS
+"RTN","CIAU",103,0)
+ U IO
+"RTN","CIAU",104,0)
+ W @IOF,IORVON,$$GET1^DIQ(4,DUZ(2),.01),?(IOM-$L(PKG)\2),PKG,?(IOM-$L(VER)),VER,!,IORVOFF,!?(IOM-$L(MNU)\2),MNU,!
+"RTN","CIAU",105,0)
+ Q
+"RTN","CIAU",106,0)
+ ; Execute menu action, preserving menu headers
+"RTN","CIAU",107,0)
+MNUEXEC(EXEC,PAUSE) ;EP
+"RTN","CIAU",108,0)
+ D MNUHDR()
+"RTN","CIAU",109,0)
+ X EXEC
+"RTN","CIAU",110,0)
+ R:$G(PAUSE)&'$D(ZTQUEUED) !,"Press ENTER or RETURN to continue...",PAUSE:$G(DTIME,300),!
+"RTN","CIAU",111,0)
+ Q
+"RTN","CIAU",112,0)
+ ; Action for editing parameters from menu
+"RTN","CIAU",113,0)
+MNUPARAM(PARAM) ;EP
+"RTN","CIAU",114,0)
+ D MNUEXEC("D EDITPAR^XPAREDIT($G(PARAM,$P(XQY0,U)))")
+"RTN","CIAU",115,0)
+ Q
+"RTN","CIAU",116,0)
+ ; Action for editing parameter template from menu
+"RTN","CIAU",117,0)
+MNUTEMPL(TMPL) ;EP
+"RTN","CIAU",118,0)
+ D MNUEXEC("D TEDH^XPAREDIT($G(TMPL,$P(XQY0,U)),""BA"")")
+"RTN","CIAU",119,0)
+ Q
+"RTN","CIAU",120,0)
+ ; Return package reference from namespace
+"RTN","CIAU",121,0)
+ ; Returns ien^pkg name^pkg namespace
+"RTN","CIAU",122,0)
+GETPKG(NAME) ;EP
+"RTN","CIAU",123,0)
+ N PKG,IEN
+"RTN","CIAU",124,0)
+ S PKG=NAME
+"RTN","CIAU",125,0)
+ F  S PKG=$O(^DIC(9.4,"C",PKG),-1) Q:$E(NAME,1,$L(PKG))=PKG
+"RTN","CIAU",126,0)
+ S IEN=$S($L(PKG):+$O(^DIC(9.4,"C",PKG,0)),1:0)
+"RTN","CIAU",127,0)
+ Q $S(IEN:IEN_U_$P(^DIC(9.4,IEN,0),U)_U_PKG,1:"")
+"RTN","CIAU",128,0)
+ ; Create a unique 8.3 filename
+"RTN","CIAU",129,0)
+UFN(Y) ;EP
+"RTN","CIAU",130,0)
+ N X
+"RTN","CIAU",131,0)
+ S Y=$E($G(Y),1,3),X=$$BASE($R(100)_$J_$TR($H,","),36,$S($L(Y):8,1:11))_Y
+"RTN","CIAU",132,0)
+ Q $E(X,1,8)_"."_$E(X,9,11)
+"RTN","CIAU",133,0)
+ ; Return formatted SSN
+"RTN","CIAU",134,0)
+SSN(X) ;EP
+"RTN","CIAU",135,0)
+ Q $S(X="":X,1:$E(X,1,3)_"-"_$E(X,4,5)_"-"_$E(X,6,12))
+"RTN","CIAU",136,0)
+ ; Performs security check on patient access
+"RTN","CIAU",137,0)
+DGSEC(Y) ;EP
+"RTN","CIAU",138,0)
+ N DIC
+"RTN","CIAU",139,0)
+ S DIC(0)="E"
+"RTN","CIAU",140,0)
+ D ^DGSEC
+"RTN","CIAU",141,0)
+ Q $S(Y<1:0,1:Y)
+"RTN","CIAU",142,0)
+ ; Displays spinning icon to indicate progress
+"RTN","CIAU",143,0)
+WORKING(CIAST,CIAP,CIAS) ;EP
+"RTN","CIAU",144,0)
+ Q:'$D(IO(0))!$D(ZTQUEUED) 0
+"RTN","CIAU",145,0)
+ N CIAZ
+"RTN","CIAU",146,0)
+ S CIAZ(0)=$I,CIAS=$G(CIAS,"|/-\"),CIAST=+$G(CIAST)
+"RTN","CIAU",147,0)
+ S CIAST=$S(CIAST<0:0,1:CIAST#$L(CIAS)+1)
+"RTN","CIAU",148,0)
+ U IO(0)
+"RTN","CIAU",149,0)
+ W:'$G(CIAP) *8,*$S(CIAST:$A(CIAS,CIAST),1:32)
+"RTN","CIAU",150,0)
+ R *CIAZ:0
+"RTN","CIAU",151,0)
+ U CIAZ(0)
+"RTN","CIAU",152,0)
+ Q CIAZ=94
+"RTN","CIAU",153,0)
+ ; Ask for Y/N response
+"RTN","CIAU",154,0)
+ASK(CIAP,CIAD,CIAZ) ;EP
+"RTN","CIAU",155,0)
+ S CIAD=$G(CIAD,"N")
+"RTN","CIAU",156,0)
+ S CIAZ=$$GETCH(CIAP_"? ","YN",,,,CIAD)
+"RTN","CIAU",157,0)
+ S:CIAZ="" CIAZ=$E(CIAD)
+"RTN","CIAU",158,0)
+ W !
+"RTN","CIAU",159,0)
+ Q $S(CIAZ[U:"",1:CIAZ="Y")
+"RTN","CIAU",160,0)
+ ; Pause for user response
+"RTN","CIAU",161,0)
+PAUSE(CIAP,CIAX,CIAY) ;EP
+"RTN","CIAU",162,0)
+ Q $$GETCH($G(CIAP,"Press RETURN or ENTER to continue..."),U,.CIAX,.CIAY)
+"RTN","CIAU",163,0)
+ ; Single character read
+"RTN","CIAU",164,0)
+GETCH(CIAP,CIAV,CIAX,CIAY,CIAT,CIAD) ;EP
+"RTN","CIAU",165,0)
+ N CIAZ,CIAC
+"RTN","CIAU",166,0)
+ W:$D(CIAX)!$D(CIAY) $$XY($G(CIAX,$X),$G(CIAY,$Y))
+"RTN","CIAU",167,0)
+ W $G(CIAP),$E($G(CIAD)_" "),*8
+"RTN","CIAU",168,0)
+ S CIAT=$G(CIAT,$G(DTIME,999999)),CIAD=$G(CIAD,U),CIAC=""
+"RTN","CIAU",169,0)
+ S:$D(CIAV) CIAV=$$UP^XLFSTR(CIAV)_U
+"RTN","CIAU",170,0)
+ F  D  Q:'$L(CIAZ)
+"RTN","CIAU",171,0)
+ .R CIAZ#1:CIAT
+"RTN","CIAU",172,0)
+ .E  S CIAC=CIAD Q
+"RTN","CIAU",173,0)
+ .W *8
+"RTN","CIAU",174,0)
+ .Q:'$L(CIAZ)
+"RTN","CIAU",175,0)
+ .S CIAZ=$$UP^XLFSTR(CIAZ)
+"RTN","CIAU",176,0)
+ .I $D(CIAV) D
+"RTN","CIAU",177,0)
+ ..I CIAV[CIAZ S CIAC=CIAZ
+"RTN","CIAU",178,0)
+ ..E  W *7,*32,*8 S CIAC=""
+"RTN","CIAU",179,0)
+ .E  S CIAC=CIAZ
+"RTN","CIAU",180,0)
+ W !
+"RTN","CIAU",181,0)
+ Q CIAC
+"RTN","CIAU",182,0)
+ ; Position cursor
+"RTN","CIAU",183,0)
+XY(DX,DY) ;EP
+"RTN","CIAU",184,0)
+ D:$G(IOXY)="" HOME^%ZIS
+"RTN","CIAU",185,0)
+ S DX=$S(+$G(DX)>0:+DX,1:0),DY=$S(+$G(DY)>0:+DY,1:0),$X=0
+"RTN","CIAU",186,0)
+ X IOXY
+"RTN","CIAU",187,0)
+ S $X=DX,$Y=DY
+"RTN","CIAU",188,0)
+ Q ""
+"RTN","CIAU",189,0)
+ ; Parameterized calls to date routines
+"RTN","CIAU",190,0)
+DT(CIAD,CIAX) ;EP
+"RTN","CIAU",191,0)
+ N %D,%P,%C,%H,%I,%X,%Y,CIAZ
+"RTN","CIAU",192,0)
+ D DT^DILF($G(CIAX),CIAD,.CIAZ)
+"RTN","CIAU",193,0)
+ W:$D(CIAZ(0)) CIAZ(0),!
+"RTN","CIAU",194,0)
+ Q $G(CIAZ,-1)
+"RTN","CIAU",195,0)
+DTC(X1,X2) ;EP
+"RTN","CIAU",196,0)
+ N X3
+"RTN","CIAU",197,0)
+ S X2=$$DTF(X1)+X2,X1=X1\1,X3=X2\1,X2=X2-X3
+"RTN","CIAU",198,0)
+ S:X2<0 X3=X3-1,X2=X2+1
+"RTN","CIAU",199,0)
+ Q $$FMADD^XLFDT(X1,X3)+$J($$DTT(X2),0,6)
+"RTN","CIAU",200,0)
+DTD(X1,X2) ;EP
+"RTN","CIAU",201,0)
+ Q $$FMDIFF^XLFDT(X1\1,X2\1)+($$DTF(X1)-$$DTF(X2))
+"RTN","CIAU",202,0)
+DTF(X) S X=X#1*100
+"RTN","CIAU",203,0)
+ Q X\1*3600+(X*100#100\1*60)+(X*10000#100)/86400
+"RTN","CIAU",204,0)
+DTT(X) S X=X*86400
+"RTN","CIAU",205,0)
+ Q X\3600*100+(X#3600/3600*60)/10000
+"RTN","CIAU1")
+0^71^B958298
+"RTN","CIAU1",1,0)
+CIAU1 ;MSC/IND/PLS - General Purpose Utilites - Con't ;04-May-2006 08:19;DKM
+"RTN","CIAU1",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAU1",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAU1",4,0)
+ ;=================================================================
+"RTN","CIAU1",5,0)
+ ; Parameterized call to ScreenMan interface
+"RTN","CIAU1",6,0)
+DDS(DDSFILE,DR,DA,DDSPARM,DDSCHANG,CIAERR) ;
+"RTN","CIAU1",7,0)
+ S CIAERR=0
+"RTN","CIAU1",8,0)
+ D:'$D(IOST(0)) HOME^%ZIS
+"RTN","CIAU1",9,0)
+ D ENS^%ZISS
+"RTN","CIAU1",10,0)
+ D ^DDS
+"RTN","CIAU1",11,0)
+ S:$D(DTOUT) CIAERR=1
+"RTN","CIAU1",12,0)
+ I $D(DIMSG)!($D(DIERR)) D
+"RTN","CIAU1",13,0)
+ .S CIAERR=1
+"RTN","CIAU1",14,0)
+ .;D SHOWDLG(23)
+"RTN","CIAU1",15,0)
+ .W !,?5,"The Screen Manager could not edit this record."
+"RTN","CIAU1",16,0)
+ .H 5
+"RTN","CIAU1",17,0)
+ Q
+"RTN","CIAU1",18,0)
+ ; Prompt for single date date
+"RTN","CIAU1",19,0)
+ ; PMT = Prompt
+"RTN","CIAU1",20,0)
+ ; DFL = Default value (optional)
+"RTN","CIAU1",21,0)
+ ; MIN = Minimum value (optional)
+"RTN","CIAU1",22,0)
+ ; OPT = Additional options (optional)
+"RTN","CIAU1",23,0)
+ASKDATE(PMT,DFL,MIN,OPT) ;
+"RTN","CIAU1",24,0)
+ N %DT,Y
+"RTN","CIAU1",25,0)
+ S %DT="APEX"_$G(OPT)
+"RTN","CIAU1",26,0)
+ S %DT("A")=PMT
+"RTN","CIAU1",27,0)
+ S:$G(MIN) %DT(0)=MIN
+"RTN","CIAU1",28,0)
+ I $G(DFL) D
+"RTN","CIAU1",29,0)
+ .S Y=DFL
+"RTN","CIAU1",30,0)
+ .D DD^%DT
+"RTN","CIAU1",31,0)
+ .S %DT("B")=Y
+"RTN","CIAU1",32,0)
+ D ^%DT
+"RTN","CIAU1",33,0)
+ S:Y<0 POP=1
+"RTN","CIAU1",34,0)
+ Q Y
+"RTN","CIAUALR")
+0^33^B1528114
+"RTN","CIAUALR",1,0)
+CIAUALR ;MSC/IND/DKM - Send alert to user(s) via kernel or mail;04-May-2006 08:19;DKM
+"RTN","CIAUALR",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUALR",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUALR",4,0)
+ ;=================================================================
+"RTN","CIAUALR",5,0)
+ ; Send an alert.
+"RTN","CIAUALR",6,0)
+ ;   XQAMSG = Message to send
+"RTN","CIAUALR",7,0)
+ ;   CIAUSR  = A semicolon-delimited list of users to receive alert.
+"RTN","CIAUALR",8,0)
+ ;=================================================================
+"RTN","CIAUALR",9,0)
+ALERT(XQAMSG,CIAUSR) ;
+"RTN","CIAUALR",10,0)
+ N XQA,XQAOPT,XQAFLG,XQAROU,XQADATA,XQAID
+"RTN","CIAUALR",11,0)
+ S @$$TRAP^CIAUOS("EXIT^CIAUALR"),CIAUSR=$G(CIAUSR,"*"),XQAMSG=$TR(XQAMSG,U,"~")
+"RTN","CIAUALR",12,0)
+ D ENTRY^CIAUUSR(CIAUSR,.XQA),SETUP^XQALERT:$D(XQA)
+"RTN","CIAUALR",13,0)
+EXIT Q
+"RTN","CIAUALR",14,0)
+ ;=================================================================
+"RTN","CIAUALR",15,0)
+ ; Send a mail message
+"RTN","CIAUALR",16,0)
+ ;   CIAMSG  = Message to send (single node or array)
+"RTN","CIAUALR",17,0)
+ ;   XMY    = A semicolon-delimited list (or array) of users
+"RTN","CIAUALR",18,0)
+ ;   XMSUB  = Subject line (optional)
+"RTN","CIAUALR",19,0)
+ ;   XMDUZ  = DUZ of sender (optional)
+"RTN","CIAUALR",20,0)
+ ;=================================================================
+"RTN","CIAUALR",21,0)
+MAIL(CIAMSG,XMY,XMSUB,XMDUZ) ;
+"RTN","CIAUALR",22,0)
+ N XMTEXT
+"RTN","CIAUALR",23,0)
+ S:$D(CIAMSG)=1 CIAMSG(1)=CIAMSG
+"RTN","CIAUALR",24,0)
+ S XMTEXT="CIAMSG(",@$$TRAP^CIAUOS("EXIT^CIAUALR"),XMY=$G(XMY)
+"RTN","CIAUALR",25,0)
+ S:$G(XMSUB)="" XMSUB=CIAMSG
+"RTN","CIAUALR",26,0)
+ S:$G(XMDUZ)="" XMDUZ=$G(DUZ)
+"RTN","CIAUALR",27,0)
+ F  Q:'$L(XMY)  S X=$P(XMY,";"),XMY=$P(XMY,";",2,999) S:$L(X) XMY(X)=""
+"RTN","CIAUALR",28,0)
+ D ^XMD:$D(XMY)>9
+"RTN","CIAUALR",29,0)
+ Q
+"RTN","CIAUBC28")
+0^65^B10957263
+"RTN","CIAUBC28",1,0)
+CIAUBC28 ;MSC/IND/DKM/PLS - Convert 128 barcode to HPCL-compatible form ;04-May-2006 08:19;DKM
+"RTN","CIAUBC28",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUBC28",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUBC28",4,0)
+ ;=================================================================
+"RTN","CIAUBC28",5,0)
+ ; Inputs:
+"RTN","CIAUBC28",6,0)
+ ;     TX = Text to encode.
+"RTN","CIAUBC28",7,0)
+ ; Outputs:
+"RTN","CIAUBC28",8,0)
+ ;     Returns encoded text.
+"RTN","CIAUBC28",9,0)
+ ; Purpose:
+"RTN","CIAUBC28",10,0)
+ ;     Performs bar code 128 encoding on a text string.
+"RTN","CIAUBC28",11,0)
+ ;=================================================================
+"RTN","CIAUBC28",12,0)
+EN(TX) Q:TX="" ""
+"RTN","CIAUBC28",13,0)
+ N CD,TP,TP1,EN,Z1,Z2
+"RTN","CIAUBC28",14,0)
+ S TP=0,TP=$$TP(TX),CD=TP,EN=$C(TP+8)
+"RTN","CIAUBC28",15,0)
+ F  Q:TX=""  D
+"RTN","CIAUBC28",16,0)
+ .S TP1=$$TP(TX)
+"RTN","CIAUBC28",17,0)
+ .I TP1'=TP D CD(6-TP1) S TP=TP1
+"RTN","CIAUBC28",18,0)
+ .S Z1=$E(TX,1,TP=2+1),TX=$E(TX,TP=2+2,255),Z2=$A(Z1)
+"RTN","CIAUBC28",19,0)
+ .I TP=2 D CD($S(Z1>95:Z1-95,Z1:Z1+32,1:31))
+"RTN","CIAUBC28",20,0)
+ .E  D CD($S(Z2<32:Z2+96,Z2=32:31,1:Z2))
+"RTN","CIAUBC28",21,0)
+ S CD=CD#103,CD=$S('CD:31,CD>95:CD-95,1:CD+32)
+"RTN","CIAUBC28",22,0)
+ Q EN_$C(CD,11)
+"RTN","CIAUBC28",23,0)
+TP(X) Q $S(X?2N.E:2,$A(X)<32:0,$A(X)>95:1,TP=2:0,1:TP)
+"RTN","CIAUBC28",24,0)
+CD(X) S CD=$S(X=31:0,X<11:X+95,1:X-32)*$L(EN)+$G(CD),EN=EN_$C(X)
+"RTN","CIAUBC28",25,0)
+ Q
+"RTN","CIAUBC28",26,0)
+ ;=================================================================
+"RTN","CIAUBC28",27,0)
+ ; Inputs:
+"RTN","CIAUBC28",28,0)
+ ;   TXT = Data string to print in bar code
+"RTN","CIAUBC28",29,0)
+ ;   ORN = Orientation of bar code
+"RTN","CIAUBC28",30,0)
+ ;         0 = portrait (default)
+"RTN","CIAUBC28",31,0)
+ ;         1 = landscape
+"RTN","CIAUBC28",32,0)
+ ;   HGT = Height of bar code in dots (1/300 inch)
+"RTN","CIAUBC28",33,0)
+ ;   HOR = Horizontal position on page in dots
+"RTN","CIAUBC28",34,0)
+ ;   VER = Vertical position on page in dots
+"RTN","CIAUBC28",35,0)
+ ;   WID = Width of bar in dots (3=default)
+"RTN","CIAUBC28",36,0)
+ ; Purpose:
+"RTN","CIAUBC28",37,0)
+ ;   Accepts a barcode 128 string and writes an HPCL-compatible
+"RTN","CIAUBC28",38,0)
+ ;   string that will display the barcode on an HP laser printer.
+"RTN","CIAUBC28",39,0)
+ ;   A barcode font cartridge is not required.  The print position
+"RTN","CIAUBC28",40,0)
+ ;   on entry is restored on exit.
+"RTN","CIAUBC28",41,0)
+ ;=================================================================
+"RTN","CIAUBC28",42,0)
+BC(TXT,ORN,HGT,HOR,VER,WID) ;
+"RTN","CIAUBC28",43,0)
+ N Z,Z1,Z2,Z3,Z4,Z5,C,P,X
+"RTN","CIAUBC28",44,0)
+ S X=0 X ^%ZOSF("RM")
+"RTN","CIAUBC28",45,0)
+ S TXT=$$EN(TXT),C=$C(27)_"*c",P=$C(27)_"*p+",WID=$G(WID,3.5),HGT=$G(HGT,60),ORN=''$G(ORN)+1
+"RTN","CIAUBC28",46,0)
+ W $C(27),"&f0S"                                                       ;Push cursor position
+"RTN","CIAUBC28",47,0)
+ W:$D(HOR) $C(27)_"*p"_+HOR_"X"
+"RTN","CIAUBC28",48,0)
+ W:$D(VER) $C(27)_"*p"_+VER_"Y"
+"RTN","CIAUBC28",49,0)
+ W C_HGT_$E("BA",ORN)
+"RTN","CIAUBC28",50,0)
+ F Z=1:1:$L(TXT) D
+"RTN","CIAUBC28",51,0)
+ .S Z1=$P($T(@$A(TXT,Z)),";;",2),Z4=11,Z5=0
+"RTN","CIAUBC28",52,0)
+ .F Z2=1:1:$L(Z1) D
+"RTN","CIAUBC28",53,0)
+ ..S Z3=+$E(Z1,Z2),Z4=Z4-Z3,Z3=Z3*WID
+"RTN","CIAUBC28",54,0)
+ ..Q:'Z3
+"RTN","CIAUBC28",55,0)
+ ..I Z2#2 W C_Z3_$E("ab",ORN)_"0P" S Z5=Z3
+"RTN","CIAUBC28",56,0)
+ ..E  W P_(Z3+Z5)_$E("XY",ORN) S Z5=0
+"RTN","CIAUBC28",57,0)
+ .S Z4=Z4*WID+Z5
+"RTN","CIAUBC28",58,0)
+ .W:Z4>0 P_Z4_$E("XY",ORN)
+"RTN","CIAUBC28",59,0)
+ W $C(27),"&f1S"                                                       ;Pop cursor position
+"RTN","CIAUBC28",60,0)
+ Q ""
+"RTN","CIAUBC28",61,0)
+1 ;;11431
+"RTN","CIAUBC28",62,0)
+2 ;;41111
+"RTN","CIAUBC28",63,0)
+3 ;;41131
+"RTN","CIAUBC28",64,0)
+4 ;;11314
+"RTN","CIAUBC28",65,0)
+5 ;;11413
+"RTN","CIAUBC28",66,0)
+6 ;;31114
+"RTN","CIAUBC28",67,0)
+7 ;;41113
+"RTN","CIAUBC28",68,0)
+8 ;;21141
+"RTN","CIAUBC28",69,0)
+9 ;;21121
+"RTN","CIAUBC28",70,0)
+10 ;;21123
+"RTN","CIAUBC28",71,0)
+11 ;;2331112
+"RTN","CIAUBC28",72,0)
+31 ;;21222
+"RTN","CIAUBC28",73,0)
+33 ;;22212
+"RTN","CIAUBC28",74,0)
+34 ;;22222
+"RTN","CIAUBC28",75,0)
+35 ;;12122
+"RTN","CIAUBC28",76,0)
+36 ;;12132
+"RTN","CIAUBC28",77,0)
+37 ;;13122
+"RTN","CIAUBC28",78,0)
+38 ;;12221
+"RTN","CIAUBC28",79,0)
+39 ;;12231
+"RTN","CIAUBC28",80,0)
+40 ;;13221
+"RTN","CIAUBC28",81,0)
+41 ;;22121
+"RTN","CIAUBC28",82,0)
+42 ;;22131
+"RTN","CIAUBC28",83,0)
+43 ;;23121
+"RTN","CIAUBC28",84,0)
+44 ;;11223
+"RTN","CIAUBC28",85,0)
+45 ;;12213
+"RTN","CIAUBC28",86,0)
+46 ;;12223
+"RTN","CIAUBC28",87,0)
+47 ;;11322
+"RTN","CIAUBC28",88,0)
+48 ;;12312
+"RTN","CIAUBC28",89,0)
+49 ;;12322
+"RTN","CIAUBC28",90,0)
+50 ;;22321
+"RTN","CIAUBC28",91,0)
+51 ;;22113
+"RTN","CIAUBC28",92,0)
+52 ;;22123
+"RTN","CIAUBC28",93,0)
+53 ;;21321
+"RTN","CIAUBC28",94,0)
+54 ;;22311
+"RTN","CIAUBC28",95,0)
+55 ;;31213
+"RTN","CIAUBC28",96,0)
+56 ;;31122
+"RTN","CIAUBC28",97,0)
+57 ;;32112
+"RTN","CIAUBC28",98,0)
+58 ;;32122
+"RTN","CIAUBC28",99,0)
+59 ;;31221
+"RTN","CIAUBC28",100,0)
+60 ;;32211
+"RTN","CIAUBC28",101,0)
+61 ;;32221
+"RTN","CIAUBC28",102,0)
+62 ;;21212
+"RTN","CIAUBC28",103,0)
+63 ;;21232
+"RTN","CIAUBC28",104,0)
+64 ;;23212
+"RTN","CIAUBC28",105,0)
+65 ;;11132
+"RTN","CIAUBC28",106,0)
+66 ;;13112
+"RTN","CIAUBC28",107,0)
+67 ;;13132
+"RTN","CIAUBC28",108,0)
+68 ;;11231
+"RTN","CIAUBC28",109,0)
+69 ;;13211
+"RTN","CIAUBC28",110,0)
+70 ;;13231
+"RTN","CIAUBC28",111,0)
+71 ;;21131
+"RTN","CIAUBC28",112,0)
+72 ;;23111
+"RTN","CIAUBC28",113,0)
+73 ;;23131
+"RTN","CIAUBC28",114,0)
+74 ;;11213
+"RTN","CIAUBC28",115,0)
+75 ;;11233
+"RTN","CIAUBC28",116,0)
+76 ;;13213
+"RTN","CIAUBC28",117,0)
+77 ;;11312
+"RTN","CIAUBC28",118,0)
+78 ;;11332
+"RTN","CIAUBC28",119,0)
+79 ;;13312
+"RTN","CIAUBC28",120,0)
+80 ;;31312
+"RTN","CIAUBC28",121,0)
+81 ;;21133
+"RTN","CIAUBC28",122,0)
+82 ;;23113
+"RTN","CIAUBC28",123,0)
+83 ;;21311
+"RTN","CIAUBC28",124,0)
+84 ;;21331
+"RTN","CIAUBC28",125,0)
+85 ;;21313
+"RTN","CIAUBC28",126,0)
+86 ;;31112
+"RTN","CIAUBC28",127,0)
+87 ;;31132
+"RTN","CIAUBC28",128,0)
+88 ;;33112
+"RTN","CIAUBC28",129,0)
+89 ;;31211
+"RTN","CIAUBC28",130,0)
+90 ;;31231
+"RTN","CIAUBC28",131,0)
+91 ;;33211
+"RTN","CIAUBC28",132,0)
+92 ;;31411
+"RTN","CIAUBC28",133,0)
+93 ;;22141
+"RTN","CIAUBC28",134,0)
+94 ;;43111
+"RTN","CIAUBC28",135,0)
+95 ;;11122
+"RTN","CIAUBC28",136,0)
+96 ;;11142
+"RTN","CIAUBC28",137,0)
+97 ;;12112
+"RTN","CIAUBC28",138,0)
+98 ;;12142
+"RTN","CIAUBC28",139,0)
+99 ;;14112
+"RTN","CIAUBC28",140,0)
+100 ;;14122
+"RTN","CIAUBC28",141,0)
+101 ;;11221
+"RTN","CIAUBC28",142,0)
+102 ;;11241
+"RTN","CIAUBC28",143,0)
+103 ;;12211
+"RTN","CIAUBC28",144,0)
+104 ;;12241
+"RTN","CIAUBC28",145,0)
+105 ;;14211
+"RTN","CIAUBC28",146,0)
+106 ;;14221
+"RTN","CIAUBC28",147,0)
+107 ;;24121
+"RTN","CIAUBC28",148,0)
+108 ;;22111
+"RTN","CIAUBC28",149,0)
+109 ;;41311
+"RTN","CIAUBC28",150,0)
+110 ;;24111
+"RTN","CIAUBC28",151,0)
+111 ;;13411
+"RTN","CIAUBC28",152,0)
+112 ;;11124
+"RTN","CIAUBC28",153,0)
+113 ;;12114
+"RTN","CIAUBC28",154,0)
+114 ;;12124
+"RTN","CIAUBC28",155,0)
+115 ;;11421
+"RTN","CIAUBC28",156,0)
+116 ;;12411
+"RTN","CIAUBC28",157,0)
+117 ;;12421
+"RTN","CIAUBC28",158,0)
+118 ;;41121
+"RTN","CIAUBC28",159,0)
+119 ;;42111
+"RTN","CIAUBC28",160,0)
+120 ;;42121
+"RTN","CIAUBC28",161,0)
+121 ;;21214
+"RTN","CIAUBC28",162,0)
+122 ;;21412
+"RTN","CIAUBC28",163,0)
+123 ;;41212
+"RTN","CIAUBC28",164,0)
+124 ;;11114
+"RTN","CIAUBC28",165,0)
+125 ;;11134
+"RTN","CIAUBC28",166,0)
+126 ;;13114
+"RTN","CIAUBC28",167,0)
+127 ;;11411
+"RTN","CIAUBC39")
+0^66^B7863300
+"RTN","CIAUBC39",1,0)
+CIAUBC39 ;MSC/IND/PLS - Converts barcode 39 to HPCL-compatible format ;04-May-2006 08:19;DKM
+"RTN","CIAUBC39",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUBC39",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUBC39",4,0)
+ ;=================================================================
+"RTN","CIAUBC39",5,0)
+ ; Inputs:
+"RTN","CIAUBC39",6,0)
+ ;   TXT = Data string to print in bar code
+"RTN","CIAUBC39",7,0)
+ ;   ORN = Orientation of bar code/Check Digit
+"RTN","CIAUBC39",8,0)
+ ;         0 = portrait/no check digit(default)
+"RTN","CIAUBC39",9,0)
+ ;         1 = landscape/no check digit
+"RTN","CIAUBC39",10,0)
+ ;         2 = portrait/check digit
+"RTN","CIAUBC39",11,0)
+ ;         3 = landscape/check digit
+"RTN","CIAUBC39",12,0)
+ ;   HGT = Height of bar code in dots (1/300 inch)
+"RTN","CIAUBC39",13,0)
+ ;   HOR = Horizontal position on page in dots
+"RTN","CIAUBC39",14,0)
+ ;   VER = Vertical position on page in dots
+"RTN","CIAUBC39",15,0)
+ ;   WID = Width of bar in dots (3=default)
+"RTN","CIAUBC39",16,0)
+ ; Purpose:
+"RTN","CIAUBC39",17,0)
+ ;   Accepts a barcode 39 string and writes an HPCL-compatible
+"RTN","CIAUBC39",18,0)
+ ;   string that will display the barcode on an HP laser printer.
+"RTN","CIAUBC39",19,0)
+ ;   A barcode font cartridge is not required.  The print position
+"RTN","CIAUBC39",20,0)
+ ;   on entry is restored upon exit.
+"RTN","CIAUBC39",21,0)
+ ;=================================================================
+"RTN","CIAUBC39",22,0)
+BC(TXT,ORN,HGT,HOR,VER,WID) ;
+"RTN","CIAUBC39",23,0)
+ N DD,CHK,CH,ZDD,C,P,Z1,Z2,Z3,Z4,Z5,X
+"RTN","CIAUBC39",24,0)
+ S X=0 X ^%ZOSF("RM")
+"RTN","CIAUBC39",25,0)
+ S CHK=$S($G(ORN)>1:1,1:0),ORN=$S($G(ORN)#2:1,1:0)
+"RTN","CIAUBC39",26,0)
+ S TXT=$TR(TXT,"*",""),CH="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-. $/+Z"
+"RTN","CIAUBC39",27,0)
+ S DD="" F ZDD=1:1:$L(TXT) S DD=DD_$S(CH[$E(TXT,ZDD):$E(TXT,ZDD),1:"") ;STRIP UNPRINTABLE CHARACTERS
+"RTN","CIAUBC39",28,0)
+ S TXT=DD I +$G(CHK) S TXT=$$CHK(TXT)                             ;ADD CHECKSUM CHARACTER
+"RTN","CIAUBC39",29,0)
+ S TXT="*"_TXT_"*"                                                     ;ADD START AND STOP CODES
+"RTN","CIAUBC39",30,0)
+ S C=$C(27)_"*c",P=$C(27)_"*p+",WID=$G(WID,3),HGT=$G(HGT,60),ORN=''$G(ORN)+1
+"RTN","CIAUBC39",31,0)
+ W $C(27),"&f0S"                                                       ;Push cursor position
+"RTN","CIAUBC39",32,0)
+ W:$D(HOR) $C(27)_"*p"_+HOR_"X"
+"RTN","CIAUBC39",33,0)
+ W:$D(VER) $C(27)_"*p"_+VER_"Y"
+"RTN","CIAUBC39",34,0)
+ W C_HGT_$E("BA",ORN)
+"RTN","CIAUBC39",35,0)
+ F Z=1:1:$L(TXT) D
+"RTN","CIAUBC39",36,0)
+ .S Z1=$S($E(TXT,Z)="*":$P($T(99),";",4),1:$P($T(@($F(CH,$E(TXT,Z))-2)),";",4)),Z4=15,Z5=0
+"RTN","CIAUBC39",37,0)
+ .F Z2=1:1:$L(Z1) D
+"RTN","CIAUBC39",38,0)
+ ..S Z3=+$E(Z1,Z2),Z4=Z4-Z3,Z3=Z3*WID
+"RTN","CIAUBC39",39,0)
+ ..Q:'Z3
+"RTN","CIAUBC39",40,0)
+ ..I Z2#2 W C_Z3_$E("ab",ORN)_"0P" S Z5=Z3
+"RTN","CIAUBC39",41,0)
+ ..E  W P_(Z3+Z5)_$E("XY",ORN) S Z5=0
+"RTN","CIAUBC39",42,0)
+ .S Z4=Z4*WID+Z5
+"RTN","CIAUBC39",43,0)
+ .W P_(Z5+WID)_$E("XY",ORN)
+"RTN","CIAUBC39",44,0)
+ W $C(27),"&f1S"                                                       ;Pop cursor position
+"RTN","CIAUBC39",45,0)
+ Q ""
+"RTN","CIAUBC39",46,0)
+CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
+"RTN","CIAUBC39",47,0)
+ Q:X="" ""
+"RTN","CIAUBC39",48,0)
+ N CHK,Y
+"RTN","CIAUBC39",49,0)
+ S CHK=0,Y=X
+"RTN","CIAUBC39",50,0)
+ F  Q:X=""  S CHK=$F(CH,$E(X))-2+CHK,X=$E(X,2,255)
+"RTN","CIAUBC39",51,0)
+ S CHK=$E(CH,CHK#43+1)
+"RTN","CIAUBC39",52,0)
+ Q Y_CHK
+"RTN","CIAUBC39",53,0)
+0 ;;0;111331311
+"RTN","CIAUBC39",54,0)
+1 ;;1;311311113
+"RTN","CIAUBC39",55,0)
+2 ;;2;113311113
+"RTN","CIAUBC39",56,0)
+3 ;;3;313311111
+"RTN","CIAUBC39",57,0)
+4 ;;4;111331113
+"RTN","CIAUBC39",58,0)
+5 ;;5;311331111
+"RTN","CIAUBC39",59,0)
+6 ;;6;113331111
+"RTN","CIAUBC39",60,0)
+7 ;;7;111311313
+"RTN","CIAUBC39",61,0)
+8 ;;8;311311311
+"RTN","CIAUBC39",62,0)
+9 ;;9;113311311
+"RTN","CIAUBC39",63,0)
+10 ;;A;311113113
+"RTN","CIAUBC39",64,0)
+11 ;;B;113113113
+"RTN","CIAUBC39",65,0)
+12 ;;C;313113111
+"RTN","CIAUBC39",66,0)
+13 ;;D;111133113
+"RTN","CIAUBC39",67,0)
+14 ;;E;311133111
+"RTN","CIAUBC39",68,0)
+15 ;;F;113133111
+"RTN","CIAUBC39",69,0)
+16 ;;G;111113313
+"RTN","CIAUBC39",70,0)
+17 ;;H;311113311
+"RTN","CIAUBC39",71,0)
+18 ;;I;113113311
+"RTN","CIAUBC39",72,0)
+19 ;;J;111133311
+"RTN","CIAUBC39",73,0)
+20 ;;K;311111133
+"RTN","CIAUBC39",74,0)
+21 ;;L;113111133
+"RTN","CIAUBC39",75,0)
+22 ;;M;313111131
+"RTN","CIAUBC39",76,0)
+23 ;;N;111131133
+"RTN","CIAUBC39",77,0)
+24 ;;O;311131131
+"RTN","CIAUBC39",78,0)
+25 ;;P;113131131
+"RTN","CIAUBC39",79,0)
+26 ;;Q;111111333
+"RTN","CIAUBC39",80,0)
+27 ;;R;311111331
+"RTN","CIAUBC39",81,0)
+28 ;;S;113111331
+"RTN","CIAUBC39",82,0)
+29 ;;T;111131331
+"RTN","CIAUBC39",83,0)
+30 ;;U;331111113
+"RTN","CIAUBC39",84,0)
+31 ;;V;133111113
+"RTN","CIAUBC39",85,0)
+32 ;;W;333111111
+"RTN","CIAUBC39",86,0)
+33 ;;X;131131113
+"RTN","CIAUBC39",87,0)
+34 ;;Y;331131111
+"RTN","CIAUBC39",88,0)
+35 ;;Z;133131111
+"RTN","CIAUBC39",89,0)
+36 ;;-;131111313
+"RTN","CIAUBC39",90,0)
+37 ;;.;331111311
+"RTN","CIAUBC39",91,0)
+38 ;; ;133111311
+"RTN","CIAUBC39",92,0)
+39 ;;$;131313111
+"RTN","CIAUBC39",93,0)
+40 ;;/;131311131
+"RTN","CIAUBC39",94,0)
+41 ;;+;131113131
+"RTN","CIAUBC39",95,0)
+42 ;;%;111313131
+"RTN","CIAUBC39",96,0)
+99 ;;*;131131311
+"RTN","CIAUBCDA")
+0^67^B8376055
+"RTN","CIAUBCDA",1,0)
+CIAUBCDA ;MSC/IND/PLS - Converts barcode CODABAR to HPCL-compatible format ;04-May-2006 08:19;DKM
+"RTN","CIAUBCDA",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUBCDA",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUBCDA",4,0)
+ ;=================================================================
+"RTN","CIAUBCDA",5,0)
+ ; Inputs:
+"RTN","CIAUBCDA",6,0)
+ ;   TXT = Data string to print in bar code
+"RTN","CIAUBCDA",7,0)
+ ;   ORN = Orientation of bar code/Check digit
+"RTN","CIAUBCDA",8,0)
+ ;         0 = portrait/no check digit(default)
+"RTN","CIAUBCDA",9,0)
+ ;         1 = landscape/no check digit
+"RTN","CIAUBCDA",10,0)
+ ;         2 = portrait/check digit
+"RTN","CIAUBCDA",11,0)
+ ;         3 = landscape/check digit
+"RTN","CIAUBCDA",12,0)
+ ;   HGT = Height of bar code in dots (1/300 inch)
+"RTN","CIAUBCDA",13,0)
+ ;   HOR = Horizontal position on page in dots
+"RTN","CIAUBCDA",14,0)
+ ;   VER = Vertical position on page in dots
+"RTN","CIAUBCDA",15,0)
+ ;   WID = Width of bar in dots (3=default)
+"RTN","CIAUBCDA",16,0)
+ ;   SSC = Start/Stop characters (a/a = default)
+"RTN","CIAUBCDA",17,0)
+ ; Purpose:
+"RTN","CIAUBCDA",18,0)
+ ;   Accepts a barcode CODABAR string and writes an HPCL-compatible
+"RTN","CIAUBCDA",19,0)
+ ;   string that will display the barcode on an HP laser printer.
+"RTN","CIAUBCDA",20,0)
+ ;   A barcode font cartridge is not required.  The print position
+"RTN","CIAUBCDA",21,0)
+ ;   on entry is restored upon exit.
+"RTN","CIAUBCDA",22,0)
+ ;=================================================================
+"RTN","CIAUBCDA",23,0)
+BC(TXT,ORN,HGT,HOR,VER,WID,SSC) ;
+"RTN","CIAUBCDA",24,0)
+ N DD,CHK,CH,ZDD,C,P,Z,Z1,Z2,Z3,Z4,Z5,X
+"RTN","CIAUBCDA",25,0)
+ S X=0 X ^%ZOSF("RM")
+"RTN","CIAUBCDA",26,0)
+ S CHK=$S($G(ORN)>1:1,1:0),ORN=$S($G(ORN)#2:1,1:0)
+"RTN","CIAUBCDA",27,0)
+ S CH="0123456789-$:/.+"
+"RTN","CIAUBCDA",28,0)
+ S DD="" F ZDD=1:1:$L(TXT) S DD=DD_$S(CH[$E(TXT,ZDD):$E(TXT,ZDD),1:"") ;STRIP UNPRINTABLE CHARACTERS
+"RTN","CIAUBCDA",29,0)
+ S TXT=DD,TXT="a"_TXT_"a"                                            ;ADD START AND STOP CODES
+"RTN","CIAUBCDA",30,0)
+ I +$G(CHK) S TXT=$$CHK(TXT)
+"RTN","CIAUBCDA",31,0)
+ S C=$C(27)_"*c",P=$C(27)_"*p+",WID=$G(WID,3),HGT=$G(HGT,60),ORN=''$G(ORN)+1
+"RTN","CIAUBCDA",32,0)
+ W $C(27),"&f0S"                                                       ;Push cursor position
+"RTN","CIAUBCDA",33,0)
+ W:$D(HOR) $C(27)_"*p"_+HOR_"X"
+"RTN","CIAUBCDA",34,0)
+ W:$D(VER) $C(27)_"*p"_+VER_"Y"
+"RTN","CIAUBCDA",35,0)
+ W C_HGT_$E("BA",ORN)
+"RTN","CIAUBCDA",36,0)
+ F Z=1:1:$L(TXT) D
+"RTN","CIAUBCDA",37,0)
+ .S Z1=$S("AaTt"[$E(TXT,Z):$P($T(16),";",4),"BbNn"[$E(TXT,Z):$P($T(17),";",4),"Cc*"[$E(TXT,Z):$P($T(18),";",4),"DdEe"[$E(TXT,Z):$P($T(19),";",4),1:$P($T(@($F(CH,$E(TXT,Z))-2)),";",4)),Z4=13,Z5=0
+"RTN","CIAUBCDA",38,0)
+ .F Z2=1:1:$L(Z1) D
+"RTN","CIAUBCDA",39,0)
+ ..S Z3=+$E(Z1,Z2),Z4=Z4-Z3,Z3=Z3*WID
+"RTN","CIAUBCDA",40,0)
+ ..Q:'Z3
+"RTN","CIAUBCDA",41,0)
+ ..I Z2#2 W C_Z3_$E("ab",ORN)_"0P" S Z5=Z3
+"RTN","CIAUBCDA",42,0)
+ ..E  W P_(Z3+Z5)_$E("XY",ORN) S Z5=0
+"RTN","CIAUBCDA",43,0)
+ .S Z4=Z4*WID+Z5
+"RTN","CIAUBCDA",44,0)
+ .W P_(Z5+WID)_$E("XY",ORN)
+"RTN","CIAUBCDA",45,0)
+ W $C(27),"&f1S"                                                       ;Pop cursor position
+"RTN","CIAUBCDA",46,0)
+ Q ""
+"RTN","CIAUBCDA",47,0)
+CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
+"RTN","CIAUBCDA",48,0)
+ Q:X="" ""
+"RTN","CIAUBCDA",49,0)
+ N Z1,Y,CHK,XX
+"RTN","CIAUBCDA",50,0)
+ S CHK=0,Y=X
+"RTN","CIAUBCDA",51,0)
+ S XX=$E(X,1)_$E(X,$L(X))                                             ;STRIP OFF S/S CODES AND CALCULATE CHECKSUM
+"RTN","CIAUBCDA",52,0)
+ F Z1=1:1:$L(XX) S CHK=CHK+$S("AaTt"[$E(XX,Z1):16,"BbNn"[$E(XX,Z1):17,"Cc*"[$E(XX,Z1):18,"DdEe"[$E(XX,Z1):19,1:0)
+"RTN","CIAUBCDA",53,0)
+ ;ADD TO CHECKSUM THE VALUES OF THE DATA
+"RTN","CIAUBCDA",54,0)
+ S X=$E(X,2,$L(X)-1) F  Q:X=""  S CHK=$F(CH,$E(X))-2+CHK,X=$E(X,2,255)
+"RTN","CIAUBCDA",55,0)
+ S CHK=$E(CH,$S('CHK#16:1,1:16-CHK#16+1))
+"RTN","CIAUBCDA",56,0)
+ Q $E(Y,1,$L(Y)-1)_CHK_$E(Y,$L(Y))
+"RTN","CIAUBCDA",57,0)
+0 ;;0;1111133
+"RTN","CIAUBCDA",58,0)
+1 ;;1;1111331
+"RTN","CIAUBCDA",59,0)
+2 ;;2;1113113
+"RTN","CIAUBCDA",60,0)
+3 ;;3;3311111
+"RTN","CIAUBCDA",61,0)
+4 ;;4;1131131
+"RTN","CIAUBCDA",62,0)
+5 ;;5;3111131
+"RTN","CIAUBCDA",63,0)
+6 ;;6;1311113
+"RTN","CIAUBCDA",64,0)
+7 ;;7;1311311
+"RTN","CIAUBCDA",65,0)
+8 ;;8;1331111
+"RTN","CIAUBCDA",66,0)
+9 ;;9;3113111
+"RTN","CIAUBCDA",67,0)
+10 ;;-;1113311
+"RTN","CIAUBCDA",68,0)
+11 ;;$;1133111
+"RTN","CIAUBCDA",69,0)
+12 ;;:;3111313
+"RTN","CIAUBCDA",70,0)
+13 ;;/;3131113
+"RTN","CIAUBCDA",71,0)
+14 ;;.;3131311
+"RTN","CIAUBCDA",72,0)
+15 ;;+;1131313
+"RTN","CIAUBCDA",73,0)
+16 ;;AaTt;1133131
+"RTN","CIAUBCDA",74,0)
+17 ;;BbNn;1313113
+"RTN","CIAUBCDA",75,0)
+18 ;;Cc*;1113133
+"RTN","CIAUBCDA",76,0)
+19 ;;DdEe;1113331
+"RTN","CIAUBIG")
+0^34^B15073939
+"RTN","CIAUBIG",1,0)
+CIAUBIG ;MSC/IND/PLS - Print a banner in large letters;04-May-2006 08:19;DKM
+"RTN","CIAUBIG",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUBIG",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUBIG",4,0)
+ ;=================================================================
+"RTN","CIAUBIG",5,0)
+ ; Prints CIABIG to the current output device in large letters.
+"RTN","CIAUBIG",6,0)
+ ; Inputs:
+"RTN","CIAUBIG",7,0)
+ ;   CIABIG = Big letter string
+"RTN","CIAUBIG",8,0)
+ ;   CIARPT = # times to repeat (default=2)
+"RTN","CIAUBIG",9,0)
+ ;   CIATXT = Full text string (optional)
+"RTN","CIAUBIG",10,0)
+ ;=================================================================
+"RTN","CIAUBIG",11,0)
+ENTRY(CIABIG,CIARPT,CIATXT) ;
+"RTN","CIAUBIG",12,0)
+ N CIALT,CIAFS,CIAZ,CIAZ1,CIALEN,CIAPF,CIALN
+"RTN","CIAUBIG",13,0)
+ S CIAFS="ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789,-/.!#'$()*+?\=^&%"
+"RTN","CIAUBIG",14,0)
+ S:$D(CIATXT) CIATXT=$$REPEAT^XLFSTR("*"_CIATXT,$G(IOM,80)\($L(CIATXT)+1))
+"RTN","CIAUBIG",15,0)
+ S CIALEN=$L(CIABIG),CIARPT=$G(CIARPT,2)
+"RTN","CIAUBIG",16,0)
+ W !
+"RTN","CIAUBIG",17,0)
+ F CIALT=1:1:CIARPT D
+"RTN","CIAUBIG",18,0)
+ .W !
+"RTN","CIAUBIG",19,0)
+ .F CIAZ=1:8:65 D
+"RTN","CIAUBIG",20,0)
+ ..W !
+"RTN","CIAUBIG",21,0)
+ ..F CIAZ1=1:1:CIALEN D
+"RTN","CIAUBIG",22,0)
+ ...S CIALN=$F(CIAFS,$E(CIABIG,CIAZ1))-1
+"RTN","CIAUBIG",23,0)
+ ...S CIAPF=$P($T(TBL+CIALN),";;",2,99)
+"RTN","CIAUBIG",24,0)
+ ...W $E(CIAPF,CIAZ,CIAZ+7)
+"RTN","CIAUBIG",25,0)
+ ...W:CIAZ1<CIALEN ?(CIAZ1*12)
+"RTN","CIAUBIG",26,0)
+ .W !!,$G(CIATXT)
+"RTN","CIAUBIG",27,0)
+ Q
+"RTN","CIAUBIG",28,0)
+TBL ;; Table of character "raster images"
+"RTN","CIAUBIG",29,0)
+ ;; AAAAAA AA    AAAA    AAAAAAAAAAAAAAAAAAAA    AAAA    AAAA    AA
+"RTN","CIAUBIG",30,0)
+ ;;BBBBBBB BB    BBBB    BBBBBBBBB BBBBBBB BB    BBBB    BBBBBBBBB
+"RTN","CIAUBIG",31,0)
+ ;;CCCCCCCCCC      CC      CC      CC      CC      CC      CCCCCCCC
+"RTN","CIAUBIG",32,0)
+ ;;DDDDDD  DD   DD DD    DDDD    DDDD    DDDD    DDDD   DD DDDDDD
+"RTN","CIAUBIG",33,0)
+ ;;EEEEEEEEEE      EE      EEEEEE  EEEEEE  EE      EE      EEEEEEEE
+"RTN","CIAUBIG",34,0)
+ ;;FFFFFFFFFF      FF      FFFFFF  FFFFFF  FF      FF      FF
+"RTN","CIAUBIG",35,0)
+ ;;GGGGGGGGGG      GG      GG  GGGGGG  GGGGGG    GGGG    GGGGGGGGGG
+"RTN","CIAUBIG",36,0)
+ ;;HH    HHHH    HHHH     HHHHHHHHHHHHHHHHHHH    HHHH    HHHH    HH
+"RTN","CIAUBIG",37,0)
+ ;;IIIIIIII   II      II      II      II      II      II   IIIIIIII
+"RTN","CIAUBIG",38,0)
+ ;;JJJJJJJJ    JJ      JJ      JJ      JJ      JJ  JJ  JJ  JJJJJJ
+"RTN","CIAUBIG",39,0)
+ ;;KK    KKKK   KK KK  KK  KKKK    KKKK    KK  KK  KK   KK KK    KK
+"RTN","CIAUBIG",40,0)
+ ;;LL      LL      LL      LL      LL      LL      LL      LLLLLLLL
+"RTN","CIAUBIG",41,0)
+ ;;MM    MMMMM  MMMM MMMM MMM MM MMMM    MMMM    MMMM    MMMM    MM
+"RTN","CIAUBIG",42,0)
+ ;;N     NNNN    NNNNN   NNNN N  NNNN  N NNNN   NNNNN    NNNN     N
+"RTN","CIAUBIG",43,0)
+ ;; OOOOOO OO    OOOO    OOOO    OOOO    OOOO    OOOO    OO OOOOOO
+"RTN","CIAUBIG",44,0)
+ ;;PPPPPPP PP    PPPP    PPPPPPPPP PP      PP      PP      PP
+"RTN","CIAUBIG",45,0)
+ ;; QQQQQQ QQ    QQQQ    QQQQ    QQQQ  Q QQQQ   Q Q QQQQQQ        Q
+"RTN","CIAUBIG",46,0)
+ ;;RRRRRRR RR    RRRR    RRRRRRRRR RR RR   RR  RR  RR   RR RR    RR
+"RTN","CIAUBIG",47,0)
+ ;;SSSSSSSSSS      SS      SSSSSSSSSSSSSSSS      SS      SSSSSSSSSS
+"RTN","CIAUBIG",48,0)
+ ;;TTTTTTTT   TT      TT      TT      TT      TT      TT      TT
+"RTN","CIAUBIG",49,0)
+ ;;UU    UUUU    UUUU    UUUU    UUUU    UUUU    UUUUUUUUUU UUUUUU
+"RTN","CIAUBIG",50,0)
+ ;;VV    VVVV    VVVV    VVVV    VV VV  VV  VV  VV   VVVV     VV
+"RTN","CIAUBIG",51,0)
+ ;;WW    WWWW    WWWW    WWWW    WWWW    WWWW WW WWWWW  WWWWW    WW
+"RTN","CIAUBIG",52,0)
+ ;;XX    XXXX    XX XX  XX   XXXX     XX     XXXX   XX  XX XX    XX
+"RTN","CIAUBIG",53,0)
+ ;;YY    YY YY  YY   Y  Y     YY      YY      YY      YY      YY
+"RTN","CIAUBIG",54,0)
+ ;;ZZZZZZZZZZZZZZZZ     ZZ     ZZ    ZZ      ZZ    ZZZZZZZZZZZZZZZZ
+"RTN","CIAUBIG",55,0)
+ ;;
+"RTN","CIAUBIG",56,0)
+ ;;  0000 0 00  00 00   00000  0 0000 0  00000   00 00  00 0 0000
+"RTN","CIAUBIG",57,0)
+ ;;   11     111    1111      11      11      11      11   1111111
+"RTN","CIAUBIG",58,0)
+ ;;  2222   22  22 22    22      22    22    22     22     2222222
+"RTN","CIAUBIG",59,0)
+ ;;3333333      33     33   33333       33       33     33 33333
+"RTN","CIAUBIG",60,0)
+ ;;      44     444   44 44 44   44 4444444      44      44      44
+"RTN","CIAUBIG",61,0)
+ ;;5555555555      55      5555555       55      55     55 555555
+"RTN","CIAUBIG",62,0)
+ ;;   666   66  66 66      66      66 6666 666   66 66   66  6666
+"RTN","CIAUBIG",63,0)
+ ;;77777777      77     77    77      77     77     77      77
+"RTN","CIAUBIG",64,0)
+ ;;  8888   88  88 88  88   8888   88  88  88    88 88  88   8888
+"RTN","CIAUBIG",65,0)
+ ;;  99999 99    9999    99 9999999      99      99     99   9999
+"RTN","CIAUBIG",66,0)
+ ;;                                         ''        '      '
+"RTN","CIAUBIG",67,0)
+ ;;                        ----------------
+"RTN","CIAUBIG",68,0)
+ ;;              //     //     //    //      //      //
+"RTN","CIAUBIG",69,0)
+ ;;                                         ....    ....    ....
+"RTN","CIAUBIG",70,0)
+ ;;    !!     !!      !!      !!     !!               ....    ....
+"RTN","CIAUBIG",71,0)
+ ;;  #  #  ########  #  #  ########  #  #
+"RTN","CIAUBIG",72,0)
+ ;;
+"RTN","CIAUBIG",73,0)
+ ;;   $$   $$$$$$$$$$ $$   $$$$$$$$   $$ $$$$$$$$$$   $$
+"RTN","CIAUBIG",74,0)
+ ;;   ((     ((     ((     ((      ((       ((       ((
+"RTN","CIAUBIG",75,0)
+ ;;   ))      ))        ))       ))      ))     ))     ))    ))
+"RTN","CIAUBIG",76,0)
+ ;;*  **  * * ** *   ****  ********  ****   * ** * *  **  *
+"RTN","CIAUBIG",77,0)
+ ;;           ++      ++   ++++++++++++++++   ++      ++
+"RTN","CIAUBIG",78,0)
+ ;;  ???   ??   ??      ??     ??     ??      ??     ....    ....
+"RTN","CIAUBIG",79,0)
+ ;;         \\       \\       \\       \\       \\       \\
+"RTN","CIAUBIG",80,0)
+ ;;        ================       =================
+"RTN","CIAUBIG",81,0)
+ ;;    ^      ^^^    ^^ ^^  ^^   ^^
+"RTN","CIAUBIG",82,0)
+ ;; &&&    &   &   &   &    &&&  &  &&& && &   &&  &   &&   &&&   &
+"RTN","CIAUBIG",83,0)
+ ;;  %    % % %  %   %  %      %      %      %  %   %  % % %     %
+"RTN","CIAUDAT")
+0^35^B13729833
+"RTN","CIAUDAT",1,0)
+CIAUDAT ;MSC/IND/DKM - Date range input;20-Jan-2015 13:23;DKM
+"RTN","CIAUDAT",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUDAT",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUDAT",4,0)
+ ;=================================================================
+"RTN","CIAUDAT",5,0)
+ ; Prompt for date range (normal format)
+"RTN","CIAUDAT",6,0)
+NORMAL D D1("P1"),D2("P2"):CIADAT1
+"RTN","CIAUDAT",7,0)
+ Q
+"RTN","CIAUDAT",8,0)
+ ; Prompt for date range (inverse format)
+"RTN","CIAUDAT",9,0)
+INVRSE D D1("PI1"),D2("PI2"):CIADAT1
+"RTN","CIAUDAT",10,0)
+ Q
+"RTN","CIAUDAT",11,0)
+ ; Prompt for starting date
+"RTN","CIAUDAT",12,0)
+D1(CIAOPT) ;
+"RTN","CIAUDAT",13,0)
+ S CIADAT1=$$ENTRY("Start date: ",.CIAOPT,"",0,$Y)
+"RTN","CIAUDAT",14,0)
+ Q
+"RTN","CIAUDAT",15,0)
+ ; Prompt for ending date
+"RTN","CIAUDAT",16,0)
+D2(CIAOPT) ;
+"RTN","CIAUDAT",17,0)
+ S CIADAT2=$$ENTRY("End date  : ",.CIAOPT,"",0,$Y+1)
+"RTN","CIAUDAT",18,0)
+ Q
+"RTN","CIAUDAT",19,0)
+ ; Prompt for a date
+"RTN","CIAUDAT",20,0)
+ENTRY(%CIAP,%CIAOPT,%CIADAT,%CIAX,%CIAY,%CIATRP,%CIAHLP) ;
+"RTN","CIAUDAT",21,0)
+ N %CIAD,%CIAI,%CIADT,%CIAZ,%CIADISV
+"RTN","CIAUDAT",22,0)
+ S %CIAX=$G(%CIAX,$X),%CIAY=$G(%CIAY,$Y),DUZ=+$G(DUZ),DTIME=$G(DTIME,999999),%CIAOPT=$$UP^XLFSTR($G(%CIAOPT)),%CIADISV=""
+"RTN","CIAUDAT",23,0)
+ S %CIATRP=$G(%CIATRP),%CIADAT=$G(%CIADAT)
+"RTN","CIAUDAT",24,0)
+ S:$G(%CIAHLP)="" %CIAHLP="HELP^CIAUDAT"
+"RTN","CIAUDAT",25,0)
+ S:$G(%CIAP)="" %CIAP="Enter date: "
+"RTN","CIAUDAT",26,0)
+ F %CIAZ=0:1:9 I %CIAOPT[%CIAZ S %CIADISV="CIADAT"_%CIAZ Q
+"RTN","CIAUDAT",27,0)
+DAT1 S %CIADT="",@$$TRAP^CIAUOS("DAT1^CIAUDAT")
+"RTN","CIAUDAT",28,0)
+ F %CIAZ="P","T","F","X" S:%CIAOPT[%CIAZ %CIADT=%CIADT_%CIAZ
+"RTN","CIAUDAT",29,0)
+ F  D  Q:$D(%CIAI)
+"RTN","CIAUDAT",30,0)
+ .W $$XY^CIAU(%CIAX,%CIAY)_%CIAP,*27,"[J"
+"RTN","CIAUDAT",31,0)
+ .S $X=%CIAX+$L(%CIAP)
+"RTN","CIAUDAT",32,0)
+ .I %CIAOPT["E" S %CIAI=$$ENTRY^CIAUEDT(%CIADAT,79-$X,$X,$Y,"","R")
+"RTN","CIAUDAT",33,0)
+ .E  I %CIADAT'="" S %CIAI=%CIADAT,%CIADAT=""
+"RTN","CIAUDAT",34,0)
+ .E  R %CIAI:DTIME
+"RTN","CIAUDAT",35,0)
+ .I $E(%CIAI)="?" D  Q
+"RTN","CIAUDAT",36,0)
+ ..W !
+"RTN","CIAUDAT",37,0)
+ ..I %CIAI["??" D HELP
+"RTN","CIAUDAT",38,0)
+ ..E  D @%CIAHLP
+"RTN","CIAUDAT",39,0)
+ ..D PAUSE()
+"RTN","CIAUDAT",40,0)
+ ..K %CIAI
+"RTN","CIAUDAT",41,0)
+ .I %CIAI=" " S %CIAI=$S(%CIADISV="":"",1:$G(^DISV(DUZ,%CIADISV))) K:%CIAI="" CIAZ1
+"RTN","CIAUDAT",42,0)
+ .W $$XY^CIAU(%CIAX+$L(%CIAP),%CIAY),*27,"[K"
+"RTN","CIAUDAT",43,0)
+ I %CIAI="",%CIATRP'="" S %CIAI=$G(@%CIATRP@(" "))
+"RTN","CIAUDAT",44,0)
+ S %CIAI=$$UP^XLFSTR(%CIAI),%CIAD=""
+"RTN","CIAUDAT",45,0)
+ Q:"^^"[%CIAI -$L(%CIAI)
+"RTN","CIAUDAT",46,0)
+ I %CIATRP'="" D  I %CIAD'="" S %CIAOPT=$TR(%CIAOPT,"I") G DAT2
+"RTN","CIAUDAT",47,0)
+ .I $D(@%CIATRP@(%CIAI)) S %CIAD=@%CIATRP@(%CIAI)
+"RTN","CIAUDAT",48,0)
+ .E  D
+"RTN","CIAUDAT",49,0)
+ ..N X
+"RTN","CIAUDAT",50,0)
+ ..S X=%CIAI,%CIAZ=""
+"RTN","CIAUDAT",51,0)
+ ..F  S %CIAZ=$O(@%CIATRP@("?",%CIAZ)) Q:%CIAZ=""  I %CIAI?@%CIAZ D  Q
+"RTN","CIAUDAT",52,0)
+ ...S %CIAD=$$MSG^CIAU($G(@%CIATRP@("?",%CIAZ)))
+"RTN","CIAUDAT",53,0)
+ S %CIAI=$$DT^CIAU(%CIAI,%CIADT)
+"RTN","CIAUDAT",54,0)
+ G:%CIAI=-1 DAT1
+"RTN","CIAUDAT",55,0)
+ I %CIAOPT["+",%CIAI<$S(%CIAI=%CIAI\1:$$DT^XLFDT,1:$$NOW^XLFDT) D  G DAT1
+"RTN","CIAUDAT",56,0)
+ .D PAUSE("Must be on or after current date.")
+"RTN","CIAUDAT",57,0)
+ I %CIAOPT["-",%CIAI>$S(%CIAI=%CIAI\1:$$DT^XLFDT,1:$$NOW^XLFDT) D  G DAT1
+"RTN","CIAUDAT",58,0)
+ .D PAUSE("Must be on or before current date.")
+"RTN","CIAUDAT",59,0)
+ S %CIAD=$$ENTRY^CIAUDT(%CIAI)
+"RTN","CIAUDAT",60,0)
+DAT2 W %CIAD
+"RTN","CIAUDAT",61,0)
+ S:%CIADISV'="" ^DISV(DUZ,%CIADISV)=%CIAI
+"RTN","CIAUDAT",62,0)
+ Q $S(%CIAOPT["I":9999999-%CIAI,1:%CIAI)
+"RTN","CIAUDAT",63,0)
+HELP W ?2,"Enter a valid ",$S(%CIAOPT["+":"future ",%CIAOPT["-":"past ",1:""),"date using one of the following formats:",!!
+"RTN","CIAUDAT",64,0)
+ W ?5,"Format",?20,"Example",?35,"Explanation",?60,"Comments",!
+"RTN","CIAUDAT",65,0)
+ W ?5,"------",?20,"-------",?35,"-----------",?60,"--------",!
+"RTN","CIAUDAT",66,0)
+ W ?5,"mm/dd/yy",?20,"6/20/93",?35,"June 20, 1993",?60,"If you omit the",!
+"RTN","CIAUDAT",67,0)
+ W ?5,"dd-mmm-yy",?20,"27-JUL-58",?35,"July 27, 1958",?60,"year, the "_$S(%CIAOPT["P":"most",%CIAOPT["F":"closest",1:"current"),!
+"RTN","CIAUDAT",68,0)
+ W ?5,"mmddyy",?20,"070457",?35,"July 4, 1957",?60,$S(%CIAOPT["P":"recent past date",%CIAOPT["F":"future date",1:"calendar year"),!
+"RTN","CIAUDAT",69,0)
+ W ?5,"mmm dd yyyy",?20,"JAN 5, 1984",?35,"January 5, 1984",?60,"is assumed.",!
+"RTN","CIAUDAT",70,0)
+ W ?5,"T-n",?20,"T-5",?35,"Today's date - 5 days.",!!
+"RTN","CIAUDAT",71,0)
+ Q
+"RTN","CIAUDAT",72,0)
+PAUSE(%CIAZ) ;
+"RTN","CIAUDAT",73,0)
+ W $$XY^CIAU(0,22),$G(%CIAZ)
+"RTN","CIAUDAT",74,0)
+ I $$PAUSE^CIAU
+"RTN","CIAUDAT",75,0)
+ Q
+"RTN","CIAUDDR")
+0^62^B59564846
+"RTN","CIAUDDR",1,0)
+CIAUDDR ;MSC/IND/DKM - FileMan RPC Extensions ;04-May-2006 08:19;DKM
+"RTN","CIAUDDR",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUDDR",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUDDR",4,0)
+ ;=================================================================
+"RTN","CIAUDDR",5,0)
+ ; RPC: Retrieve DD information about a file.
+"RTN","CIAUDDR",6,0)
+ ; FNUM = File # or name
+"RTN","CIAUDDR",7,0)
+ ; FLDS = Semi-colon delimited field list (optional)
+"RTN","CIAUDDR",8,0)
+ ; IENS = IENS (for subfile entries)
+"RTN","CIAUDDR",9,0)
+ ; FLGS = Control flags:
+"RTN","CIAUDDR",10,0)
+ ;   D = Fix duplicate field names
+"RTN","CIAUDDR",11,0)
+ ;   M = Retrieve multiples
+"RTN","CIAUDDR",12,0)
+ ; Return data:
+"RTN","CIAUDDR",13,0)
+ ;  DATA(0)   = -1^Error text or
+"RTN","CIAUDDR",14,0)
+ ;            = File #^File name^Rec count^Field count^Readonly^Parent File
+"RTN","CIAUDDR",15,0)
+ ;  DATA(n)   = Field #^Field name^Datatype^Size^Required^Readonly^Help lines^Xref^Calculated
+"RTN","CIAUDDR",16,0)
+ ;  DATA(n,0) = Supplemental data (set mappings)
+"RTN","CIAUDDR",17,0)
+ ;  DATA(n,1) = Prompt Text
+"RTN","CIAUDDR",18,0)
+ ;  DATA(n,2) = Help Text
+"RTN","CIAUDDR",19,0)
+GETDD(DATA,FNUM,FLDS,IENS,FLGS) ;
+"RTN","CIAUDDR",20,0)
+ N X,Y,Z,CNT,N0,FLD,PF,MULT,DUPS
+"RTN","CIAUDDR",21,0)
+ S DATA=$NA(^TMP("CIAUDDR",$J))
+"RTN","CIAUDDR",22,0)
+ K @DATA
+"RTN","CIAUDDR",23,0)
+ S FNUM=$G(FNUM),FLDS=$G(FLDS),FLGS=$G(FLGS),MULT=FLGS["M",DUPS=FLGS["D"
+"RTN","CIAUDDR",24,0)
+ I $L(FNUM),FNUM'=+FNUM D
+"RTN","CIAUDDR",25,0)
+ .S FNUM=$O(^DIC("B",FNUM,0))
+"RTN","CIAUDDR",26,0)
+ .I FNUM,$O(^(FNUM)) S FNUM=""
+"RTN","CIAUDDR",27,0)
+ S X=$$ROOT^DILFD(FNUM,$G(IENS),1),PF=$G(^DD(+FNUM,0,"UP"))
+"RTN","CIAUDDR",28,0)
+ S:$L(X) X=$G(@X@(0))
+"RTN","CIAUDDR",29,0)
+ S:PF $P(X,U)=$P($G(^DD(+FNUM,0)),U)
+"RTN","CIAUDDR",30,0)
+ I '$L(X) D SETERR("Table not found") Q
+"RTN","CIAUDDR",31,0)
+ S N0=FNUM_U_$P(X,U)_U_$P(X,U,4),CNT=0
+"RTN","CIAUDDR",32,0)
+ F X=1:1:$L(FLDS,";") D  Q:'X
+"RTN","CIAUDDR",33,0)
+ .S FLD=$P(FLDS,";",X)
+"RTN","CIAUDDR",34,0)
+ .Q:'$L(FLD)
+"RTN","CIAUDDR",35,0)
+ .S:FLD="*" FLD="0-9999999999999999"
+"RTN","CIAUDDR",36,0)
+ .I $TR(FLD,".")?1.N1"-"1.N D
+"RTN","CIAUDDR",37,0)
+ ..S Z=+$P(FLD,"-"),Y=+$P(FLD,"-",2)
+"RTN","CIAUDDR",38,0)
+ ..S:Z<0 Z=0
+"RTN","CIAUDDR",39,0)
+ ..I Z=0 S:'$$GETFL(0,0) X=0
+"RTN","CIAUDDR",40,0)
+ ..I Z>0,$D(^DD(FNUM,Z,0)) S:'$$GETFL(Z,MULT) X=0
+"RTN","CIAUDDR",41,0)
+ ..F  Q:'X  S Z=$O(^DD(FNUM,Z)) Q:'Z  Q:Z>Y  S:'$$GETFL(Z,MULT) X=0
+"RTN","CIAUDDR",42,0)
+ .E  I '$$GETFL(FLD,1) S X=0
+"RTN","CIAUDDR",43,0)
+ S:X @DATA@(0)=N0_U_CNT_U_($P($G(^DD(FNUM,0,"DI")),U,2)["Y")_U_PF
+"RTN","CIAUDDR",44,0)
+ Q
+"RTN","CIAUDDR",45,0)
+ ; Setup type info for field
+"RTN","CIAUDDR",46,0)
+ ;  FLDX = Field # or name
+"RTN","CIAUDDR",47,0)
+ ;  MULT = Allow multiples
+"RTN","CIAUDDR",48,0)
+ ; Note: Datatype (TP) maps to TFMFieldType enum:
+"RTN","CIAUDDR",49,0)
+ ;   0 = unknown, 1 = free text, 2 = numeric, 3 = boolean,
+"RTN","CIAUDDR",50,0)
+ ;   4 = date/time, 5 = wp, 6 = pointer, 7 = set, 8 = subfile
+"RTN","CIAUDDR",51,0)
+GETFL(FLDX,MULT) ;
+"RTN","CIAUDDR",52,0)
+ N X,Z,LN,TP,HC,DD,FLD,MLT,NAM
+"RTN","CIAUDDR",53,0)
+ S FLD=$$FLDNUM(FNUM,FLDX),MLT=0
+"RTN","CIAUDDR",54,0)
+ S DD=$S('$L(FLD):"",FLD:$G(^DD(FNUM,FLD,0)),1:"#^RICJ8,5"),X=$P(DD,U,2)
+"RTN","CIAUDDR",55,0)
+ I '$L(DD) D SETERR("Field not found: "_FLDX) Q 0
+"RTN","CIAUDDR",56,0)
+ I X,$P($G(^DD(X,.01,0)),U,2)'["W" S MLT=1
+"RTN","CIAUDDR",57,0)
+ I 'MULT,MLT Q 1
+"RTN","CIAUDDR",58,0)
+ S (LN,TP,HC,Z)=0,DX="",NAM=$P(DD,U),CNT=CNT+1
+"RTN","CIAUDDR",59,0)
+ I DUPS,$O(^(+$O(^DD(FNUM,"B",NAM,0)))) S NAM=NAM_"("_FLD_")"
+"RTN","CIAUDDR",60,0)
+ I MLT S TP=8,DX=+X
+"RTN","CIAUDDR",61,0)
+ E  I X["B" S TP=3
+"RTN","CIAUDDR",62,0)
+ E  I X["D" S TP=4,DX=$P($P($P(DD,U,5),"%DT=",2),"""",2)
+"RTN","CIAUDDR",63,0)
+ E  I X["F"!(X["K") S TP=1,LN=+$P($P(DD,U,5),"$L(X)>",2) S:'LN LN=30
+"RTN","CIAUDDR",64,0)
+ E  I X["J" S TP=2,DX=$P(X,"J",2) S:DX'["," LN=DX,DX="",TP=1
+"RTN","CIAUDDR",65,0)
+ E  I X["P"!(X["p") S TP=6,DX=+$P($TR(X,"p","P"),"P",2),LN=$$GETLN(DX)
+"RTN","CIAUDDR",66,0)
+ E  I X["S" S TP=7,DX=$P(DD,U,3)
+"RTN","CIAUDDR",67,0)
+ E  I X=+X S TP=5
+"RTN","CIAUDDR",68,0)
+ I 'FLD S HC=1,@DATA@(CNT,2,HC)="Internal record number."
+"RTN","CIAUDDR",69,0)
+ E  F  S Z=$O(^DD(FNUM,FLD,21,Z)) Q:'Z  S HC=HC+1,@DATA@(CNT,2,HC)=^(Z,0)
+"RTN","CIAUDDR",70,0)
+ S @DATA@(CNT)=FLD_U_NAM_U_TP_U_LN_U_(X["R")_U_(X["I")_U_HC_U_$$XREF(FNUM,FLD)_U_(X["C")
+"RTN","CIAUDDR",71,0)
+ S @DATA@(CNT,0)=DX,@DATA@(CNT,1)=$G(^DD(FNUM,FLD,3))
+"RTN","CIAUDDR",72,0)
+ Q 1
+"RTN","CIAUDDR",73,0)
+ ; Get length of .01 for file
+"RTN","CIAUDDR",74,0)
+GETLN(FNUM) ;
+"RTN","CIAUDDR",75,0)
+ N DD,X
+"RTN","CIAUDDR",76,0)
+ S DD=$G(^DD(FNUM,.01,0)),X=$P(DD,U,2)
+"RTN","CIAUDDR",77,0)
+ S X=+$S(X["P":$$GETLN(+$E(X,2,99)),X["F":$P($P(DD,U,5),"$L(X)>",2),1:0)
+"RTN","CIAUDDR",78,0)
+ Q $S(X:X,1:30)
+"RTN","CIAUDDR",79,0)
+SETERR(ERR) ;
+"RTN","CIAUDDR",80,0)
+ K @DATA
+"RTN","CIAUDDR",81,0)
+ S @DATA@(0)="-1^"_ERR
+"RTN","CIAUDDR",82,0)
+ Q
+"RTN","CIAUDDR",83,0)
+ ; RPC: CIAUDDR MOVETO
+"RTN","CIAUDDR",84,0)
+ ; Move to specified record (returns IEN only)
+"RTN","CIAUDDR",85,0)
+ ; FNUM: File #
+"RTN","CIAUDDR",86,0)
+ ; IEN : Current IEN
+"RTN","CIAUDDR",87,0)
+ ; DIR : 0 = current; 1 = next; 2 = prior
+"RTN","CIAUDDR",88,0)
+ ; IENS: Subfile IENS
+"RTN","CIAUDDR",89,0)
+ ; SCRN: Screens (optional)
+"RTN","CIAUDDR",90,0)
+ ; INDX: Index (optional)
+"RTN","CIAUDDR",91,0)
+ ; Returns IEN or <error code>^<error text>
+"RTN","CIAUDDR",92,0)
+MOVETO(DATA,FNUM,IEN,DIR,IENS,SCRN,INDX) ;
+"RTN","CIAUDDR",93,0)
+ N GBL,IDX,IDF,OK
+"RTN","CIAUDDR",94,0)
+ S GBL=$$ROOT^DILFD(FNUM,$G(IENS),1),DIR=+$G(DIR),INDX=$G(INDX)
+"RTN","CIAUDDR",95,0)
+ S DIR=$S(DIR=1:1,DIR=2:-1,1:0)
+"RTN","CIAUDDR",96,0)
+ S:$L($G(SCRN)) SCRN(-1)=SCRN
+"RTN","CIAUDDR",97,0)
+ I '$L(GBL) S DATA="-4^Table not found" Q
+"RTN","CIAUDDR",98,0)
+ I $L(INDX) D  Q:$G(DATA)
+"RTN","CIAUDDR",99,0)
+ .I '$O(^DD(FNUM,0,"IX",INDX,"")) S DATA="-5^Index "_INDX_" not found" Q
+"RTN","CIAUDDR",100,0)
+ .S IDF=$$XREFFLD(FNUM,INDX)
+"RTN","CIAUDDR",101,0)
+ .I 'IDF S DATA="-6^Index "_INDX_" is not a standard index" Q
+"RTN","CIAUDDR",102,0)
+ .S IDX=$S(IEN=-1:"",IEN=-2:$C(255),1:$E($$FLDVAL(FNUM,IDF,IEN,GBL),1,30))
+"RTN","CIAUDDR",103,0)
+ E  S IEN=$S(IEN=-1:0,IEN=-2:$O(@GBL@($C(1)),-1)+1,1:+IEN)
+"RTN","CIAUDDR",104,0)
+ F  D  Q:OK!'IEN
+"RTN","CIAUDDR",105,0)
+ .S IEN=+$$NXTIEN
+"RTN","CIAUDDR",106,0)
+ .;S OK=IEN&(IEN\1=IEN)&$D(@GBL@(IEN,0)),SCRN=""
+"RTN","CIAUDDR",107,0)
+ .S OK=IEN&$D(@GBL@(IEN,0)),SCRN=""
+"RTN","CIAUDDR",108,0)
+ .F  Q:'OK  S SCRN=$O(SCRN(SCRN)) Q:'$L(SCRN)  D
+"RTN","CIAUDDR",109,0)
+ ..N Y
+"RTN","CIAUDDR",110,0)
+ ..S Y=IEN
+"RTN","CIAUDDR",111,0)
+ ..I $D(@GBL@(Y,0))
+"RTN","CIAUDDR",112,0)
+ ..X SCRN(SCRN)
+"RTN","CIAUDDR",113,0)
+ ..S OK=$T
+"RTN","CIAUDDR",114,0)
+ .I 'OK,'DIR S IEN=0
+"RTN","CIAUDDR",115,0)
+ S DATA=$S(OK:IEN,'DIR:"-3^Record not found",DIR=1:"-2^End of file",1:"-1^Beginning of file")
+"RTN","CIAUDDR",116,0)
+ Q
+"RTN","CIAUDDR",117,0)
+ ; Return next IEN
+"RTN","CIAUDDR",118,0)
+NXTIEN() Q:'DIR IEN
+"RTN","CIAUDDR",119,0)
+ Q:'$L(INDX) $O(@GBL@(IEN),DIR)
+"RTN","CIAUDDR",120,0)
+ N OK
+"RTN","CIAUDDR",121,0)
+ F  D  Q:OK!'$L(IDX)
+"RTN","CIAUDDR",122,0)
+ .S:IEN'>0 IDX=$O(@GBL@(INDX,IDX),DIR),IEN=""
+"RTN","CIAUDDR",123,0)
+ .S IEN=$S($L(IDX):$O(@GBL@(INDX,IDX,IEN),DIR),1:0)
+"RTN","CIAUDDR",124,0)
+ .;S OK=$S('IEN:0,1:$E($$FLDVAL(FNUM,IDF,IEN,GBL),1,30)=IDX)
+"RTN","CIAUDDR",125,0)
+ .S OK=$S('IEN:0,1:$D(@GBL@(IEN,0)))
+"RTN","CIAUDDR",126,0)
+ Q IEN
+"RTN","CIAUDDR",127,0)
+ ; Return field value (internal)
+"RTN","CIAUDDR",128,0)
+ ;  FIL  = File or subfile #
+"RTN","CIAUDDR",129,0)
+ ;  FLD  = Field #
+"RTN","CIAUDDR",130,0)
+ ;  IEN  = Record #
+"RTN","CIAUDDR",131,0)
+ ;  ROOT = Global root of file or subfile, or IENS of subfile
+"RTN","CIAUDDR",132,0)
+FLDVAL(FIL,FLD,IEN,ROOT) ;
+"RTN","CIAUDDR",133,0)
+ I FLD=0!(FLD="#") Q IEN
+"RTN","CIAUDDR",134,0)
+ N PC,ND,DD
+"RTN","CIAUDDR",135,0)
+ S:FLD'=+FLD FLD=+$O(^DD(FIL,"B",FLD,0))
+"RTN","CIAUDDR",136,0)
+ S DD=$G(^DD(FIL,FLD,0))
+"RTN","CIAUDDR",137,0)
+ Q:$P(DD,U,2)["C" $$GET1^DIQ(FIL,IEN_","_$P(ROOT,",",2,999),FLD,"I")
+"RTN","CIAUDDR",138,0)
+ S ND=$P(DD,U,4),PC=$P(ND,";",2),ND=$P(ND,";")
+"RTN","CIAUDDR",139,0)
+ S:$E(ROOT)'=U ROOT=$$ROOT^DILFD(FIL,ROOT,1)
+"RTN","CIAUDDR",140,0)
+ Q $S('$L(ND):"",1:$P($G(@ROOT@(IEN,ND)),U,PC))
+"RTN","CIAUDDR",141,0)
+ ; RPC: Lock/unlock a record
+"RTN","CIAUDDR",142,0)
+ ;   FNUM = File #
+"RTN","CIAUDDR",143,0)
+ ;   IENS = Record # (IENS format)
+"RTN","CIAUDDR",144,0)
+ ;   WAIT = If >=0, seconds to wait for lock.
+"RTN","CIAUDDR",145,0)
+ ;          If missing or null, perform unlock operation.
+"RTN","CIAUDDR",146,0)
+ ;   DATA = Returns 0 if successful, -n^Error Text if not.
+"RTN","CIAUDDR",147,0)
+LOCK(DATA,FNUM,IENS,WAIT) ;
+"RTN","CIAUDDR",148,0)
+ N X,IEN,OK,$ET
+"RTN","CIAUDDR",149,0)
+ S @$$TRAP^CIAUOS("LOCKERR^CIAUDDR")
+"RTN","CIAUDDR",150,0)
+ S $ET="",X=$$ROOT^DILFD(FNUM,IENS,1),DATA=0,IEN=+IENS
+"RTN","CIAUDDR",151,0)
+ I '$L(X) S DATA="-1^Table not found"  Q
+"RTN","CIAUDDR",152,0)
+ K:$G(WAIT)="" WAIT
+"RTN","CIAUDDR",153,0)
+ D LOCK^CIANBRPC(.OK,$NA(@X@(IEN)),.WAIT)
+"RTN","CIAUDDR",154,0)
+ S:'OK DATA="-2^Record locked by another process"
+"RTN","CIAUDDR",155,0)
+ Q
+"RTN","CIAUDDR",156,0)
+LOCKERR S DATA="-3^Unexpected error"
+"RTN","CIAUDDR",157,0)
+ Q
+"RTN","CIAUDDR",158,0)
+ ; RPC: Convert pointer internal<->external
+"RTN","CIAUDDR",159,0)
+CVTPTR(DATA,FNUM,VAL,EXT) ;
+"RTN","CIAUDDR",160,0)
+ I EXT S DATA=$$GET1^DIQ(FNUM,VAL,.01)
+"RTN","CIAUDDR",161,0)
+ E  D
+"RTN","CIAUDDR",162,0)
+ .N ROOT
+"RTN","CIAUDDR",163,0)
+ .S ROOT=$$ROOT^DILFD(FNUM,,1)
+"RTN","CIAUDDR",164,0)
+ .I '$L(ROOT) S DATA=""
+"RTN","CIAUDDR",165,0)
+ .E  I VAL?1"`"1.N D
+"RTN","CIAUDDR",166,0)
+ ..S VAL=+$E(VAL,2,999),DATA=$S('VAL:"",$D(@ROOT@(VAL,0))#2:VAL,1:"")
+"RTN","CIAUDDR",167,0)
+ .E  D
+"RTN","CIAUDDR",168,0)
+ ..N LP
+"RTN","CIAUDDR",169,0)
+ ..F LP=0:1:3 S DATA=$$CP(LP) Q:DATA
+"RTN","CIAUDDR",170,0)
+ Q
+"RTN","CIAUDDR",171,0)
+ ; Lookup value in "B" xref
+"RTN","CIAUDDR",172,0)
+CP(XFM) N RTN,LKP
+"RTN","CIAUDDR",173,0)
+ S LKP=$S(XFM#2:$E(VAL,1,30),1:VAL),LKP=$S(XFM\2:$$UP^XLFSTR(LKP),1:LKP),RTN=0
+"RTN","CIAUDDR",174,0)
+ F  S RTN=$O(@ROOT@("B",LKP,RTN)) Q:'RTN  Q:$P($G(@ROOT@(RTN,0)),U)=VAL
+"RTN","CIAUDDR",175,0)
+ Q RTN
+"RTN","CIAUDDR",176,0)
+ ; RPC: Find an entry using specified fields and values
+"RTN","CIAUDDR",177,0)
+ ;   FNUM = File number to search
+"RTN","CIAUDDR",178,0)
+ ;   IENS = IENS for subfile
+"RTN","CIAUDDR",179,0)
+ ;   FLGS = Search flags.  Combination of:
+"RTN","CIAUDDR",180,0)
+ ;       P = partial match
+"RTN","CIAUDDR",181,0)
+ ;       I = case insensitive
+"RTN","CIAUDDR",182,0)
+ ;   FLDS = Field #'s or names to search.  Can be ;-delimited or list.
+"RTN","CIAUDDR",183,0)
+ ;   VALS = Values to search.  Can be single value or list.
+"RTN","CIAUDDR",184,0)
+ ;   MAX  = Maximum entries to return (default=all)
+"RTN","CIAUDDR",185,0)
+ ;   Returns list of one or all IENs matching criteria or
+"RTN","CIAUDDR",186,0)
+ ;     -n^error text if error.
+"RTN","CIAUDDR",187,0)
+FIND(DATA,FNUM,IENS,FLGS,FLDS,VALS,MAX) ;
+"RTN","CIAUDDR",188,0)
+ N ROOT,QUIT,XRF,XKY,CNT,X
+"RTN","CIAUDDR",189,0)
+ S IENS=$G(IENS)
+"RTN","CIAUDDR",190,0)
+ I $L(IENS),$E(IENS)'="," S IENS=","_IENS
+"RTN","CIAUDDR",191,0)
+ S ROOT=$$ROOT^DILFD(FNUM,IENS,1),QUIT=0,FLGS=$G(FLGS),MAX=+$G(MAX),CNT=0
+"RTN","CIAUDDR",192,0)
+ S:$D(VALS)=1 VALS(1)=VALS
+"RTN","CIAUDDR",193,0)
+ I $D(FLDS)=1 F X=1:1:$L(FLDS,";") S FLDS(X)=$P(FLDS,";",X)
+"RTN","CIAUDDR",194,0)
+ F FLDS=0:0 S FLDS=$O(FLDS(FLDS)) Q:'FLDS  D  Q:QUIT
+"RTN","CIAUDDR",195,0)
+ .I '$D(VALS(FLDS)) S QUIT="-1^Not enough lookup values." Q
+"RTN","CIAUDDR",196,0)
+ .S X=$$FLDNUM(FNUM,FLDS(FLDS))
+"RTN","CIAUDDR",197,0)
+ .I '$L(X) S QUIT="-2^Unknown field "_FLDS(FLDS)_"." Q
+"RTN","CIAUDDR",198,0)
+ .S FLDS(FLDS)=X
+"RTN","CIAUDDR",199,0)
+ .I '$D(XRF) D
+"RTN","CIAUDDR",200,0)
+ ..S X=$$XREF(FNUM,X)
+"RTN","CIAUDDR",201,0)
+ ..S:$L(X) XRF=X,XKY=$S(FLGS["I":$$UP^XLFSTR(VALS(FLDS)),1:VALS(FLDS))
+"RTN","CIAUDDR",202,0)
+ I 'QUIT,'$D(XRF) S QUIT="-3^At least one field must be a key field."
+"RTN","CIAUDDR",203,0)
+ D:'QUIT FINDX
+"RTN","CIAUDDR",204,0)
+ I QUIT<0 K @DATA S @DATA@(0)=QUIT
+"RTN","CIAUDDR",205,0)
+ Q
+"RTN","CIAUDDR",206,0)
+FINDX G FINDN:XRF="#",FINDP:FLGS["P",FINDE
+"RTN","CIAUDDR",207,0)
+ ; Find by IEN
+"RTN","CIAUDDR",208,0)
+FINDN D FINDF(XKY)
+"RTN","CIAUDDR",209,0)
+ Q
+"RTN","CIAUDDR",210,0)
+ ; Find exact match
+"RTN","CIAUDDR",211,0)
+FINDE N XKT,IEN
+"RTN","CIAUDDR",212,0)
+ S IEN=0,XKT=$E(XKY,1,30)
+"RTN","CIAUDDR",213,0)
+ F  S IEN=$O(@ROOT@(XRF,XKT,IEN)) Q:'IEN  D  Q:QUIT
+"RTN","CIAUDDR",214,0)
+ .D FINDF(IEN)
+"RTN","CIAUDDR",215,0)
+ Q
+"RTN","CIAUDDR",216,0)
+ ; Partial match
+"RTN","CIAUDDR",217,0)
+FINDP N XKT,VAL,IEN,LEN
+"RTN","CIAUDDR",218,0)
+ S XKT=$E(XKY,1,30),VAL=XKT,LEN=$L(XKT)
+"RTN","CIAUDDR",219,0)
+ F  D  S VAL=$O(@ROOT@(XRF,VAL)) Q:$E(VAL,1,LEN)'=XKT!QUIT
+"RTN","CIAUDDR",220,0)
+ .S IEN=0
+"RTN","CIAUDDR",221,0)
+ .F  S IEN=$O(@ROOT@(XRF,VAL,IEN)) Q:'IEN  D  Q:QUIT
+"RTN","CIAUDDR",222,0)
+ ..D FINDF(IEN)
+"RTN","CIAUDDR",223,0)
+ Q
+"RTN","CIAUDDR",224,0)
+ ; Check fields for match.  Add to output if all match
+"RTN","CIAUDDR",225,0)
+FINDF(IEN) ;
+"RTN","CIAUDDR",226,0)
+ N FND
+"RTN","CIAUDDR",227,0)
+ S FLDS=0,FND=1
+"RTN","CIAUDDR",228,0)
+ F  S FLDS=$O(FLDS(FLDS)) Q:'FLDS  D  Q:'FND
+"RTN","CIAUDDR",229,0)
+ .S FND=$$FINDM(FLDS(FLDS),VALS(FLDS),IEN)
+"RTN","CIAUDDR",230,0)
+ I FND D
+"RTN","CIAUDDR",231,0)
+ .S CNT=CNT+1,@DATA@(CNT)=IEN
+"RTN","CIAUDDR",232,0)
+ .I MAX,CNT'<MAX S QUIT=1
+"RTN","CIAUDDR",233,0)
+ Q
+"RTN","CIAUDDR",234,0)
+ ; Check for match
+"RTN","CIAUDDR",235,0)
+FINDM(FLD,VAL,IEN) ;
+"RTN","CIAUDDR",236,0)
+ N VALX
+"RTN","CIAUDDR",237,0)
+ S VALX=$$FLDVAL(FNUM,FLD,IEN,ROOT)
+"RTN","CIAUDDR",238,0)
+ S:FLGS["I" VAL=$$UP^XLFSTR(VAL),VALX=$$UP^XLFSTR(VALX)
+"RTN","CIAUDDR",239,0)
+ Q $S(FLGS["P":$E(VALX,1,$L(VAL))=VAL,1:VAL=VALX)
+"RTN","CIAUDDR",240,0)
+ ; Return field number from name
+"RTN","CIAUDDR",241,0)
+FLDNUM(FNUM,FLD) ;EP
+"RTN","CIAUDDR",242,0)
+ Q $S(FLD=+FLD:FLD,FLD="#":0,1:$O(^DD(FNUM,"B",FLD,0)))
+"RTN","CIAUDDR",243,0)
+ ; Returns the standard xref for the specified field.
+"RTN","CIAUDDR",244,0)
+XREF(FNUM,FLD,LAST) ;EP
+"RTN","CIAUDDR",245,0)
+ N XREF
+"RTN","CIAUDDR",246,0)
+ S LAST=+$G(LAST),XREF="",FLD=$$FLDNUM(FNUM,FLD)
+"RTN","CIAUDDR",247,0)
+ Q:'$L(FLD) ""
+"RTN","CIAUDDR",248,0)
+ Q:'FLD "#"
+"RTN","CIAUDDR",249,0)
+ F  S LAST=$O(^DD(FNUM,FLD,1,LAST)) Q:'LAST  I $D(^(LAST,0)),$P(^(0),U,3)="" S XREF=$P(^(0),U,2) Q
+"RTN","CIAUDDR",250,0)
+ Q XREF
+"RTN","CIAUDDR",251,0)
+ ; Returns field # if xref is a standard type, or 0 if not.
+"RTN","CIAUDDR",252,0)
+XREFFLD(FNUM,XREF) ;EP
+"RTN","CIAUDDR",253,0)
+ N FLD,LAST,X
+"RTN","CIAUDDR",254,0)
+ S FLD=$O(^DD(FNUM,0,"IX",XREF,FNUM,0))
+"RTN","CIAUDDR",255,0)
+ Q:'FLD 0
+"RTN","CIAUDDR",256,0)
+ F  S X=$$XREF(FNUM,FLD,.LAST) Q:'$L(X)!(X=XREF)
+"RTN","CIAUDDR",257,0)
+ Q $S($L(X):FLD,1:0)
+"RTN","CIAUDIC")
+0^36^B30301399
+"RTN","CIAUDIC",1,0)
+CIAUDIC ;MSC/IND/DKM - Encapsulated FileMan API;15-Feb-2007 10:32;DKM
+"RTN","CIAUDIC",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUDIC",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUDIC",4,0)
+ ;=================================================================
+"RTN","CIAUDIC",5,0)
+ ; Parameterized routine to add/edit/extract an entry in a
+"RTN","CIAUDIC",6,0)
+ ; FileMan file.  Encapsulates global structure info so no
+"RTN","CIAUDIC",7,0)
+ ; need to specify this directly.
+"RTN","CIAUDIC",8,0)
+ ; Inputs:
+"RTN","CIAUDIC",9,0)
+ ;    %CIADIC = Global root, file number, or bookmark
+"RTN","CIAUDIC",10,0)
+ ;    %CIACMD = n    : IEN of entry to process
+"RTN","CIAUDIC",11,0)
+ ;             0    : Process last IEN referenced
+"RTN","CIAUDIC",12,0)
+ ;             +n   : Move down to subfile n
+"RTN","CIAUDIC",13,0)
+ ;             -    : Move up to parent file
+"RTN","CIAUDIC",14,0)
+ ;             @n   : Delete IEN #n (or last referenced if missing)
+"RTN","CIAUDIC",15,0)
+ ;             =x;y : Lookup y at current level using options in x
+"RTN","CIAUDIC",16,0)
+ ;             ?x;y ; Lookup y using CIAULKP utility with options in x
+"RTN","CIAUDIC",17,0)
+ ;             >x;y : Read fields specified in y using options in x
+"RTN","CIAUDIC",18,0)
+ ;             <x;y : Write fields specified in y using options in x
+"RTN","CIAUDIC",19,0)
+ ;             ~x;y : Same as <, but creates new entry
+"RTN","CIAUDIC",20,0)
+ ;             %n   : Force DINUM to n
+"RTN","CIAUDIC",21,0)
+ ; Outputs:
+"RTN","CIAUDIC",22,0)
+ ;     Returns in the first piece the IEN of the entry or...
+"RTN","CIAUDIC",23,0)
+ ;      0 = Entry was deleted
+"RTN","CIAUDIC",24,0)
+ ;     -1 = Entry was rejected
+"RTN","CIAUDIC",25,0)
+ ;     -2 = Entry locked by another process
+"RTN","CIAUDIC",26,0)
+ ;     -3 = Unexpected error
+"RTN","CIAUDIC",27,0)
+ ;=================================================================
+"RTN","CIAUDIC",28,0)
+ENTRY(%CIADIC,%CIACMD) ;
+"RTN","CIAUDIC",29,0)
+ S %CIADIC(0)=+$G(DUZ)
+"RTN","CIAUDIC",30,0)
+ N DUZ,DIC,DINUM,DIE,DIQ,DIQUIET,DIK,%CIAX,%CIAIEN,%CIAARG,%CIAN1,%CIAN2,%CIAZ,X,Y
+"RTN","CIAUDIC",31,0)
+ N DA,DC,DD,DG,DH,DK,DL,DO,DQ,DR,DU,DV,DW,DY
+"RTN","CIAUDIC",32,0)
+ S DUZ=%CIADIC(0),DUZ(0)="@",@$$TRAP^CIAUOS("ERROR^CIAUDIC"),%CIACMD=$G(%CIACMD),%CIAIEN="",DIQUIET=1
+"RTN","CIAUDIC",33,0)
+ ; Build the bookmark if a global reference or file # passed
+"RTN","CIAUDIC",34,0)
+ I %CIADIC'[U D
+"RTN","CIAUDIC",35,0)
+ .S:%CIADIC'=+%CIADIC %CIADIC=+$O(^DIC("B",%CIADIC,0))
+"RTN","CIAUDIC",36,0)
+ .S %CIADIC=$$ROOT^DILFD(%CIADIC)_U_U_%CIADIC
+"RTN","CIAUDIC",37,0)
+ I $P(%CIADIC,U,4)="" D
+"RTN","CIAUDIC",38,0)
+ .S %CIAZ=U_$P(%CIADIC,U,2),%CIAZ=$E(%CIAZ,1,$L(%CIAZ)-1),%CIAZ=%CIAZ_$S(%CIAZ["(":")",1:"")
+"RTN","CIAUDIC",39,0)
+ .S $P(%CIADIC,U,4)=$P(@%CIAZ@(0),U,2)
+"RTN","CIAUDIC",40,0)
+ F %CIAN1=1:1:$L(%CIACMD,"|") S %CIAARG=$P(%CIACMD,"|",%CIAN1),%CIAZ=$E(%CIAARG) D  Q:%CIAIEN<0
+"RTN","CIAUDIC",41,0)
+ .S %CIAN2=$F("-+=@><~?%",%CIAZ)
+"RTN","CIAUDIC",42,0)
+ .S:%CIAN2 %CIAN2=%CIAN2-1,%CIAARG=$E(%CIAARG,2,999)
+"RTN","CIAUDIC",43,0)
+ .D DA,@%CIAN2
+"RTN","CIAUDIC",44,0)
+ .S:%CIAIEN>0 $P(%CIADIC,U,3)=%CIAIEN
+"RTN","CIAUDIC",45,0)
+ S $P(%CIADIC,U)=%CIAIEN
+"RTN","CIAUDIC",46,0)
+ Q %CIADIC
+"RTN","CIAUDIC",47,0)
+ ; Set IEN
+"RTN","CIAUDIC",48,0)
+0 S:%CIAARG'<0 %CIAIEN=$S($D(@%CIADIC(2)@(+%CIAARG)):+%CIAARG,1:0),$P(%CIADIC,U,3)=%CIAIEN
+"RTN","CIAUDIC",49,0)
+ Q
+"RTN","CIAUDIC",50,0)
+ ; Move up to parent file
+"RTN","CIAUDIC",51,0)
+1 N %CIAX,%CIAY
+"RTN","CIAUDIC",52,0)
+ S $P(%CIADIC,U,4)=$P($P(%CIADIC,U,4),"|",2,999)
+"RTN","CIAUDIC",53,0)
+ S %CIAY=$P(%CIADIC,U,2),%CIAX=$L(%CIAY,"|"),$P(%CIADIC,U,2)=$P(%CIAY,"|",1,%CIAX-1)
+"RTN","CIAUDIC",54,0)
+ S %CIAIEN=+$P(%CIAY,"|",%CIAX),$P(%CIADIC,U,3)=%CIAIEN
+"RTN","CIAUDIC",55,0)
+ D DA
+"RTN","CIAUDIC",56,0)
+ Q
+"RTN","CIAUDIC",57,0)
+ ; Move down to subfile
+"RTN","CIAUDIC",58,0)
+2 N %CIAX,%CIAY,%CIAZ
+"RTN","CIAUDIC",59,0)
+ I $P(%CIADIC,U,3)'>0 S %CIAIEN=-1 Q
+"RTN","CIAUDIC",60,0)
+ S %CIAY=+$P(%CIADIC,U,4)
+"RTN","CIAUDIC",61,0)
+ S:%CIAARG'=+%CIAARG %CIAARG=+$O(^DD(%CIAY,"B",%CIAARG,0)),%CIAARG=+$P($G(^DD(%CIAY,%CIAARG,0)),U,2)
+"RTN","CIAUDIC",62,0)
+ S %CIAX=+%CIAARG,%CIAZ=+$O(^DD(%CIAY,"SB",%CIAX,0)),%CIAZ=$P($P(^DD(%CIAY,%CIAZ,0),U,4),";"),%CIAX=$P(^(0),U,2)
+"RTN","CIAUDIC",63,0)
+ S:%CIAZ'=+%CIAZ %CIAZ=""""_%CIAZ_""""
+"RTN","CIAUDIC",64,0)
+ S $P(%CIADIC,U,4)=%CIAX_"|"_$P(%CIADIC,U,4),$P(%CIADIC,U,2)=$P(%CIADIC,U,2)_"|"_$P(%CIADIC,U,3)_","_%CIAZ_","
+"RTN","CIAUDIC",65,0)
+ S %CIAIEN="",$P(%CIADIC,U,3)=""
+"RTN","CIAUDIC",66,0)
+ D DA
+"RTN","CIAUDIC",67,0)
+ Q
+"RTN","CIAUDIC",68,0)
+ ; Lookup an entry
+"RTN","CIAUDIC",69,0)
+3 N X,Y
+"RTN","CIAUDIC",70,0)
+ I %CIAARG[";" S DIC(0)=$P(%CIAARG,";"),%CIAARG=$P(%CIAARG,";",2,999)
+"RTN","CIAUDIC",71,0)
+ E  S DIC(0)="XMF"
+"RTN","CIAUDIC",72,0)
+ S DIC=%CIADIC(1),X=%CIAARG
+"RTN","CIAUDIC",73,0)
+ D ^DIC
+"RTN","CIAUDIC",74,0)
+ S %CIAIEN=+Y
+"RTN","CIAUDIC",75,0)
+ Q
+"RTN","CIAUDIC",76,0)
+ ; Delete an entry
+"RTN","CIAUDIC",77,0)
+4 N X,Y
+"RTN","CIAUDIC",78,0)
+ S:%CIAARG DA=%CIAARG
+"RTN","CIAUDIC",79,0)
+ S DIK=%CIADIC(1),%CIAIEN=0
+"RTN","CIAUDIC",80,0)
+ D ^DIK
+"RTN","CIAUDIC",81,0)
+ Q
+"RTN","CIAUDIC",82,0)
+ ; Extract data
+"RTN","CIAUDIC",83,0)
+5 N %CIAZ,%CIAZ1,%CIAX,%CIAY
+"RTN","CIAUDIC",84,0)
+ I '%CIAIEN S %CIAIEN=-1 Q
+"RTN","CIAUDIC",85,0)
+ S DR=""
+"RTN","CIAUDIC",86,0)
+ F %CIAX=2:1:$L(%CIAARG,";") D
+"RTN","CIAUDIC",87,0)
+ .S %CIAY=$P(%CIAARG,";",%CIAX)
+"RTN","CIAUDIC",88,0)
+ .I %CIAY["=" S %CIAZ=$$FLD($P(%CIAY,"=",2)),%CIAZ1(%CIAZ,$P(%CIAY,"="))="",%CIAY=%CIAZ
+"RTN","CIAUDIC",89,0)
+ .S DR=DR_$S($L(DR):";",1:"")_%CIAY
+"RTN","CIAUDIC",90,0)
+ S DIC=%CIADIC(1),DIQ(0)=$P(%CIAARG,";")
+"RTN","CIAUDIC",91,0)
+ S:DIQ(0)="" DIQ(0)="E"
+"RTN","CIAUDIC",92,0)
+ K ^UTILITY("DIQ1",$J)
+"RTN","CIAUDIC",93,0)
+ D
+"RTN","CIAUDIC",94,0)
+ .N X,Y
+"RTN","CIAUDIC",95,0)
+ .D EN^DIQ1
+"RTN","CIAUDIC",96,0)
+ F %CIAX=0:0 S %CIAX=$O(%CIAZ1(%CIAX)),%CIAZ="" Q:'%CIAX  D
+"RTN","CIAUDIC",97,0)
+ .F  S %CIAZ=$O(%CIAZ1(%CIAX,%CIAZ)),%CIAZ1="" Q:%CIAZ=""  D
+"RTN","CIAUDIC",98,0)
+ ..F %CIAY="E","I" D
+"RTN","CIAUDIC",99,0)
+ ...S:$D(^UTILITY("DIQ1",$J,+$P(%CIADIC,U,4),%CIAIEN,%CIAX,%CIAY)) %CIAZ1=%CIAZ1_$S($L(%CIAZ1):U,1:"")_^(%CIAY)
+"RTN","CIAUDIC",100,0)
+ ..S @%CIAZ=%CIAZ1
+"RTN","CIAUDIC",101,0)
+ Q
+"RTN","CIAUDIC",102,0)
+ ; Edit existing entry
+"RTN","CIAUDIC",103,0)
+6 S DIC(0)=$P(%CIAARG,";"),DIC("P")=$P($P(%CIADIC,U,4),"|"),%CIAARG=$P(%CIAARG,";",2,999)
+"RTN","CIAUDIC",104,0)
+ I %CIAIEN'>0 S %CIAIEN=-1 Q
+"RTN","CIAUDIC",105,0)
+ S DIE=%CIADIC(1),DR=%CIAARG
+"RTN","CIAUDIC",106,0)
+ L +@%CIADIC(2)@(%CIAIEN):$S(DIC(0)["!":9999999,1:0)
+"RTN","CIAUDIC",107,0)
+ E  S %CIAIEN=-2 Q
+"RTN","CIAUDIC",108,0)
+ D ^DIE
+"RTN","CIAUDIC",109,0)
+ L -@%CIADIC(2)@(%CIAIEN)
+"RTN","CIAUDIC",110,0)
+ S %CIAIEN=+$G(DA)
+"RTN","CIAUDIC",111,0)
+ Q
+"RTN","CIAUDIC",112,0)
+ ; Create new entry
+"RTN","CIAUDIC",113,0)
+7 N X,Y,DD,DO,DLAYGO
+"RTN","CIAUDIC",114,0)
+ S DIC=%CIADIC(1),DIC(0)=$P(%CIAARG,";")_"L",DIC("P")=$P($P(%CIADIC,U,4),"|"),Y=$P(%CIAARG,";",2),%CIAARG=DIC(0)_";"_$P(%CIAARG,";",3,999),DLAYGO=DIC("P")\1
+"RTN","CIAUDIC",115,0)
+ I +Y'=.01 S %CIAIEN=-1 Q
+"RTN","CIAUDIC",116,0)
+ S X=$P(Y,"/",4)
+"RTN","CIAUDIC",117,0)
+ S:X="" X=$P(Y,"/",5)
+"RTN","CIAUDIC",118,0)
+ X:$E(X)=U $E(X,2,999)
+"RTN","CIAUDIC",119,0)
+ I $P(^DD(+DIC("P"),.01,0),U,2)["W" D
+"RTN","CIAUDIC",120,0)
+ .D WP
+"RTN","CIAUDIC",121,0)
+ E  D ^DIC:DIC(0)'["U",FILE^DICN:DIC(0)["U"
+"RTN","CIAUDIC",122,0)
+ S %CIAIEN=+Y
+"RTN","CIAUDIC",123,0)
+ I %CIAIEN>0,$P(%CIAARG,";",2,99)'="" D DA,6
+"RTN","CIAUDIC",124,0)
+ K DINUM
+"RTN","CIAUDIC",125,0)
+ Q
+"RTN","CIAUDIC",126,0)
+8 ; Lookup entry
+"RTN","CIAUDIC",127,0)
+ N %CIAOPT,%CIAP,CIAFN
+"RTN","CIAUDIC",128,0)
+ S %CIAOPT=$P(%CIAARG,";"),%CIAARG=$P(%CIAARG,";",2,999),CIAFN=+$P(%CIADIC,U,4)
+"RTN","CIAUDIC",129,0)
+ S %CIAP=+$P(%CIADIC,U,4),%CIAP=$P($G(^DD(%CIAP,.01,0)),U)
+"RTN","CIAUDIC",130,0)
+ S:$L(%CIAP) %CIAP=%CIAP_": "
+"RTN","CIAUDIC",131,0)
+ S %CIAIEN=$$ENTRY^CIAULKP(%CIADIC(2),%CIAOPT,%CIAP,"",%CIAARG,"","",$X,$Y,"","","HLP^CIAUDIC")
+"RTN","CIAUDIC",132,0)
+ Q
+"RTN","CIAUDIC",133,0)
+ ; Force DINUM
+"RTN","CIAUDIC",134,0)
+9 S DINUM=%CIAARG
+"RTN","CIAUDIC",135,0)
+ Q
+"RTN","CIAUDIC",136,0)
+HLP W $G(^DD(+CIAFN,.01,3)),!
+"RTN","CIAUDIC",137,0)
+ Q
+"RTN","CIAUDIC",138,0)
+ ; Word processing field (special case of #7)
+"RTN","CIAUDIC",139,0)
+WP N %CIAZ,%CIAZ1
+"RTN","CIAUDIC",140,0)
+ I X="@" D
+"RTN","CIAUDIC",141,0)
+ .K @%CIADIC(2)
+"RTN","CIAUDIC",142,0)
+ .S Y=0
+"RTN","CIAUDIC",143,0)
+ E  D
+"RTN","CIAUDIC",144,0)
+ .S %CIAZ=$G(@%CIADIC(2)@(0)),Y=$G(DINUM,1+$O(^($C(1)),-1))
+"RTN","CIAUDIC",145,0)
+ .S %CIAZ1=+$P(%CIAZ,U,4),%CIAZ=+$P(%CIAZ,U,3)
+"RTN","CIAUDIC",146,0)
+ .S:Y>%CIAZ %CIAZ=Y
+"RTN","CIAUDIC",147,0)
+ .S:'$D(^(Y)) %CIAZ1=%CIAZ1+1
+"RTN","CIAUDIC",148,0)
+ .S ^(0)=U_U_%CIAZ_U_%CIAZ1_U_$G(DT),^(Y,0)=X
+"RTN","CIAUDIC",149,0)
+ Q:$P(^DD(+DIC("P"),.01,0),U,2)'["a"
+"RTN","CIAUDIC",150,0)
+ S %CIAIEN=Y
+"RTN","CIAUDIC",151,0)
+ D DA,WPAUDIT^CCCODAUD(+DIC("P"),.DA,X,"")
+"RTN","CIAUDIC",152,0)
+ Q
+"RTN","CIAUDIC",153,0)
+ ; Trap unexpected error
+"RTN","CIAUDIC",154,0)
+ERROR S $P(%CIADIC,U)=-3
+"RTN","CIAUDIC",155,0)
+ Q %CIADIC
+"RTN","CIAUDIC",156,0)
+ ; Return field #
+"RTN","CIAUDIC",157,0)
+FLD(X) Q $S(X=+X:X,1:+$O(^DD(+$P(%CIADIC,U,4),"B",X,0)))
+"RTN","CIAUDIC",158,0)
+ ; Set up DA array
+"RTN","CIAUDIC",159,0)
+DA N %CIAZ,%CIAZ1,%CIAZ2
+"RTN","CIAUDIC",160,0)
+ K DA
+"RTN","CIAUDIC",161,0)
+ S:'$G(%CIAIEN) %CIAIEN=$P(%CIADIC,U,3)
+"RTN","CIAUDIC",162,0)
+ S %CIAZ=$P(%CIADIC,U,2),%CIAZ2=$L(%CIAZ,"|"),DA=%CIAIEN
+"RTN","CIAUDIC",163,0)
+ F %CIAZ1=2:1:%CIAZ2 S DA(%CIAZ2-%CIAZ1+1)=+$P(%CIAZ,"|",%CIAZ1)
+"RTN","CIAUDIC",164,0)
+ S %CIADIC(1)=U_$TR($P(%CIADIC,U,2),"|"),%CIADIC(2)=$E(%CIADIC(1),1,$L(%CIADIC(1))-1),%CIADIC(2)=%CIADIC(2)_$S(%CIADIC(2)["(":")",1:"")
+"RTN","CIAUDIC",165,0)
+ Q
+"RTN","CIAUDT")
+0^37^B5347313
+"RTN","CIAUDT",1,0)
+CIAUDT ;MSC/IND/DKM - FM date to formatted date;04-May-2006 08:19;DKM
+"RTN","CIAUDT",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUDT",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUDT",4,0)
+ ;=================================================================
+"RTN","CIAUDT",5,0)
+ ; Inputs:
+"RTN","CIAUDT",6,0)
+ ;   CIADAT = date to format (DHCP format or $H format)
+"RTN","CIAUDT",7,0)
+ ;   CIAFMT = date and time format control (optional)
+"RTN","CIAUDT",8,0)
+ ;      xxx0 = dd-mmm-yyyy
+"RTN","CIAUDT",9,0)
+ ;      xxx1 = mmm dd,yyyy
+"RTN","CIAUDT",10,0)
+ ;      xxx2 = mm/dd/yyyy
+"RTN","CIAUDT",11,0)
+ ;      xxx3 = mm-dd-yyyy
+"RTN","CIAUDT",12,0)
+ ;      xx0x = hh:mm
+"RTN","CIAUDT",13,0)
+ ;      xx1x = hh:mm xx
+"RTN","CIAUDT",14,0)
+ ;      x0xx = use space to separate date/time
+"RTN","CIAUDT",15,0)
+ ;      x1xx = use @ to separate date/time
+"RTN","CIAUDT",16,0)
+ ;      0xxx = allow leading zeros
+"RTN","CIAUDT",17,0)
+ ;      1xxx = remove leading zeros
+"RTN","CIAUDT",18,0)
+ ; Outputs:
+"RTN","CIAUDT",19,0)
+ ;   Returns formatted date
+"RTN","CIAUDT",20,0)
+ ;=================================================================
+"RTN","CIAUDT",21,0)
+ENTRY(CIADAT,CIAFMT) ; EP
+"RTN","CIAUDT",22,0)
+ S CIADAT=$G(CIADAT,$H)
+"RTN","CIAUDT",23,0)
+ Q:'CIADAT ""
+"RTN","CIAUDT",24,0)
+ N CIAZ1,CIAZ2,CIAZ3,CIAZ4,CIADLM,CIATM
+"RTN","CIAUDT",25,0)
+ S:CIADAT?1.N1",".N CIADAT=$$HTFM^XLFDT(CIADAT)
+"RTN","CIAUDT",26,0)
+ S CIAFMT=$G(CIAFMT)#100000,CIAFMT=CIAFMT#10000,CIAZ4=CIAFMT\1000,CIAFMT=CIAFMT#1000,CIADLM=$S(CIAFMT>99:"@",1:" "),CIAFMT=CIAFMT#100,CIATM=CIAFMT\10,CIAFMT=CIAFMT#10
+"RTN","CIAUDT",27,0)
+ I CIADAT\1 D
+"RTN","CIAUDT",28,0)
+ .S CIAZ3=CIADAT\1+17000000,CIAZ1=$E(CIAZ3,7,8),CIAZ2=$E(CIAZ3,5,6),CIAZ3=$E(CIAZ3,1,4)
+"RTN","CIAUDT",29,0)
+ .S:CIAZ4 CIAZ1=+CIAZ1,CIAZ2=+CIAZ2
+"RTN","CIAUDT",30,0)
+ .S:CIAFMT<2 CIAZ2=$P("Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",",",CIAZ2)
+"RTN","CIAUDT",31,0)
+ .S CIAZ1=$S('CIAFMT:CIAZ1_"-"_CIAZ2_"-"_CIAZ3,CIAFMT=1:CIAZ2_" "_CIAZ1_","_CIAZ3,CIAFMT=2:CIAZ2_"/"_CIAZ1_"/"_CIAZ3,1:CIAZ2_"-"_CIAZ1_"-"_CIAZ3)
+"RTN","CIAUDT",32,0)
+ E  S CIAZ1=""
+"RTN","CIAUDT",33,0)
+ S CIAZ2=CIADAT#1*10000+10000\1
+"RTN","CIAUDT",34,0)
+ I CIAZ2=10000!(CIAZ2>12400) S CIAZ2=""
+"RTN","CIAUDT",35,0)
+ E  D
+"RTN","CIAUDT",36,0)
+ .S:CIATM CIAZ2=$S(CIAZ2=12400:CIAZ2-1200_" am",CIAZ2>11299:CIAZ2-1200_" pm",CIAZ2>11199:CIAZ2_" pm",CIAZ2<10099:CIAZ2+1200_" am",1:CIAZ2_" am")
+"RTN","CIAUDT",37,0)
+ .S CIAZ3=$S(CIAZ4:+$E(CIAZ2,2,3),1:$E(CIAZ2,2,3)),CIAZ2=CIAZ3_":"_$E(CIAZ2,4,8)
+"RTN","CIAUDT",38,0)
+ Q CIAZ1_$S('$L(CIAZ2):"",$L(CIAZ1):CIADLM,1:"")_CIAZ2
+"RTN","CIAUEDT")
+0^38^B50153090
+"RTN","CIAUEDT",1,0)
+CIAUEDT ;MSC/IND/DKM - Screen-oriented line editor;20-Jan-2015 13:23;DKM
+"RTN","CIAUEDT",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUEDT",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUEDT",4,0)
+ ;=================================================================
+"RTN","CIAUEDT",5,0)
+ ; Inputs:
+"RTN","CIAUEDT",6,0)
+ ;   CIADATA  = Data to edit
+"RTN","CIAUEDT",7,0)
+ ;   CIALEN   = Maximum length of data
+"RTN","CIAUEDT",8,0)
+ ;   CIAX     = Starting column position
+"RTN","CIAUEDT",9,0)
+ ;   CIAY     = Starting row position
+"RTN","CIAUEDT",10,0)
+ ;   CIAVALD  = List of valid inputs (optional)
+"RTN","CIAUEDT",11,0)
+ ;   CIADISV  = DISV node to save under (optional)
+"RTN","CIAUEDT",12,0)
+ ;   CIATERM  = Valid input terminators (default=<CR>)
+"RTN","CIAUEDT",13,0)
+ ;   CIAABRT  = Valid input abort characters (default=none)
+"RTN","CIAUEDT",14,0)
+ ;   CIARM    = Right margin setting (default=IOM or 80)
+"RTN","CIAUEDT",15,0)
+ ;   CIAQUIT  = Exit code (returned)
+"RTN","CIAUEDT",16,0)
+ ;   CIAOPT   = Input options
+"RTN","CIAUEDT",17,0)
+ ;      C = Mark <CR> with ~
+"RTN","CIAUEDT",18,0)
+ ;      E = Echo off
+"RTN","CIAUEDT",19,0)
+ ;      H = Horizontal scroll
+"RTN","CIAUEDT",20,0)
+ ;      I = No timeout
+"RTN","CIAUEDT",21,0)
+ ;      L = Lowercase only
+"RTN","CIAUEDT",22,0)
+ ;      O = Overwrite mode
+"RTN","CIAUEDT",23,0)
+ ;      Q = Quiet mode
+"RTN","CIAUEDT",24,0)
+ ;      R = Reverse video
+"RTN","CIAUEDT",25,0)
+ ;      T = Auto-terminate
+"RTN","CIAUEDT",26,0)
+ ;      U = Uppercase only
+"RTN","CIAUEDT",27,0)
+ ;      V = Up/down cursor keys terminate input
+"RTN","CIAUEDT",28,0)
+ ;      X = Suppress auto-erase
+"RTN","CIAUEDT",29,0)
+ ; Outputs:
+"RTN","CIAUEDT",30,0)
+ ;   Return value = Edited data
+"RTN","CIAUEDT",31,0)
+ ;=================================================================
+"RTN","CIAUEDT",32,0)
+ENTRY(CIADATA,CIALEN,CIAX,CIAY,CIAVALD,CIAOPT,CIADISV,CIATERM,CIAABRT,CIARM,CIAQUIT) ;
+"RTN","CIAUEDT",33,0)
+ N CIAZ,CIAZ1,CIAZ2,CIASAVE,CIAINS,CIAAE,CIABUF,CIATAB,CIAPOS,CIAEON,CIALEFT,CIABEL,CIAMAX,CIARVON,CIARVOFF,CIAC,CIAW
+"RTN","CIAUEDT",34,0)
+ S CIAVALD=$G(CIAVALD),CIAOPT=$$UP^XLFSTR($G(CIAOPT)),CIABEL=$S(CIAOPT'["Q":$C(7),1:""),CIADISV=$G(CIADISV)
+"RTN","CIAUEDT",35,0)
+ S:$G(CIATERM)="" CIATERM=$C(13)                                         ; Valid line terminators
+"RTN","CIAUEDT",36,0)
+ S CIAABRT=$G(CIAABRT)                                                   ; Valid input abort keys
+"RTN","CIAUEDT",37,0)
+ S CIARVON=$C(27,91,55,109),CIARVOFF=$C(27,91,109)                       ; Reverse video control
+"RTN","CIAUEDT",38,0)
+ S CIAINS=CIAOPT'["O"                                                    ; Default mode = insert
+"RTN","CIAUEDT",39,0)
+ S CIAAE=CIAOPT'["X"                                                     ; Auto-erase option
+"RTN","CIAUEDT",40,0)
+ S CIAEON=CIAOPT'["E"                                                    ; No echo option
+"RTN","CIAUEDT",41,0)
+ I CIAOPT["I"!'$D(DTIME) N DTIME S DTIME=999999                          ; Suppress timeout option
+"RTN","CIAUEDT",42,0)
+ S CIABUF=""
+"RTN","CIAUEDT",43,0)
+ S CIARM=$G(CIARM,$G(IOM,80))                                            ; Display width
+"RTN","CIAUEDT",44,0)
+ S CIATAB=$C(9)                                                         ; Tab character
+"RTN","CIAUEDT",45,0)
+ S CIAX=$G(CIAX,$X),CIAY=$G(CIAY,$Y),CIAW=CIARM-CIAX
+"RTN","CIAUEDT",46,0)
+ S:CIAW'>0 CIAW=1
+"RTN","CIAUEDT",47,0)
+ S:'$G(CIALEN) CIALEN=CIAW                                                ; Default field width
+"RTN","CIAUEDT",48,0)
+ S CIAMAX=$S(CIAOPT["H":250,1:CIALEN)                                     ; Maximum data length
+"RTN","CIAUEDT",49,0)
+ S (CIASAVE,CIADATA)=$E($G(CIADATA),1,CIAMAX)                              ; Truncate data if too long
+"RTN","CIAUEDT",50,0)
+ I $$NEWERR^%ZTER N $ET S $ET=""
+"RTN","CIAUEDT",51,0)
+ S @$$TRAP^CIAUOS("ERROR^CIAUEDT")
+"RTN","CIAUEDT",52,0)
+ D RM^CIAUOS(0)
+"RTN","CIAUEDT",53,0)
+ X ^%ZOSF("EOFF")
+"RTN","CIAUEDT",54,0)
+ F  Q:CIADATA'[CIATAB  S CIAZ=$P(CIADATA,CIATAB),CIADATA=CIAZ_$J("",8-($L(CIAZ)#8))_$P(CIADATA,CIATAB,2,999)
+"RTN","CIAUEDT",55,0)
+RESTART D RESET
+"RTN","CIAUEDT",56,0)
+AGAIN F CIAQUIT=0:0 Q:CIAQUIT  D NXT S CIAAE=0
+"RTN","CIAUEDT",57,0)
+ X ^%ZOSF("EON")
+"RTN","CIAUEDT",58,0)
+ W $$XY^CIAU(CIAX,CIAY),$S(CIAOPT["R":CIARVOFF,1:"")
+"RTN","CIAUEDT",59,0)
+ I CIADISV'="" Q:"^^"[CIADATA CIADATA S:CIADATA=" " CIADATA=$G(^DISV(DUZ,CIADISV))
+"RTN","CIAUEDT",60,0)
+ S:CIADISV'="" ^DISV(DUZ,CIADISV)=CIADATA
+"RTN","CIAUEDT",61,0)
+ Q CIADATA                                                              ; Return to calling routine
+"RTN","CIAUEDT",62,0)
+NXT D POSCUR()                                                            ; Position cursor
+"RTN","CIAUEDT",63,0)
+ R *CIAC:DTIME                                                          ; Next character typed
+"RTN","CIAUEDT",64,0)
+ I CIAC=27 D ESC Q:'CIAC
+"RTN","CIAUEDT",65,0)
+ I CIAC<1!(CIAABRT[$C(CIAC)) S CIADATA=U,CIAQUIT=1 Q
+"RTN","CIAUEDT",66,0)
+ I CIATERM[$C(CIAC) D TERM Q
+"RTN","CIAUEDT",67,0)
+ I CIAC<28 D:CIAC'=27 @("CTL"_$C(CIAC+64)) Q
+"RTN","CIAUEDT",68,0)
+ I CIAC=127!(CIAC=240) D CTLH Q
+"RTN","CIAUEDT",69,0)
+ I CIAC>64,CIAC<91,CIAOPT["L" S CIAC=CIAC+32
+"RTN","CIAUEDT",70,0)
+ E  I CIAC>96,CIAC<123,CIAOPT["U" S CIAC=CIAC-32
+"RTN","CIAUEDT",71,0)
+ I $L(CIAVALD),CIAVALD'[$C(CIAC) D RAISE^CIAUOS()
+"RTN","CIAUEDT",72,0)
+ D:CIAAE CTLK,POSCUR()                                                  ; Erase buffer if auto erase on
+"RTN","CIAUEDT",73,0)
+ D INSW($C(CIAC))
+"RTN","CIAUEDT",74,0)
+ S CIAQUIT=CIAPOS=CIALEN&(CIAOPT["T")
+"RTN","CIAUEDT",75,0)
+ Q
+"RTN","CIAUEDT",76,0)
+CTLA S CIAINS='CIAINS                                                        ; Toggle insert mode
+"RTN","CIAUEDT",77,0)
+ Q
+"RTN","CIAUEDT",78,0)
+CTLB D MOVETO(0)                                                           ; Move cursor to beginning
+"RTN","CIAUEDT",79,0)
+ Q
+"RTN","CIAUEDT",80,0)
+CTLX S CIADATA=CIASAVE                                                       ; Restore buffer to original
+"RTN","CIAUEDT",81,0)
+ G RESET
+"RTN","CIAUEDT",82,0)
+CTLE D MOVETO($L(CIADATA))                                                  ; Move cursor to end
+"RTN","CIAUEDT",83,0)
+ Q
+"RTN","CIAUEDT",84,0)
+CTLI D INSW($J("",8-(CIAPOS#8)))                                            ; Insert expanded tab
+"RTN","CIAUEDT",85,0)
+ Q
+"RTN","CIAUEDT",86,0)
+CTLJ F CIAZ=CIAPOS:-1:1 Q:$A(CIADATA,CIAZ)'=32                                     ; Find previous nonspace
+"RTN","CIAUEDT",87,0)
+ F CIAZ=CIAZ:-1:1 Q:$A(CIADATA,CIAZ)=32                                          ; Find previous space
+"RTN","CIAUEDT",88,0)
+ S CIABUF=$E(CIADATA,CIAZ,CIAPOS)                                            ; Save deleted portion
+"RTN","CIAUEDT",89,0)
+ S CIADATA=$E(CIADATA,1,CIAZ-1)_$E(CIADATA,CIAPOS+1,CIALEN)                    ; Remove word
+"RTN","CIAUEDT",90,0)
+ D MOVETO(CIAZ-1)
+"RTN","CIAUEDT",91,0)
+ Q
+"RTN","CIAUEDT",92,0)
+CTLK S CIABUF=CIADATA                                                        ; Save buffer
+"RTN","CIAUEDT",93,0)
+ S CIADATA=""                                                           ; Erase buffer
+"RTN","CIAUEDT",94,0)
+ D RESET
+"RTN","CIAUEDT",95,0)
+ Q
+"RTN","CIAUEDT",96,0)
+CTLL S CIABUF=$E(CIADATA,CIAPOS+1,CIALEN)                                      ; Save deleted portion
+"RTN","CIAUEDT",97,0)
+ S CIADATA=$E(CIADATA,1,CIAPOS)                                           ; Truncate at current position
+"RTN","CIAUEDT",98,0)
+ D DSPLY(CIAPOS)
+"RTN","CIAUEDT",99,0)
+ Q
+"RTN","CIAUEDT",100,0)
+CTLM D POSCUR(CIAPOS),INSW("~"):CIAOPT["C",MOVETO(CIAPOS-$X+CIAX+CIAW)
+"RTN","CIAUEDT",101,0)
+ Q
+"RTN","CIAUEDT",102,0)
+CTLR D INSW(CIABUF)                                                         ; Insert at current position
+"RTN","CIAUEDT",103,0)
+ Q
+"RTN","CIAUEDT",104,0)
+CTLT D CTLL
+"RTN","CIAUEDT",105,0)
+ Q
+"RTN","CIAUEDT",106,0)
+CTLU S CIABUF=$E(CIADATA,1,CIAPOS)                                            ; Save deleted portion
+"RTN","CIAUEDT",107,0)
+ S CIADATA=$E(CIADATA,CIAPOS+1,CIALEN)                                     ; Remove to left of cursor
+"RTN","CIAUEDT",108,0)
+ D RESET
+"RTN","CIAUEDT",109,0)
+ Q
+"RTN","CIAUEDT",110,0)
+CTLH I 'CIAPOS W CIABEL Q
+"RTN","CIAUEDT",111,0)
+ D LEFT
+"RTN","CIAUEDT",112,0)
+CTLD S CIADATA=$E(CIADATA,1,CIAPOS)_$E(CIADATA,CIAPOS+2,CIAMAX)                  ; Delete character to left
+"RTN","CIAUEDT",113,0)
+ D DSPLY(CIAPOS,1)
+"RTN","CIAUEDT",114,0)
+ Q
+"RTN","CIAUEDT",115,0)
+TERM S CIAQUIT=2
+"RTN","CIAUEDT",116,0)
+ Q
+"RTN","CIAUEDT",117,0)
+ESC R *CIAZ:1
+"RTN","CIAUEDT",118,0)
+ R:CIAZ>0 *CIAZ:1
+"RTN","CIAUEDT",119,0)
+ S CIAC=0
+"RTN","CIAUEDT",120,0)
+ G UP:CIAZ=65,DOWN:CIAZ=66,RIGHT:CIAZ=67,LEFT:CIAZ=68                              ;Execute code
+"RTN","CIAUEDT",121,0)
+ S CIAC=27
+"RTN","CIAUEDT",122,0)
+ Q
+"RTN","CIAUEDT",123,0)
+DSPLY(CIAP1,CIAP2) ;
+"RTN","CIAUEDT",124,0)
+ Q:'CIAEON                                                              ; Refresh buffer display starting at position CIAP1
+"RTN","CIAUEDT",125,0)
+ N CIAZ,CIAZ1
+"RTN","CIAUEDT",126,0)
+ S CIAP1=+$G(CIAP1,CIALEFT),CIAZ=$E(CIADATA,CIAP1+1,CIALEFT+CIALEN),CIAP2=$S($D(CIAP2):CIAP2+$L(CIAZ),1:CIALEN-CIAP1+CIALEFT)
+"RTN","CIAUEDT",127,0)
+ S:CIAP2>CIALEN CIAP2=CIALEN
+"RTN","CIAUEDT",128,0)
+ S CIAZ=CIAZ_$J("",CIAP2-$L(CIAZ))
+"RTN","CIAUEDT",129,0)
+ F  D  Q:CIAZ=""
+"RTN","CIAUEDT",130,0)
+ .D POSCUR(CIAP1)
+"RTN","CIAUEDT",131,0)
+ .S CIAZ1=CIARM-$X
+"RTN","CIAUEDT",132,0)
+ .S:CIAZ1<1 CIAZ1=1
+"RTN","CIAUEDT",133,0)
+ .W $E(CIAZ,1,CIAZ1)
+"RTN","CIAUEDT",134,0)
+ .S CIAZ=$E(CIAZ,CIAZ1+1,999),CIAP1=CIAP1+CIAZ1
+"RTN","CIAUEDT",135,0)
+ Q
+"RTN","CIAUEDT",136,0)
+INSW(CIATXT) ;
+"RTN","CIAUEDT",137,0)
+ S:CIAPOS>$L(CIADATA) CIADATA=CIADATA_$J("",CIAPOS-$L(CIADATA))              ; Pad if past end of buffer
+"RTN","CIAUEDT",138,0)
+ S CIADATA=$E($E(CIADATA,1,CIAPOS)_CIATXT_$E(CIADATA,CIAPOS+2-CIAINS,CIAMAX),1,CIAMAX)
+"RTN","CIAUEDT",139,0)
+ D DSPLY(CIAPOS,0),MOVETO(CIAPOS+$L(CIATXT))
+"RTN","CIAUEDT",140,0)
+ Q
+"RTN","CIAUEDT",141,0)
+POSCUR(CIAP) ;
+"RTN","CIAUEDT",142,0)
+ N CIAZX,CIAZY
+"RTN","CIAUEDT",143,0)
+ S CIAP=+$G(CIAP,CIAPOS),CIAZX=CIAP-CIALEFT,CIAZY=CIAZX\CIAW+CIAY,CIAZX=CIAZX#CIAW+CIAX
+"RTN","CIAUEDT",144,0)
+ W $$XY^CIAU(CIAZX,CIAZY)
+"RTN","CIAUEDT",145,0)
+ Q
+"RTN","CIAUEDT",146,0)
+MOVETO(CIAP) ;
+"RTN","CIAUEDT",147,0)
+ I CIAP>CIAMAX!(CIAP<0) W CIABEL Q
+"RTN","CIAUEDT",148,0)
+ S CIAPOS=CIAP,CIAP=CIALEFT
+"RTN","CIAUEDT",149,0)
+ S:CIAPOS<CIALEFT CIALEFT=CIAPOS-CIAW-1
+"RTN","CIAUEDT",150,0)
+ S:CIALEFT+CIALEN<CIAPOS CIALEFT=CIAPOS-CIAW+1
+"RTN","CIAUEDT",151,0)
+ S:CIALEFT'<CIAMAX CIALEFT=CIAMAX-CIAW
+"RTN","CIAUEDT",152,0)
+ S:CIALEFT<0 CIALEFT=0
+"RTN","CIAUEDT",153,0)
+ D DSPLY():CIALEFT'=CIAP,POSCUR()
+"RTN","CIAUEDT",154,0)
+ Q
+"RTN","CIAUEDT",155,0)
+UP I CIAOPT["V" S CIAQUIT=3
+"RTN","CIAUEDT",156,0)
+ E  D MOVETO(CIAPOS-CIAW)
+"RTN","CIAUEDT",157,0)
+ Q
+"RTN","CIAUEDT",158,0)
+DOWN I CIAOPT["V" S CIAQUIT=4
+"RTN","CIAUEDT",159,0)
+ E  D MOVETO(CIAPOS+CIAW)
+"RTN","CIAUEDT",160,0)
+ Q
+"RTN","CIAUEDT",161,0)
+RIGHT D MOVETO(CIAPOS+1)
+"RTN","CIAUEDT",162,0)
+ Q
+"RTN","CIAUEDT",163,0)
+LEFT D MOVETO(CIAPOS-1)
+"RTN","CIAUEDT",164,0)
+ Q
+"RTN","CIAUEDT",165,0)
+RESET W $S(CIAOPT["R":CIARVON,1:CIARVOFF)
+"RTN","CIAUEDT",166,0)
+ S (CIAPOS,CIALEFT)=0                                                    ; Current edit offset
+"RTN","CIAUEDT",167,0)
+ D DSPLY()                                                             ; Refresh display
+"RTN","CIAUEDT",168,0)
+ Q
+"RTN","CIAUEDT",169,0)
+ERROR W CIABEL                                                               ; Sound bell
+"RTN","CIAUEDT",170,0)
+ S @$$TRAP^CIAUOS("ERROR^CIAUEDT")
+"RTN","CIAUEDT",171,0)
+ G AGAIN
+"RTN","CIAUHFS")
+0^61^B5207554
+"RTN","CIAUHFS",1,0)
+CIAUHFS ;MSC/IND/DKM - Host IO Support ;04-May-2006 08:19;DKM
+"RTN","CIAUHFS",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUHFS",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUHFS",4,0)
+ ;=================================================================
+"RTN","CIAUHFS",5,0)
+ ; Capture output to HFS and optionally redirect to global
+"RTN","CIAUHFS",6,0)
+ ;   EXEC = Code to execute
+"RTN","CIAUHFS",7,0)
+ ;   ROOT = Global root to receive output (or null to leave in HFS)
+"RTN","CIAUHFS",8,0)
+ ;   RM   = Right margin setting (defaults to 80)
+"RTN","CIAUHFS",9,0)
+CAPTURE(EXEC,ROOT,RM) ;EP
+"RTN","CIAUHFS",10,0)
+ N UFN,HNDL,TMP,IOM,IOSL,IOST,IOF,IOT,IOS,$ET
+"RTN","CIAUHFS",11,0)
+ S $ET="",UFN=$$UFN^CIAU,TMP=$$DEFDIR^CIAUOS,HNDL="CIAUHFS",@$$TRAP^CIAUOS("ERR^CIAUHFS")
+"RTN","CIAUHFS",12,0)
+ S:$L($G(ROOT)) ROOT=$NA(@ROOT)
+"RTN","CIAUHFS",13,0)
+ D OPEN^%ZISH(HNDL,TMP,UFN,"W")
+"RTN","CIAUHFS",14,0)
+ D:'POP IOVAR(.RM),EXEC,HFSCLOSE(HNDL,UFN)
+"RTN","CIAUHFS",15,0)
+ Q:$Q TMP_UFN
+"RTN","CIAUHFS",16,0)
+ Q
+"RTN","CIAUHFS",17,0)
+EXEC X EXEC
+"RTN","CIAUHFS",18,0)
+ Q
+"RTN","CIAUHFS",19,0)
+ ; Error trap
+"RTN","CIAUHFS",20,0)
+ERR D @^%ZOSF("ERRTN"),HFSCLOSE(HNDL,UFN,1)
+"RTN","CIAUHFS",21,0)
+ Q:$Q ""
+"RTN","CIAUHFS",22,0)
+ Q
+"RTN","CIAUHFS",23,0)
+ ; Setup IO variables based on IO Device
+"RTN","CIAUHFS",24,0)
+IOVAR(XIOM,XIO,XIOSL,XIOST,XIOF,XIOT) ;
+"RTN","CIAUHFS",25,0)
+ N X
+"RTN","CIAUHFS",26,0)
+ S ION=$G(XIO,"CIAU HFS DEVICE"),IOS=+$O(^%ZIS(1,"B",ION,0)),IOM=80,IOSL=62,IOST=$G(XIOST,"P-OTHER"),IOF=$G(XIOF,""""""),IOT=$G(XIOT,"HFS")
+"RTN","CIAUHFS",27,0)
+ S:$D(^%ZIS(1,IOS,0)) IOST(0)=+$G(^("SUBTYPE")),IOT=$G(^("TYPE"),IOT),IOST=$P($G(^%ZIS(2,IOST(0),0),IOST),U)
+"RTN","CIAUHFS",28,0)
+ S X=$O(^%ZIS(2,"B",IOST,0))
+"RTN","CIAUHFS",29,0)
+ S:X IOST(0)=X,X=$G(^%ZIS(2,X,1)),IOM=$P(X,U),IOF=$P(X,U,2),IOSL=$P(X,U,3)
+"RTN","CIAUHFS",30,0)
+ S:$G(XIOM) IOM=XIOM
+"RTN","CIAUHFS",31,0)
+ S:$G(XIOSL) IOSL=XIOSL
+"RTN","CIAUHFS",32,0)
+ U IO
+"RTN","CIAUHFS",33,0)
+ Q
+"RTN","CIAUHFS",34,0)
+ ; Move HFS data to global (if ROOT specified) and cleanup
+"RTN","CIAUHFS",35,0)
+HFSCLOSE(HNDL,UFN,BAD) ;
+"RTN","CIAUHFS",36,0)
+ N DEL
+"RTN","CIAUHFS",37,0)
+ D GETDEV^%ZISUTL(HNDL)
+"RTN","CIAUHFS",38,0)
+ I IOT="HFS" D
+"RTN","CIAUHFS",39,0)
+ .D CLOSE^%ZISH(HNDL)
+"RTN","CIAUHFS",40,0)
+ E  D RMDEV^%ZISUTL(HNDL)
+"RTN","CIAUHFS",41,0)
+ Q:'$L($G(ROOT))
+"RTN","CIAUHFS",42,0)
+ K @ROOT
+"RTN","CIAUHFS",43,0)
+ I '$G(BAD),$$FTG^%ZISH($$DEFDIR^CIAUOS,UFN,$NA(@ROOT@(1)),$QL(ROOT)+1) D STRIP
+"RTN","CIAUHFS",44,0)
+ S DEL(UFN)=""
+"RTN","CIAUHFS",45,0)
+ I $$DEL^%ZISH($$DEFDIR^CIAUOS,"DEL")
+"RTN","CIAUHFS",46,0)
+ Q
+"RTN","CIAUHFS",47,0)
+ ; Strip off control chars and remove leading/trailing blank lines
+"RTN","CIAUHFS",48,0)
+STRIP N I,J,K,X
+"RTN","CIAUHFS",49,0)
+ S (I,J)=0
+"RTN","CIAUHFS",50,0)
+ F  S I=$O(@ROOT@(I)) Q:'I  S X=@ROOT@(I) D  S @ROOT@(I)=X
+"RTN","CIAUHFS",51,0)
+ .I X[$C(8),$L(X,$C(8))=$L(X,$C(95)) S X=$TR(X,$C(7,8,12,95))
+"RTN","CIAUHFS",52,0)
+ .E  S X=$TR(X,$C(7,8,12))
+"RTN","CIAUHFS",53,0)
+ .S:$L(X) J=I,K=$G(K,J)
+"RTN","CIAUHFS",54,0)
+ I $D(K) F  S I=$O(@ROOT@(I)) Q:I=K  K @ROOT@(I)
+"RTN","CIAUHFS",55,0)
+ F  S J=$O(@ROOT@(J)) Q:'J  K @ROOT@(J)
+"RTN","CIAUHFS",56,0)
+ Q
+"RTN","CIAUIMP")
+0^44^B12183185
+"RTN","CIAUIMP",1,0)
+CIAUIMP ;MSC/IND/DKM - Import text into FileMan file;04-May-2006 08:19;DKM
+"RTN","CIAUIMP",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUIMP",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUIMP",4,0)
+ ;=================================================================
+"RTN","CIAUIMP",5,0)
+ ; Imports data from a specially formatted text file into a
+"RTN","CIAUIMP",6,0)
+ ; FileMan file.
+"RTN","CIAUIMP",7,0)
+ ; Inputs:
+"RTN","CIAUIMP",8,0)
+ ;   CIAINP  = Full input file or global specification.
+"RTN","CIAUIMP",9,0)
+ ;   CIATRACE= If nonzero, generates a debug trace.
+"RTN","CIAUIMP",10,0)
+ ; Outputs:
+"RTN","CIAUIMP",11,0)
+ ;   Returns status code^status message.  Status code of 0 means
+"RTN","CIAUIMP",12,0)
+ ;   successful completion.
+"RTN","CIAUIMP",13,0)
+ ;=================================================================
+"RTN","CIAUIMP",14,0)
+ENTRY(CIAINP,CIATRACE) ;
+"RTN","CIAUIMP",15,0)
+ N CIALN,CIAFN,CIALVL,CIABM,CIAC,CIALBL,CIAQT,CIAST,CIAIO,CIAGBL
+"RTN","CIAUIMP",16,0)
+ S @$$TRAP^CIAUOS("ERROR^CIAUIMP")
+"RTN","CIAUIMP",17,0)
+ S CIAFN=0,CIALVL=-1,CIATRACE=+$G(CIATRACE),CIAST=0,CIAIO=$I,U="^",CIAC=0,CIAGBL=$E(CIAINP)=U
+"RTN","CIAUIMP",18,0)
+ I CIAGBL S CIAINP=$$CREF^DILF(CIAINP)
+"RTN","CIAUIMP",19,0)
+ E  D OPEN^CIAUOS(.CIAINP,"R")
+"RTN","CIAUIMP",20,0)
+ F  Q:$$READ  D  Q:CIAST
+"RTN","CIAUIMP",21,0)
+ .U CIAIO
+"RTN","CIAUIMP",22,0)
+ .W:CIATRACE=1 CIAC,*13
+"RTN","CIAUIMP",23,0)
+ .W:CIATRACE=2 CIAC_": ",$$TRUNC^CIAU(CIALN,$G(IOM,80)-$X-2),!
+"RTN","CIAUIMP",24,0)
+ .D DOIT(CIALN)
+"RTN","CIAUIMP",25,0)
+ D:'CIAGBL CLOSE^CIAUOS(.CIAINP)
+"RTN","CIAUIMP",26,0)
+ Q CIAST
+"RTN","CIAUIMP",27,0)
+READ() I 'CIAGBL S CIAC=CIAC+1 Q $$READ^CIAUOS(.CIALN,CIAINP)
+"RTN","CIAUIMP",28,0)
+ S CIAC=$O(@CIAINP@(CIAC))
+"RTN","CIAUIMP",29,0)
+ Q:'CIAC 1
+"RTN","CIAUIMP",30,0)
+ I $D(@CIAINP@(CIAC))#2 S CIALN=@CIAINP@(CIAC) Q 0
+"RTN","CIAUIMP",31,0)
+ I $D(@CIAINP@(CIAC,0))#2 S CIALN=@CIAINP@(CIAC,0) Q 0
+"RTN","CIAUIMP",32,0)
+ Q 1
+"RTN","CIAUIMP",33,0)
+ERROR D ERR("Fatal error",$$EC^%ZOSV)
+"RTN","CIAUIMP",34,0)
+ Q CIAST
+"RTN","CIAUIMP",35,0)
+DOIT(CIALN) ;
+"RTN","CIAUIMP",36,0)
+ N CIAZ,CIAL,CIAFLD,CIAWP
+"RTN","CIAUIMP",37,0)
+ S CIALN=$$TRIM^CIAU(CIALN)
+"RTN","CIAUIMP",38,0)
+ I ";"[$E(CIALN) W:CIATRACE=3 $P(CIALN,";",2,999),! Q
+"RTN","CIAUIMP",39,0)
+ F CIAL=0:1 Q:$E(CIALN,CIAL+1)'="."
+"RTN","CIAUIMP",40,0)
+ S CIALN=$E(CIALN,CIAL+1,999)
+"RTN","CIAUIMP",41,0)
+ I CIALN'[":" D ERR("Missing label",CIALN) Q
+"RTN","CIAUIMP",42,0)
+ S CIALBL=$$TRIM^CIAU($P(CIALN,":")),CIALN=$$TRIM^CIAU($P(CIALN,":",2,999))
+"RTN","CIAUIMP",43,0)
+ I 'CIAL S CIAFN=$$FILE(CIALN) Q
+"RTN","CIAUIMP",44,0)
+ I CIAL>CIALVL D ERR("Invalid nesting",CIALN) Q
+"RTN","CIAUIMP",45,0)
+ S CIALVL=CIAL,CIAFN=+$P(CIABM(CIALVL),U,4)
+"RTN","CIAUIMP",46,0)
+ S CIAFLD=$$FLD(CIALBL,CIAFN)
+"RTN","CIAUIMP",47,0)
+ S CIAZ=+$P($G(^DD(CIAFN,CIAFLD,0)),U,2)
+"RTN","CIAUIMP",48,0)
+ I CIAZ D  Q:CIAST
+"RTN","CIAUIMP",49,0)
+ .S CIALVL=CIALVL+1,CIAFN=CIAZ,CIABM(CIALVL)=$$ENTRY^CIAUDIC(CIABM(CIALVL-1),"+"_CIAFN)
+"RTN","CIAUIMP",50,0)
+ .I +CIABM(CIALVL)<0 D ERR("Error access subfile entry",CIALBL) Q
+"RTN","CIAUIMP",51,0)
+ .S CIAFLD=$$FLD(.01,CIAFN)
+"RTN","CIAUIMP",52,0)
+ I 'CIAFLD D ERR("Unknown field",CIALBL) Q
+"RTN","CIAUIMP",53,0)
+ I 'CIAWP,CIALN="" Q
+"RTN","CIAUIMP",54,0)
+ ;S:CIALN="+" CIALN=U_$TR($P(CIABM(CIALVL),U,2),"|",",")_"$C(1))",CIALN=1+$O(@CIALN,-1)\1
+"RTN","CIAUIMP",55,0)
+ I CIAFLD=.01!'CIABM(CIALVL)!CIAWP D  Q
+"RTN","CIAUIMP",56,0)
+ .I 'CIAWP,CIAFLD'=.01 D ERR("First field is not primary index",CIALBL) Q
+"RTN","CIAUIMP",57,0)
+ .I 'CIAWP D
+"RTN","CIAUIMP",58,0)
+ ..S CIABM(CIALVL)=$$ENTRY^CIAUDIC(CIABM(CIALVL),"="_CIALN)
+"RTN","CIAUIMP",59,0)
+ ..S:+CIABM(CIALVL)'>0 CIABM(CIALVL)=$$ENTRY^CIAUDIC(CIABM(CIALVL),"="_$$UP^XLFSTR(CIALN))
+"RTN","CIAUIMP",60,0)
+ .S:+CIABM(CIALVL)'>0!CIAWP CIABM(CIALVL)=$$ENTRY^CIAUDIC(CIABM(CIALVL),$S(CIALN="@"&'CIAWP:CIALN,1:"~LX;.01///^S X=CIALN"))
+"RTN","CIAUIMP",61,0)
+ .I +CIABM(CIALVL)'>0,CIALN'="@" D ERR("Error adding entry",CIALN)
+"RTN","CIAUIMP",62,0)
+ S CIABM(CIALVL)=$$ENTRY^CIAUDIC(CIABM(CIALVL),"<;"_CIAFLD_"///^S X=CIALN")
+"RTN","CIAUIMP",63,0)
+ D:+CIABM(CIALVL)'>0 ERR("Error writing to field",CIALBL)
+"RTN","CIAUIMP",64,0)
+ Q
+"RTN","CIAUIMP",65,0)
+FILE(CIAFN) ;
+"RTN","CIAUIMP",66,0)
+ K CIABM
+"RTN","CIAUIMP",67,0)
+ S CIABM(1)=$$ENTRY^CIAUDIC(CIAFN),CIALVL=1
+"RTN","CIAUIMP",68,0)
+ I +CIABM(1)'<0 S CIAFN=+$P(CIABM(1),U,4)
+"RTN","CIAUIMP",69,0)
+ E  D ERR("Error accessing database",CIAFN)
+"RTN","CIAUIMP",70,0)
+ Q CIAFN
+"RTN","CIAUIMP",71,0)
+FLD(CIANM,CIAFN) ;
+"RTN","CIAUIMP",72,0)
+ N CIAZ
+"RTN","CIAUIMP",73,0)
+ S CIAZ=$S(CIANM="":.01,CIANM=+CIANM:CIANM,1:+$O(^DD(CIAFN,"B",CIANM,0)))
+"RTN","CIAUIMP",74,0)
+ I '$D(^DD(CIAFN,CIAZ,0)) S CIAZ=0
+"RTN","CIAUIMP",75,0)
+ E  S CIAWP=$P(^(0),U,2)["W"
+"RTN","CIAUIMP",76,0)
+ Q CIAZ
+"RTN","CIAUIMP",77,0)
+ERR(CIAMSG,CIAX) ;
+"RTN","CIAUIMP",78,0)
+ S CIAST=CIAC_U_CIAMSG_$S($D(CIAX):": "_CIAX,1:"")
+"RTN","CIAUIMP",79,0)
+ W:CIATRACE=2 CIAC_": "_$P(CIAST,U,2,999),!
+"RTN","CIAUIMP",80,0)
+ Q
+"RTN","CIAUIN")
+1^45
+"RTN","CIAUIN0")
+0^46^B1602000
+"RTN","CIAUIN0",1,0)
+CIAUIN0 ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
+"RTN","CIAUIN0",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUIN0",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUIN0",4,0)
+ ;=================================================================
+"RTN","CIAUIN0",5,0)
+ ; Return version #
+"RTN","CIAUIN0",6,0)
+VER() Q $P($T(+2),";",3)
+"RTN","CIAUIN0",7,0)
+CVTFN(CIAFIL,CIAROOT) ;
+"RTN","CIAUIN0",8,0)
+ N CIAZ,CIAZ1,CIAD
+"RTN","CIAUIN0",9,0)
+ S CIAD=$$DIRDLM,CIAROOT=$G(CIAROOT)
+"RTN","CIAUIN0",10,0)
+ S:$E(CIAROOT,$L(CIAROOT))=$E(CIAD,3) CIAROOT=$E(CIAROOT,1,$L(CIAROOT)-1)
+"RTN","CIAUIN0",11,0)
+ S CIAZ=$L(CIAFIL,"/"),CIAZ1=$P(CIAFIL,"/",1,CIAZ-1),CIAFIL=$P(CIAFIL,"/",CIAZ)
+"RTN","CIAUIN0",12,0)
+ S:$L(CIAZ1) CIAROOT=CIAROOT_$E(CIAD,$S($L(CIAROOT):2,1:1))_$TR(CIAZ1,"/.-",$E(CIAD,2))
+"RTN","CIAUIN0",13,0)
+ Q CIAROOT_$S($L(CIAROOT):$E(CIAD,3),1:"")_CIAFIL
+"RTN","CIAUIN0",14,0)
+ ; Set right margin
+"RTN","CIAUIN0",15,0)
+RM(X) ;EP
+"RTN","CIAUIN0",16,0)
+ X ^%ZOSF("RM")
+"RTN","CIAUIN0",17,0)
+ Q
+"RTN","CIAUIN0",18,0)
+ ; Test for tag/routine
+"RTN","CIAUIN0",19,0)
+TEST(X) ;EP
+"RTN","CIAUIN0",20,0)
+ N Z
+"RTN","CIAUIN0",21,0)
+ S:X[U Z=$P(X,U),X=$P(X,U,2)
+"RTN","CIAUIN0",22,0)
+ Q:'$L(X)!(X'?.1"%"1.AN) 0
+"RTN","CIAUIN0",23,0)
+ X ^%ZOSF("TEST")
+"RTN","CIAUIN0",24,0)
+ Q $S('$T:0,$G(Z)="":1,Z'?.1"%"1.AN:0,1:$T(@Z^@X)'="")
+"RTN","CIAUIN0",25,0)
+ETRAP() Q $$NEWERR^%ZTER
+"RTN","CIAUIN0",26,0)
+ ; Open a host file
+"RTN","CIAUIN0",27,0)
+OPENX(X1,X2) ;EP
+"RTN","CIAUIN0",28,0)
+ D OPEN(.X1,.X2)
+"RTN","CIAUIN0",29,0)
+ Q X1
+"RTN","CIAUIN16")
+0^47^B4464566
+"RTN","CIAUIN16",1,0)
+CIAUIN16 ;MSC/IND/DKM - Inits for VMS;04-May-2006 08:19;DKM
+"RTN","CIAUIN16",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUIN16",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUIN16",4,0)
+ ;=================================================================
+"RTN","CIAUIN16",5,0)
+ ; Open a host file
+"RTN","CIAUIN16",6,0)
+OPEN(X1,X2) ;EP
+"RTN","CIAUIN16",7,0)
+ N Z
+"RTN","CIAUIN16",8,0)
+ S Z="X1"_$S("Rr"[$G(X2):":READONLY:0","Ww"[X2:":(NEWVERSION,RECORDSIZE=65535)","Bb"[X2:":(READONLY,BLOCKSIZE=0)",1:"")
+"RTN","CIAUIN16",9,0)
+ O @Z
+"RTN","CIAUIN16",10,0)
+ U X1
+"RTN","CIAUIN16",11,0)
+ S ^TMP("CIAUHFS",$J,X1)=""
+"RTN","CIAUIN16",12,0)
+ Q
+"RTN","CIAUIN16",13,0)
+ ; Close a host file
+"RTN","CIAUIN16",14,0)
+CLOSE(X) ;EP
+"RTN","CIAUIN16",15,0)
+ C X
+"RTN","CIAUIN16",16,0)
+ K ^TMP("CIAUHFS",$J,X)
+"RTN","CIAUIN16",17,0)
+ Q
+"RTN","CIAUIN16",18,0)
+ ; Close all open host files
+"RTN","CIAUIN16",19,0)
+CLOSEALL ;EP
+"RTN","CIAUIN16",20,0)
+ N Z
+"RTN","CIAUIN16",21,0)
+ S Z=""
+"RTN","CIAUIN16",22,0)
+ F  S Z=$O(^TMP("CIAUHFS",$J,Z)) Q:Z=""  C Z
+"RTN","CIAUIN16",23,0)
+ K ^TMP("CIAUHFS",$J)
+"RTN","CIAUIN16",24,0)
+ Q
+"RTN","CIAUIN16",25,0)
+EOF U $I:TRAP
+"RTN","CIAUIN16",26,0)
+ Q
+"RTN","CIAUIN16",27,0)
+EOFERR() Q $ZE["ENDOFILE"
+"RTN","CIAUIN16",28,0)
+ ; Read a line of data
+"RTN","CIAUIN16",29,0)
+READ(X,Y) ;EP
+"RTN","CIAUIN16",30,0)
+ U $G(Y,$I):NOTRAP
+"RTN","CIAUIN16",31,0)
+ R X:5
+"RTN","CIAUIN16",32,0)
+ Q $S($T:$ZA=-1,1:1)
+"RTN","CIAUIN16",33,0)
+ ; Delete a host file
+"RTN","CIAUIN16",34,0)
+DELETE(X) ;EP
+"RTN","CIAUIN16",35,0)
+ O X::0
+"RTN","CIAUIN16",36,0)
+ C X:DELETE
+"RTN","CIAUIN16",37,0)
+ Q
+"RTN","CIAUIN16",38,0)
+ ; Rename a host file
+"RTN","CIAUIN16",39,0)
+RENAME(X1,X2) ;EP
+"RTN","CIAUIN16",40,0)
+ O X1:READONLY:0
+"RTN","CIAUIN16",41,0)
+ C X1:RENAME=X2
+"RTN","CIAUIN16",42,0)
+ Q
+"RTN","CIAUIN16",43,0)
+ ; Return directory of files
+"RTN","CIAUIN16",44,0)
+DIR(X1,X2,X3) ;EP
+"RTN","CIAUIN16",45,0)
+ N Z,Z1
+"RTN","CIAUIN16",46,0)
+ S $ZT="DIRX^CIAUOS",X3=$G(X3,"^UTILITY(""DIR"",$J)")
+"RTN","CIAUIN16",47,0)
+ K @X3
+"RTN","CIAUIN16",48,0)
+ S:'$G(X2) X2=9999999999
+"RTN","CIAUIN16",49,0)
+ F Z=1:1:X2 S Z1=$ZSEARCH(X1),X1="" Q:Z1=""  S @X3@($P(Z1,"]",2))=""
+"RTN","CIAUIN16",50,0)
+DIRX Q
+"RTN","CIAUIN16",51,0)
+ ; Return default working directory
+"RTN","CIAUIN16",52,0)
+DEFDIR(X) ;EP
+"RTN","CIAUIN16",53,0)
+ Q $G(X,$P($G(^XTV(8989.3,1,"DEV")),U))
+"RTN","CIAUIN16",54,0)
+ ; Return path delimiters
+"RTN","CIAUIN16",55,0)
+DIRDLM() ;EP
+"RTN","CIAUIN16",56,0)
+ Q "[.]"
+"RTN","CIAUIN16",57,0)
+ ; Parse current error
+"RTN","CIAUIN16",58,0)
+ERR(X1,X2,X3) ;EP
+"RTN","CIAUIN16",59,0)
+ S X1=$P($P($ZE,", ",2),"-",3),X2=$P($P($ZE,", "),":"),X3=$P($ZE,", ",$S(X1="ZTRAP":4,1:3))
+"RTN","CIAUIN16",60,0)
+ Q
+"RTN","CIAUIN16",61,0)
+ ; Raise an exception
+"RTN","CIAUIN16",62,0)
+RAISE(X) ;EP
+"RTN","CIAUIN16",63,0)
+ ZT $G(X)
+"RTN","CIAUIN16",64,0)
+ ; Set error trap
+"RTN","CIAUIN16",65,0)
+TRAP(X) ;EP
+"RTN","CIAUIN16",66,0)
+ Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+"RTN","CIAUIN16",67,0)
+ ; Return size of a file
+"RTN","CIAUIN16",68,0)
+SIZE(X) ;EP
+"RTN","CIAUIN16",69,0)
+ Q $ZC(%GETFILE,X,"BLS")*$ZC(%GETFILE,X,"EOF")
+"RTN","CIAUIN16",70,0)
+ ; Return free disk space
+"RTN","CIAUIN16",71,0)
+FREE(X) ;EP
+"RTN","CIAUIN16",72,0)
+ Q $ZC(%GETDVI,X,"FREEBLOCKS")/2048
+"RTN","CIAUIN16",73,0)
+ ; Return host ip address
+"RTN","CIAUIN16",74,0)
+HOSTIP() ;EP
+"RTN","CIAUIN16",75,0)
+ Q ""
+"RTN","CIAUIN16",76,0)
+ ; Return host name
+"RTN","CIAUIN16",77,0)
+HOSTNAME() ;EP
+"RTN","CIAUIN16",78,0)
+ Q ""
+"RTN","CIAUIN16",79,0)
+ ; Return client ip address
+"RTN","CIAUIN16",80,0)
+CLIENTIP() ;EP
+"RTN","CIAUIN16",81,0)
+ N IP,$ET
+"RTN","CIAUIN16",82,0)
+ S $ET="S $EC=""""",IP=$&%UCXGETPEER
+"RTN","CIAUIN16",83,0)
+ Q $A(IP,1)_"."_$A(IP,2)_"."_$A(IP,3)_"."_$A(IP,4)
+"RTN","CIAUIN18")
+0^48^B4685326
+"RTN","CIAUIN18",1,0)
+CIAUIN18 ;MSC/IND/DKM - Inits for Cache (Windows);04-May-2006 08:19;DKM
+"RTN","CIAUIN18",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUIN18",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUIN18",4,0)
+ ;=================================================================
+"RTN","CIAUIN18",5,0)
+ ; Open a host file
+"RTN","CIAUIN18",6,0)
+OPEN(X1,X2) ;EP
+"RTN","CIAUIN18",7,0)
+ O X1:$S("Rr"[$G(X2):"RS","Ww"[X2:"WNS","Bb"[X2:"RF",1:""):0
+"RTN","CIAUIN18",8,0)
+ E  ZT "NOPEN"
+"RTN","CIAUIN18",9,0)
+ U X1
+"RTN","CIAUIN18",10,0)
+ S ^TMP("CIAUHFS",$J,X1)=""
+"RTN","CIAUIN18",11,0)
+ Q
+"RTN","CIAUIN18",12,0)
+ ; Close a host file
+"RTN","CIAUIN18",13,0)
+CLOSE(X) ;EP
+"RTN","CIAUIN18",14,0)
+ C X
+"RTN","CIAUIN18",15,0)
+ K ^TMP("CIAUHFS",$J,X)
+"RTN","CIAUIN18",16,0)
+ Q
+"RTN","CIAUIN18",17,0)
+ ; Close all host files
+"RTN","CIAUIN18",18,0)
+CLOSEALL ;EP
+"RTN","CIAUIN18",19,0)
+ N Z
+"RTN","CIAUIN18",20,0)
+ S Z=""
+"RTN","CIAUIN18",21,0)
+ F  S Z=$O(^TMP("CIAUHFS",$J,Z)) Q:Z=""  C Z
+"RTN","CIAUIN18",22,0)
+ K ^TMP("CIAUHFS",$J)
+"RTN","CIAUIN18",23,0)
+ Q
+"RTN","CIAUIN18",24,0)
+EOF ZT:$ZA=-1 "ENDOFFILE"
+"RTN","CIAUIN18",25,0)
+ Q
+"RTN","CIAUIN18",26,0)
+EOFERR() Q:$ZE["ENDOFFILE"
+"RTN","CIAUIN18",27,0)
+ ; Read line of data
+"RTN","CIAUIN18",28,0)
+READ(X,Y) ;EP
+"RTN","CIAUIN18",29,0)
+ N $ET
+"RTN","CIAUIN18",30,0)
+ S $ET="",$ZT="READX^CIAUOS"
+"RTN","CIAUIN18",31,0)
+ U $G(Y,$I)
+"RTN","CIAUIN18",32,0)
+ Q:$ZEOF 1
+"RTN","CIAUIN18",33,0)
+ R X:5
+"RTN","CIAUIN18",34,0)
+ Q:$T 0
+"RTN","CIAUIN18",35,0)
+READX Q 1
+"RTN","CIAUIN18",36,0)
+ ; Delete a host file
+"RTN","CIAUIN18",37,0)
+DELETE(X) ;EP
+"RTN","CIAUIN18",38,0)
+ S X=$ZF(-1,"del """_X_"""")
+"RTN","CIAUIN18",39,0)
+ Q
+"RTN","CIAUIN18",40,0)
+ ; Rename a host file
+"RTN","CIAUIN18",41,0)
+RENAME(X1,X2) ;EP
+"RTN","CIAUIN18",42,0)
+ S X1=$ZF(-1,"ren """_X1_""" """_X2_"""")
+"RTN","CIAUIN18",43,0)
+ Q
+"RTN","CIAUIN18",44,0)
+ ; Return directory of files
+"RTN","CIAUIN18",45,0)
+DIR(X1,X2,X3) ;EP
+"RTN","CIAUIN18",46,0)
+ N Z,Z1,FDLM
+"RTN","CIAUIN18",47,0)
+ S FDLM=$E($$DIRDLM,1)
+"RTN","CIAUIN18",48,0)
+ S X3=$G(X3,$NA(^UTILITY("DIR",$J)))
+"RTN","CIAUIN18",49,0)
+ K @X3
+"RTN","CIAUIN18",50,0)
+ S:'$G(X2) X2=9999999999
+"RTN","CIAUIN18",51,0)
+ F Z=1:1:X2 S Z1=$ZSEARCH(X1),X1="" Q:Z1=""  D
+"RTN","CIAUIN18",52,0)
+ .S Z1=$P(Z1,FDLM,$L(Z1,FDLM))
+"RTN","CIAUIN18",53,0)
+ .S:$TR(Z1,".")'="" @X3@(Z1)=""
+"RTN","CIAUIN18",54,0)
+ Q
+"RTN","CIAUIN18",55,0)
+ ; Return path delimiters
+"RTN","CIAUIN18",56,0)
+DIRDLM() ;EP
+"RTN","CIAUIN18",57,0)
+ Q "\\\"
+"RTN","CIAUIN18",58,0)
+ ; Return default working directory
+"RTN","CIAUIN18",59,0)
+DEFDIR(X) ;EP
+"RTN","CIAUIN18",60,0)
+ N FDLM
+"RTN","CIAUIN18",61,0)
+ S FDLM=$E($$DIRDLM,1)
+"RTN","CIAUIN18",62,0)
+ S X=$G(X,$P($G(^XTV(8989.3,1,"DEV")),U))
+"RTN","CIAUIN18",63,0)
+ S:$E(X,$L(X))'=FDLM X=X_FDLM
+"RTN","CIAUIN18",64,0)
+ Q X
+"RTN","CIAUIN18",65,0)
+ ; Parse current error
+"RTN","CIAUIN18",66,0)
+ERR(X1,X2,X3) ;EP
+"RTN","CIAUIN18",67,0)
+ S X1=$E($P($ZE,">"),2,99),X2=$P($P($ZE,">",2),":"),X3=X1
+"RTN","CIAUIN18",68,0)
+ S:X2["*" X2=""
+"RTN","CIAUIN18",69,0)
+ S:$E(X1)="Z" X3=$E(X1,2,99),X1="ZTRAP"
+"RTN","CIAUIN18",70,0)
+ Q
+"RTN","CIAUIN18",71,0)
+ ; Raise an exception
+"RTN","CIAUIN18",72,0)
+RAISE(X) ;EP
+"RTN","CIAUIN18",73,0)
+ ZT $G(X)
+"RTN","CIAUIN18",74,0)
+ ; Set error trap
+"RTN","CIAUIN18",75,0)
+TRAP(X) ;EP
+"RTN","CIAUIN18",76,0)
+ Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+"RTN","CIAUIN18",77,0)
+ ; Return size of file
+"RTN","CIAUIN18",78,0)
+SIZE(X) ;EP
+"RTN","CIAUIN18",79,0)
+ Q 0
+"RTN","CIAUIN18",80,0)
+ ; Return free disk space
+"RTN","CIAUIN18",81,0)
+FREE(X) ;EP
+"RTN","CIAUIN18",82,0)
+ Q 0
+"RTN","CIAUIN18",83,0)
+ ; Return host ip address
+"RTN","CIAUIN18",84,0)
+HOSTIP() ;EP
+"RTN","CIAUIN18",85,0)
+ Q $P($P($ZU(131,1),","),":",2)
+"RTN","CIAUIN18",86,0)
+ ; Return host name
+"RTN","CIAUIN18",87,0)
+HOSTNAME() ;EP
+"RTN","CIAUIN18",88,0)
+ Q $P($P($ZU(131,1),","),":")
+"RTN","CIAUIN18",89,0)
+ ; Return client ip address
+"RTN","CIAUIN18",90,0)
+CLIENTIP() ;EP
+"RTN","CIAUIN18",91,0)
+ N IP,$ET
+"RTN","CIAUIN18",92,0)
+ S $ET="S $EC=""""",IP=$ZU(111,0)
+"RTN","CIAUIN18",93,0)
+ Q $A(IP,1)_"."_$A(IP,2)_"."_$A(IP,3)_"."_$A(IP,4)
+"RTN","CIAUIN58")
+0^70^B5738292
+"RTN","CIAUIN58",1,0)
+CIAUIN58 ;MSC/IND/DKM/PLS - Inits for MSM-UNIX;04-May-2006 08:19;DKM
+"RTN","CIAUIN58",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUIN58",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUIN58",4,0)
+ ;=================================================================
+"RTN","CIAUIN58",5,0)
+ ; Open a host file
+"RTN","CIAUIN58",6,0)
+OPEN(X1,X2) ;EP
+"RTN","CIAUIN58",7,0)
+ N Z
+"RTN","CIAUIN58",8,0)
+ S X2=$G(X2,"R")
+"RTN","CIAUIN58",9,0)
+ F Z=51:1:55 I '$D(^TMP("CIAUHFS",$J,Z)) D  Q
+"RTN","CIAUIN58",10,0)
+ .ZT:Z=55 "TMOF"
+"RTN","CIAUIN58",11,0)
+ .O Z:(X1:$S("RrWw"[X2:X2,1:"R")::::$S("Bb"[X2:"",1:$C(10)))
+"RTN","CIAUIN58",12,0)
+ .U Z
+"RTN","CIAUIN58",13,0)
+ .ZT:$ZA "OPEN"
+"RTN","CIAUIN58",14,0)
+ .S ^TMP("CIAUHFS",$J,Z)=X1,X1=Z
+"RTN","CIAUIN58",15,0)
+ Q
+"RTN","CIAUIN58",16,0)
+ ; Close a host file
+"RTN","CIAUIN58",17,0)
+CLOSE(X) ;EP
+"RTN","CIAUIN58",18,0)
+ N Z
+"RTN","CIAUIN58",19,0)
+ S Z=X,X=$G(^TMP("CIAUHFS",$J,X))
+"RTN","CIAUIN58",20,0)
+ K ^(Z)
+"RTN","CIAUIN58",21,0)
+ C Z
+"RTN","CIAUIN58",22,0)
+ Q
+"RTN","CIAUIN58",23,0)
+ ; Close all open host files
+"RTN","CIAUIN58",24,0)
+CLOSEALL ;EP
+"RTN","CIAUIN58",25,0)
+ N Z
+"RTN","CIAUIN58",26,0)
+ F Z=0:0 S Z=$O(^TMP("CIAUHFS",$J,Z)) Q:'Z  C Z
+"RTN","CIAUIN58",27,0)
+ K ^TMP("CIAUHFS",$J)
+"RTN","CIAUIN58",28,0)
+ Q
+"RTN","CIAUIN58",29,0)
+EOF ZT:$ZC "EOF"
+"RTN","CIAUIN58",30,0)
+ Q
+"RTN","CIAUIN58",31,0)
+EOFERR() Q $ZE["ZEOF"
+"RTN","CIAUIN58",32,0)
+ ; Read a line of data
+"RTN","CIAUIN58",33,0)
+READ(X,Y) ;EP
+"RTN","CIAUIN58",34,0)
+ U:$G(Y)'="" Y
+"RTN","CIAUIN58",35,0)
+ R X:5
+"RTN","CIAUIN58",36,0)
+ Q $S($T:$ZC&'$L(X),1:1)
+"RTN","CIAUIN58",37,0)
+ ; Delete a host file
+"RTN","CIAUIN58",38,0)
+DELETE(X) ;EP
+"RTN","CIAUIN58",39,0)
+ D JW("rm "_X)
+"RTN","CIAUIN58",40,0)
+ Q
+"RTN","CIAUIN58",41,0)
+ ; Rename a host file
+"RTN","CIAUIN58",42,0)
+RENAME(X1,X2) ;EP
+"RTN","CIAUIN58",43,0)
+ D JW("mv "_X1_" "_X2)
+"RTN","CIAUIN58",44,0)
+ Q
+"RTN","CIAUIN58",45,0)
+ ; Generate a directory listing
+"RTN","CIAUIN58",46,0)
+DIR(X1,X2,X3) ;EP
+"RTN","CIAUIN58",47,0)
+ N TFN,X,Z
+"RTN","CIAUIN58",48,0)
+ N $ET
+"RTN","CIAUIN58",49,0)
+ S $ET="",@$$TRAP("DIRERR^CIAUOS")
+"RTN","CIAUIN58",50,0)
+ S X1=$G(X1),X2=+$G(X2),X3=$G(X3,"^UTILITY(""DIR"",$J)")
+"RTN","CIAUIN58",51,0)
+ S TFN=$$DEFDIR_"CIAUAUTO."_$J
+"RTN","CIAUIN58",52,0)
+ K @X3
+"RTN","CIAUIN58",53,0)
+ ;
+"RTN","CIAUIN58",54,0)
+ D DELETE(TFN)
+"RTN","CIAUIN58",55,0)
+ D JW("ls -d "_X1_" >> "_TFN)
+"RTN","CIAUIN58",56,0)
+ D OPEN(.TFN,"R")
+"RTN","CIAUIN58",57,0)
+ F Z=1:1 Q:(X2&(Z>X2))  Q:$$READ(.X,TFN)  D
+"RTN","CIAUIN58",58,0)
+ .S X=$TR($P(X,"/",$L(X,"/")),$C(10),"")
+"RTN","CIAUIN58",59,0)
+ .I X]"" S @X3@(X)=""
+"RTN","CIAUIN58",60,0)
+DIRERR D CLOSE(.TFN)
+"RTN","CIAUIN58",61,0)
+ D DELETE(TFN)
+"RTN","CIAUIN58",62,0)
+ Q
+"RTN","CIAUIN58",63,0)
+ ; Return default working directory
+"RTN","CIAUIN58",64,0)
+DEFDIR(X) ;EP
+"RTN","CIAUIN58",65,0)
+ S X=$G(X,$P($G(^XTV(8989.3,1,"DEV")),U))
+"RTN","CIAUIN58",66,0)
+ S:$E(X,$L(X))'="/" X=X_"/"
+"RTN","CIAUIN58",67,0)
+ Q X
+"RTN","CIAUIN58",68,0)
+ ; Return path delimiters
+"RTN","CIAUIN58",69,0)
+DIRDLM() ;EP
+"RTN","CIAUIN58",70,0)
+ Q "///"
+"RTN","CIAUIN58",71,0)
+ ; Return free disk space
+"RTN","CIAUIN58",72,0)
+FREE(X) ;EP
+"RTN","CIAUIN58",73,0)
+ S X=$ZOS(9,$E(X))
+"RTN","CIAUIN58",74,0)
+ Q X*$P(X,"^",2)*$P(X,"^",3)/1048576
+"RTN","CIAUIN58",75,0)
+ ; Parse current error
+"RTN","CIAUIN58",76,0)
+ERR(X1,X2,X3) ;EP
+"RTN","CIAUIN58",77,0)
+ S X1=$E($P($ZE,">"),2,99),X2=$P($P($ZE,">",2),":"),X3=X1
+"RTN","CIAUIN58",78,0)
+ S:X2["*" X2=""
+"RTN","CIAUIN58",79,0)
+ S:$E(X1)="Z" X3=$E(X1,2,99),X1="ZTRAP"
+"RTN","CIAUIN58",80,0)
+ Q
+"RTN","CIAUIN58",81,0)
+ ; Raise an exception
+"RTN","CIAUIN58",82,0)
+RAISE(X) ;EP
+"RTN","CIAUIN58",83,0)
+ ZT $G(X)
+"RTN","CIAUIN58",84,0)
+ ; Set error trap
+"RTN","CIAUIN58",85,0)
+TRAP(X) ;EP
+"RTN","CIAUIN58",86,0)
+ Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+"RTN","CIAUIN58",87,0)
+ ; Return size of a file
+"RTN","CIAUIN58",88,0)
+SIZE(X) ;EP
+"RTN","CIAUIN58",89,0)
+ N I,Y,Z
+"RTN","CIAUIN58",90,0)
+ S Z=$ZOS(12,X,0),Z=$P(Z,"^",2,999),Y=0
+"RTN","CIAUIN58",91,0)
+ I Z'="" F I=30:-1:27 S Y=Y*256+$A(Z,I)
+"RTN","CIAUIN58",92,0)
+ Q Y
+"RTN","CIAUIN58",93,0)
+ ; Return host ip address
+"RTN","CIAUIN58",94,0)
+HOSTIP() ;EP
+"RTN","CIAUIN58",95,0)
+ Q ""
+"RTN","CIAUIN58",96,0)
+ ; Return host name
+"RTN","CIAUIN58",97,0)
+HOSTNAME() ;EP
+"RTN","CIAUIN58",98,0)
+ Q ""
+"RTN","CIAUIN58",99,0)
+ ; Return client ip address
+"RTN","CIAUIN58",100,0)
+CLIENTIP() ;EP
+"RTN","CIAUIN58",101,0)
+ Q ""
+"RTN","CIAUIN58",102,0)
+ ; Issue host command and wait
+"RTN","CIAUIN58",103,0)
+JW(ZOSHC) ;msm extrinsic
+"RTN","CIAUIN58",104,0)
+ N ZOSHX
+"RTN","CIAUIN58",105,0)
+ S ZOSHX=$$JOBWAIT^%HOSTCMD(ZOSHC)
+"RTN","CIAUIN58",106,0)
+ Q
+"RTN","CIAUIN68")
+0^69^B4634876
+"RTN","CIAUIN68",1,0)
+CIAUIN68 ;MSC/IND/DKM - Inits for Cache (Unix);04-May-2006 08:19;DKM
+"RTN","CIAUIN68",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUIN68",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUIN68",4,0)
+ ;=================================================================
+"RTN","CIAUIN68",5,0)
+ ; Open a host file
+"RTN","CIAUIN68",6,0)
+OPEN(X1,X2) ;EP
+"RTN","CIAUIN68",7,0)
+ O X1:$S("Rr"[$G(X2):"RS","Ww"[X2:"WNS","Bb"[X2:"RF",1:""):0
+"RTN","CIAUIN68",8,0)
+ E  ZT "NOPEN"
+"RTN","CIAUIN68",9,0)
+ U X1
+"RTN","CIAUIN68",10,0)
+ S ^TMP("CIAUHFS",$J,X1)=""
+"RTN","CIAUIN68",11,0)
+ Q
+"RTN","CIAUIN68",12,0)
+ ; Close a host file
+"RTN","CIAUIN68",13,0)
+CLOSE(X) ;EP
+"RTN","CIAUIN68",14,0)
+ C X
+"RTN","CIAUIN68",15,0)
+ K ^TMP("CIAUHFS",$J,X)
+"RTN","CIAUIN68",16,0)
+ Q
+"RTN","CIAUIN68",17,0)
+ ; Close all open host files
+"RTN","CIAUIN68",18,0)
+CLOSEALL ;EP
+"RTN","CIAUIN68",19,0)
+ N Z
+"RTN","CIAUIN68",20,0)
+ S Z=""
+"RTN","CIAUIN68",21,0)
+ F  S Z=$O(^TMP("CIAUHFS",$J,Z)) Q:Z=""  C Z
+"RTN","CIAUIN68",22,0)
+ K ^TMP("CIAUHFS",$J)
+"RTN","CIAUIN68",23,0)
+ Q
+"RTN","CIAUIN68",24,0)
+EOF ZT:$ZA=-1 "ENDOFFILE"
+"RTN","CIAUIN68",25,0)
+ Q
+"RTN","CIAUIN68",26,0)
+EOFERR() Q:$ZE["ENDOFFILE"
+"RTN","CIAUIN68",27,0)
+ ; Read a line of data
+"RTN","CIAUIN68",28,0)
+READ(X,Y) ;EP
+"RTN","CIAUIN68",29,0)
+ N $ET
+"RTN","CIAUIN68",30,0)
+ S $ET="",$ZT="READX"
+"RTN","CIAUIN68",31,0)
+ U $G(Y,$I)
+"RTN","CIAUIN68",32,0)
+ Q:$ZEOF 1
+"RTN","CIAUIN68",33,0)
+ R X:5
+"RTN","CIAUIN68",34,0)
+ Q:$T 0
+"RTN","CIAUIN68",35,0)
+READX Q 1
+"RTN","CIAUIN68",36,0)
+ ; Delete a host file
+"RTN","CIAUIN68",37,0)
+DELETE(X) ;EP
+"RTN","CIAUIN68",38,0)
+ S X=$ZF(-1,"rm """_X_"""")
+"RTN","CIAUIN68",39,0)
+ Q
+"RTN","CIAUIN68",40,0)
+ ; Rename a host file
+"RTN","CIAUIN68",41,0)
+RENAME(X1,X2) ;EP
+"RTN","CIAUIN68",42,0)
+ S X1=$ZF(-1,"mv """_X1_""" """_X2_"""")
+"RTN","CIAUIN68",43,0)
+ Q
+"RTN","CIAUIN68",44,0)
+ ; Generate directory listing
+"RTN","CIAUIN68",45,0)
+DIR(X1,X2,X3) ;EP
+"RTN","CIAUIN68",46,0)
+ N Z,Z1,FDLM
+"RTN","CIAUIN68",47,0)
+ S FDLM=$E($$DIRDLM,1)
+"RTN","CIAUIN68",48,0)
+ S X3=$G(X3,$NA(^UTILITY("DIR",$J)))
+"RTN","CIAUIN68",49,0)
+ K @X3
+"RTN","CIAUIN68",50,0)
+ S:'$G(X2) X2=9999999999
+"RTN","CIAUIN68",51,0)
+ F Z=1:1:X2 S Z1=$ZSEARCH(X1),X1="" Q:Z1=""  D
+"RTN","CIAUIN68",52,0)
+ .S Z1=$P(Z1,FDLM,$L(Z1,FDLM))
+"RTN","CIAUIN68",53,0)
+ .S:$TR(Z1,".")'="" @X3@(Z1)=""
+"RTN","CIAUIN68",54,0)
+ Q
+"RTN","CIAUIN68",55,0)
+ ; Return path delimiters
+"RTN","CIAUIN68",56,0)
+DIRDLM() ;EP
+"RTN","CIAUIN68",57,0)
+ Q "///"
+"RTN","CIAUIN68",58,0)
+ ; Return default working directory
+"RTN","CIAUIN68",59,0)
+DEFDIR(X) ;EP
+"RTN","CIAUIN68",60,0)
+ N FDLM
+"RTN","CIAUIN68",61,0)
+ S FDLM=$E($$DIRDLM,1)
+"RTN","CIAUIN68",62,0)
+ S X=$G(X,$P($G(^XTV(8989.3,1,"DEV")),U))
+"RTN","CIAUIN68",63,0)
+ S:$E(X,$L(X))'=FDLM X=X_FDLM
+"RTN","CIAUIN68",64,0)
+ Q X
+"RTN","CIAUIN68",65,0)
+ ; Parse current error
+"RTN","CIAUIN68",66,0)
+ERR(X1,X2,X3) ;EP
+"RTN","CIAUIN68",67,0)
+ S X1=$E($P($ZE,">"),2,99),X2=$P($P($ZE,">",2),":"),X3=X1
+"RTN","CIAUIN68",68,0)
+ S:X2["*" X2=""
+"RTN","CIAUIN68",69,0)
+ S:$E(X1)="Z" X3=$E(X1,2,99),X1="ZTRAP"
+"RTN","CIAUIN68",70,0)
+ Q
+"RTN","CIAUIN68",71,0)
+ ; Raise an exception
+"RTN","CIAUIN68",72,0)
+RAISE(X) ;EP
+"RTN","CIAUIN68",73,0)
+ ZT $G(X)
+"RTN","CIAUIN68",74,0)
+ ; Set error trap
+"RTN","CIAUIN68",75,0)
+TRAP(X) ;EP
+"RTN","CIAUIN68",76,0)
+ Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+"RTN","CIAUIN68",77,0)
+ ; Return size of a file
+"RTN","CIAUIN68",78,0)
+SIZE(X) ;EP
+"RTN","CIAUIN68",79,0)
+ Q 0
+"RTN","CIAUIN68",80,0)
+ ; Return free disk space
+"RTN","CIAUIN68",81,0)
+FREE(X) ;EP
+"RTN","CIAUIN68",82,0)
+ Q 0
+"RTN","CIAUIN68",83,0)
+ ; Return host ip address
+"RTN","CIAUIN68",84,0)
+HOSTIP() ;EP
+"RTN","CIAUIN68",85,0)
+ Q $P($P($ZU(131,1),","),":",2)
+"RTN","CIAUIN68",86,0)
+ ; Return host name
+"RTN","CIAUIN68",87,0)
+HOSTNAME() ;EP
+"RTN","CIAUIN68",88,0)
+ Q $P($P($ZU(131,1),","),":")
+"RTN","CIAUIN68",89,0)
+ ; Return client ip address
+"RTN","CIAUIN68",90,0)
+CLIENTIP() ;EP
+"RTN","CIAUIN68",91,0)
+ N IP,$ET
+"RTN","CIAUIN68",92,0)
+ S $ET="S $EC=""""",IP=$ZU(111,0)
+"RTN","CIAUIN68",93,0)
+ Q $A(IP,1)_"."_$A(IP,2)_"."_$A(IP,3)_"."_$A(IP,4)
+"RTN","CIAUIN8")
+0^49^B4326711
+"RTN","CIAUIN8",1,0)
+CIAUIN8 ;MSC/IND/DKM - Inits for MSM;04-May-2006 08:19;DKM
+"RTN","CIAUIN8",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUIN8",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUIN8",4,0)
+ ;=================================================================
+"RTN","CIAUIN8",5,0)
+ ; Open a host file
+"RTN","CIAUIN8",6,0)
+OPEN(X1,X2) ;EP
+"RTN","CIAUIN8",7,0)
+ N Z
+"RTN","CIAUIN8",8,0)
+ S X2=$G(X2,"R")
+"RTN","CIAUIN8",9,0)
+ F Z=51:1:55 I '$D(^TMP("CIAUHFS",$J,Z)) D  Q
+"RTN","CIAUIN8",10,0)
+ .ZT:Z=55 "TMOF"
+"RTN","CIAUIN8",11,0)
+ .O Z:(X1:$S("RrWw"[X2:X2,1:"R")::::$S("Bb"[X2:"",1:$C(13,10)))
+"RTN","CIAUIN8",12,0)
+ .U Z
+"RTN","CIAUIN8",13,0)
+ .ZT:$ZA "OPEN"
+"RTN","CIAUIN8",14,0)
+ .S ^TMP("CIAUHFS",$J,Z)=X1,X1=Z
+"RTN","CIAUIN8",15,0)
+ Q
+"RTN","CIAUIN8",16,0)
+ ; Close a host file
+"RTN","CIAUIN8",17,0)
+CLOSE(X) ;EP
+"RTN","CIAUIN8",18,0)
+ N Z
+"RTN","CIAUIN8",19,0)
+ S Z=X,X=$G(^TMP("CIAUHFS",$J,X))
+"RTN","CIAUIN8",20,0)
+ K ^(Z)
+"RTN","CIAUIN8",21,0)
+ C Z
+"RTN","CIAUIN8",22,0)
+ Q
+"RTN","CIAUIN8",23,0)
+ ; Close all open host files
+"RTN","CIAUIN8",24,0)
+CLOSEALL ;EP
+"RTN","CIAUIN8",25,0)
+ N Z
+"RTN","CIAUIN8",26,0)
+ F Z=0:0 S Z=$O(^TMP("CIAUHFS",$J,Z)) Q:'Z  C Z
+"RTN","CIAUIN8",27,0)
+ K ^TMP("CIAUHFS",$J)
+"RTN","CIAUIN8",28,0)
+ Q
+"RTN","CIAUIN8",29,0)
+EOF ZT:$ZC "EOF"
+"RTN","CIAUIN8",30,0)
+ Q
+"RTN","CIAUIN8",31,0)
+EOFERR() Q $ZE["ZEOF"
+"RTN","CIAUIN8",32,0)
+ ; Read a line of data
+"RTN","CIAUIN8",33,0)
+READ(X,Y) ;EP
+"RTN","CIAUIN8",34,0)
+ U:$G(Y)'="" Y
+"RTN","CIAUIN8",35,0)
+ R X:5
+"RTN","CIAUIN8",36,0)
+ Q $S($T:$ZC&'$L(X),1:1)
+"RTN","CIAUIN8",37,0)
+ ; Delete a host file
+"RTN","CIAUIN8",38,0)
+DELETE(X) ;EP
+"RTN","CIAUIN8",39,0)
+ S X=$ZOS(2,X)
+"RTN","CIAUIN8",40,0)
+ Q
+"RTN","CIAUIN8",41,0)
+ ; Rename a host file
+"RTN","CIAUIN8",42,0)
+RENAME(X1,X2) ;EP
+"RTN","CIAUIN8",43,0)
+ N Z
+"RTN","CIAUIN8",44,0)
+ S Z=$ZOS(3,X1,X2)
+"RTN","CIAUIN8",45,0)
+ Q
+"RTN","CIAUIN8",46,0)
+ ; Generate a directory listing
+"RTN","CIAUIN8",47,0)
+DIR(X1,X2,X3) ;EP
+"RTN","CIAUIN8",48,0)
+ N Z
+"RTN","CIAUIN8",49,0)
+ S X1=$ZOS(12,X1,0),X2=+$G(X2),X3=$G(X3,"^UTILITY(""DIR"",$J)")
+"RTN","CIAUIN8",50,0)
+ K @X3
+"RTN","CIAUIN8",51,0)
+ F Z=1:1 Q:(X2&(Z>X2))!($P(X1,"^")="")  S @X3@($P(X1,"^"))="",X1=$ZOS(13,X1)
+"RTN","CIAUIN8",52,0)
+ Q
+"RTN","CIAUIN8",53,0)
+ ; Return default working directory
+"RTN","CIAUIN8",54,0)
+DEFDIR(X) ;EP
+"RTN","CIAUIN8",55,0)
+ S X=$G(X,$P($G(^XTV(8989.3,1,"DEV")),U))
+"RTN","CIAUIN8",56,0)
+ S:$E(X,$L(X))'="\" X=X_"\"
+"RTN","CIAUIN8",57,0)
+ Q X
+"RTN","CIAUIN8",58,0)
+ ; Return path delimiters
+"RTN","CIAUIN8",59,0)
+DIRDLM() ;EP
+"RTN","CIAUIN8",60,0)
+ Q "\\\"
+"RTN","CIAUIN8",61,0)
+ ; Return free disk space
+"RTN","CIAUIN8",62,0)
+FREE(X) ;EP
+"RTN","CIAUIN8",63,0)
+ S X=$ZOS(9,$E(X))
+"RTN","CIAUIN8",64,0)
+ Q X*$P(X,"^",2)*$P(X,"^",3)/1048576
+"RTN","CIAUIN8",65,0)
+ ; Parse current error
+"RTN","CIAUIN8",66,0)
+ERR(X1,X2,X3) ;EP
+"RTN","CIAUIN8",67,0)
+ S X1=$E($P($ZE,">"),2,99),X2=$P($P($ZE,">",2),":"),X3=X1
+"RTN","CIAUIN8",68,0)
+ S:X2["*" X2=""
+"RTN","CIAUIN8",69,0)
+ S:$E(X1)="Z" X3=$E(X1,2,99),X1="ZTRAP"
+"RTN","CIAUIN8",70,0)
+ Q
+"RTN","CIAUIN8",71,0)
+ ; Raise an exception
+"RTN","CIAUIN8",72,0)
+RAISE(X) ;EP
+"RTN","CIAUIN8",73,0)
+ ZT $G(X)
+"RTN","CIAUIN8",74,0)
+ ; Set error trap
+"RTN","CIAUIN8",75,0)
+TRAP(X) ;EP
+"RTN","CIAUIN8",76,0)
+ Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+"RTN","CIAUIN8",77,0)
+ ; Return size of a file
+"RTN","CIAUIN8",78,0)
+SIZE(X) ;EP
+"RTN","CIAUIN8",79,0)
+ N I,Y,Z
+"RTN","CIAUIN8",80,0)
+ S Z=$ZOS(12,X,0),Z=$P(Z,"^",2,999),Y=0
+"RTN","CIAUIN8",81,0)
+ I Z'="" F I=30:-1:27 S Y=Y*256+$A(Z,I)
+"RTN","CIAUIN8",82,0)
+ Q Y
+"RTN","CIAUIN8",83,0)
+ ; Return host ip address
+"RTN","CIAUIN8",84,0)
+HOSTIP() ;EP
+"RTN","CIAUIN8",85,0)
+ Q ""
+"RTN","CIAUIN8",86,0)
+ ; Return host name
+"RTN","CIAUIN8",87,0)
+HOSTNAME() ;EP
+"RTN","CIAUIN8",88,0)
+ Q ""
+"RTN","CIAUIN8",89,0)
+ ; Return client ip address
+"RTN","CIAUIN8",90,0)
+CLIENTIP() ;EP
+"RTN","CIAUIN8",91,0)
+ Q ""
+"RTN","CIAUIN8U")
+1^68
+"RTN","CIAUINIT")
+0^60^B6143020
+"RTN","CIAUINIT",1,0)
+CIAUINIT ;MSC/IND/DKM - Platform specific inits;04-May-2006 08:19;DKM
+"RTN","CIAUINIT",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUINIT",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUINIT",4,0)
+ ;=================================================================
+"RTN","CIAUINIT",5,0)
+POST N CIAOS,CIAH,X
+"RTN","CIAUINIT",6,0)
+ S U="^",X="ERROR^CIAUINIT",@^%ZOSF("TRAP"),CIAOS=$P(^%ZOSF("OS"),U,2)
+"RTN","CIAUINIT",7,0)
+ I 'CIAOS D
+"RTN","CIAUINIT",8,0)
+ .D HOME^%ZIS,TITLE^CIAU("Platform-Specific Inits",1.6)
+"RTN","CIAUINIT",9,0)
+ .S CIAH(1)="Enter the name of this MUMPS environment for the CIA-namespace"
+"RTN","CIAUINIT",10,0)
+ .S CIAH(2)="platform-specific initialization process."
+"RTN","CIAUINIT",11,0)
+ .S CIAOS=$$ENTRY^CIAULKP("^DD(""OS"")","UX","Operating System: ","B","*","","",0,5,"","","HELP(.CIAH)")
+"RTN","CIAUINIT",12,0)
+ .W !!
+"RTN","CIAUINIT",13,0)
+ D:CIAOS>0 INIT(CIAOS)
+"RTN","CIAUINIT",14,0)
+ Q
+"RTN","CIAUINIT",15,0)
+INIT(CIAOS) ;
+"RTN","CIAUINIT",16,0)
+ N I,X,Y,Z,N,CIAOSZ
+"RTN","CIAUINIT",17,0)
+ S CIAOSZ=$$OSRTN($G(CIAOS))
+"RTN","CIAUINIT",18,0)
+ S:$L(CIAOSZ) @("CIAOSZ="_CIAOSZ)
+"RTN","CIAUINIT",19,0)
+ I '$L(CIAOSZ) D  Q
+"RTN","CIAUINIT",20,0)
+ .X "ZL CIAUOS1 ZS CIAUOS"
+"RTN","CIAUINIT",21,0)
+ .D MES("Init not found for specified OS. Will use generic init.")
+"RTN","CIAUINIT",22,0)
+ S I=0,N="CIAU"
+"RTN","CIAUINIT",23,0)
+ K ^TMP(N,$J)
+"RTN","CIAUINIT",24,0)
+ F Z=0,1 F X=$S(Z:3,1:1):1 S Y=$T(+X^@$S(Z:CIAOSZ,1:"CIAUIN0")) Q:Y=""  S I=I+1,^TMP(N,$J,I)=Y
+"RTN","CIAUINIT",25,0)
+ S $P(^TMP(N,$J,1),";")="CIAUOS "
+"RTN","CIAUINIT",26,0)
+ X "ZR  F Z=1:1:I ZI ^TMP(N,$J,Z) ZS:Z=I CIAUOS"
+"RTN","CIAUINIT",27,0)
+ K ^TMP(N,$J)
+"RTN","CIAUINIT",28,0)
+ F Z=1:1 S X=$P($T(DEVICE+Z),";;",2,99) Q:X=""  S ^TMP(N,$J,Z)=$$MSG^CIAU(X,"|")
+"RTN","CIAUINIT",29,0)
+ I $$ENTRY^CIAUIMP($NA(^TMP(N,$J))) D
+"RTN","CIAUINIT",30,0)
+ .D MES("Unable to install CIAU HFS DEVICE.")
+"RTN","CIAUINIT",31,0)
+ W !!,"Initialization completed for "_$P(^DD("OS",CIAOS,0),"^")_" operating system.",!!
+"RTN","CIAUINIT",32,0)
+ K ^TMP(N,$J)
+"RTN","CIAUINIT",33,0)
+ Q
+"RTN","CIAUINIT",34,0)
+OSRTN(X) Q $P($T(@("OS"_X)),";",4,99)
+"RTN","CIAUINIT",35,0)
+OS8 ;;MSM;$S($ZV["UNIX":"CIAUIN58",1:"CIAUIN8")
+"RTN","CIAUINIT",36,0)
+OS16 ;;DSM;CIAUIN16
+"RTN","CIAUINIT",37,0)
+OS18 ;;Cache;$S($ZV["UNIX":"CIAUIN68",1:"CIAUIN18")
+"RTN","CIAUINIT",38,0)
+MES(X) D BMES^XPDUTL(X)
+"RTN","CIAUINIT",39,0)
+ Q
+"RTN","CIAUINIT",40,0)
+ERROR D MES("An error has occurred during initialization.")
+"RTN","CIAUINIT",41,0)
+ Q
+"RTN","CIAUINIT",42,0)
+ ; Return $I for HFS device
+"RTN","CIAUINIT",43,0)
+HFS() Q $S(CIAOS=16:"TEMP.TMP",CIAOS=8:51,CIAOS=18:"NUL",1:"@")
+"RTN","CIAUINIT",44,0)
+DEVICE ; Device setup
+"RTN","CIAUINIT",45,0)
+ ;;:3.5
+"RTN","CIAUINIT",46,0)
+ ;;.NAME: CIAU HFS DEVICE
+"RTN","CIAUINIT",47,0)
+ ;;.LOCATION OF TERMINAL: HFS
+"RTN","CIAUINIT",48,0)
+ ;;.$I: |$$HFS^CIAUINIT|
+"RTN","CIAUINIT",49,0)
+ ;;.SIGN-ON/SYSTEM DEVICE: N
+"RTN","CIAUINIT",50,0)
+ ;;.TYPE: HFS
+"RTN","CIAUINIT",51,0)
+ ;;.SUBTYPE: P-OTHER
+"RTN","CIAUINIT",52,0)
+ ;;.ASK DEVICE: N
+"RTN","CIAUINIT",53,0)
+ ;;.ASK PARAMETERS: N
+"RTN","CIAUINIT",54,0)
+ ;;.ASK HOST FILE: N
+"RTN","CIAUINIT",55,0)
+ ;;.ASK HFS I/O OPERATION: N
+"RTN","CIAUINIT",56,0)
+ ;;
+"RTN","CIAULK2")
+0^50^B51861902
+"RTN","CIAULK2",1,0)
+CIAULK2 ;MSC/IND/DKM - Continuation of CIAULKP;20-Jan-2015 13:23;DKM
+"RTN","CIAULK2",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAULK2",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAULK2",4,0)
+ ;=================================================================
+"RTN","CIAULK2",5,0)
+LKP(%CIADX) ;
+"RTN","CIAULK2",6,0)
+ N %CIAD,%CIAZ,%CIAN
+"RTN","CIAULK2",7,0)
+ S %CIAXRN=0,%CIATRNC=0,%CIAIEN="",%CIASCT=0,%CIAD=%CIADX
+"RTN","CIAULK2",8,0)
+ W:'%CIAHTML $$XY(%CIAX+$L(%CIAPRMP),%CIAY),$S(%CIAOPT["X":"",1:%CIAD),%CIAEOS,!,"Searching"_$S(%CIAOPT[U:" (press ^ to abort)",1:"")_"...",*13
+"RTN","CIAULK2",9,0)
+ I $E(%CIAD)="`" S %CIASLCT=%CIAD G:'%CIAHTML NR5 D SHOW($E(%CIAD,2,999)) Q 1
+"RTN","CIAULK2",10,0)
+NXTREF S %CIAXRN=%CIAXRN+1,%CIAXRF=$P(%CIAXRFS,U,%CIAXRN),%CIAD=%CIADX
+"RTN","CIAULK2",11,0)
+ I %CIAXRF="" G:%CIASCT NR3 W:'%CIAHTML *7,*13,%CIAEOL,"Not found"_$S(%CIAD="":".",1:": ")_$S(%CIAD'=+%CIAD:%CIAD,%CIAOPT["D":$$ENTRY^CIAUDT(%CIAD),1:%CIAD) S %CIAD1=$S(%CIAOPT["X":U,1:"") Q ""
+"RTN","CIAULK2",12,0)
+ S %CIAOPT(0)=%CIAOPT_%CIAXRFS(%CIAXRF)
+"RTN","CIAULK2",13,0)
+ I %CIAOPT(0)["D",$L(%CIADX) D  G:%CIAD<1 NXTREF
+"RTN","CIAULK2",14,0)
+ .S %CIAD=$$DT^CIAU(%CIADX)
+"RTN","CIAULK2",15,0)
+ I %CIAOPT(0)["W" D MTL G NXTREF
+"RTN","CIAULK2",16,0)
+ S %CIAKEY=$S(%CIAOPT(0)["P":$P(%CIAD," "),1:%CIAD)_$S(%CIADIR<0:$C(255),1:""),%CIANUM=$S(%CIAKEY=+%CIAKEY:%CIAKEY,1:"")
+"RTN","CIAULK2",17,0)
+ I %CIAD'="",$D(@%CIADIC@(%CIAXRF,%CIAD)) S %=%CIASCT+1 D ADD(%CIAD) I %CIASCT=%,%CIAOPT(0)["A" D SLCT(%CIASCT) Q %CIAIEN
+"RTN","CIAULK2",18,0)
+NR2 I %CIAOPT(0)[U R %#1:0 I %=U S %CIATRNC=1 G NR3:%CIASCT Q ""
+"RTN","CIAULK2",19,0)
+ S %CIAKEY=$O(@%CIADIC@(%CIAXRF,%CIAKEY),%CIADIR)
+"RTN","CIAULK2",20,0)
+ I (%CIANUM="")=(%CIAKEY=+%CIAKEY),%CIAD'="" S %CIAKEY=""
+"RTN","CIAULK2",21,0)
+ I %CIAKEY'="",%CIAOPT(0)["P",%CIAKEY'=%CIAD S %=$$PARTIAL(%CIAD,%CIAKEY) D ADD(%CIAKEY):%>0 G:%'<0 NR2:%CIASCT<100
+"RTN","CIAULK2",22,0)
+ I %CIAKEY'="",%CIAOPT(0)'["P",$E(%CIAKEY,1,$L(%CIAD))=%CIAD D ADD(%CIAKEY) G:%CIASCT<100 NR2
+"RTN","CIAULK2",23,0)
+ I %CIANUM'="" S %CIAKEY=%CIANUM_$C($S(%CIADIR<0:255,1:1)),%CIANUM="" G NR2
+"RTN","CIAULK2",24,0)
+ I %CIASCT'<100 W:'%CIAHTML *7 S %CIAXALL=0,%CIATRNC=1
+"RTN","CIAULK2",25,0)
+ G:'%CIASCT!%CIAXALL NXTREF
+"RTN","CIAULK2",26,0)
+NR3 I %CIASCT=1,%CIAOPT(0)[1,'%CIATRNC D SLCT(1) Q %CIAIEN
+"RTN","CIAULK2",27,0)
+ S %CIAKEY=%CIASLT,%CIASLT=1,%CIASMAX=$S(%CIAHTML!%CIARS:99999,1:17-%CIAY)
+"RTN","CIAULK2",28,0)
+NR4 W:'%CIAHTML $$XY(0,%CIAY+1),%CIAEOS,!
+"RTN","CIAULK2",29,0)
+ F %CIAN=%CIAKEY:1:%CIAKEY+%CIASMAX-1 D  Q:%CIAN=%CIASCT
+"RTN","CIAULK2",30,0)
+ .F %CIAZ=0:1:%CIACOL-1 D
+"RTN","CIAULK2",31,0)
+ ..S %1=IOM/%CIACOL*%CIAZ\1,%CIALAST=%CIAZ*%CIASMAX+%CIAN
+"RTN","CIAULK2",32,0)
+ ..Q:%CIALAST>%CIASCT
+"RTN","CIAULK2",33,0)
+ ..W:'%CIAHTML $$XY(%1,$Y),%CIAEOL,%CIALAST,?5
+"RTN","CIAULK2",34,0)
+ ..D SHOW(^TMP(%CIAPID,%CIALAST),%1+4)
+"RTN","CIAULK2",35,0)
+ .W:'%CIAQT !
+"RTN","CIAULK2",36,0)
+ Q:%CIAHTML $S(%CIATRNC:-%CIASCT,1:%CIASCT)
+"RTN","CIAULK2",37,0)
+ W:%CIALAST<%CIASCT !,%CIASCT-%CIALAST," more choice(s)..."
+"RTN","CIAULK2",38,0)
+ W:%CIATRNC "  (list was truncated)",!
+"RTN","CIAULK2",39,0)
+ W %CIAEOS_%CIABEL,!!
+"RTN","CIAULK2",40,0)
+ R "Enter selection: ",%CIASLCT:DTIME
+"RTN","CIAULK2",41,0)
+ S:'$T %CIASLCT=U
+"RTN","CIAULK2",42,0)
+ W *13
+"RTN","CIAULK2",43,0)
+ I %CIAOPT["K",%CIASLCT="" Q -1
+"RTN","CIAULK2",44,0)
+ I "Nn"[%CIASLCT S %CIAKEY=$S(%CIALAST<%CIASCT:%CIALAST+1,1:1) G NR4
+"RTN","CIAULK2",45,0)
+ I "Bb"[%CIASLCT S %CIAKEY=$S(%CIAKEY=1:%CIASCT-%CIASMAX+1,%CIAKEY'>%CIASMAX:1,1:%CIAKEY-%CIASMAX) S:%CIAKEY<1 %CIAKEY=1 G NR4
+"RTN","CIAULK2",46,0)
+ I "?"[%CIASLCT D HELP2 G NR4
+"RTN","CIAULK2",47,0)
+ I "^^"[%CIASLCT S %CIAD2="",%CIAD1=$S(%CIAOPT(0)["X":%CIASLCT,%CIASLCT="^^":%CIASLCT,1:"") Q ""
+"RTN","CIAULK2",48,0)
+NR5 F  D  Q:%CIASLCT=""
+"RTN","CIAULK2",49,0)
+ .I %CIAOPT(0)["M" S %CIAD=$P(%CIASLCT,";"),%CIASLCT=$P(%CIASLCT,";",2,999)
+"RTN","CIAULK2",50,0)
+ .E  S %CIAD=%CIASLCT,%CIASLCT=""
+"RTN","CIAULK2",51,0)
+ .Q:'$L(%CIAD)
+"RTN","CIAULK2",52,0)
+ .I %CIAD?1.N D SLCT(%CIAD) Q
+"RTN","CIAULK2",53,0)
+ .I %CIAOPT(0)["M",%CIAD?1.N1"-".N D  Q
+"RTN","CIAULK2",54,0)
+ ..N %1,%2
+"RTN","CIAULK2",55,0)
+ ..S %1=+%CIAD,%2=+$P(%CIAD,"-",2)
+"RTN","CIAULK2",56,0)
+ ..S:'%2 %2=%CIASCT
+"RTN","CIAULK2",57,0)
+ ..S:%1>%2 %CIAD=%1,%1=%2,%2=%CIAD
+"RTN","CIAULK2",58,0)
+ ..S:%2>%CIASCT %2=%CIASCT
+"RTN","CIAULK2",59,0)
+ ..F %=%1:1:%2 D SLCT(%)
+"RTN","CIAULK2",60,0)
+ .I %CIAOPT["X",%CIAOPT'["L" S (%CIASLCT,%CIAD1,%CIAIEN)="" Q
+"RTN","CIAULK2",61,0)
+ .I $E(%CIAD)="`" D  Q
+"RTN","CIAULK2",62,0)
+ ..S %CIAD=+$E(%CIAD,2,999)
+"RTN","CIAULK2",63,0)
+ ..I $$VALD(%CIAD) D DISV(%CIAD) S %CIAIEN=%CIAD
+"RTN","CIAULK2",64,0)
+ .S %CIAD1=%CIAD1_";"_%CIAD
+"RTN","CIAULK2",65,0)
+ W $$XY(0,%CIAY+1),%CIAEOS,!
+"RTN","CIAULK2",66,0)
+ Q %CIAIEN
+"RTN","CIAULK2",67,0)
+ ; Add list selection to output
+"RTN","CIAULK2",68,0)
+SLCT(%CIASLCT) ;
+"RTN","CIAULK2",69,0)
+ I %CIASLCT>0,%CIASLCT'>%CIASCT D
+"RTN","CIAULK2",70,0)
+ .S %CIAIEN=+^TMP(%CIAPID,+%CIASLCT)
+"RTN","CIAULK2",71,0)
+ .D DISV(%CIAIEN)
+"RTN","CIAULK2",72,0)
+ Q
+"RTN","CIAULK2",73,0)
+ ; Add IEN to output
+"RTN","CIAULK2",74,0)
+DISV(%CIAIEN) ;
+"RTN","CIAULK2",75,0)
+ Q:%CIAIEN=""
+"RTN","CIAULK2",76,0)
+ I %CIAMUL'="",'$D(@%CIAMUL@(%CIAIEN)) S @%CIAMUL@(%CIAIEN)="" D:'%CIAQT APP(%CIAIEN)
+"RTN","CIAULK2",77,0)
+ D:%CIAMUL="" APP(%CIAIEN)
+"RTN","CIAULK2",78,0)
+ Q:%CIAOPT(0)["F"
+"RTN","CIAULK2",79,0)
+ K:%CIASAME ^DISV(DUZ,%CIADISV)
+"RTN","CIAULK2",80,0)
+ S %CIASAME=0,^DISV(DUZ,%CIADISV)=%CIAIEN,^(%CIADISV,%CIAIEN)=""
+"RTN","CIAULK2",81,0)
+ Q
+"RTN","CIAULK2",82,0)
+ ; Append primary key to key list
+"RTN","CIAULK2",83,0)
+APP(%CIAIEN) ;
+"RTN","CIAULK2",84,0)
+ N %CIAKEY
+"RTN","CIAULK2",85,0)
+ S %CIAKEY=$S(%CIAIEN=+%CIAIEN:$P($G(@%CIADIC@(%CIAIEN,0)),U),1:%CIAIEN)
+"RTN","CIAULK2",86,0)
+ S %CIAKEY=$$FMT(%CIAIEN,%CIAKEY)
+"RTN","CIAULK2",87,0)
+ Q:'$L(%CIAKEY)!($L(%CIAKEY)+$L(%CIAD2)'<250)
+"RTN","CIAULK2",88,0)
+ S %CIAD2=%CIAD2_$S($L(%CIAD2):";",1:"")_%CIAKEY
+"RTN","CIAULK2",89,0)
+ I %CIAOPT(0)'["J",%CIAOPT(0)'["M" S %CIAD2=%CIAD2_"  "_$$SID(%CIAIEN)
+"RTN","CIAULK2",90,0)
+ Q
+"RTN","CIAULK2",91,0)
+ ; Multi-term lookup
+"RTN","CIAULK2",92,0)
+MTL N %
+"RTN","CIAULK2",93,0)
+ S %=$S(%CIADIC[")":$TR(%CIADIC,")",","),1:%CIADIC_"(")_"%CIAXRF)"
+"RTN","CIAULK2",94,0)
+ S %=$$LKP^CIAUMTL(%,%CIAD,"^TMP(""MTL"",%CIAPID)",%CIAOPT(0)[U)
+"RTN","CIAULK2",95,0)
+ S:%<0 %CIATRNC=1
+"RTN","CIAULK2",96,0)
+ D:% ADD(%CIAPID,"^TMP","MTL")
+"RTN","CIAULK2",97,0)
+ K ^TMP("MTL",%CIAPID)
+"RTN","CIAULK2",98,0)
+ Q
+"RTN","CIAULK2",99,0)
+ ; Add key to selection list
+"RTN","CIAULK2",100,0)
+ADD(%CIAKEY,%CIAIDX,%CIASUB) ;
+"RTN","CIAULK2",101,0)
+ N %S
+"RTN","CIAULK2",102,0)
+ S:'$D(%CIAIDX) %CIAIDX=%CIADIC,%CIASUB=%CIAXRF
+"RTN","CIAULK2",103,0)
+ F %S=0:0 S %S=$O(@%CIAIDX@(%CIASUB,%CIAKEY,%S)) Q:'%S  D
+"RTN","CIAULK2",104,0)
+ .I %CIAOPT(0)["O",$D(^TMP(%CIAPID,0,%S)) Q
+"RTN","CIAULK2",105,0)
+ .I $$VALD(%S) D
+"RTN","CIAULK2",106,0)
+ ..S %CIASCT=%CIASCT+1,^TMP(%CIAPID,%CIASCT)=%S_U_$S(%CIAOPT(0)["W":"",1:%CIAKEY),^(0,%S)=""
+"RTN","CIAULK2",107,0)
+ ..I %CIAOPT(0)["S",$G(^DISV(DUZ,%CIADISV))=%S S %CIASLT=%CIASCT
+"RTN","CIAULK2",108,0)
+ Q
+"RTN","CIAULK2",109,0)
+ ; Check entry against screening criteria
+"RTN","CIAULK2",110,0)
+VALD(%S) Q:'$D(@%CIADIC@(%S))!'%S 0
+"RTN","CIAULK2",111,0)
+ Q:%CIASCN="" 1
+"RTN","CIAULK2",112,0)
+ N %,%1
+"RTN","CIAULK2",113,0)
+ S %1=1,@$$TRAP^CIAUOS("V3^CIAULK2")
+"RTN","CIAULK2",114,0)
+ F %=0:0 S %=$O(@%CIASCN@(%)) Q:'%  D  Q:%1
+"RTN","CIAULK2",115,0)
+ .S %1=0,@$$TRAP^CIAUOS("V2^CIAULK2")
+"RTN","CIAULK2",116,0)
+ .X "S %1="_@%CIASCN@(%)
+"RTN","CIAULK2",117,0)
+V2 .Q
+"RTN","CIAULK2",118,0)
+ Q %1
+"RTN","CIAULK2",119,0)
+V3 Q 0
+"RTN","CIAULK2",120,0)
+ ; Show the specified selection
+"RTN","CIAULK2",121,0)
+SHOW(%CIASLCT,%CIACOL1,%CIACOL2) ;
+"RTN","CIAULK2",122,0)
+ N %S,%Z,%P,%I
+"RTN","CIAULK2",123,0)
+ S %S=+%CIASLCT,%Z=$G(@%CIADIC@(%S,0)),%P=$$FMT(%S,$S(%CIAOPT["I":$P(%CIASLCT,U,2),1:$P(%Z,U)))
+"RTN","CIAULK2",124,0)
+ ;S %I=$$SID(%S,$P(%CIASLCT,U,2)),%I=$S(%I="":%P,1:%I)
+"RTN","CIAULK2",125,0)
+ S %I=$$SID(%S,%P),%I=$S(%I="":%P,1:%I)
+"RTN","CIAULK2",126,0)
+ I %CIAHTML D  Q
+"RTN","CIAULK2",127,0)
+ .I '%CIAQT W $$MSG^CIAU(%CIAPRMP,"|"),!
+"RTN","CIAULK2",128,0)
+ .E  D DISV(%S)
+"RTN","CIAULK2",129,0)
+ S %CIACOL1=+$G(%CIACOL1,$X)
+"RTN","CIAULK2",130,0)
+ I %CIAOPT(0)["Y" S %CIACOL2=+$G(%CIACOL2,IOM\%CIACOL+%CIACOL1-8-$L(%I))
+"RTN","CIAULK2",131,0)
+ E  S %CIACOL2=+$G(%CIACOL2,IOM\%CIACOL\$S(%CIAOPT(0)["D":3,1:2)-3+%CIACOL1)
+"RTN","CIAULK2",132,0)
+ W $$XY(%CIACOL1,$Y)
+"RTN","CIAULK2",133,0)
+ I %CIAOPT(0)'["J",%I'=%P W $$TRUNC^CIAU(%P,IOM\%CIACOL-6),?%CIACOL2," "_$$TRUNC^CIAU(%I,IOM-%CIACOL2-2)
+"RTN","CIAULK2",134,0)
+ E  W $$TRUNC^CIAU(%I,IOM\%CIACOL-6)
+"RTN","CIAULK2",135,0)
+ Q
+"RTN","CIAULK2",136,0)
+ ; Return external form of result
+"RTN","CIAULK2",137,0)
+FMT(%S,%CIAKEY) ;
+"RTN","CIAULK2",138,0)
+ Q:%CIAKEY="" %CIAKEY
+"RTN","CIAULK2",139,0)
+ I %CIATRP'="",$D(@%CIATRP@(%CIAKEY)) Q @%CIATRP@(%CIAKEY)
+"RTN","CIAULK2",140,0)
+ S:%CIAOPT(0)["D" %CIAKEY=$$ENTRY^CIAUDT(%CIAKEY)
+"RTN","CIAULK2",141,0)
+ I %CIAOPT(0)["Z",%CIASCN'="",$G(@%CIASCN)'="" S @("%CIAKEY="_@%CIASCN)
+"RTN","CIAULK2",142,0)
+ S:%CIAOPT["J" %CIAKEY=$$SID(%S,%CIAKEY)
+"RTN","CIAULK2",143,0)
+ Q %CIAKEY
+"RTN","CIAULK2",144,0)
+ ; Return secondary identifier
+"RTN","CIAULK2",145,0)
+SID(%S,%CIAKEY) ;
+"RTN","CIAULK2",146,0)
+ S %CIAKEY=$G(%CIAKEY)
+"RTN","CIAULK2",147,0)
+ N %Z
+"RTN","CIAULK2",148,0)
+ S %Z=$G(@%CIADIC@(%S,0)),@("%Z="_$S(%CIASID<0:$S(%CIAKEY=$$UP^XLFSTR($P(%Z,U)):"""""",1:"%CIAKEY"),%CIASID="":"%CIASID",1:%CIASID))
+"RTN","CIAULK2",149,0)
+ Q %Z
+"RTN","CIAULK2",150,0)
+ ; Partial key lookup
+"RTN","CIAULK2",151,0)
+PARTIAL(%CIAD,%CIAKEY) ;
+"RTN","CIAULK2",152,0)
+ N %,%1,%2
+"RTN","CIAULK2",153,0)
+ S (%(1),%(2))=0,%1(1)=%CIAD,%1(2)=%CIAKEY
+"RTN","CIAULK2",154,0)
+ F %=1,2 S %1(%)=$TR(%1(%),".,;:?/!-","        ")
+"RTN","CIAULK2",155,0)
+P1 S (%2(1),%2(2))=""
+"RTN","CIAULK2",156,0)
+ F %=1,2 D
+"RTN","CIAULK2",157,0)
+ .F %(%)=%(%)+1:1:$L(%1(%)," ") S %2(%)=$P(%1(%)," ",%(%)) Q:%2(%)'=""
+"RTN","CIAULK2",158,0)
+ Q:%2(1)="" 1
+"RTN","CIAULK2",159,0)
+ Q:%2(1)'=$E(%2(2),1,$L(%2(1))) -(%(1)=1)
+"RTN","CIAULK2",160,0)
+ G P1
+"RTN","CIAULK2",161,0)
+HELP(X) ; Application-specific help
+"RTN","CIAULK2",162,0)
+ N %
+"RTN","CIAULK2",163,0)
+ S %=""
+"RTN","CIAULK2",164,0)
+ F  S %=$O(X(%)) Q:%=""  D:$Y>20 PAUSE W $G(X(%)),!
+"RTN","CIAULK2",165,0)
+ Q
+"RTN","CIAULK2",166,0)
+ ; Generic help
+"RTN","CIAULK2",167,0)
+HELP1 N %
+"RTN","CIAULK2",168,0)
+ W !!
+"RTN","CIAULK2",169,0)
+ D:%CIAHLP'="" @%CIAHLP
+"RTN","CIAULK2",170,0)
+ W !,"Enter a blank line for default action.",!
+"RTN","CIAULK2",171,0)
+ D:$Y>20 PAUSE
+"RTN","CIAULK2",172,0)
+ W:%CIAOPT'["W" "Enter ?? to see all possible selections.",!
+"RTN","CIAULK2",173,0)
+ D:$Y>20 PAUSE
+"RTN","CIAULK2",174,0)
+ W "Enter a space to retrieve previous selection.",!
+"RTN","CIAULK2",175,0)
+ D:$Y>20 PAUSE
+"RTN","CIAULK2",176,0)
+ W "Enter a valid identifier for lookup."
+"RTN","CIAULK2",177,0)
+ W:(%CIAOPT'["*")&(%CIAXRFS[U) "  Append a * to include all indices."
+"RTN","CIAULK2",178,0)
+ W !
+"RTN","CIAULK2",179,0)
+ I %CIAOPT["M" D
+"RTN","CIAULK2",180,0)
+ .D:$Y>20 PAUSE
+"RTN","CIAULK2",181,0)
+ .W "Separate multiple selections by semicolons."
+"RTN","CIAULK2",182,0)
+ R !!,"Press any key to continue...",*%:DTIME
+"RTN","CIAULK2",183,0)
+ Q
+"RTN","CIAULK2",184,0)
+ ; Help at choice prompt
+"RTN","CIAULK2",185,0)
+HELP2 N %
+"RTN","CIAULK2",186,0)
+ W $$XY(0,16),%CIAEOS,!
+"RTN","CIAULK2",187,0)
+ W $S(%CIAOPT(0)["K":"Enter N for next choices.",1:"Press RETURN for more choices.")
+"RTN","CIAULK2",188,0)
+ W ?35,"Enter B for previous choices.",!
+"RTN","CIAULK2",189,0)
+ W "Enter ^ to abort lookup.",?35,"Enter choice number to select.",!
+"RTN","CIAULK2",190,0)
+ W "Any other entry = new lookup."
+"RTN","CIAULK2",191,0)
+ W:%CIAOPT(0)["M" ?35,"Separate multiple selections by semicolons."
+"RTN","CIAULK2",192,0)
+ R !!,"Press any key to continue...",*%:DTIME
+"RTN","CIAULK2",193,0)
+ Q
+"RTN","CIAULK2",194,0)
+PAUSE Q:%CIARS
+"RTN","CIAULK2",195,0)
+ N %
+"RTN","CIAULK2",196,0)
+ R !,"Press any key for more...",*%:DTIME
+"RTN","CIAULK2",197,0)
+ W $$XY(0,%CIAY+2),%CIAEOS
+"RTN","CIAULK2",198,0)
+ Q
+"RTN","CIAULK2",199,0)
+XY(X,Y) ;I %CIARS W:'X *13 S $X=X,$Y=Y Q ""
+"RTN","CIAULK2",200,0)
+ S:%CIARS Y=$Y
+"RTN","CIAULK2",201,0)
+ Q $$XY^CIAU(X,Y)
+"RTN","CIAULKP")
+0^51^B29201195
+"RTN","CIAULKP",1,0)
+CIAULKP ;MSC/IND/DKM - File lookup utility;20-Jan-2015 13:23;DKM
+"RTN","CIAULKP",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAULKP",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAULKP",4,0)
+ ;=================================================================
+"RTN","CIAULKP",5,0)
+ ; Inputs:
+"RTN","CIAULKP",6,0)
+ ;   %CIADIC  = Global root or file #
+"RTN","CIAULKP",7,0)
+ ;   %CIAOPT  = Options
+"RTN","CIAULKP",8,0)
+ ;      A allow automatic selection of exact match
+"RTN","CIAULKP",9,0)
+ ;      B sound bell with selection prompt
+"RTN","CIAULKP",10,0)
+ ;      C use roll & scroll mode
+"RTN","CIAULKP",11,0)
+ ;      D index is in date/time format
+"RTN","CIAULKP",12,0)
+ ;      E use line editor
+"RTN","CIAULKP",13,0)
+ ;      F forget the entry (i.e., ^DISV not updated)
+"RTN","CIAULKP",14,0)
+ ;      G start with prior entry
+"RTN","CIAULKP",15,0)
+ ;      H HTML-formatted output
+"RTN","CIAULKP",16,0)
+ ;      I show only lookup identifiers
+"RTN","CIAULKP",17,0)
+ ;      J show only secondary identifiers
+"RTN","CIAULKP",18,0)
+ ;      K null entry at select prompt exits
+"RTN","CIAULKP",19,0)
+ ;      L like X, but allows lookup at select prompt
+"RTN","CIAULKP",20,0)
+ ;      M allow multiple selection
+"RTN","CIAULKP",21,0)
+ ;      O show entry only once
+"RTN","CIAULKP",22,0)
+ ;      P partial lookup
+"RTN","CIAULKP",23,0)
+ ;      Q silent lookup
+"RTN","CIAULKP",24,0)
+ ;      R reverse search through indices
+"RTN","CIAULKP",25,0)
+ ;      S start selection list at last selection
+"RTN","CIAULKP",26,0)
+ ;      T forget trapped inputs
+"RTN","CIAULKP",27,0)
+ ;      U force uppercase translation
+"RTN","CIAULKP",28,0)
+ ;      V extended DISV recall (prompt-specific)
+"RTN","CIAULKP",29,0)
+ ;      W use multi-term lookup algorithm
+"RTN","CIAULKP",30,0)
+ ;      X do not prompt for input
+"RTN","CIAULKP",31,0)
+ ;      Y right justify secondary identifiers
+"RTN","CIAULKP",32,0)
+ ;      Z perform special formatting of output
+"RTN","CIAULKP",33,0)
+ ;      1 automatic selection if one match only
+"RTN","CIAULKP",34,0)
+ ;      2-9 # of columns for selection display (default=1)
+"RTN","CIAULKP",35,0)
+ ;      * force all indices to be searched
+"RTN","CIAULKP",36,0)
+ ;      ^ allow search to be aborted
+"RTN","CIAULKP",37,0)
+ ;   %CIAPRMP = Prompt (optional)
+"RTN","CIAULKP",38,0)
+ ;   %CIAXRFS  = Cross-references to examine (all "B"'s by default)
+"RTN","CIAULKP",39,0)
+ ;   %CIADATA  = Data to lookup (optional)
+"RTN","CIAULKP",40,0)
+ ;   %CIASCN   = Screening criteria (optional)
+"RTN","CIAULKP",41,0)
+ ;   %CIAMUL   = Local variable or global reference to
+"RTN","CIAULKP",42,0)
+ ;              store multiple hits
+"RTN","CIAULKP",43,0)
+ ;   %CIAX     = Column position for prompt (optional)
+"RTN","CIAULKP",44,0)
+ ;   %CIAY     = Row position for prompt (optional)
+"RTN","CIAULKP",45,0)
+ ;   %CIASID   = Piece # of secondary identifier (optional)
+"RTN","CIAULKP",46,0)
+ ;              or executable M code to display same
+"RTN","CIAULKP",47,0)
+ ;   %CIATRP   = Special inputs to trap (optional)
+"RTN","CIAULKP",48,0)
+ ;   %CIAHLP   = Entry point to invoke help
+"RTN","CIAULKP",49,0)
+ ; Outputs:
+"RTN","CIAULKP",50,0)
+ ;    Return value = index of selected entry or:
+"RTN","CIAULKP",51,0)
+ ;      -1 for forced exit by ^
+"RTN","CIAULKP",52,0)
+ ;      -2 for forced exit by ^^
+"RTN","CIAULKP",53,0)
+ ;       0 for null entry
+"RTN","CIAULKP",54,0)
+ ;=================================================================
+"RTN","CIAULKP",55,0)
+ENTRY(%CIADIC,%CIAOPT,%CIAPRMP,%CIAXRFS,%CIADATA,%CIASCN,%CIAMUL,%CIAX,%CIAY,%CIASID,%CIATRP,%CIAHLP) ;
+"RTN","CIAULKP",56,0)
+ N %,%1,%N,%S,%Z,%CIAPID,%CIAXRF,%CIASCT,%CIAKEY,%CIAKEY1,%CIADISV,%CIASLCT
+"RTN","CIAULKP",57,0)
+ N %CIAXALL,%CIAXRN,%CIASMAX,%CIATRNC,%CIAD,%CIAD1,%CIAD2,%CIABEL,%CIANUM
+"RTN","CIAULKP",58,0)
+ N %CIADIR,%CIASLT,%CIACOL,%CIALAST,%CIASAME,%CIAEOS,%CIAEOL,%CIAHTML,%CIARS,%CIAQT
+"RTN","CIAULKP",59,0)
+ I $$NEWERR^%ZTER N $ET S $ET=""
+"RTN","CIAULKP",60,0)
+ S (%CIAOPT,%CIAOPT(0))=$$UP^XLFSTR($G(%CIAOPT)),%CIAPID="%CIALKP"_$J
+"RTN","CIAULKP",61,0)
+ S %CIABEL=$S(%CIAOPT["B":$C(7),1:""),%CIADIR=$S(%CIAOPT["R":-1,1:1)
+"RTN","CIAULKP",62,0)
+ S %CIASLT=1,%CIACOL=1,%CIAEOS=$C(27,91,74),%CIAEOL=$C(27,91,75),%CIAHTML=0
+"RTN","CIAULKP",63,0)
+ S %CIAX=$G(%CIAX,0),%CIAY=$G(%CIAY,3),DTIME=$G(DTIME,999999)
+"RTN","CIAULKP",64,0)
+ S %CIALAST=0,%CIARS=%CIAOPT["C",%CIAQT=%CIAOPT["Q"
+"RTN","CIAULKP",65,0)
+ S:%CIARS %CIAEOS="",%CIAY=$Y
+"RTN","CIAULKP",66,0)
+ S:%CIAQT %CIAOPT=%CIAOPT_"XHM"
+"RTN","CIAULKP",67,0)
+ S:%CIAOPT["H" (%CIABEL,%CIAEOL,%CIAEOS)="",%CIAOPT=%CIAOPT_"X",%CIAHTML=1
+"RTN","CIAULKP",68,0)
+ S:%CIAOPT["L" %CIAOPT=%CIAOPT_"X"
+"RTN","CIAULKP",69,0)
+ S U="^",DUZ=$G(DUZ,0),IO=$G(IO,$I),IOM=$G(IOM,80),%CIAMUL=$G(%CIAMUL),%CIAHLP=$G(%CIAHLP),%CIATRP=$G(%CIATRP),%CIASCN=$G(%CIASCN),%CIASAME=%CIAOPT["M"&(%CIAMUL'="")
+"RTN","CIAULKP",70,0)
+ F %=2:1:9 S:%CIAOPT[% %CIACOL=%
+"RTN","CIAULKP",71,0)
+ S:%CIAOPT'["M" %CIAMUL=""
+"RTN","CIAULKP",72,0)
+ K:%CIAMUL'="" @%CIAMUL
+"RTN","CIAULKP",73,0)
+ S:%CIADIC=+%CIADIC %CIADIC=$$ROOT^DILFD(%CIADIC)
+"RTN","CIAULKP",74,0)
+ S:$E(%CIADIC,$L(%CIADIC))="(" %CIADIC=$E(%CIADIC,1,$L(%CIADIC)-1)
+"RTN","CIAULKP",75,0)
+ S:$E(%CIADIC,$L(%CIADIC))="," %CIADIC=$E(%CIADIC,1,$L(%CIADIC)-1)
+"RTN","CIAULKP",76,0)
+ I %CIADIC["(",$E(%CIADIC,$L(%CIADIC))'=")" S %CIADIC=%CIADIC_")"
+"RTN","CIAULKP",77,0)
+ S %CIAPRMP=$G(%CIAPRMP,$S(%CIAOPT["X":"",1:"Enter identifier: "))
+"RTN","CIAULKP",78,0)
+ S %CIADISV=$S(%CIADIC[")":$TR(%CIADIC,")",","),1:%CIADIC_"(")_$S(%CIAOPT["V":";"_%CIAPRMP,1:"")
+"RTN","CIAULKP",79,0)
+ S %CIASID=$G(%CIASID),%CIAXRFS=$G(%CIAXRFS),%CIADATA=$G(%CIADATA)
+"RTN","CIAULKP",80,0)
+ S:%CIASID=+%CIASID %CIASID=$S(%CIASID<0:%CIASID,1:"$P(%Z,U,"_%CIASID_")")
+"RTN","CIAULKP",81,0)
+ W:'%CIAHTML $$XY(%CIAX,%CIAY),%CIAEOS,!
+"RTN","CIAULKP",82,0)
+ I %CIAOPT["G",$G(^DISV(DUZ,%CIADISV))'="" D
+"RTN","CIAULKP",83,0)
+ .S %CIADATA=^(%CIADISV)
+"RTN","CIAULKP",84,0)
+ .S:+%CIADATA=%CIADATA %CIADATA=$P($G(@%CIADIC@(%CIADATA,0)),U)
+"RTN","CIAULKP",85,0)
+ I %CIAXRFS="" D
+"RTN","CIAULKP",86,0)
+ .S (%,%CIAXRFS)="B"
+"RTN","CIAULKP",87,0)
+ .F  S %=$O(@%CIADIC@(%)) Q:$E(%)'="B"  S %CIAXRFS=%CIAXRFS_U_%
+"RTN","CIAULKP",88,0)
+ F %=1:1:$L(%CIAXRFS,U) S %1=$P(%CIAXRFS,U,%) S:%1'="" %CIAXRFS($P(%1,":"))=$P(%1,":",2),$P(%CIAXRFS,U,%)=$P(%1,":")
+"RTN","CIAULKP",89,0)
+ S (%CIAD1,%CIAD2)=""
+"RTN","CIAULKP",90,0)
+ D RM(0)
+"RTN","CIAULKP",91,0)
+ S %CIAIEN=$$INPUT
+"RTN","CIAULKP",92,0)
+ W:'%CIAHTML $$XY(%CIAX+$L(%CIAPRMP),%CIAY),$$TRUNC^CIAU(%CIAD2,IOM-$X),%CIAEOS
+"RTN","CIAULKP",93,0)
+ D RM(IOM)
+"RTN","CIAULKP",94,0)
+ K ^TMP(%CIAPID)
+"RTN","CIAULKP",95,0)
+ Q %CIAIEN
+"RTN","CIAULKP",96,0)
+INPUT() ;
+"RTN","CIAULKP",97,0)
+INP K ^TMP(%CIAPID)
+"RTN","CIAULKP",98,0)
+ D READ
+"RTN","CIAULKP",99,0)
+ S:%CIAOPT["U" %CIAD=$$UP^XLFSTR(%CIAD)
+"RTN","CIAULKP",100,0)
+ S @$$TRAP^CIAUOS("ERROR^CIAULKP")
+"RTN","CIAULKP",101,0)
+ I %CIAD="",%CIATRP'="" S %CIAD=$G(@%CIATRP@(" "))
+"RTN","CIAULKP",102,0)
+ Q:"^^"[%CIAD -$L(%CIAD)
+"RTN","CIAULKP",103,0)
+ I "?"[%CIAD D HELP1^CIAULK2 G INP
+"RTN","CIAULKP",104,0)
+ I %CIAD=" " D SAME G:%CIAD="" INP2
+"RTN","CIAULKP",105,0)
+ I %CIATRP'="",$D(@%CIATRP@(%CIAD)) D  Q %CIAD
+"RTN","CIAULKP",106,0)
+ .S %CIASAME=1
+"RTN","CIAULKP",107,0)
+ .D:%CIAOPT'["T" DISV^CIAULK2(%CIAD)
+"RTN","CIAULKP",108,0)
+ .S %CIAD2=$G(@%CIATRP@(%CIAD))
+"RTN","CIAULKP",109,0)
+ .S:%CIAD2="" %CIAD2=%CIAD
+"RTN","CIAULKP",110,0)
+ S:%CIAD="??" %CIAD=""
+"RTN","CIAULKP",111,0)
+ I $E(%CIAD,$L(%CIAD))="*" S %CIAXALL=1,%CIAD=$E(%CIAD,1,$L(%CIAD)-1)
+"RTN","CIAULKP",112,0)
+ E  S %CIAXALL=%CIAOPT["*"
+"RTN","CIAULKP",113,0)
+ S %CIAIEN=$$LKP^CIAULK2(%CIAD)
+"RTN","CIAULKP",114,0)
+INP2 G INP:%CIAIEN=""!$L(%CIAD1)
+"RTN","CIAULKP",115,0)
+ Q %CIAIEN
+"RTN","CIAULKP",116,0)
+READ S %CIAD=""
+"RTN","CIAULKP",117,0)
+ F  Q:%CIAD'=""!(%CIAD1="")  S %CIAD=$P(%CIAD1,";"),%CIAD1=$P(%CIAD1,";",2,999)
+"RTN","CIAULKP",118,0)
+ Q:$L(%CIAD)
+"RTN","CIAULKP",119,0)
+ S %CIAD=%CIADATA,%CIADATA=""
+"RTN","CIAULKP",120,0)
+ W:'%CIAHTML $$XY(0,%CIAY+2),%CIAEOS,$$XY(%CIAX,%CIAY),%CIAPRMP_%CIAEOL
+"RTN","CIAULKP",121,0)
+ I %CIAOPT["X" S:%CIAOPT["E" %CIAOPT=$TR(%CIAOPT,"X"),%CIADATA=%CIAD Q
+"RTN","CIAULKP",122,0)
+ I %CIAOPT["E" D
+"RTN","CIAULKP",123,0)
+ .N %,%1
+"RTN","CIAULKP",124,0)
+ .S:%CIAD?1"`"1.N %CIAD=+$E(%CIAD,2,99),%CIAD=$$FMT^CIAULK2(%CIAD,$P($G(@%CIADIC@(%CIAD,0)),U))
+"RTN","CIAULKP",125,0)
+ .S %1=0,%=%CIAX+$L(%CIAPRMP),%=$$ENTRY^CIAUEDT(%CIAD,IOM-%-1,%,%CIAY,"","RHV",,,,,.%1)
+"RTN","CIAULKP",126,0)
+ .S:%1=3 %=U
+"RTN","CIAULKP",127,0)
+ .S:%="?" %CIADATA=%CIAD
+"RTN","CIAULKP",128,0)
+ .S %CIAD=%
+"RTN","CIAULKP",129,0)
+ E  I '$L(%CIAD) R %CIAD:DTIME S:'$T %CIAD=U
+"RTN","CIAULKP",130,0)
+ I %CIAOPT["M",%CIAD[";" S %CIAD1=%CIAD G READ
+"RTN","CIAULKP",131,0)
+ Q
+"RTN","CIAULKP",132,0)
+SAME S %CIASAME=0,%CIAIEN="",%CIAD="",%CIASCT=0
+"RTN","CIAULKP",133,0)
+ I %CIAMUL'="" D
+"RTN","CIAULKP",134,0)
+ .S %=""
+"RTN","CIAULKP",135,0)
+ .F  S %=$O(^DISV(DUZ,%CIADISV,%)) Q:%=""  D SM1
+"RTN","CIAULKP",136,0)
+ E  S %=$G(^DISV(DUZ,%CIADISV)) D:%'="" SM1
+"RTN","CIAULKP",137,0)
+ S:%CIAHTML %CIAIEN=%CIASCT
+"RTN","CIAULKP",138,0)
+ Q
+"RTN","CIAULKP",139,0)
+SM1 I %CIATRP'="",$D(@%CIATRP@(%)) S %CIAIEN=%,%CIAD=%
+"RTN","CIAULKP",140,0)
+ E  I $$VALD^CIAULK2(%) S %CIAIEN=%
+"RTN","CIAULKP",141,0)
+ I  D DISV^CIAULK2(%CIAIEN) S %CIASCT=%CIASCT+1
+"RTN","CIAULKP",142,0)
+ Q
+"RTN","CIAULKP",143,0)
+XY(X,Y) Q $$XY^CIAULK2(.X,.Y)
+"RTN","CIAULKP",144,0)
+RM(X) X ^%ZOSF("RM")
+"RTN","CIAULKP",145,0)
+ Q
+"RTN","CIAULKP",146,0)
+ERROR W:'%CIAHTML $$XY(0,%CIAY+1),*7,%CIAEOL,$$EC^%ZOSV
+"RTN","CIAULKP",147,0)
+ S (%CIADATA,%CIAD1,%CIAD2)=""
+"RTN","CIAULKP",148,0)
+ G INP
+"RTN","CIAUMTL")
+0^52^B15227067
+"RTN","CIAUMTL",1,0)
+CIAUMTL ;MSC/IND/DKM - Multi-term lookup support ;04-May-2006 08:19;DKM
+"RTN","CIAUMTL",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUMTL",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUMTL",4,0)
+ ;=================================================================
+"RTN","CIAUMTL",5,0)
+ ; Parse term into component words (KWIC)
+"RTN","CIAUMTL",6,0)
+PARSE2(CIATRM,CIARTN,CIAMIN) ;
+"RTN","CIAUMTL",7,0)
+ N X,L,C,%
+"RTN","CIAUMTL",8,0)
+ K CIARTN
+"RTN","CIAUMTL",9,0)
+ S %="CIARTN(I)",X=$$UP^XLFSTR(CIATRM),CIAMIN=+$G(CIAMIN)
+"RTN","CIAUMTL",10,0)
+ D S^XTLKWIC
+"RTN","CIAUMTL",11,0)
+ S L="",C=0
+"RTN","CIAUMTL",12,0)
+ F  S L=$O(CIARTN(L)) Q:L=""  D
+"RTN","CIAUMTL",13,0)
+ .I $L(L)<CIAMIN K CIARTN(L)
+"RTN","CIAUMTL",14,0)
+ .E  S C=C+1
+"RTN","CIAUMTL",15,0)
+ Q C
+"RTN","CIAUMTL",16,0)
+ ; Parse term into component words
+"RTN","CIAUMTL",17,0)
+PARSE(CIATRM,CIARTN,CIAMIN) ;
+"RTN","CIAUMTL",18,0)
+ N X,Y,Z,L,C
+"RTN","CIAUMTL",19,0)
+ K CIARTN
+"RTN","CIAUMTL",20,0)
+ S CIATRM=$$UP^XLFSTR(CIATRM),C=0,CIAMIN=+$G(CIAMIN,1),Z=""
+"RTN","CIAUMTL",21,0)
+ F X=1:1 Q:'$L(CIATRM)  D:$E(CIATRM,X)'?1AN
+"RTN","CIAUMTL",22,0)
+ .S Y=Z,Z=$E(CIATRM,X),L=$E(CIATRM,1,X-1),CIATRM=$E(CIATRM,X+1,999),X=0
+"RTN","CIAUMTL",23,0)
+ .I $L(L)'<CIAMIN,L'=+L,'$D(CIARTN(L)) S CIARTN(L)=Y,C=C+1,Y=""
+"RTN","CIAUMTL",24,0)
+ Q C
+"RTN","CIAUMTL",25,0)
+ ; Create/delete an MTL cross reference for term
+"RTN","CIAUMTL",26,0)
+XREF(CIART,CIATRM,CIADA,CIADEL) ;
+"RTN","CIAUMTL",27,0)
+ N CIAZ,CIAG
+"RTN","CIAUMTL",28,0)
+ S CIAZ=$L(CIART),CIAG=$S($E(CIART,CIAZ)=")":$E(CIART,1,CIAZ-1)_",",1:CIART_"(")_"CIAZ,",CIAZ=$C(1)
+"RTN","CIAUMTL",29,0)
+ F  S CIAZ=$O(CIADA(CIAZ),-1) Q:'CIAZ  S CIAG=CIAG_""""_CIADA(CIAZ)_""","
+"RTN","CIAUMTL",30,0)
+ S CIAG=CIAG_""""_CIADA_""")"
+"RTN","CIAUMTL",31,0)
+ Q:'$$PARSE(CIATRM,.CIAZ)
+"RTN","CIAUMTL",32,0)
+ S CIAZ="",CIADEL=''$G(CIADEL)
+"RTN","CIAUMTL",33,0)
+ L +@CIART:30
+"RTN","CIAUMTL",34,0)
+ F  S CIAZ=$O(CIAZ(CIAZ)) Q:CIAZ=""  D
+"RTN","CIAUMTL",35,0)
+ .I ''$D(@CIAG)=CIADEL D
+"RTN","CIAUMTL",36,0)
+ ..I CIADEL K @CIAG  K:$D(@CIART@(CIAZ))<10 @CIART@(CIAZ)
+"RTN","CIAUMTL",37,0)
+ ..E  D:'$D(@CIART@(CIAZ)) REFNEW(CIAZ) S @CIAG=""
+"RTN","CIAUMTL",38,0)
+ ..D REFCNT(CIAZ,$S(CIADEL:-1,1:1))
+"RTN","CIAUMTL",39,0)
+ L -@CIART
+"RTN","CIAUMTL",40,0)
+ Q
+"RTN","CIAUMTL",41,0)
+ ; Increment/decrement reference count for term and its stems
+"RTN","CIAUMTL",42,0)
+REFCNT(CIAX,CIAI) ;
+"RTN","CIAUMTL",43,0)
+ Q:'$L(CIAX)
+"RTN","CIAUMTL",44,0)
+ I $D(@CIART@(CIAX)) D
+"RTN","CIAUMTL",45,0)
+ .N CIAZ
+"RTN","CIAUMTL",46,0)
+ .S CIAZ=$G(@CIART@(CIAX))+CIAI
+"RTN","CIAUMTL",47,0)
+ .I CIAZ<1 K @CIART@(CIAX)
+"RTN","CIAUMTL",48,0)
+ .E  S @CIART@(CIAX)=CIAZ
+"RTN","CIAUMTL",49,0)
+ D REFCNT($E(CIAX,1,$L(CIAX)-1),CIAI)
+"RTN","CIAUMTL",50,0)
+ Q
+"RTN","CIAUMTL",51,0)
+ ; Create new term reference
+"RTN","CIAUMTL",52,0)
+REFNEW(CIAX) ;
+"RTN","CIAUMTL",53,0)
+ N CIAZ,CIAC,CIAABR
+"RTN","CIAUMTL",54,0)
+ S CIAZ=CIAX,CIAC=0,CIAABR=0
+"RTN","CIAUMTL",55,0)
+ F  S CIAZ=$$STEM(CIAZ,CIAX) Q:'$L(CIAZ)  S CIAC=CIAC+$G(@CIART@(CIAZ)),CIAZ=CIAZ_$C(255)
+"RTN","CIAUMTL",56,0)
+ S @CIART@(CIAX)=CIAC
+"RTN","CIAUMTL",57,0)
+ Q
+"RTN","CIAUMTL",58,0)
+ ; Lookup a term in an MTL index
+"RTN","CIAUMTL",59,0)
+ ; CIART  = Root of index (e.g., ^CIACOD(990.9,"AD"))
+"RTN","CIAUMTL",60,0)
+ ; CIATRM = Term to lookup
+"RTN","CIAUMTL",61,0)
+ ; CIARTN = Root of returned array (note: killed before populated)
+"RTN","CIAUMTL",62,0)
+ ; CIAABR = If nonzero, user can abort lookup with ^
+"RTN","CIAUMTL",63,0)
+LKP(CIART,CIATRM,CIARTN,CIAABR) ;
+"RTN","CIAUMTL",64,0)
+ N CIAX,CIAY,CIAW,CIAF,CIAIEN,CIAL,CIAM,CIATRM1
+"RTN","CIAUMTL",65,0)
+ I $$NEWERR^%ZTER N $ET S $ET=""
+"RTN","CIAUMTL",66,0)
+ K @CIARTN
+"RTN","CIAUMTL",67,0)
+ S CIAABR=+$G(CIAABR),@$$TRAP^CIAUOS("LKP2^CIAUMTL")
+"RTN","CIAUMTL",68,0)
+ I $$PARSE(CIATRM,.CIATRM)=1 S CIAW(1,$O(CIATRM("")))=""
+"RTN","CIAUMTL",69,0)
+ E  D
+"RTN","CIAUMTL",70,0)
+ .S CIATRM="",CIAM=9999999999
+"RTN","CIAUMTL",71,0)
+ .F  S CIATRM=$O(CIATRM(CIATRM)) Q:CIATRM=""  D  Q:CIAL<0
+"RTN","CIAUMTL",72,0)
+ ..S CIAX=CIATRM(CIATRM)["=",CIAY=CIATRM(CIATRM)["~",CIATRM1="",CIAL=$S(CIAY:9999999999,1:-1)
+"RTN","CIAUMTL",73,0)
+ ..I 'CIAY F  S CIATRM1=$$STEM(CIATRM1,CIATRM,CIAX) Q:CIATRM1=""  D:$D(^(CIATRM1))>1  Q:CIAL>CIAM
+"RTN","CIAUMTL",74,0)
+ ...S:CIAL=-1 CIAL=0
+"RTN","CIAUMTL",75,0)
+ ...S CIAL=CIAL+$G(^(CIATRM1))
+"RTN","CIAUMTL",76,0)
+ ...S CIATRM1=CIATRM1_$C(255)
+"RTN","CIAUMTL",77,0)
+ ..S CIAW(CIAL,CIATRM)=""
+"RTN","CIAUMTL",78,0)
+ ..I CIAL>0,CIAL<CIAM S CIAM=CIAL
+"RTN","CIAUMTL",79,0)
+ ..D:CIAABR ABORT
+"RTN","CIAUMTL",80,0)
+ Q:$D(CIAW(-1)) 0
+"RTN","CIAUMTL",81,0)
+ S CIAW="",CIAF=0
+"RTN","CIAUMTL",82,0)
+ F  S CIAW=$O(CIAW(CIAW)),CIATRM="" Q:CIAW=""  D  Q:CIAF=-1
+"RTN","CIAUMTL",83,0)
+ .F  S CIATRM=$O(CIAW(CIAW,CIATRM)) Q:CIATRM=""  D  Q:CIAF=-1
+"RTN","CIAUMTL",84,0)
+ ..S CIAX=CIATRM(CIATRM)["=",CIAY=CIATRM(CIATRM)["~"
+"RTN","CIAUMTL",85,0)
+ ..I CIAF D
+"RTN","CIAUMTL",86,0)
+ ...S CIAIEN=0
+"RTN","CIAUMTL",87,0)
+ ...F  S CIAIEN=$O(@CIARTN@(CIAIEN)),CIATRM1="" Q:'CIAIEN  D  Q:CIAF=-1
+"RTN","CIAUMTL",88,0)
+ ....F  S CIATRM1=$$STEM(CIATRM1,CIATRM,CIAX) Q:CIATRM1=""  Q:$D(^(CIATRM1,CIAIEN))
+"RTN","CIAUMTL",89,0)
+ ....I CIAY-(CIATRM1="") K @CIARTN@(CIAIEN) S:$D(@CIARTN)'>1 CIAF=-1
+"RTN","CIAUMTL",90,0)
+ ..E  D
+"RTN","CIAUMTL",91,0)
+ ...S CIATRM1="",CIAF=1
+"RTN","CIAUMTL",92,0)
+ ...F  S CIATRM1=$$STEM(CIATRM1,CIATRM,CIAX) Q:CIATRM1=""  M @CIARTN=^(CIATRM1)
+"RTN","CIAUMTL",93,0)
+ ...S:$D(@CIARTN)'>1 CIAF=-1
+"RTN","CIAUMTL",94,0)
+ Q $D(@CIARTN)>1
+"RTN","CIAUMTL",95,0)
+LKP2 K @CIARTN
+"RTN","CIAUMTL",96,0)
+ Q -1
+"RTN","CIAUMTL",97,0)
+ ; Check for user abort
+"RTN","CIAUMTL",98,0)
+ABORT N CIAZ
+"RTN","CIAUMTL",99,0)
+ R CIAZ#1:0
+"RTN","CIAUMTL",100,0)
+ D:CIAZ=U RAISE^CIAUOS()
+"RTN","CIAUMTL",101,0)
+ Q
+"RTN","CIAUMTL",102,0)
+ ; Return in successive calls all terms sharing common stem
+"RTN","CIAUMTL",103,0)
+ ; (sets naked reference)
+"RTN","CIAUMTL",104,0)
+STEM(CIALAST,CIASTEM,CIAF) ;
+"RTN","CIAUMTL",105,0)
+ D:CIAABR ABORT
+"RTN","CIAUMTL",106,0)
+ I CIALAST="" S CIALAST=CIASTEM Q:$D(@CIART@(CIALAST)) CIALAST
+"RTN","CIAUMTL",107,0)
+ Q:$G(CIAF) ""
+"RTN","CIAUMTL",108,0)
+ S CIALAST=$O(@CIART@(CIALAST))
+"RTN","CIAUMTL",109,0)
+ Q $S($E(CIALAST,1,$L(CIASTEM))=CIASTEM:CIALAST,1:"")
+"RTN","CIAUNTEG")
+0^72^B4422720
+"RTN","CIAUNTEG",1,0)
+CIAUNTEG ;ISC/XTSUMBLD KERNEL - Package checksum checker ;3070531.172703
+"RTN","CIAUNTEG",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20,2007;Build 97
+"RTN","CIAUNTEG",3,0)
+ ;;7.3;3070531.172703
+"RTN","CIAUNTEG",4,0)
+ S XT4="I 1",X=$T(+3) W !!,"Checksum routine created on ",$P(X,";",4)," by KERNEL V",$P(X,";",3),!
+"RTN","CIAUNTEG",5,0)
+CONT F XT1=1:1 S XT2=$T(ROU+XT1) Q:XT2=""  S X=$P(XT2," ",1),XT3=$P(XT2,";",3) X XT4 I $T W !,X X ^%ZOSF("TEST") S:'$T XT3=0 X:XT3 ^%ZOSF("RSUM") W ?10,$S('XT3:"Routine not in UCI",XT3'=Y:"Calculated "_$C(7)_Y_", off by "_(Y-XT3),1:"ok")
+"RTN","CIAUNTEG",6,0)
+ ;
+"RTN","CIAUNTEG",7,0)
+ K %1,%2,%3,X,Y,XT1,XT2,XT3,XT4 Q
+"RTN","CIAUNTEG",8,0)
+ONE S XT4="I $D(^UTILITY($J,X))",X=$T(+3) W !!,"Checksum routine created on ",$P(X,";",4)," by KERNEL V",$P(X,";",3),!
+"RTN","CIAUNTEG",9,0)
+ W !,"Check a subset of routines:" K ^UTILITY($J) X ^%ZOSF("RSEL")
+"RTN","CIAUNTEG",10,0)
+ W ! G CONT
+"RTN","CIAUNTEG",11,0)
+ROU ;;
+"RTN","CIAUNTEG",12,0)
+CIAU ;;7860723
+"RTN","CIAUNTEG",13,0)
+CIAUSTX ;;4121035
+"RTN","CIAUNTEG",14,0)
+CIAUSTX0 ;;3170389
+"RTN","CIAUNTEG",15,0)
+CIAUSTX1 ;;5106879
+"RTN","CIAUNTEG",16,0)
+CIAUALR ;;928023
+"RTN","CIAUNTEG",17,0)
+CIAUBIG ;;6024487
+"RTN","CIAUNTEG",18,0)
+CIAUDAT ;;5928509
+"RTN","CIAUNTEG",19,0)
+CIAUDIC ;;7938841
+"RTN","CIAUNTEG",20,0)
+CIAUDT ;;3374353
+"RTN","CIAUNTEG",21,0)
+CIAUEDT ;;16189636
+"RTN","CIAUNTEG",22,0)
+CIAUIMP ;;4666764
+"RTN","CIAUNTEG",23,0)
+CIAUIN0 ;;1050344
+"RTN","CIAUNTEG",24,0)
+CIAUIN16 ;;1582494
+"RTN","CIAUNTEG",25,0)
+CIAUIN18 ;;1178580
+"RTN","CIAUNTEG",26,0)
+CIAUIN8 ;;1256732
+"RTN","CIAUNTEG",27,0)
+CIAULK2 ;;13861180
+"RTN","CIAUNTEG",28,0)
+CIAULKP ;;7525106
+"RTN","CIAUNTEG",29,0)
+CIAUMTL ;;4714339
+"RTN","CIAUNTEG",30,0)
+CIAUOS ;;2258460
+"RTN","CIAUNTEG",31,0)
+CIAUOS1 ;;2630722
+"RTN","CIAUNTEG",32,0)
+CIAURPC ;;4585641
+"RTN","CIAUNTEG",33,0)
+CIAUTSK ;;891526
+"RTN","CIAUNTEG",34,0)
+CIAUUSR ;;1781283
+"RTN","CIAUNTEG",35,0)
+CIAUUU ;;1311666
+"RTN","CIAUNTEG",36,0)
+CIAUINIT ;;3174314
+"RTN","CIAUNTEG",37,0)
+CIAUHFS ;;2629858
+"RTN","CIAUNTEG",38,0)
+CIAUDDR ;;9459760
+"RTN","CIAUNTEG",39,0)
+CIAURPRT ;;1778623
+"RTN","CIAUNTEG",40,0)
+CIAUREG ;;578780
+"RTN","CIAUNTEG",41,0)
+CIAUBC28 ;;2148213
+"RTN","CIAUNTEG",42,0)
+CIAUBC39 ;;2796261
+"RTN","CIAUNTEG",43,0)
+CIAUBCDA ;;3981182
+"RTN","CIAUNTEG",44,0)
+CIAUIN68 ;;1159584
+"RTN","CIAUNTEG",45,0)
+CIAUIN58 ;;1357669
+"RTN","CIAUNTEG",46,0)
+CIAU1 ;;508281
+"RTN","CIAUOS")
+0^53^B8244808
+"RTN","CIAUOS",1,0)
+CIAUOS ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
+"RTN","CIAUOS",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUOS",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUOS",4,0)
+ ;=================================================================
+"RTN","CIAUOS",5,0)
+ ; Return version #
+"RTN","CIAUOS",6,0)
+VER() Q $P($T(+2),";",3)
+"RTN","CIAUOS",7,0)
+CVTFN(CIAFIL,CIAROOT) ;
+"RTN","CIAUOS",8,0)
+ N CIAZ,CIAZ1,CIAD
+"RTN","CIAUOS",9,0)
+ S CIAD=$$DIRDLM,CIAROOT=$G(CIAROOT)
+"RTN","CIAUOS",10,0)
+ S:$E(CIAROOT,$L(CIAROOT))=$E(CIAD,3) CIAROOT=$E(CIAROOT,1,$L(CIAROOT)-1)
+"RTN","CIAUOS",11,0)
+ S CIAZ=$L(CIAFIL,"/"),CIAZ1=$P(CIAFIL,"/",1,CIAZ-1),CIAFIL=$P(CIAFIL,"/",CIAZ)
+"RTN","CIAUOS",12,0)
+ S:$L(CIAZ1) CIAROOT=CIAROOT_$E(CIAD,$S($L(CIAROOT):2,1:1))_$TR(CIAZ1,"/.-",$E(CIAD,2))
+"RTN","CIAUOS",13,0)
+ Q CIAROOT_$S($L(CIAROOT):$E(CIAD,3),1:"")_CIAFIL
+"RTN","CIAUOS",14,0)
+ ; Set right margin
+"RTN","CIAUOS",15,0)
+RM(X) ;EP
+"RTN","CIAUOS",16,0)
+ X ^%ZOSF("RM")
+"RTN","CIAUOS",17,0)
+ Q
+"RTN","CIAUOS",18,0)
+ ; Test for tag/routine
+"RTN","CIAUOS",19,0)
+TEST(X) ;EP
+"RTN","CIAUOS",20,0)
+ N Z
+"RTN","CIAUOS",21,0)
+ S:X[U Z=$P(X,U),X=$P(X,U,2)
+"RTN","CIAUOS",22,0)
+ Q:'$L(X)!(X'?.1"%"1.AN) 0
+"RTN","CIAUOS",23,0)
+ X ^%ZOSF("TEST")
+"RTN","CIAUOS",24,0)
+ Q $S('$T:0,$G(Z)="":1,Z'?.1"%"1.AN:0,1:$T(@Z^@X)'="")
+"RTN","CIAUOS",25,0)
+ETRAP() Q $$NEWERR^%ZTER
+"RTN","CIAUOS",26,0)
+ ; Open a host file
+"RTN","CIAUOS",27,0)
+OPENX(X1,X2) ;EP
+"RTN","CIAUOS",28,0)
+ D OPEN(.X1,.X2)
+"RTN","CIAUOS",29,0)
+ Q X1
+"RTN","CIAUOS",30,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUOS",31,0)
+ ;=================================================================
+"RTN","CIAUOS",32,0)
+ ; Open a host file
+"RTN","CIAUOS",33,0)
+OPEN(X1,X2) ;EP
+"RTN","CIAUOS",34,0)
+ O X1:$S("Rr"[$G(X2):"RS","Ww"[X2:"WNS","Bb"[X2:"RF",1:""):0
+"RTN","CIAUOS",35,0)
+ E  ZT "NOPEN"
+"RTN","CIAUOS",36,0)
+ U X1
+"RTN","CIAUOS",37,0)
+ S ^TMP("CIAUHFS",$J,X1)=""
+"RTN","CIAUOS",38,0)
+ Q
+"RTN","CIAUOS",39,0)
+ ; Close a host file
+"RTN","CIAUOS",40,0)
+CLOSE(X) ;EP
+"RTN","CIAUOS",41,0)
+ C X
+"RTN","CIAUOS",42,0)
+ K ^TMP("CIAUHFS",$J,X)
+"RTN","CIAUOS",43,0)
+ Q
+"RTN","CIAUOS",44,0)
+ ; Close all open host files
+"RTN","CIAUOS",45,0)
+CLOSEALL ;EP
+"RTN","CIAUOS",46,0)
+ N Z
+"RTN","CIAUOS",47,0)
+ S Z=""
+"RTN","CIAUOS",48,0)
+ F  S Z=$O(^TMP("CIAUHFS",$J,Z)) Q:Z=""  C Z
+"RTN","CIAUOS",49,0)
+ K ^TMP("CIAUHFS",$J)
+"RTN","CIAUOS",50,0)
+ Q
+"RTN","CIAUOS",51,0)
+EOF ZT:$ZA=-1 "ENDOFFILE"
+"RTN","CIAUOS",52,0)
+ Q
+"RTN","CIAUOS",53,0)
+EOFERR() Q:$ZE["ENDOFFILE"
+"RTN","CIAUOS",54,0)
+ ; Read a line of data
+"RTN","CIAUOS",55,0)
+READ(X,Y) ;EP
+"RTN","CIAUOS",56,0)
+ N $ET
+"RTN","CIAUOS",57,0)
+ S $ET="",$ZT="READX"
+"RTN","CIAUOS",58,0)
+ U $G(Y,$I)
+"RTN","CIAUOS",59,0)
+ Q:$ZEOF 1
+"RTN","CIAUOS",60,0)
+ R X:5
+"RTN","CIAUOS",61,0)
+ Q:$T 0
+"RTN","CIAUOS",62,0)
+READX Q 1
+"RTN","CIAUOS",63,0)
+ ; Delete a host file
+"RTN","CIAUOS",64,0)
+DELETE(X) ;EP
+"RTN","CIAUOS",65,0)
+ S X=$ZF(-1,"rm """_X_"""")
+"RTN","CIAUOS",66,0)
+ Q
+"RTN","CIAUOS",67,0)
+ ; Rename a host file
+"RTN","CIAUOS",68,0)
+RENAME(X1,X2) ;EP
+"RTN","CIAUOS",69,0)
+ S X1=$ZF(-1,"mv """_X1_""" """_X2_"""")
+"RTN","CIAUOS",70,0)
+ Q
+"RTN","CIAUOS",71,0)
+ ; Generate directory listing
+"RTN","CIAUOS",72,0)
+DIR(X1,X2,X3) ;EP
+"RTN","CIAUOS",73,0)
+ N Z,Z1,FDLM
+"RTN","CIAUOS",74,0)
+ S FDLM=$E($$DIRDLM,1)
+"RTN","CIAUOS",75,0)
+ S X3=$G(X3,$NA(^UTILITY("DIR",$J)))
+"RTN","CIAUOS",76,0)
+ K @X3
+"RTN","CIAUOS",77,0)
+ S:'$G(X2) X2=9999999999
+"RTN","CIAUOS",78,0)
+ F Z=1:1:X2 S Z1=$ZSEARCH(X1),X1="" Q:Z1=""  D
+"RTN","CIAUOS",79,0)
+ .S Z1=$P(Z1,FDLM,$L(Z1,FDLM))
+"RTN","CIAUOS",80,0)
+ .S:$TR(Z1,".")'="" @X3@(Z1)=""
+"RTN","CIAUOS",81,0)
+ Q
+"RTN","CIAUOS",82,0)
+ ; Return path delimiters
+"RTN","CIAUOS",83,0)
+DIRDLM() ;EP
+"RTN","CIAUOS",84,0)
+ Q "///"
+"RTN","CIAUOS",85,0)
+ ; Return default working directory
+"RTN","CIAUOS",86,0)
+DEFDIR(X) ;EP
+"RTN","CIAUOS",87,0)
+ N FDLM
+"RTN","CIAUOS",88,0)
+ S FDLM=$E($$DIRDLM,1)
+"RTN","CIAUOS",89,0)
+ S X=$G(X,$P($G(^XTV(8989.3,1,"DEV")),U))
+"RTN","CIAUOS",90,0)
+ S:$E(X,$L(X))'=FDLM X=X_FDLM
+"RTN","CIAUOS",91,0)
+ Q X
+"RTN","CIAUOS",92,0)
+ ; Parse current error
+"RTN","CIAUOS",93,0)
+ERR(X1,X2,X3) ;EP
+"RTN","CIAUOS",94,0)
+ S X1=$E($P($ZE,">"),2,99),X2=$P($P($ZE,">",2),":"),X3=X1
+"RTN","CIAUOS",95,0)
+ S:X2["*" X2=""
+"RTN","CIAUOS",96,0)
+ S:$E(X1)="Z" X3=$E(X1,2,99),X1="ZTRAP"
+"RTN","CIAUOS",97,0)
+ Q
+"RTN","CIAUOS",98,0)
+ ; Raise an exception
+"RTN","CIAUOS",99,0)
+RAISE(X) ;EP
+"RTN","CIAUOS",100,0)
+ ZT $G(X)
+"RTN","CIAUOS",101,0)
+ ; Set error trap
+"RTN","CIAUOS",102,0)
+TRAP(X) ;EP
+"RTN","CIAUOS",103,0)
+ Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+"RTN","CIAUOS",104,0)
+ ; Return size of a file
+"RTN","CIAUOS",105,0)
+SIZE(X) ;EP
+"RTN","CIAUOS",106,0)
+ Q 0
+"RTN","CIAUOS",107,0)
+ ; Return free disk space
+"RTN","CIAUOS",108,0)
+FREE(X) ;EP
+"RTN","CIAUOS",109,0)
+ Q 0
+"RTN","CIAUOS",110,0)
+ ; Return host ip address
+"RTN","CIAUOS",111,0)
+HOSTIP() ;EP
+"RTN","CIAUOS",112,0)
+ Q $P($P($ZU(131,1),","),":",2)
+"RTN","CIAUOS",113,0)
+ ; Return host name
+"RTN","CIAUOS",114,0)
+HOSTNAME() ;EP
+"RTN","CIAUOS",115,0)
+ Q $P($P($ZU(131,1),","),":")
+"RTN","CIAUOS",116,0)
+ ; Return client ip address
+"RTN","CIAUOS",117,0)
+CLIENTIP() ;EP
+"RTN","CIAUOS",118,0)
+ N IP,$ET
+"RTN","CIAUOS",119,0)
+ S $ET="S $EC=""""",IP=$ZU(111,0)
+"RTN","CIAUOS",120,0)
+ Q $A(IP,1)_"."_$A(IP,2)_"."_$A(IP,3)_"."_$A(IP,4)
+"RTN","CIAUOS1")
+0^54^B10543276
+"RTN","CIAUOS1",1,0)
+CIAUOS ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
+"RTN","CIAUOS1",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUOS1",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUOS1",4,0)
+ ;=================================================================
+"RTN","CIAUOS1",5,0)
+ ; Return version # of RTL
+"RTN","CIAUOS1",6,0)
+VER() ;EP
+"RTN","CIAUOS1",7,0)
+ Q +$P($T(CIAUOS+1),";",3)
+"RTN","CIAUOS1",8,0)
+ ; Set right margin
+"RTN","CIAUOS1",9,0)
+RM(X) ;EP
+"RTN","CIAUOS1",10,0)
+ X ^%ZOSF("RM")
+"RTN","CIAUOS1",11,0)
+ Q
+"RTN","CIAUOS1",12,0)
+ ; Test for routine/tag
+"RTN","CIAUOS1",13,0)
+TEST(X) ;EP
+"RTN","CIAUOS1",14,0)
+ N Z
+"RTN","CIAUOS1",15,0)
+ S:X[U Z=$P(X,U),X=$P(X,U,2)
+"RTN","CIAUOS1",16,0)
+ Q:'$L(X)!(X'?.1"%"1.AN) 0
+"RTN","CIAUOS1",17,0)
+ X ^%ZOSF("TEST")
+"RTN","CIAUOS1",18,0)
+ Q $S('$T:0,$G(Z)="":1,Z'?.1"%"1.AN:0,1:$T(@Z^@X)'="")
+"RTN","CIAUOS1",19,0)
+ ; Raise an exception
+"RTN","CIAUOS1",20,0)
+RAISE(X) ;EP
+"RTN","CIAUOS1",21,0)
+ ZT $G(X)
+"RTN","CIAUOS1",22,0)
+ ; Return code to set error trap
+"RTN","CIAUOS1",23,0)
+TRAP(X) ;EP
+"RTN","CIAUOS1",24,0)
+ Q $$SUBST^CIAU(^%ZOSF("TRAP"),"X",""""_X_"""")
+"RTN","CIAUOS1",25,0)
+ ; Check for $ET capability
+"RTN","CIAUOS1",26,0)
+ETRAP() ;EP
+"RTN","CIAUOS1",27,0)
+ Q $$NEWERR^%ZTER
+"RTN","CIAUOS1",28,0)
+ ; Open a file (extrinsic)
+"RTN","CIAUOS1",29,0)
+OPENX(X1,X2) ;EP
+"RTN","CIAUOS1",30,0)
+ D OPEN(.X1,.X2)
+"RTN","CIAUOS1",31,0)
+ Q X1
+"RTN","CIAUOS1",32,0)
+ ; Open a file
+"RTN","CIAUOS1",33,0)
+OPEN(X1,X2) ;EP
+"RTN","CIAUOS1",34,0)
+ N IO,POP,X3
+"RTN","CIAUOS1",35,0)
+ D PARSE(.X1,.X3),OPEN^%ZISH(X3_X1,X3,X1,$G(X2,"R"),32767)
+"RTN","CIAUOS1",36,0)
+ I POP ZT "OPEN"
+"RTN","CIAUOS1",37,0)
+ S ^XTMP("CIAUHFS",$J,IO)=X3_X1,X1=IO
+"RTN","CIAUOS1",38,0)
+ Q
+"RTN","CIAUOS1",39,0)
+ ; Close a file
+"RTN","CIAUOS1",40,0)
+CLOSE(X) ;EP
+"RTN","CIAUOS1",41,0)
+ N Y
+"RTN","CIAUOS1",42,0)
+ S Y=$G(^XTMP("CIAUHFS",$J,X)),IO=X
+"RTN","CIAUOS1",43,0)
+ K ^(X)
+"RTN","CIAUOS1",44,0)
+ D CLOSE^%ZISH(Y)
+"RTN","CIAUOS1",45,0)
+ Q
+"RTN","CIAUOS1",46,0)
+ ; Close all open HFS
+"RTN","CIAUOS1",47,0)
+CLOSEALL ;EP
+"RTN","CIAUOS1",48,0)
+ N Z
+"RTN","CIAUOS1",49,0)
+ S Z=""
+"RTN","CIAUOS1",50,0)
+ F  S Z=$O(^XTMP("CIAUHFS",$J,Z)) Q:Z=""  D CLOSE(Z)
+"RTN","CIAUOS1",51,0)
+ Q
+"RTN","CIAUOS1",52,0)
+ ; Parse out directory from filename
+"RTN","CIAUOS1",53,0)
+PARSE(X,Y) ;EP
+"RTN","CIAUOS1",54,0)
+ N D,Z
+"RTN","CIAUOS1",55,0)
+ S D=$E($$DIRDLM,3),Z=$L(X,D),Y=$P(X,D,1,Z-1),Y=$S($L(Y):Y,1:$$PWD^%ZISH)_$S(Z>1:D,1:""),X=$P(X,D,Z)
+"RTN","CIAUOS1",56,0)
+ Q
+"RTN","CIAUOS1",57,0)
+ ; Read a line
+"RTN","CIAUOS1",58,0)
+READ(X,Y) ;EP
+"RTN","CIAUOS1",59,0)
+ N IO,%ZA,%ZB,%ZC,%ZL
+"RTN","CIAUOS1",60,0)
+ S IO=$G(Y,$I)
+"RTN","CIAUOS1",61,0)
+ D READNXT^%ZISH(.X)
+"RTN","CIAUOS1",62,0)
+ U IO
+"RTN","CIAUOS1",63,0)
+ Q $$STATUS^%ZISH&'$L(X)
+"RTN","CIAUOS1",64,0)
+ ; Delete a file
+"RTN","CIAUOS1",65,0)
+DELETE(X) ;EP
+"RTN","CIAUOS1",66,0)
+ N Z
+"RTN","CIAUOS1",67,0)
+ D PARSE(.X,.Z)
+"RTN","CIAUOS1",68,0)
+ S:$L(X) Z(X)="",Z=$$DEL^%ZISH(Z,"Z")
+"RTN","CIAUOS1",69,0)
+ Q
+"RTN","CIAUOS1",70,0)
+ ; Rename a file
+"RTN","CIAUOS1",71,0)
+RENAME(X1,X2) ;EP
+"RTN","CIAUOS1",72,0)
+ N X3,X4
+"RTN","CIAUOS1",73,0)
+ D PARSE(.X1,.X3),PARSE(.X2,.X4)
+"RTN","CIAUOS1",74,0)
+ I $$MV^%ZISH(X3,X1,X4,X2)
+"RTN","CIAUOS1",75,0)
+ Q
+"RTN","CIAUOS1",76,0)
+ ; List files
+"RTN","CIAUOS1",77,0)
+DIR(X1,X2,X3) ;EP
+"RTN","CIAUOS1",78,0)
+ N Z
+"RTN","CIAUOS1",79,0)
+ D PARSE(.X1,.Z)
+"RTN","CIAUOS1",80,0)
+ S Z(X1)="",X3=$G(X3,"^UTILITY(""DIR"",$J)")
+"RTN","CIAUOS1",81,0)
+ K @X3
+"RTN","CIAUOS1",82,0)
+ I $$LIST^%ZISH(Z,"Z",X3)
+"RTN","CIAUOS1",83,0)
+ Q
+"RTN","CIAUOS1",84,0)
+ ; Force error if at EOF
+"RTN","CIAUOS1",85,0)
+EOF I $$STATUS^%ZISH ZT "EOF"
+"RTN","CIAUOS1",86,0)
+ Q
+"RTN","CIAUOS1",87,0)
+ ; Returns true if current error is EOF
+"RTN","CIAUOS1",88,0)
+EOFERR() ;EP
+"RTN","CIAUOS1",89,0)
+ Q $$EC^%ZOSV["EOF"
+"RTN","CIAUOS1",90,0)
+ ; URL format filename-->HFS format
+"RTN","CIAUOS1",91,0)
+CVTFN(CIAFIL,CIAROOT) ;EP
+"RTN","CIAUOS1",92,0)
+ N CIAZ,CIAZ1,CIAD
+"RTN","CIAUOS1",93,0)
+ S CIAD=$$DIRDLM,CIAROOT=$G(CIAROOT)
+"RTN","CIAUOS1",94,0)
+ S:$E(CIAROOT,$L(CIAROOT))=$E(CIAD,3) CIAROOT=$E(CIAROOT,1,$L(CIAROOT)-1)
+"RTN","CIAUOS1",95,0)
+ S CIAZ=$L(CIAFIL,"/"),CIAZ1=$P(CIAFIL,"/",1,CIAZ-1),CIAFIL=$P(CIAFIL,"/",CIAZ)
+"RTN","CIAUOS1",96,0)
+ S:$L(CIAZ1) CIAROOT=CIAROOT_$E(CIAD,$S($L(CIAROOT):2,1:1))_$TR(CIAZ1,"/.-",$E(CIAD,2))
+"RTN","CIAUOS1",97,0)
+ Q CIAROOT_$S($L(CIAROOT):$E(CIAD,3),1:"")_CIAFIL
+"RTN","CIAUOS1",98,0)
+ ; Return directory delimiters
+"RTN","CIAUOS1",99,0)
+DIRDLM() ;EP
+"RTN","CIAUOS1",100,0)
+ N X
+"RTN","CIAUOS1",101,0)
+ S X=$$PWD^%ZISH
+"RTN","CIAUOS1",102,0)
+ Q $S(X["[":"[.]",X["\":"\\\",1:"///")
+"RTN","CIAUOS1",103,0)
+ ; Parse error data
+"RTN","CIAUOS1",104,0)
+ERR(X1,X2,X3) ;EP
+"RTN","CIAUOS1",105,0)
+ N X
+"RTN","CIAUOS1",106,0)
+ S X=$$EC^%ZOSV,X1=$$VERSION^%ZOSV(1)
+"RTN","CIAUOS1",107,0)
+ G ERRMSM:X1["MSM",ERRDSM:X1["DSM"
+"RTN","CIAUOS1",108,0)
+ S (X1,X2,X3)=""
+"RTN","CIAUOS1",109,0)
+ Q
+"RTN","CIAUOS1",110,0)
+ERRMSM S X1=$E($P(X,">"),2,99),X2=$P($P(X,">",2),":"),X3=X1
+"RTN","CIAUOS1",111,0)
+ S:X2["*" X2=""
+"RTN","CIAUOS1",112,0)
+ S:$E(X1)="Z" X3=$E(X1,2,99),X1="ZTRAP"
+"RTN","CIAUOS1",113,0)
+ Q
+"RTN","CIAUOS1",114,0)
+ERRDSM S X1=$P($P(X,", ",2),"-",3),X2=$P($P(X,", "),":"),X3=$$TRIM^CIAU($P(X,", ",$S(X1="ZTRAP":4,1:3)))
+"RTN","CIAUOS1",115,0)
+ Q
+"RTN","CIAUREG")
+0^64^B855036
+"RTN","CIAUREG",1,0)
+CIAUREG ;MSC/IND/DKM - Various registration actions ;04-May-2006 08:19;DKM
+"RTN","CIAUREG",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUREG",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUREG",4,0)
+ ;=================================================================
+"RTN","CIAUREG",5,0)
+ ; Register a protocol to an extended action protocol
+"RTN","CIAUREG",6,0)
+ ; Input: P-Parent protocol
+"RTN","CIAUREG",7,0)
+ ;        C-Child protocol
+"RTN","CIAUREG",8,0)
+REGPROT(P,C,ERR) ;
+"RTN","CIAUREG",9,0)
+ N IENARY,PIEN,AIEN,FDA
+"RTN","CIAUREG",10,0)
+ D
+"RTN","CIAUREG",11,0)
+ .I '$L(P)!('$L(C)) S ERR="Missing input parameter" Q
+"RTN","CIAUREG",12,0)
+ .S IENARY(1)=$$FIND1^DIC(101,"","",P)
+"RTN","CIAUREG",13,0)
+ .S AIEN=$$FIND1^DIC(101,"","",C)
+"RTN","CIAUREG",14,0)
+ .I 'IENARY(1)!'AIEN S ERR="Unknown protocol name" Q
+"RTN","CIAUREG",15,0)
+ .S FDA(101.01,"?+2,"_IENARY(1)_",",.01)=AIEN
+"RTN","CIAUREG",16,0)
+ .D UPDATE^DIE("S","FDA","IENARY","ERR")
+"RTN","CIAUREG",17,0)
+ Q:$Q $G(ERR)=""
+"RTN","CIAUREG",18,0)
+ Q
+"RTN","CIAURPC")
+0^56^B16953602
+"RTN","CIAURPC",1,0)
+CIAURPC ;MSC/IND/DKM - RPC Encapsulations for CIAU routines ;04-May-2006 08:19;DKM
+"RTN","CIAURPC",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAURPC",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAURPC",4,0)
+ ;=================================================================
+"RTN","CIAURPC",5,0)
+ ; RPC: CIAUDIC
+"RTN","CIAURPC",6,0)
+DIC(CIADATA,CIABM,CIACMD,CIAARG) ;
+"RTN","CIAURPC",7,0)
+ S CIADATA(0)=$$ENTRY^CIAUDIC(CIABM,CIACMD)
+"RTN","CIAURPC",8,0)
+ Q
+"RTN","CIAURPC",9,0)
+ ; RPC: CIAUSTX
+"RTN","CIAURPC",10,0)
+MSYNTAX(CIADATA,CIACODE,CIAOPT) ;
+"RTN","CIAURPC",11,0)
+ S CIADATA=$$ENTRY^CIAUSTX(CIACODE,.CIAOPT)
+"RTN","CIAURPC",12,0)
+ Q
+"RTN","CIAURPC",13,0)
+ ; RPC: Return a group of entries from a file
+"RTN","CIAURPC",14,0)
+ ; CIAFN   = File #
+"RTN","CIAURPC",15,0)
+ ; CIAFROM = Starting entry (default is null)
+"RTN","CIAURPC",16,0)
+ ; CIADIR  = Direction (default = 1)
+"RTN","CIAURPC",17,0)
+ ; CIASCN  = Screening logic (optional)
+"RTN","CIAURPC",18,0)
+ ; CIAMAX  = Maximum entries (default = 20)
+"RTN","CIAURPC",19,0)
+ ; CIAXRF  = Cross reference (default = B)
+"RTN","CIAURPC",20,0)
+FILGET(CIADATA,CIAFN,CIAFROM,CIADIR,CIASCN,CIAMAX,CIAXRF) ;
+"RTN","CIAURPC",21,0)
+ N CIAIEN,CIAGBL,CIATOT,Y
+"RTN","CIAURPC",22,0)
+ S CIAFROM=$G(CIAFROM),CIADIR=$S($G(CIADIR)<0:-1,1:1),CIAMAX=$G(CIAMAX,20),CIAXRF=$G(CIAXRF,"B"),CIASCN=$G(CIASCN),CIAGBL=$$ROOT^DILFD(CIAFN,,1),CIATOT=0
+"RTN","CIAURPC",23,0)
+ Q:'$L(CIAGBL)
+"RTN","CIAURPC",24,0)
+ F  Q:CIATOT'<CIAMAX  S CIAFROM=$O(@CIAGBL@(CIAXRF,CIAFROM),CIADIR),CIAIEN=0 Q:'$L(CIAFROM)  D
+"RTN","CIAURPC",25,0)
+ .F  S CIAIEN=$O(@CIAGBL@(CIAXRF,CIAFROM,CIAIEN)) Q:'CIAIEN  D
+"RTN","CIAURPC",26,0)
+ ..Q:'$D(@CIAGBL@(CIAIEN,0))
+"RTN","CIAURPC",27,0)
+ ..I $L(CIASCN) S Y=CIAIEN X CIASCN E  Q
+"RTN","CIAURPC",28,0)
+ ..S CIATOT=CIATOT+1,@CIADATA@(CIATOT)=CIAIEN_U_CIAFROM
+"RTN","CIAURPC",29,0)
+ Q
+"RTN","CIAURPC",30,0)
+ ; RPC: Show all or selected entries for a file
+"RTN","CIAURPC",31,0)
+ ; CIAGBL = File # or closed global reference
+"RTN","CIAURPC",32,0)
+ ; CIAIEN = Optional list of IENs to retrieve (default=ALL)
+"RTN","CIAURPC",33,0)
+ ;          May be passed as single IEN or array with IENs as subscripts
+"RTN","CIAURPC",34,0)
+FILENT(CIADATA,CIAGBL,CIAIEN) ;
+"RTN","CIAURPC",35,0)
+ N CIAG,CIAX
+"RTN","CIAURPC",36,0)
+ S:CIAGBL=+CIAGBL CIAGBL=$$ROOT^DILFD(CIAGBL,,1)
+"RTN","CIAURPC",37,0)
+ S CIADATA=$$TMPGBL
+"RTN","CIAURPC",38,0)
+ Q:'$L(CIAGBL)
+"RTN","CIAURPC",39,0)
+ S:$G(CIAIEN) CIAIEN(+CIAIEN)=""
+"RTN","CIAURPC",40,0)
+ S CIAG=$S($D(CIAIEN):"CIAIEN",1:CIAGBL),CIAIEN=0
+"RTN","CIAURPC",41,0)
+ F  S CIAIEN=$O(@CIAG@(CIAIEN)) Q:'CIAIEN  D
+"RTN","CIAURPC",42,0)
+ .S CIAX=$P($G(@CIAGBL@(CIAIEN,0)),U)
+"RTN","CIAURPC",43,0)
+ .S:$L(CIAX) @CIADATA@(CIAIEN)=CIAIEN_U_CIAX
+"RTN","CIAURPC",44,0)
+ Q
+"RTN","CIAURPC",45,0)
+ ; RPC: Show IEN of next/previous entry in a file
+"RTN","CIAURPC",46,0)
+FILNXT(CIADATA,CIAGBL,CIAIEN) ;
+"RTN","CIAURPC",47,0)
+ N CIAD
+"RTN","CIAURPC",48,0)
+ S:CIAGBL=+CIAGBL CIAGBL=$$ROOT^DILFD(CIAGBL,,1)
+"RTN","CIAURPC",49,0)
+ I CIAIEN<0 S CIAIEN=-CIAIEN,CIAD=-1
+"RTN","CIAURPC",50,0)
+ E  S CIAD=1
+"RTN","CIAURPC",51,0)
+ S CIADATA=+$O(@CIAGBL@(CIAIEN),CIAD)
+"RTN","CIAURPC",52,0)
+ Q
+"RTN","CIAURPC",53,0)
+ ; RPC: Convert date input to FM format
+"RTN","CIAURPC",54,0)
+STRTODAT(DATA,VAL,FMT) ;
+"RTN","CIAURPC",55,0)
+ N %DT,X,Y
+"RTN","CIAURPC",56,0)
+ I VAL'["@",VAL[" " S VAL=$TR(VAL," ","@")
+"RTN","CIAURPC",57,0)
+ I VAL["@",$TR($P(VAL,"@",2),":0")="" S $P(VAL,"@",2)="00:00:01"
+"RTN","CIAURPC",58,0)
+ S %DT=$G(FMT,"TS"),X=VAL
+"RTN","CIAURPC",59,0)
+ D ^%DT
+"RTN","CIAURPC",60,0)
+ S DATA=$S(Y>0:Y,1:"")
+"RTN","CIAURPC",61,0)
+ Q
+"RTN","CIAURPC",62,0)
+ ; Return reference to temp global
+"RTN","CIAURPC",63,0)
+TMPGBL(X) ;EP
+"RTN","CIAURPC",64,0)
+ K ^TMP("CIAURPC"_$G(X),$J) Q $NA(^($J))
+"RTN","CIAURPC",65,0)
+ ; Register/unregister RPCs within a given namespace to a context
+"RTN","CIAURPC",66,0)
+REGNMSP(NMSP,CTX,DEL) ;EP
+"RTN","CIAURPC",67,0)
+ N RPC,IEN,LEN
+"RTN","CIAURPC",68,0)
+ S LEN=$L(NMSP),CTX=+$$GETOPT(CTX)
+"RTN","CIAURPC",69,0)
+ I $G(DEL) D
+"RTN","CIAURPC",70,0)
+ .S IEN=0
+"RTN","CIAURPC",71,0)
+ .F  S IEN=$O(^DIC(19,CTX,"RPC","B",IEN)) Q:'IEN  D
+"RTN","CIAURPC",72,0)
+ ..I $E($G(^XWB(8994,IEN,0)),1,LEN)=NMSP,$$REGRPC(IEN,CTX,1)
+"RTN","CIAURPC",73,0)
+ E  D
+"RTN","CIAURPC",74,0)
+ .Q:LEN<2
+"RTN","CIAURPC",75,0)
+ .S RPC=NMSP
+"RTN","CIAURPC",76,0)
+ .F  D:$L(RPC)  S RPC=$O(^XWB(8994,"B",RPC)) Q:NMSP'=$E(RPC,1,LEN)
+"RTN","CIAURPC",77,0)
+ ..F IEN=0:0 S IEN=$O(^XWB(8994,"B",RPC,IEN)) Q:'IEN  I $$REGRPC(IEN,.CTX)
+"RTN","CIAURPC",78,0)
+ Q
+"RTN","CIAURPC",79,0)
+ ; Register/unregister an RPC to/from a context
+"RTN","CIAURPC",80,0)
+ ; RPC = IEN or name of RPC
+"RTN","CIAURPC",81,0)
+ ; CTX = IEN or name of context
+"RTN","CIAURPC",82,0)
+ ; DEL = If nonzero, the RPC is unregistered (defaults to 0)
+"RTN","CIAURPC",83,0)
+ ; Returns -1 if already registered; 0 if failed; 1 if succeeded
+"RTN","CIAURPC",84,0)
+REGRPC(RPC,CTX,DEL) ;EP
+"RTN","CIAURPC",85,0)
+ S RPC=+$$GETRPC(RPC)
+"RTN","CIAURPC",86,0)
+ Q $S(RPC<1:0,1:$$REGMULT(19.05,"RPC",RPC,.CTX,.DEL))
+"RTN","CIAURPC",87,0)
+ ; Add/remove a context to/from the ITEM multiple of another context.
+"RTN","CIAURPC",88,0)
+REGCTX(SRC,DST,DEL) ;EP
+"RTN","CIAURPC",89,0)
+ S SRC=+$$GETOPT(SRC)
+"RTN","CIAURPC",90,0)
+ Q $S('SRC:0,1:$$REGMULT(19.01,10,SRC,.DST,.DEL))
+"RTN","CIAURPC",91,0)
+ ; Add/delete an entry to/from a specified OPTION multiple.
+"RTN","CIAURPC",92,0)
+ ; SFN = Subfile #
+"RTN","CIAURPC",93,0)
+ ; NOD = Subnode for multiple
+"RTN","CIAURPC",94,0)
+ ; ITM = Item IEN to add
+"RTN","CIAURPC",95,0)
+ ; CTX = Option to add to
+"RTN","CIAURPC",96,0)
+ ; DEL = Delete flag (optional)
+"RTN","CIAURPC",97,0)
+REGMULT(SFN,NOD,ITM,CTX,DEL) ;
+"RTN","CIAURPC",98,0)
+ N FDA,IEN
+"RTN","CIAURPC",99,0)
+ S CTX=+$$GETOPT(CTX)
+"RTN","CIAURPC",100,0)
+ S DEL=+$G(DEL)
+"RTN","CIAURPC",101,0)
+ S IEN=+$O(^DIC(19,CTX,NOD,"B",ITM,0))
+"RTN","CIAURPC",102,0)
+ Q:'IEN=DEL -1
+"RTN","CIAURPC",103,0)
+ K ^TMP("DIERR",$J)
+"RTN","CIAURPC",104,0)
+ I DEL S FDA(SFN,IEN_","_CTX_",",.01)="@"
+"RTN","CIAURPC",105,0)
+ E  S FDA(SFN,"+1,"_CTX_",",.01)=ITM
+"RTN","CIAURPC",106,0)
+ D UPDATE^DIE("","FDA")
+"RTN","CIAURPC",107,0)
+ S FDA='$D(^TMP("DIERR",$J)) K ^($J)
+"RTN","CIAURPC",108,0)
+ Q FDA
+"RTN","CIAURPC",109,0)
+ ; Register a protocol to an extended action protocol
+"RTN","CIAURPC",110,0)
+ ; Input: P-Parent protocol
+"RTN","CIAURPC",111,0)
+ ;        C-Child protocol
+"RTN","CIAURPC",112,0)
+REGPROT(P,C,ERR) ;EP
+"RTN","CIAURPC",113,0)
+ N IENARY,PIEN,AIEN,FDA
+"RTN","CIAURPC",114,0)
+ D
+"RTN","CIAURPC",115,0)
+ .I '$L(P)!('$L(C)) S ERR="Missing input parameter" Q
+"RTN","CIAURPC",116,0)
+ .S IENARY(1)=$$FIND1^DIC(101,"","",P)
+"RTN","CIAURPC",117,0)
+ .S AIEN=$$FIND1^DIC(101,"","",C)
+"RTN","CIAURPC",118,0)
+ .I 'IENARY(1)!'AIEN S ERR="Unknown protocol name" Q
+"RTN","CIAURPC",119,0)
+ .S FDA(101.01,"?+2,"_IENARY(1)_",",.01)=AIEN
+"RTN","CIAURPC",120,0)
+ .D UPDATE^DIE("S","FDA","IENARY","ERR")
+"RTN","CIAURPC",121,0)
+ Q:$Q $G(ERR)=""
+"RTN","CIAURPC",122,0)
+ Q
+"RTN","CIAURPC",123,0)
+ ; Remove nonexistent RPCs from context
+"RTN","CIAURPC",124,0)
+CLNRPC(CTX) ;EP
+"RTN","CIAURPC",125,0)
+ N IEN
+"RTN","CIAURPC",126,0)
+ S CTX=+$$GETOPT(CTX)
+"RTN","CIAURPC",127,0)
+ F IEN=0:0 S IEN=$O(^DIC(19,CTX,"RPC","B",IEN)) Q:'IEN  D:'$D(^XWB(8994,IEN)) REGRPC(IEN,CTX,1)
+"RTN","CIAURPC",128,0)
+ Q
+"RTN","CIAURPC",129,0)
+ ; Return IEN of option
+"RTN","CIAURPC",130,0)
+GETOPT(X) ;EP
+"RTN","CIAURPC",131,0)
+ N Y
+"RTN","CIAURPC",132,0)
+ Q:X=+X X
+"RTN","CIAURPC",133,0)
+ S Y=$$FIND1^DIC(19,"","X",X)
+"RTN","CIAURPC",134,0)
+ W:'Y "Cannot find option "_X,!!
+"RTN","CIAURPC",135,0)
+ Q Y
+"RTN","CIAURPC",136,0)
+ ; Return IEN of RPC
+"RTN","CIAURPC",137,0)
+GETRPC(X) ;EP
+"RTN","CIAURPC",138,0)
+ N Y
+"RTN","CIAURPC",139,0)
+ Q:X=+X X
+"RTN","CIAURPC",140,0)
+ S Y=$$FIND1^DIC(8994,"","X",X)
+"RTN","CIAURPC",141,0)
+ W:'Y "Cannot find RPC "_X,!!
+"RTN","CIAURPC",142,0)
+ Q Y
+"RTN","CIAURPRT")
+0^63^B2992421
+"RTN","CIAURPRT",1,0)
+CIAURPRT ;MSC/IND/DKM - Routine Pretty Print Program ;20-Jan-2015 13:23;DKM
+"RTN","CIAURPRT",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAURPRT",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAURPRT",4,0)
+ ;=================================================================
+"RTN","CIAURPRT",5,0)
+ N R,C,D,P,N,M,L,X,Y,B,W,Z,S,A,F,T,Q
+"RTN","CIAURPRT",6,0)
+ D HOME^%ZIS,TITLE^CIAU("Routine Pretty Print")
+"RTN","CIAURPRT",7,0)
+ X ^%ZOSF("RSEL")
+"RTN","CIAURPRT",8,0)
+ I $O(^UTILITY($J,0))="" W "No routines selected.",!! K ^UTILITY($J) Q
+"RTN","CIAURPRT",9,0)
+ D ^%ZIS
+"RTN","CIAURPRT",10,0)
+ Q:POP
+"RTN","CIAURPRT",11,0)
+ X ^%ZOSF("UCI")
+"RTN","CIAURPRT",12,0)
+ S A=Y,R=0,C="     >>> ",W=IOM-$L(C)-1,M=$L(C)+1,B=$$UND^CIAU(W),T=$E(IOST,1,2)="C-",F=$S(T:IOF,1:""""""),Q=0
+"RTN","CIAURPRT",13,0)
+ F  S R=$O(^UTILITY($J,R)) Q:R=""  D
+"RTN","CIAURPRT",14,0)
+ .I IO'=IO(0) U IO(0) W !,"Printing "_R_"..."
+"RTN","CIAURPRT",15,0)
+ .U IO
+"RTN","CIAURPRT",16,0)
+ .S D=$$ENTRY^CIAUDT($H),P=0,$Y=IOSL,S=0
+"RTN","CIAURPRT",17,0)
+ .X "ZL @R F N=1:1 S L=$T(+N) Q:'$L(L)  S ^UTILITY($J,R,N)=L,S=S+$L(L)+2"
+"RTN","CIAURPRT",18,0)
+ .S S="("_$$FMTNUM^CIAU(S)_" bytes)"
+"RTN","CIAURPRT",19,0)
+ .F N=0:0 S N=$O(^UTILITY($J,R,N)) Q:'N  D  Q:Q
+"RTN","CIAURPRT",20,0)
+ ..S L=^(N),X=$P(L," "),L=X_$E("        ",$L(X)+1,8)_" "_$P(L," ",2,999),Z=""
+"RTN","CIAURPRT",21,0)
+ ..F  Q:L=""!Q  D
+"RTN","CIAURPRT",22,0)
+ ...S X=$E(L,1,W),L=$E(L,W+1,999)
+"RTN","CIAURPRT",23,0)
+ ...D:IOSL-2<$Y HDR
+"RTN","CIAURPRT",24,0)
+ ...Q:Q
+"RTN","CIAURPRT",25,0)
+ ...W Z,?M,X,!
+"RTN","CIAURPRT",26,0)
+ ...S Z=C
+"RTN","CIAURPRT",27,0)
+ K ^UTILITY($J)
+"RTN","CIAURPRT",28,0)
+ D ^%ZISC
+"RTN","CIAURPRT",29,0)
+ Q
+"RTN","CIAURPRT",30,0)
+HDR I P,T R "Press enter to continue...",Q:$G(DTIME,300) S Q=Q["^"!'$T Q:Q
+"RTN","CIAURPRT",31,0)
+ S P=P+1,$Y=0
+"RTN","CIAURPRT",32,0)
+ W @F,!?M,A,$$CTR(R),$$RJ("Page "_P),!
+"RTN","CIAURPRT",33,0)
+ W ?M,$G(^DD("SITE")),$$CTR(S),$$RJ(D),!
+"RTN","CIAURPRT",34,0)
+ W ?M,B,!!
+"RTN","CIAURPRT",35,0)
+ S:P=1 F=IOF
+"RTN","CIAURPRT",36,0)
+ Q
+"RTN","CIAURPRT",37,0)
+CTR(X) W ?(IOM-$L(X)\2+M),X
+"RTN","CIAURPRT",38,0)
+ Q ""
+"RTN","CIAURPRT",39,0)
+RJ(X) W ?(IOM-$L(X)),X
+"RTN","CIAURPRT",40,0)
+ Q ""
+"RTN","CIAUSTX")
+0^27^B18161897
+"RTN","CIAUSTX",1,0)
+CIAUSTX ;MSC/IND/DKM - M syntax analyzer;04-May-2006 08:19;DKM
+"RTN","CIAUSTX",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUSTX",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUSTX",4,0)
+ ;=================================================================
+"RTN","CIAUSTX",5,0)
+ ; Perform syntactic analysis of a line of M code.
+"RTN","CIAUSTX",6,0)
+ ; Inputs:
+"RTN","CIAUSTX",7,0)
+ ;   CIAM = M statement(s)
+"RTN","CIAUSTX",8,0)
+ ;   CIAO = Options:
+"RTN","CIAUSTX",9,0)
+ ;      L = Line label allowed
+"RTN","CIAUSTX",10,0)
+ ;      . = Dotted syntax allowed
+"RTN","CIAUSTX",11,0)
+ ;      N = Do not init parsing tables
+"RTN","CIAUSTX",12,0)
+ ;      D = Do not delete parsing tables
+"RTN","CIAUSTX",13,0)
+ ;      Z = Process all Z-extensions as valid
+"RTN","CIAUSTX",14,0)
+ ; Outputs:
+"RTN","CIAUSTX",15,0)
+ ;   Returns 0 if successfully parsed.  Otherwise returns E^P^M
+"RTN","CIAUSTX",16,0)
+ ;   where E is an error code (see ERRORS label), P is the
+"RTN","CIAUSTX",17,0)
+ ;   character position where the error occurred, and M is the
+"RTN","CIAUSTX",18,0)
+ ;   error message.
+"RTN","CIAUSTX",19,0)
+ ;=================================================================
+"RTN","CIAUSTX",20,0)
+ENTRY(CIAM,CIAO) ;
+"RTN","CIAUSTX",21,0)
+ N CIAPSN,CIALEN,CIAERR,CIARN,CIAQT,CIAF,CIAPID,CIACMD
+"RTN","CIAUSTX",22,0)
+ S CIAM=$$UP^XLFSTR(CIAM),CIAO=$$UP^XLFSTR($G(CIAO)),CIAPSN=1,CIALEN=$L(CIAM),CIAERR=0,CIAQT="""",CIAF=0,CIAPID="CIAUSTX",U="^"
+"RTN","CIAUSTX",23,0)
+ D LOAD:CIAO'["N",PARSE:CIALEN
+"RTN","CIAUSTX",24,0)
+ K:CIAO'["D" ^TMP(CIAPID,$J)
+"RTN","CIAUSTX",25,0)
+ Q $S(CIAERR:CIAERR_U_$S(CIAPSN>CIALEN:CIALEN,1:CIAPSN)_U_$S(CIAERR<0:$$EC^%ZOSV,1:$P($T(ERRORS+CIAERR),";;",2)),1:0)
+"RTN","CIAUSTX",26,0)
+PARSE N CIAZ,CIAZ1
+"RTN","CIAUSTX",27,0)
+ S @$$TRAP^CIAUOS("ERROR^CIAUSTX")
+"RTN","CIAUSTX",28,0)
+ I CIAO["L" D  Q:CIAERR
+"RTN","CIAUSTX",29,0)
+ .S:$E(CIAM)'=" " CIAPSN=$$LABEL^CIAUSTX0
+"RTN","CIAUSTX",30,0)
+ .I $$NEXT^CIAUSTX0("("),'$$NEXT^CIAUSTX0(")") D
+"RTN","CIAUSTX",31,0)
+ ..F CIAPSN=CIAPSN:1 D  Q:$E(CIAM,CIAPSN)'=","!CIAERR
+"RTN","CIAUSTX",32,0)
+ ...S CIAPSN=$$NAME^CIAUSTX0(CIAPSN,"L%")
+"RTN","CIAUSTX",33,0)
+ ..Q:CIAERR
+"RTN","CIAUSTX",34,0)
+ ..S:'$$NEXT^CIAUSTX0(")") CIAERR=3
+"RTN","CIAUSTX",35,0)
+ .S:" "'[$E(CIAM,CIAPSN) CIAERR=2
+"RTN","CIAUSTX",36,0)
+ I CIAO["." F CIAPSN=CIAPSN:1:CIALEN+1 Q:". "'[$E(CIAM,CIAPSN)
+"RTN","CIAUSTX",37,0)
+ F  Q:CIAERR  D SKPSPC Q:";"[$E(CIAM,CIAPSN)  D
+"RTN","CIAUSTX",38,0)
+ .S CIACMD=""
+"RTN","CIAUSTX",39,0)
+ .F CIAPSN=CIAPSN:1 S CIAZ=$E(CIAM,CIAPSN) Q:CIAZ'?1A  S CIACMD=CIACMD_CIAZ
+"RTN","CIAUSTX",40,0)
+ .I CIACMD="" S CIAERR=4 Q
+"RTN","CIAUSTX",41,0)
+ .I $D(^TMP(CIAPID,$J,"CMD",CIACMD)) S CIACMD=^(CIACMD)
+"RTN","CIAUSTX",42,0)
+ .E  I CIAO["Z" S CIACMD="PC;OPT;ARGS("":M"")"
+"RTN","CIAUSTX",43,0)
+ .E  S CIAERR=4 Q
+"RTN","CIAUSTX",44,0)
+ .F CIARN=1:1:$L(CIACMD,";") D CMD^CIAUSTX0($P(CIACMD,";",CIARN)) Q:CIAERR!'CIARN
+"RTN","CIAUSTX",45,0)
+ .I 'CIAERR," "'[$E(CIAM,CIAPSN) S CIAERR=2
+"RTN","CIAUSTX",46,0)
+ .E  S CIAPSN=CIAPSN+1
+"RTN","CIAUSTX",47,0)
+ Q
+"RTN","CIAUSTX",48,0)
+ ; Skip over blanks
+"RTN","CIAUSTX",49,0)
+SKPSPC F  Q:'$$NEXT^CIAUSTX0(" ")
+"RTN","CIAUSTX",50,0)
+ Q
+"RTN","CIAUSTX",51,0)
+ ; Load tables
+"RTN","CIAUSTX",52,0)
+LOAD N CIAZ,CIAZ1,CIAZ2,CIAL
+"RTN","CIAUSTX",53,0)
+ K ^TMP(CIAPID,$J)
+"RTN","CIAUSTX",54,0)
+ F CIAL="CMD","FCN","SYS" D
+"RTN","CIAUSTX",55,0)
+ .F CIAZ=1:1 S CIAZ1=$P($T(@CIAL+CIAZ),";;",2,999) Q:CIAZ1=""  D
+"RTN","CIAUSTX",56,0)
+ ..S CIAZ2=$P(CIAZ1,";"),CIAZ1=$P(CIAZ1,";",2,999)
+"RTN","CIAUSTX",57,0)
+ ..F  Q:CIAZ2=""  D
+"RTN","CIAUSTX",58,0)
+ ...S ^TMP(CIAPID,$J,CIAL,$P(CIAZ2,","))=CIAZ1,CIAZ2=$P(CIAZ2,",",2,999)
+"RTN","CIAUSTX",59,0)
+ Q
+"RTN","CIAUSTX",60,0)
+ERROR S CIAERR=-1
+"RTN","CIAUSTX",61,0)
+ Q
+"RTN","CIAUSTX",62,0)
+CMD ;;*Commands*
+"RTN","CIAUSTX",63,0)
+ ;;B,BREAK;PC;OPT;ARGS()
+"RTN","CIAUSTX",64,0)
+ ;;C,CLOSE;PC;ARGS(":M")
+"RTN","CIAUSTX",65,0)
+ ;;D,DO;PC;OPT;LBL(2)
+"RTN","CIAUSTX",66,0)
+ ;;E,ELSE;NPC;OPT;ARGS()
+"RTN","CIAUSTX",67,0)
+ ;;F,FOR;NPC;OPT;FOR
+"RTN","CIAUSTX",68,0)
+ ;;G,GOTO;PC;LBL(1)
+"RTN","CIAUSTX",69,0)
+ ;;H,HALT,HANG;PC;OPT;EXP()
+"RTN","CIAUSTX",70,0)
+ ;;I,IF;NPC;OPT;ARGS()
+"RTN","CIAUSTX",71,0)
+ ;;J,JOB;PC;LBL(2)
+"RTN","CIAUSTX",72,0)
+ ;;K,KILL;PC;OPT;KILL
+"RTN","CIAUSTX",73,0)
+ ;;L,LOCK;PC;OPT;LOCK
+"RTN","CIAUSTX",74,0)
+ ;;M,MERGE;PC;MERGE
+"RTN","CIAUSTX",75,0)
+ ;;N,NEW;PC;OPT;NEW
+"RTN","CIAUSTX",76,0)
+ ;;O,OPEN;PC;ARGS(":M")
+"RTN","CIAUSTX",77,0)
+ ;;Q,QUIT;PC;OPT;EXP()
+"RTN","CIAUSTX",78,0)
+ ;;R,READ;PC;READ
+"RTN","CIAUSTX",79,0)
+ ;;S,SET;PC;SET
+"RTN","CIAUSTX",80,0)
+ ;;U,USE;PC;ARGS(":M")
+"RTN","CIAUSTX",81,0)
+ ;;V,VIEW;PC;ARGS(":M")
+"RTN","CIAUSTX",82,0)
+ ;;W,WRITE;PC;WRITE
+"RTN","CIAUSTX",83,0)
+ ;;X,XECUTE;PC;ARGS(":")
+"RTN","CIAUSTX",84,0)
+ ;;ZT,ZTRAP;PC;OPT;EXP()
+"RTN","CIAUSTX",85,0)
+ ;;ZS,ZSAVE;PC;OPT;EXP()
+"RTN","CIAUSTX",86,0)
+ ;;ZR,ZREMOVE;PC;OPT;LBL(1)
+"RTN","CIAUSTX",87,0)
+ ;;ZP,ZPRINT
+"RTN","CIAUSTX",88,0)
+ ;;
+"RTN","CIAUSTX",89,0)
+FCN ;;*Intrinsic functions*
+"RTN","CIAUSTX",90,0)
+ ;;A,ASCII;;1-2
+"RTN","CIAUSTX",91,0)
+ ;;C,CHAR;;1-999
+"RTN","CIAUSTX",92,0)
+ ;;D,DATA;;1-1;V
+"RTN","CIAUSTX",93,0)
+ ;;E,EXTRACT;S;1-3
+"RTN","CIAUSTX",94,0)
+ ;;F,FIND;;2-3
+"RTN","CIAUSTX",95,0)
+ ;;FN,FNUMBER;;2-3
+"RTN","CIAUSTX",96,0)
+ ;;G,GET;;1-2;V
+"RTN","CIAUSTX",97,0)
+ ;;J,JUSTIFY;;1-3
+"RTN","CIAUSTX",98,0)
+ ;;L,LENGTH;;1-2
+"RTN","CIAUSTX",99,0)
+ ;;N,NEXT;;1-2
+"RTN","CIAUSTX",100,0)
+ ;;NA,NAME;;1-2;V
+"RTN","CIAUSTX",101,0)
+ ;;O,ORDER;;1-2;V
+"RTN","CIAUSTX",102,0)
+ ;;P,PIECE;S;2-4
+"RTN","CIAUSTX",103,0)
+ ;;Q,QUERY;;1-2;V
+"RTN","CIAUSTX",104,0)
+ ;;R,RANDOM;;1-1
+"RTN","CIAUSTX",105,0)
+ ;;S,SELECT;:;1-999
+"RTN","CIAUSTX",106,0)
+ ;;T,TEXT;;1-1;L
+"RTN","CIAUSTX",107,0)
+ ;;TR,TRANSLATE;;2-3
+"RTN","CIAUSTX",108,0)
+ ;;V,VIEW;;1-999
+"RTN","CIAUSTX",109,0)
+ ;;
+"RTN","CIAUSTX",110,0)
+SYS ;;*System variables*
+"RTN","CIAUSTX",111,0)
+ ;;D,DEVICE
+"RTN","CIAUSTX",112,0)
+ ;;ET,ETRAP;SN
+"RTN","CIAUSTX",113,0)
+ ;;H,HOROLOG
+"RTN","CIAUSTX",114,0)
+ ;;I,IO
+"RTN","CIAUSTX",115,0)
+ ;;J,JOB
+"RTN","CIAUSTX",116,0)
+ ;;K,KEY
+"RTN","CIAUSTX",117,0)
+ ;;P,PRINCIPAL
+"RTN","CIAUSTX",118,0)
+ ;;S,STORAGE
+"RTN","CIAUSTX",119,0)
+ ;;SY,SYSTEM
+"RTN","CIAUSTX",120,0)
+ ;;T,TEST
+"RTN","CIAUSTX",121,0)
+ ;;TL,TLEVEL
+"RTN","CIAUSTX",122,0)
+ ;;TR,TRESTART
+"RTN","CIAUSTX",123,0)
+ ;;X;S
+"RTN","CIAUSTX",124,0)
+ ;;Y;S
+"RTN","CIAUSTX",125,0)
+ ;;ZT,ZTRAP;S
+"RTN","CIAUSTX",126,0)
+ ;;ZE,ZERROR;S
+"RTN","CIAUSTX",127,0)
+ ;;ES,ESTACK;N
+"RTN","CIAUSTX",128,0)
+ ;;EC,ECODE;S
+"RTN","CIAUSTX",129,0)
+ERRORS ;;*Error messages*
+"RTN","CIAUSTX",130,0)
+ ;;Bad variable name
+"RTN","CIAUSTX",131,0)
+ ;;Syntax error
+"RTN","CIAUSTX",132,0)
+ ;;Unbalanced parentheses
+"RTN","CIAUSTX",133,0)
+ ;;Unrecognized command
+"RTN","CIAUSTX",134,0)
+ ;;Postconditional not allowed
+"RTN","CIAUSTX",135,0)
+ ;;Missing operand
+"RTN","CIAUSTX",136,0)
+ ;;Unrecognized intrinsic function/variable
+"RTN","CIAUSTX",137,0)
+ ;;Incorrect number of arguments
+"RTN","CIAUSTX",138,0)
+ ;;Missing closing quote
+"RTN","CIAUSTX",139,0)
+ ;;Illegal pattern
+"RTN","CIAUSTX",140,0)
+ ;;Bad label name
+"RTN","CIAUSTX",141,0)
+ ;;Name too long
+"RTN","CIAUSTX",142,0)
+ ;;13
+"RTN","CIAUSTX0")
+0^28^B19890648
+"RTN","CIAUSTX0",1,0)
+CIAUSTX0 ;MSC/IND/DKM - Continuation of CIAUSTX;04-May-2006 08:19;DKM
+"RTN","CIAUSTX0",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUSTX0",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUSTX0",4,0)
+ ;=================================================================
+"RTN","CIAUSTX0",5,0)
+CMD(CIALBL) ;
+"RTN","CIAUSTX0",6,0)
+ D:CIALBL'="" @CIALBL
+"RTN","CIAUSTX0",7,0)
+ Q
+"RTN","CIAUSTX0",8,0)
+ ; Postconditional
+"RTN","CIAUSTX0",9,0)
+PC D:$$NEXT(":") EXP()
+"RTN","CIAUSTX0",10,0)
+ Q:CIAERR
+"RTN","CIAUSTX0",11,0)
+ I " "'[$E(CIAM,CIAPSN) S CIAERR=2
+"RTN","CIAUSTX0",12,0)
+ E  S CIAPSN=CIAPSN+1
+"RTN","CIAUSTX0",13,0)
+ Q
+"RTN","CIAUSTX0",14,0)
+ ; No postconditional
+"RTN","CIAUSTX0",15,0)
+NPC I $$NEXT(":") S CIAERR=5
+"RTN","CIAUSTX0",16,0)
+ E  I " "'[$E(CIAM,CIAPSN) S CIAERR=2
+"RTN","CIAUSTX0",17,0)
+ E  S CIAPSN=CIAPSN+1
+"RTN","CIAUSTX0",18,0)
+ Q
+"RTN","CIAUSTX0",19,0)
+ ; Arguments optional
+"RTN","CIAUSTX0",20,0)
+OPT S:" "[$E(CIAM,CIAPSN) CIARN=0
+"RTN","CIAUSTX0",21,0)
+ Q
+"RTN","CIAUSTX0",22,0)
+ ; Multiple arguments
+"RTN","CIAUSTX0",23,0)
+ARGS(CIAEX) ;
+"RTN","CIAUSTX0",24,0)
+ S CIAEX=$G(CIAEX)
+"RTN","CIAUSTX0",25,0)
+ F  D EXP(CIAEX) Q:CIAERR!'$$NEXT(",")
+"RTN","CIAUSTX0",26,0)
+ Q
+"RTN","CIAUSTX0",27,0)
+ ; Expression
+"RTN","CIAUSTX0",28,0)
+EXP(CIAEX) ;
+"RTN","CIAUSTX0",29,0)
+ D EXP^CIAUSTX1(.CIAEX)
+"RTN","CIAUSTX0",30,0)
+ Q
+"RTN","CIAUSTX0",31,0)
+ ; Label reference
+"RTN","CIAUSTX0",32,0)
+LBL(CIAA) F  D LBL1(.CIAA) Q:CIAERR!'$$NEXT(",")
+"RTN","CIAUSTX0",33,0)
+ Q
+"RTN","CIAUSTX0",34,0)
+LBL1(CIAA) ;
+"RTN","CIAUSTX0",35,0)
+ S CIAA=+$G(CIAA)
+"RTN","CIAUSTX0",36,0)
+ D LBL2
+"RTN","CIAUSTX0",37,0)
+ Q:CIAERR
+"RTN","CIAUSTX0",38,0)
+ D:$$NEXT("+") EXP(")")
+"RTN","CIAUSTX0",39,0)
+ Q:CIAERR
+"RTN","CIAUSTX0",40,0)
+ D:$$NEXT(U) LBL2
+"RTN","CIAUSTX0",41,0)
+ I 'CIAERR,CIAA=2 D PARAMS(".;0-999")
+"RTN","CIAUSTX0",42,0)
+ I 'CIAERR,CIAA D EXP(")"):$$NEXT(":")
+"RTN","CIAUSTX0",43,0)
+ Q
+"RTN","CIAUSTX0",44,0)
+LBL2 I $$NEXT("@") D
+"RTN","CIAUSTX0",45,0)
+ .D EXP("=")
+"RTN","CIAUSTX0",46,0)
+ E  S:$E(CIAM,CIAPSN)?.1AN.1"%" CIAPSN=$$LABEL
+"RTN","CIAUSTX0",47,0)
+ Q
+"RTN","CIAUSTX0",48,0)
+ ; Write command
+"RTN","CIAUSTX0",49,0)
+WRITE F  D  Q:CIAERR!'$$NEXT(",")
+"RTN","CIAUSTX0",50,0)
+ .I $$NEXT("!#") D  Q:'$$NEXT("?",0)
+"RTN","CIAUSTX0",51,0)
+ ..F  Q:'$$NEXT("!#")
+"RTN","CIAUSTX0",52,0)
+ .I $$NEXT("?*")
+"RTN","CIAUSTX0",53,0)
+ .D EXP()
+"RTN","CIAUSTX0",54,0)
+ Q
+"RTN","CIAUSTX0",55,0)
+ ; Read command
+"RTN","CIAUSTX0",56,0)
+READ N CIAZ
+"RTN","CIAUSTX0",57,0)
+ F  D  Q:CIAERR!'$$NEXT(",")
+"RTN","CIAUSTX0",58,0)
+ .I $$NEXT("!#") D  Q:'$$NEXT("?",0)
+"RTN","CIAUSTX0",59,0)
+ ..F  Q:'$$NEXT("!#")
+"RTN","CIAUSTX0",60,0)
+ .I $$NEXT("?") D EXP() Q
+"RTN","CIAUSTX0",61,0)
+ .I $$NEXT(CIAQT) D QT2^CIAUSTX1 Q
+"RTN","CIAUSTX0",62,0)
+ .S CIAZ=$$NEXT("*")
+"RTN","CIAUSTX0",63,0)
+ .D LVAL("LGS")
+"RTN","CIAUSTX0",64,0)
+ .I 'CIAERR,'CIAZ,$$NEXT("#") D EXP()
+"RTN","CIAUSTX0",65,0)
+ .I 'CIAERR,$$NEXT(":") D EXP()
+"RTN","CIAUSTX0",66,0)
+ Q
+"RTN","CIAUSTX0",67,0)
+ ; Lock command
+"RTN","CIAUSTX0",68,0)
+LOCK D LIST("LG+:","LG")
+"RTN","CIAUSTX0",69,0)
+ Q
+"RTN","CIAUSTX0",70,0)
+ ; Set command
+"RTN","CIAUSTX0",71,0)
+SET D LIST("LGS=","LGS")
+"RTN","CIAUSTX0",72,0)
+ Q
+"RTN","CIAUSTX0",73,0)
+ ; New command
+"RTN","CIAUSTX0",74,0)
+NEW D LIST("N","")
+"RTN","CIAUSTX0",75,0)
+ Q
+"RTN","CIAUSTX0",76,0)
+ ; Kill command
+"RTN","CIAUSTX0",77,0)
+KILL D LIST("KGL","")
+"RTN","CIAUSTX0",78,0)
+ Q
+"RTN","CIAUSTX0",79,0)
+ ; Merge command
+"RTN","CIAUSTX0",80,0)
+MERGE D LIST("LG=")
+"RTN","CIAUSTX0",81,0)
+ Q
+"RTN","CIAUSTX0",82,0)
+ ; For command
+"RTN","CIAUSTX0",83,0)
+FOR D LVAL("LGS")
+"RTN","CIAUSTX0",84,0)
+ I '$$NEXT("=") S CIAERR=2 Q
+"RTN","CIAUSTX0",85,0)
+ F  D  Q:" "[$E(CIAM,CIAPSN)  I '$$NEXT(",") S CIAERR=2 Q
+"RTN","CIAUSTX0",86,0)
+ .D EXP(),EXP():$$NEXT(":"),EXP():$$NEXT(":")
+"RTN","CIAUSTX0",87,0)
+ Q
+"RTN","CIAUSTX0",88,0)
+ ; Evaluate L-value
+"RTN","CIAUSTX0",89,0)
+ ; CIAL: Allowed types:
+"RTN","CIAUSTX0",90,0)
+ ;     L=Local array
+"RTN","CIAUSTX0",91,0)
+ ;     G=Global arrays
+"RTN","CIAUSTX0",92,0)
+ ;     S=Settable intrinsics/system variables
+"RTN","CIAUSTX0",93,0)
+ ;     N=Newable system variables
+"RTN","CIAUSTX0",94,0)
+ ;     K=Killable system variables
+"RTN","CIAUSTX0",95,0)
+LVAL(CIAL) ;
+"RTN","CIAUSTX0",96,0)
+ I $$NEXT("@",0) D  Q
+"RTN","CIAUSTX0",97,0)
+ .S CIAL="="
+"RTN","CIAUSTX0",98,0)
+ .D EXP(.CIAL)
+"RTN","CIAUSTX0",99,0)
+ S CIAL=$G(CIAL)
+"RTN","CIAUSTX0",100,0)
+ I CIAL["G",$$NEXT(U) D  Q
+"RTN","CIAUSTX0",101,0)
+ .N CIAF
+"RTN","CIAUSTX0",102,0)
+ .D GLBL^CIAUSTX1
+"RTN","CIAUSTX0",103,0)
+ I $TR(CIAL,"SNK")'=CIAL,$$NEXT("$") D  Q
+"RTN","CIAUSTX0",104,0)
+ .N CIAZ
+"RTN","CIAUSTX0",105,0)
+ .S CIAZ=$$INT(.CIAPSN,CIAL)
+"RTN","CIAUSTX0",106,0)
+ .D:'CIAERR PARAMS(CIAZ)
+"RTN","CIAUSTX0",107,0)
+ S CIAPSN=$$NAME(CIAPSN,"%")
+"RTN","CIAUSTX0",108,0)
+ I 'CIAERR,CIAL["L" D PARAMS()
+"RTN","CIAUSTX0",109,0)
+ Q
+"RTN","CIAUSTX0",110,0)
+ ; Evaluate parameters/subscripts
+"RTN","CIAUSTX0",111,0)
+PARAMS(CIAX) ;
+"RTN","CIAUSTX0",112,0)
+ D:$$NEXT("(") PLIST^CIAUSTX1(.CIAX)
+"RTN","CIAUSTX0",113,0)
+ Q
+"RTN","CIAUSTX0",114,0)
+ ; New/Kill/Set/Lock argument list
+"RTN","CIAUSTX0",115,0)
+LIST(CIAL1,CIAL2) ;
+"RTN","CIAUSTX0",116,0)
+ N CIAP,CIAI
+"RTN","CIAUSTX0",117,0)
+ S CIAP=0
+"RTN","CIAUSTX0",118,0)
+ F  D  Q:CIAERR!'$$NEXT(",")
+"RTN","CIAUSTX0",119,0)
+ .I 'CIAP,CIAL1["+",$$NEXT("+-")
+"RTN","CIAUSTX0",120,0)
+ .I $D(CIAL2),$$NEXT("(") D  Q:CIAERR
+"RTN","CIAUSTX0",121,0)
+ ..I CIAP S CIAERR=2 Q
+"RTN","CIAUSTX0",122,0)
+ ..E  S CIAP=1
+"RTN","CIAUSTX0",123,0)
+ .S CIAI=$S(CIAP:CIAL2,1:CIAL1)
+"RTN","CIAUSTX0",124,0)
+ .D LVAL(.CIAI)
+"RTN","CIAUSTX0",125,0)
+ .Q:CIAERR
+"RTN","CIAUSTX0",126,0)
+ .I $$NEXT(")") D  Q:CIAERR
+"RTN","CIAUSTX0",127,0)
+ ..I CIAP S CIAP=0
+"RTN","CIAUSTX0",128,0)
+ ..E  S CIAERR=2
+"RTN","CIAUSTX0",129,0)
+ .I 'CIAP,CIAL1[":",$$NEXT(":") D EXP()
+"RTN","CIAUSTX0",130,0)
+ .I 'CIAP,CIAL1["=" D
+"RTN","CIAUSTX0",131,0)
+ ..I '$$NEXT("=") S:CIAI'["@" CIAERR=2
+"RTN","CIAUSTX0",132,0)
+ ..E  D EXP():$D(CIAL2),LVAL(CIAL1):'$D(CIAL2)
+"RTN","CIAUSTX0",133,0)
+ I 'CIAERR,CIAP S CIAERR=3
+"RTN","CIAUSTX0",134,0)
+ Q
+"RTN","CIAUSTX0",135,0)
+ ; Check for validity of label name
+"RTN","CIAUSTX0",136,0)
+LABEL(CIAP) ;
+"RTN","CIAUSTX0",137,0)
+ Q $$NAME(.CIAP,"L%")
+"RTN","CIAUSTX0",138,0)
+ ; Check for validity of variable/label name
+"RTN","CIAUSTX0",139,0)
+NAME(CIAP,CIAF) ;
+"RTN","CIAUSTX0",140,0)
+ N CIAP1
+"RTN","CIAUSTX0",141,0)
+ S (CIAP,CIAP1)=$G(CIAP,CIAPSN),CIAF=$G(CIAF)
+"RTN","CIAUSTX0",142,0)
+ I CIAF["$",$E(CIAM,CIAP)="$" S CIAP=CIAP+1,CIAP1=CIAP
+"RTN","CIAUSTX0",143,0)
+ I CIAF["%",$E(CIAM,CIAP)="%" S CIAP=CIAP+1
+"RTN","CIAUSTX0",144,0)
+ F CIAP=CIAP:1 Q:$E(CIAM,CIAP)'?@$S(CIAF["L":"1AN",CIAP=CIAP1:"1A",1:"1AN")
+"RTN","CIAUSTX0",145,0)
+ I CIAP=CIAP1 S CIAERR=$S(CIAF["L":11,1:1)
+"RTN","CIAUSTX0",146,0)
+ E  S:CIAP-CIAP1>8 CIAERR=12
+"RTN","CIAUSTX0",147,0)
+ Q CIAP
+"RTN","CIAUSTX0",148,0)
+ ; Instrinsic function/system variable
+"RTN","CIAUSTX0",149,0)
+INT(CIAP,CIAL) ;
+"RTN","CIAUSTX0",150,0)
+ N CIAP2,CIAINT,CIANM
+"RTN","CIAUSTX0",151,0)
+ S CIAP=$G(CIAP,CIAPSN),CIAP2=$$NAME(CIAP),CIAL=$G(CIAL)
+"RTN","CIAUSTX0",152,0)
+ Q:CIAERR ""
+"RTN","CIAUSTX0",153,0)
+ S CIANM=$E(CIAM,CIAP,CIAP2-1)
+"RTN","CIAUSTX0",154,0)
+ I $E(CIAM,CIAP2)="(" S:$D(^TMP(CIAPID,$J,"FCN",CIANM)) CIAINT=^(CIANM)
+"RTN","CIAUSTX0",155,0)
+ E  S:$D(^TMP(CIAPID,$J,"SYS",CIANM)) CIAINT=^(CIANM)
+"RTN","CIAUSTX0",156,0)
+ I '$D(CIAINT),CIAO["Z" S CIAINT=";0-999"
+"RTN","CIAUSTX0",157,0)
+ I '$D(CIAINT) S CIAERR=7
+"RTN","CIAUSTX0",158,0)
+ E  I CIAL'="",$TR(CIAL,$P(CIAINT,";"))=CIAL S CIAERR=2,CIAINT=""
+"RTN","CIAUSTX0",159,0)
+ E  S CIAP=CIAP2
+"RTN","CIAUSTX0",160,0)
+ Q $G(CIAINT)
+"RTN","CIAUSTX0",161,0)
+ ; Check next character
+"RTN","CIAUSTX0",162,0)
+NEXT(CIAC,CIAI) ;
+"RTN","CIAUSTX0",163,0)
+ I CIAPSN'>CIALEN,CIAC[$E(CIAM,CIAPSN) S CIAPSN=CIAPSN+$G(CIAI,1)
+"RTN","CIAUSTX0",164,0)
+ Q $T
+"RTN","CIAUSTX1")
+0^29^B22089177
+"RTN","CIAUSTX1",1,0)
+CIAUSTX1 ;MSC/IND/DKM - Continuation of CIAUSTX;04-May-2006 08:19;DKM
+"RTN","CIAUSTX1",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUSTX1",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUSTX1",4,0)
+ ;=================================================================
+"RTN","CIAUSTX1",5,0)
+ ; Parse an expression
+"RTN","CIAUSTX1",6,0)
+EXP(CIAEX) ;
+"RTN","CIAUSTX1",7,0)
+ N CIAF,CIAC,CIAPN
+"RTN","CIAUSTX1",8,0)
+ S (CIAF,CIAPN)=0,CIAEX=$G(CIAEX)
+"RTN","CIAUSTX1",9,0)
+ F  D  Q:CIAF<0!CIAERR
+"RTN","CIAUSTX1",10,0)
+ .S CIAC=$E(CIAM,CIAPSN),CIAPSN=CIAPSN+1
+"RTN","CIAUSTX1",11,0)
+ .D @("OP"_CIAF)
+"RTN","CIAUSTX1",12,0)
+ I 'CIAERR,CIAPN S CIAERR=3
+"RTN","CIAUSTX1",13,0)
+ S CIAEX=$S($G(CIAPN(CIAPN,"@")):"@",1:"")_CIAEX
+"RTN","CIAUSTX1",14,0)
+ Q
+"RTN","CIAUSTX1",15,0)
+ ; Operands
+"RTN","CIAUSTX1",16,0)
+OP0 I CIAC'=".",CIAEX["." S CIAEX=$TR(CIAEX,".")
+"RTN","CIAUSTX1",17,0)
+ G:CIAC'="" COLON2:CIAC=":",GLBL:CIAC=U,DOT:CIAC=".",INDIR:CIAC="@",FCN:CIAC="$",UNARY:"'+-"[CIAC,QT:CIAC=CIAQT,NUM:CIAC?1N,OPNPAR:CIAC="(",VAR:CIAC?1A,VAR:CIAC="%"
+"RTN","CIAUSTX1",18,0)
+ S CIAERR=6
+"RTN","CIAUSTX1",19,0)
+ Q
+"RTN","CIAUSTX1",20,0)
+ ; Operators
+"RTN","CIAUSTX1",21,0)
+OP1 G END:CIAC="",INDIR2:CIAC="@",DONE:CIAEX["="&'CIAPN!(CIAC=" ")
+"RTN","CIAUSTX1",22,0)
+ K CIAPN(CIAPN,"@")
+"RTN","CIAUSTX1",23,0)
+ I CIAC="*",$$NEXT(CIAC)
+"RTN","CIAUSTX1",24,0)
+ G COLON:CIAC=":",CLSPAR:CIAC=")",RBRKT:CIAC="]",BINARY:"!#&*-_+=\/<>["[CIAC,NOT:CIAC="'",PTRN:CIAC="?"
+"RTN","CIAUSTX1",25,0)
+DONE S CIAPSN=CIAPSN-1
+"RTN","CIAUSTX1",26,0)
+END S CIAF=-1
+"RTN","CIAUSTX1",27,0)
+ Q
+"RTN","CIAUSTX1",28,0)
+ ; Negated operator
+"RTN","CIAUSTX1",29,0)
+NOT S:'$$NEXT("=<>[]?&!",0) CIAERR=2
+"RTN","CIAUSTX1",30,0)
+ Q
+"RTN","CIAUSTX1",31,0)
+ ; Parse a global reference
+"RTN","CIAUSTX1",32,0)
+GLBL D:$$NEXT("[") PLIST(";1-2","]")
+"RTN","CIAUSTX1",33,0)
+ Q:CIAERR
+"RTN","CIAUSTX1",34,0)
+ S:'$$NEXT("(",0) CIAPSN=$$NAME^CIAUSTX0(CIAPSN,"$%")
+"RTN","CIAUSTX1",35,0)
+ I 'CIAERR,$$NEXT("(") D PLIST(";1-999")
+"RTN","CIAUSTX1",36,0)
+ S CIAF=1
+"RTN","CIAUSTX1",37,0)
+ Q
+"RTN","CIAUSTX1",38,0)
+ ; Indirection (prefix)
+"RTN","CIAUSTX1",39,0)
+INDIR S CIAPN(CIAPN,"@")=$G(CIAPN(CIAPN,"@"))+1
+"RTN","CIAUSTX1",40,0)
+ Q
+"RTN","CIAUSTX1",41,0)
+ ; Indirection (suffix)
+"RTN","CIAUSTX1",42,0)
+INDIR2 I +$G(CIAPN(CIAPN,"@"))'>0 S CIAERR=2
+"RTN","CIAUSTX1",43,0)
+ E  I '$$NEXT("(") S CIAERR=2
+"RTN","CIAUSTX1",44,0)
+ E  D
+"RTN","CIAUSTX1",45,0)
+ .S CIAPN(CIAPN,"@")=-(CIAPN(CIAPN,"@")>1)
+"RTN","CIAUSTX1",46,0)
+ .D PLIST()
+"RTN","CIAUSTX1",47,0)
+ Q
+"RTN","CIAUSTX1",48,0)
+ ; Intrinsic function/system variable
+"RTN","CIAUSTX1",49,0)
+FCN G:$$NEXT("$") EXT
+"RTN","CIAUSTX1",50,0)
+INT N CIAZ,CIAZ1
+"RTN","CIAUSTX1",51,0)
+ S CIAZ1=$E(CIAM,CIAPSN),CIAZ=$$INT^CIAUSTX0(.CIAPSN),CIAF=1
+"RTN","CIAUSTX1",52,0)
+ I 'CIAERR,$$NEXT("(") D PLIST(CIAZ)
+"RTN","CIAUSTX1",53,0)
+ Q
+"RTN","CIAUSTX1",54,0)
+ ; Extrinsic function
+"RTN","CIAUSTX1",55,0)
+EXT S:'$$NEXT(U,0) CIAPSN=$$LABEL^CIAUSTX0
+"RTN","CIAUSTX1",56,0)
+ Q:CIAERR
+"RTN","CIAUSTX1",57,0)
+ S:$$NEXT(U) CIAPSN=$$LABEL^CIAUSTX0
+"RTN","CIAUSTX1",58,0)
+ Q:CIAERR
+"RTN","CIAUSTX1",59,0)
+ D:$$NEXT("(") PLIST(".;0-999")
+"RTN","CIAUSTX1",60,0)
+ S CIAF=1
+"RTN","CIAUSTX1",61,0)
+ Q
+"RTN","CIAUSTX1",62,0)
+ ; Unary operator
+"RTN","CIAUSTX1",63,0)
+UNARY Q
+"RTN","CIAUSTX1",64,0)
+ ; String literal
+"RTN","CIAUSTX1",65,0)
+QT D QT2
+"RTN","CIAUSTX1",66,0)
+ S CIAF=1
+"RTN","CIAUSTX1",67,0)
+ Q
+"RTN","CIAUSTX1",68,0)
+ ; Find matching quote
+"RTN","CIAUSTX1",69,0)
+QT2 F CIAPSN=CIAPSN:1:CIALEN I $$NEXT(CIAQT),'$$NEXT(CIAQT,0) Q
+"RTN","CIAUSTX1",70,0)
+ S:$E(CIAM,CIAPSN-1)'=CIAQT CIAERR=9
+"RTN","CIAUSTX1",71,0)
+ Q
+"RTN","CIAUSTX1",72,0)
+ ; Numeric constant
+"RTN","CIAUSTX1",73,0)
+NUM N CIAZ,CIAZ1
+"RTN","CIAUSTX1",74,0)
+ S CIAZ=0,CIAF=1
+"RTN","CIAUSTX1",75,0)
+ F CIAPSN=CIAPSN-1:1 S CIAZ1=$E(CIAM,CIAPSN) D @("NUM"_CIAZ) Q:CIAZ<0
+"RTN","CIAUSTX1",76,0)
+ S:CIAZ=-2 CIAERR=2
+"RTN","CIAUSTX1",77,0)
+ Q
+"RTN","CIAUSTX1",78,0)
+NUM0 S CIAZ=$S(CIAZ1?1N:1,CIAZ1=".":2,1:-2)
+"RTN","CIAUSTX1",79,0)
+ Q
+"RTN","CIAUSTX1",80,0)
+NUM1 S CIAZ=$S(CIAZ1?1N:1,CIAZ1=".":3,1:-1)
+"RTN","CIAUSTX1",81,0)
+ Q
+"RTN","CIAUSTX1",82,0)
+NUM2 S CIAZ=$S(CIAZ1?1N:3,1:-2)
+"RTN","CIAUSTX1",83,0)
+ Q
+"RTN","CIAUSTX1",84,0)
+NUM3 S CIAZ=$S(CIAZ1?1N:3,CIAZ1="E":4,1:-1)
+"RTN","CIAUSTX1",85,0)
+ Q
+"RTN","CIAUSTX1",86,0)
+NUM4 S CIAZ=$S(CIAZ1="+":5,CIAZ1="-":5,CIAZ1=".":7,CIAZ1?1N:6,1:-2)
+"RTN","CIAUSTX1",87,0)
+ Q
+"RTN","CIAUSTX1",88,0)
+NUM5 S CIAZ=$S(CIAZ1?1N:6,CIAZ1=".":7,1:-2)
+"RTN","CIAUSTX1",89,0)
+ Q
+"RTN","CIAUSTX1",90,0)
+NUM6 S CIAZ=$S(CIAZ1?1N:6,CIAZ1=".":8,1:-1)
+"RTN","CIAUSTX1",91,0)
+ Q
+"RTN","CIAUSTX1",92,0)
+NUM7 S CIAZ=$S(CIAZ1?1N:8,1:-2)
+"RTN","CIAUSTX1",93,0)
+ Q
+"RTN","CIAUSTX1",94,0)
+NUM8 S CIAZ=$S(CIAZ1?1N:8,1:-1)
+"RTN","CIAUSTX1",95,0)
+ Q
+"RTN","CIAUSTX1",96,0)
+ ; Open parenthesis
+"RTN","CIAUSTX1",97,0)
+OPNPAR S CIAPN=CIAPN+1
+"RTN","CIAUSTX1",98,0)
+ K CIAPN(CIAPN)
+"RTN","CIAUSTX1",99,0)
+ Q
+"RTN","CIAUSTX1",100,0)
+ ; Period (variable by reference or FP number)
+"RTN","CIAUSTX1",101,0)
+DOT I CIAEX[".",$E(CIAM,CIAPSN)'?1N D
+"RTN","CIAUSTX1",102,0)
+ .I '$$NEXT("@") S CIAPSN=$$NAME^CIAUSTX0(CIAPSN,"%"),CIAF=-1
+"RTN","CIAUSTX1",103,0)
+ .E  D INDIR
+"RTN","CIAUSTX1",104,0)
+ E  D NUM
+"RTN","CIAUSTX1",105,0)
+ Q
+"RTN","CIAUSTX1",106,0)
+ ; Variable name
+"RTN","CIAUSTX1",107,0)
+VAR S CIAPSN=$$NAME^CIAUSTX0(CIAPSN-1,"%"),CIAF=1
+"RTN","CIAUSTX1",108,0)
+ D:$$NEXT("(") PLIST()
+"RTN","CIAUSTX1",109,0)
+ Q
+"RTN","CIAUSTX1",110,0)
+ ; Closing parenthesis
+"RTN","CIAUSTX1",111,0)
+CLSPAR I 'CIAPN,CIAEX[")" G DONE
+"RTN","CIAUSTX1",112,0)
+ I CIAPN S CIAPN=CIAPN-1
+"RTN","CIAUSTX1",113,0)
+ E  S CIAERR=3
+"RTN","CIAUSTX1",114,0)
+ Q
+"RTN","CIAUSTX1",115,0)
+ ; Right bracket (] or ]])
+"RTN","CIAUSTX1",116,0)
+RBRKT I 'CIAPN,CIAEX["]" G DONE
+"RTN","CIAUSTX1",117,0)
+ I $$NEXT(CIAC)
+"RTN","CIAUSTX1",118,0)
+ ; Binary operator
+"RTN","CIAUSTX1",119,0)
+BINARY S CIAF=0
+"RTN","CIAUSTX1",120,0)
+ Q
+"RTN","CIAUSTX1",121,0)
+ ; Colon operand
+"RTN","CIAUSTX1",122,0)
+COLON2 S:CIAEX'["M" CIAERR=6
+"RTN","CIAUSTX1",123,0)
+ Q
+"RTN","CIAUSTX1",124,0)
+ ; Colon operator
+"RTN","CIAUSTX1",125,0)
+COLON G:CIAEX'[":" DONE
+"RTN","CIAUSTX1",126,0)
+ S CIAF=0
+"RTN","CIAUSTX1",127,0)
+ S:CIAEX'["M" CIAEX=$TR(CIAEX,":")
+"RTN","CIAUSTX1",128,0)
+ Q
+"RTN","CIAUSTX1",129,0)
+ ; Pattern match
+"RTN","CIAUSTX1",130,0)
+PTRN N CIAZ,CIAZ1
+"RTN","CIAUSTX1",131,0)
+ I $$NEXT("@") S CIAF=0 Q
+"RTN","CIAUSTX1",132,0)
+ S CIAZ=CIAPSN,@$$TRAP^CIAUOS("PERR^CIAUSTX1"),CIAZ1=0
+"RTN","CIAUSTX1",133,0)
+ F  D  Q:CIAZ1<0!CIAERR
+"RTN","CIAUSTX1",134,0)
+ .D QT2:$$NEXT(CIAQT),PTRN1:$$NEXT("("),PTRN2:$$NEXT(")")
+"RTN","CIAUSTX1",135,0)
+ .I CIAZ1,$$NEXT(",")
+"RTN","CIAUSTX1",136,0)
+ .S:'$$NEXT("ACELNPU.0123456789") CIAZ1=-1
+"RTN","CIAUSTX1",137,0)
+ S:'CIAERR CIAZ=CIAZ?@$E(CIAM,CIAZ,CIAPSN-1)
+"RTN","CIAUSTX1",138,0)
+ Q
+"RTN","CIAUSTX1",139,0)
+PTRN1 S CIAZ1=CIAZ1+1
+"RTN","CIAUSTX1",140,0)
+ Q
+"RTN","CIAUSTX1",141,0)
+PTRN2 S CIAZ1=CIAZ1-1
+"RTN","CIAUSTX1",142,0)
+ S:CIAZ1<0 CIAPSN=CIAPSN-1
+"RTN","CIAUSTX1",143,0)
+ Q
+"RTN","CIAUSTX1",144,0)
+PERR S CIAERR=10
+"RTN","CIAUSTX1",145,0)
+ Q
+"RTN","CIAUSTX1",146,0)
+ ; Process a parameter list
+"RTN","CIAUSTX1",147,0)
+PLIST(CIAP,CIAT) ;
+"RTN","CIAUSTX1",148,0)
+ N CIAC,CIAP1,CIAP2,CIAZ
+"RTN","CIAUSTX1",149,0)
+ S CIAT=$G(CIAT,")"),CIAP=$G(CIAP,";0-999"),CIAP2=$P(CIAP,";",2),CIAP1=+CIAP2,CIAP2=+$P(CIAP2,"-",2),CIAC=0,CIAZ=$P(CIAP,";")
+"RTN","CIAUSTX1",150,0)
+ I '$$NEXT(CIAT,0) D
+"RTN","CIAUSTX1",151,0)
+ .F CIAC=1:1 D  Q:CIAERR!'$$NEXT(",")
+"RTN","CIAUSTX1",152,0)
+ ..D @("PL"_$P(CIAP,";",CIAC+2))
+"RTN","CIAUSTX1",153,0)
+ I 'CIAERR,CIAC<CIAP1!(CIAC>CIAP2) S CIAERR=8
+"RTN","CIAUSTX1",154,0)
+ I 'CIAERR,'$$NEXT(CIAT) S CIAERR=3
+"RTN","CIAUSTX1",155,0)
+ Q
+"RTN","CIAUSTX1",156,0)
+PL N CIAEX
+"RTN","CIAUSTX1",157,0)
+ I CIAZ=".",$$NEXT(",",0) Q
+"RTN","CIAUSTX1",158,0)
+ S CIAEX=CIAT_CIAZ
+"RTN","CIAUSTX1",159,0)
+ D EXP(.CIAEX)
+"RTN","CIAUSTX1",160,0)
+ I CIAZ[":",CIAEX[":" S CIAERR=2
+"RTN","CIAUSTX1",161,0)
+ Q
+"RTN","CIAUSTX1",162,0)
+PLV D LVAL^CIAUSTX0("LG")
+"RTN","CIAUSTX1",163,0)
+ Q
+"RTN","CIAUSTX1",164,0)
+PLL D LBL1^CIAUSTX0()
+"RTN","CIAUSTX1",165,0)
+ Q
+"RTN","CIAUSTX1",166,0)
+ ; Get next character
+"RTN","CIAUSTX1",167,0)
+NEXT(CIAC,CIAI) ;
+"RTN","CIAUSTX1",168,0)
+ Q $$NEXT^CIAUSTX0(CIAC,.CIAI)
+"RTN","CIAUTSK")
+0^57^B1191791
+"RTN","CIAUTSK",1,0)
+CIAUTSK ;MSC/IND/DKM - Encapsulates TaskMan API ;04-May-2006 08:19;DKM
+"RTN","CIAUTSK",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUTSK",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUTSK",4,0)
+ ;=================================================================
+"RTN","CIAUTSK",5,0)
+QUEUE(ZTRTN,ZTDESC,ZTDTH,ZTSAVE,ZTIO,ZTUCI,ZTPRI) ;
+"RTN","CIAUTSK",6,0)
+ N %CIAZ,%CIAZ1,%CIAZ2,ZTKIL,ZTSK,ZTCPU
+"RTN","CIAUTSK",7,0)
+ S:'$G(ZTDTH) ZTDTH=$H
+"RTN","CIAUTSK",8,0)
+ S:ZTDTH'?1.N1","1.N ZTDTH=$$FMTH^XLFDT(ZTDTH)
+"RTN","CIAUTSK",9,0)
+ Q:ZTDTH<0 0
+"RTN","CIAUTSK",10,0)
+ S:$G(ZTUCI)'="" ZTUCI=$TR(ZTUCI,":",","),ZTCPU=$P(ZTUCI,",",2),ZTUCI=$P(ZTUCI,",")
+"RTN","CIAUTSK",11,0)
+ S ZTSAVE=$G(ZTSAVE),ZTIO=$G(ZTIO),U="^"
+"RTN","CIAUTSK",12,0)
+ F %CIAZ=1:1:$L(ZTSAVE,U) D
+"RTN","CIAUTSK",13,0)
+ .S %CIAZ1=$P(ZTSAVE,U,%CIAZ),%CIAZ2=$P(%CIAZ1,"=",2,999),%CIAZ1=$P(%CIAZ1,"=")
+"RTN","CIAUTSK",14,0)
+ .S:%CIAZ1'="" ZTSAVE(%CIAZ1)=%CIAZ2
+"RTN","CIAUTSK",15,0)
+ D ^%ZTLOAD
+"RTN","CIAUTSK",16,0)
+ Q +$G(ZTSK)
+"RTN","CIAUUSR")
+0^58^B4318479
+"RTN","CIAUUSR",1,0)
+CIAUUSR ;MSC/IND/DKM - Parse recipient list;04-May-2006 08:19;DKM
+"RTN","CIAUUSR",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUUSR",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUUSR",4,0)
+ ;=================================================================
+"RTN","CIAUUSR",5,0)
+ ; Takes a list of recipients (which may be DUZ #'s, names,
+"RTN","CIAUUSR",6,0)
+ ; mail groups, or special tokens) as input and produces an
+"RTN","CIAUUSR",7,0)
+ ; array of DUZ's as output.  If a list element is found in
+"RTN","CIAUUSR",8,0)
+ ; in the token list CIALST, the value of the token entry will
+"RTN","CIAUUSR",9,0)
+ ; be substituted.
+"RTN","CIAUUSR",10,0)
+ ; Inputs:
+"RTN","CIAUUSR",11,0)
+ ;     CIAUSR = Semicolon-delimited list of recipients
+"RTN","CIAUUSR",12,0)
+ ;     CIALST = Special token list
+"RTN","CIAUUSR",13,0)
+ ; Outputs:
+"RTN","CIAUUSR",14,0)
+ ;     CIAOUT = Local array to receive DUZ list
+"RTN","CIAUUSR",15,0)
+ ;=================================================================
+"RTN","CIAUUSR",16,0)
+ENTRY(CIAUSR,CIAOUT,CIALST) ;
+"RTN","CIAUUSR",17,0)
+ N CIAZ,CIAZ1,CIAZ2
+"RTN","CIAUUSR",18,0)
+ K CIAOUT
+"RTN","CIAUUSR",19,0)
+ F CIAZ=1:1:$L(CIAUSR,";") S CIAZ1=$P(CIAUSR,";",CIAZ) D:CIAZ1'=""  S:CIAZ1 CIAOUT(+CIAZ1)=""
+"RTN","CIAUUSR",20,0)
+ .S:$D(CIALST(CIAZ1)) CIAZ1=CIALST(CIAZ1)
+"RTN","CIAUUSR",21,0)
+ .Q:CIAZ1?.N
+"RTN","CIAUUSR",22,0)
+ .I CIAZ1?1"-"1.N D MGRP(-CIAZ1) S CIAZ1=0 Q
+"RTN","CIAUUSR",23,0)
+ .S CIAZ2=$E(CIAZ1,1,2)
+"RTN","CIAUUSR",24,0)
+ .I CIAZ2="G." D MGRP($E(CIAZ1,3,999)) Q
+"RTN","CIAUUSR",25,0)
+ .I CIAZ2="L." D LIST($E(CIAZ1,3,999)) Q
+"RTN","CIAUUSR",26,0)
+ .S CIAZ1=$$LKP(CIAZ1)
+"RTN","CIAUUSR",27,0)
+ Q
+"RTN","CIAUUSR",28,0)
+LKP(CIANAME) ;
+"RTN","CIAUUSR",29,0)
+ N CIAZ,CIAZ1
+"RTN","CIAUUSR",30,0)
+ I $D(^VA(200,"B",CIANAME)) S CIAZ=CIANAME G L1
+"RTN","CIAUUSR",31,0)
+ S CIAZ=$O(^(CIANAME)),CIAZ1=$O(^(CIAZ))
+"RTN","CIAUUSR",32,0)
+ Q:(CIAZ="")!(CIANAME'=$E(CIAZ,1,$L(CIANAME))) 0
+"RTN","CIAUUSR",33,0)
+ Q:(CIAZ1'="")&(CIANAME=$E(CIAZ1,1,$L(CIANAME))) 0
+"RTN","CIAUUSR",34,0)
+L1 S CIAZ1=$O(^(CIAZ,0)),CIAZ=$O(^(CIAZ1))
+"RTN","CIAUUSR",35,0)
+ Q:'CIAZ1!CIAZ 0
+"RTN","CIAUUSR",36,0)
+ Q CIAZ1
+"RTN","CIAUUSR",37,0)
+LIST(CIALIST) ;
+"RTN","CIAUUSR",38,0)
+ Q:CIALIST=""
+"RTN","CIAUUSR",39,0)
+ S:CIALIST'=+CIALIST CIALIST=+$O(^CCCDSS(25193.6,"B",CIALIST,0))
+"RTN","CIAUUSR",40,0)
+ S @$$TRAP^CIAUOS("LERR^CIAUUSR")
+"RTN","CIAUUSR",41,0)
+ X:$D(^CCCDSS(25193.6,CIALIST,1)) ^(1)
+"RTN","CIAUUSR",42,0)
+LERR Q
+"RTN","CIAUUSR",43,0)
+MGRP(CIAMGRP) ;
+"RTN","CIAUUSR",44,0)
+ N CIAX
+"RTN","CIAUUSR",45,0)
+ S CIAX(0)=""
+"RTN","CIAUUSR",46,0)
+ D MGRP2(CIAMGRP)
+"RTN","CIAUUSR",47,0)
+ Q
+"RTN","CIAUUSR",48,0)
+MGRP2(CIAMGRP) ;
+"RTN","CIAUUSR",49,0)
+ N CIAZ,CIAZ1
+"RTN","CIAUUSR",50,0)
+ Q:CIAMGRP=""
+"RTN","CIAUUSR",51,0)
+ S:CIAMGRP'=+CIAMGRP CIAMGRP=+$O(^XMB(3.8,"B",CIAMGRP,0))
+"RTN","CIAUUSR",52,0)
+ Q:$D(CIAX(CIAMGRP))
+"RTN","CIAUUSR",53,0)
+ S CIAX(CIAMGRP)=""
+"RTN","CIAUUSR",54,0)
+ F CIAZ=0:0 S CIAZ=+$O(^XMB(3.8,CIAMGRP,1,CIAZ)) Q:'CIAZ  S CIAOUT(+^(CIAZ,0))=""
+"RTN","CIAUUSR",55,0)
+ F CIAZ=0:0 S CIAZ=+$O(^XMB(3.8,CIAMGRP,5,CIAZ)) Q:'CIAZ  D MGRP2(^(CIAZ,0))
+"RTN","CIAUUSR",56,0)
+ Q
+"RTN","CIAUUU")
+0^59^B2196200
+"RTN","CIAUUU",1,0)
+CIAUUU ;MSC/IND/DKM - UUEncode and UUDecode functions.;04-May-2006 08:19;DKM
+"RTN","CIAUUU",2,0)
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 97
+"RTN","CIAUUU",3,0)
+ ;;Copyright 2000-2006, Medsphere Systems Corporation
+"RTN","CIAUUU",4,0)
+ ;=================================================================
+"RTN","CIAUUU",5,0)
+ENCODE(X) ;
+"RTN","CIAUUU",6,0)
+ N CIAZ,CIAZ1,CIAZ2,CIAZ3,CIAZ4,CIAZ5,CIAZ6
+"RTN","CIAUUU",7,0)
+ S CIAZ=$$INIT,CIAZ1=""
+"RTN","CIAUUU",8,0)
+ F CIAZ2=1:3:$L(X) D
+"RTN","CIAUUU",9,0)
+ .S CIAZ3=0,CIAZ6=""
+"RTN","CIAUUU",10,0)
+ .F CIAZ4=0:1:2 D
+"RTN","CIAUUU",11,0)
+ ..S CIAZ5=$A(X,CIAZ2+CIAZ4),CIAZ3=CIAZ3*256+$S(CIAZ5<0:0,1:CIAZ5)
+"RTN","CIAUUU",12,0)
+ .F CIAZ4=1:1:4 S CIAZ6=$E(CIAZ,CIAZ3#64+2)_CIAZ6,CIAZ3=CIAZ3\64
+"RTN","CIAUUU",13,0)
+ .S CIAZ1=CIAZ1_CIAZ6
+"RTN","CIAUUU",14,0)
+ S CIAZ2=$L(X)#3
+"RTN","CIAUUU",15,0)
+ S:CIAZ2 CIAZ3=$L(CIAZ1),$E(CIAZ1,CIAZ3-2+CIAZ2,CIAZ3)=$E("==",CIAZ2,2)
+"RTN","CIAUUU",16,0)
+ Q CIAZ1
+"RTN","CIAUUU",17,0)
+DECODE(X) ;
+"RTN","CIAUUU",18,0)
+ N CIAZ,CIAZ1,CIAZ2,CIAZ3,CIAZ4,CIAZ5,CIAZ6
+"RTN","CIAUUU",19,0)
+ S CIAZ=$$INIT,CIAZ1=""
+"RTN","CIAUUU",20,0)
+ F CIAZ2=1:4:$L(X) D
+"RTN","CIAUUU",21,0)
+ .S CIAZ3=0,CIAZ6=""
+"RTN","CIAUUU",22,0)
+ .F CIAZ4=0:1:3 D
+"RTN","CIAUUU",23,0)
+ ..S CIAZ5=$F(CIAZ,$E(X,CIAZ2+CIAZ4))-3
+"RTN","CIAUUU",24,0)
+ ..S CIAZ3=CIAZ3*64+$S(CIAZ5<0:0,1:CIAZ5)
+"RTN","CIAUUU",25,0)
+ .F CIAZ4=0:1:2 S CIAZ6=$C(CIAZ3#256)_CIAZ6,CIAZ3=CIAZ3\256
+"RTN","CIAUUU",26,0)
+ .S CIAZ1=CIAZ1_CIAZ6
+"RTN","CIAUUU",27,0)
+ Q $E(CIAZ1,1,$L(CIAZ1)-$L(X,"=")+1)
+"RTN","CIAUUU",28,0)
+INIT() Q "=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+"VER")
+8.0^22.0
+**END**
+**END**
