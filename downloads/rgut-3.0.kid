@@ -1,11 +1,11 @@
-KIDS Distribution saved on Mar 03, 2015@14:26:06
+KIDS Distribution saved on Mar 05, 2015@22:50:05
 RG UTILITIES 3.0
 **KIDS**:RG UTILITIES 3.0^
 
 **INSTALL NAME**
 RG UTILITIES 3.0
 "BLD",8503,0)
-RG UTILITIES 3.0^RUN TIME LIBRARY^0^3150303^n
+RG UTILITIES 3.0^RUN TIME LIBRARY^0^3150305^n
 "BLD",8503,1,0)
 ^^3^3^3150202^^^
 "BLD",8503,1,1,0)
@@ -17,7 +17,7 @@ They perform generic functions.
 "BLD",8503,4,0)
 ^9.64PA^^
 "BLD",8503,6.3)
-144
+162
 "BLD",8503,"ABNS",0)
 ^9.66A^1^1
 "BLD",8503,"ABNS",1,0)
@@ -57,9 +57,9 @@ POST^RGUTINIT
 "BLD",8503,"KRN",9.8,0)
 9.8
 "BLD",8503,"KRN",9.8,"NM",0)
-^9.68A^87^53
+^9.68A^88^54
 "BLD",8503,"KRN",9.8,"NM",18,0)
-RGUT^^0^B36193720
+RGUT^^0^B41131960
 "BLD",8503,"KRN",9.8,"NM",27,0)
 RGUTSTX^^0^B17505727
 "BLD",8503,"KRN",9.8,"NM",28,0)
@@ -77,7 +77,7 @@ RGUTDIC^^0^B28066955
 "BLD",8503,"KRN",9.8,"NM",37,0)
 RGUTDT^^0^B4547736
 "BLD",8503,"KRN",9.8,"NM",38,0)
-RGUTEDT^^0^B47112821
+RGUTEDT^^0^B44841730
 "BLD",8503,"KRN",9.8,"NM",44,0)
 RGUTIMP^^0^B10992396
 "BLD",8503,"KRN",9.8,"NM",45,0)
@@ -85,11 +85,11 @@ RGUTIN^^1^
 "BLD",8503,"KRN",9.8,"NM",46,0)
 RGUTIN0^^0^B1324180
 "BLD",8503,"KRN",9.8,"NM",47,0)
-RGUTIN16^^0^B4324901
+RGUTIN16^^0^B4251434
 "BLD",8503,"KRN",9.8,"NM",48,0)
-RGUTIN18^^0^B4545277
+RGUTIN18^^0^B4464090
 "BLD",8503,"KRN",9.8,"NM",49,0)
-RGUTIN8^^0^B4187174
+RGUTIN8^^0^B4105987
 "BLD",8503,"KRN",9.8,"NM",50,0)
 RGUTLK2^^0^B49012377
 "BLD",8503,"KRN",9.8,"NM",51,0)
@@ -97,7 +97,7 @@ RGUTLKP^^0^B26828890
 "BLD",8503,"KRN",9.8,"NM",52,0)
 RGUTMTL^^0^B13569820
 "BLD",8503,"KRN",9.8,"NM",53,0)
-RGUTOS^^0^B7709338
+RGUTOS^^0^B7607307
 "BLD",8503,"KRN",9.8,"NM",54,0)
 RGUTOS1^^0^B10134674
 "BLD",8503,"KRN",9.8,"NM",56,0)
@@ -109,7 +109,7 @@ RGUTUSR^^0^B3790974
 "BLD",8503,"KRN",9.8,"NM",59,0)
 RGUTUU^^0^B1813543
 "BLD",8503,"KRN",9.8,"NM",60,0)
-RGUTINIT^^0^B5939477
+RGUTINIT^^0^B5948579
 "BLD",8503,"KRN",9.8,"NM",61,0)
 RGUTHFS^^0^B5078426
 "BLD",8503,"KRN",9.8,"NM",62,0)
@@ -127,9 +127,9 @@ RGUTBCDA^^0^B8230455
 "BLD",8503,"KRN",9.8,"NM",68,0)
 RGUTIN8U^^1^
 "BLD",8503,"KRN",9.8,"NM",69,0)
-RGUTIN68^^0^B4493128
+RGUTIN68^^0^B4411941
 "BLD",8503,"KRN",9.8,"NM",70,0)
-RGUTIN58^^0^B5603465
+RGUTIN58^^0^B5514558
 "BLD",8503,"KRN",9.8,"NM",71,0)
 RGUT1^^0^B805876
 "BLD",8503,"KRN",9.8,"NM",72,0)
@@ -164,6 +164,8 @@ RGMSCTSK^^1^
 RGMSCUSR^^1^
 "BLD",8503,"KRN",9.8,"NM",87,0)
 RGUTDATF^^0^B6379104
+"BLD",8503,"KRN",9.8,"NM",88,0)
+RGUTIN19^^0^B3750582
 "BLD",8503,"KRN",9.8,"NM","B","RGCVTDT",75)
 
 "BLD",8503,"KRN",9.8,"NM","B","RGCVTUU",76)
@@ -225,6 +227,8 @@ RGUTDATF^^0^B6379104
 "BLD",8503,"KRN",9.8,"NM","B","RGUTIN16",47)
 
 "BLD",8503,"KRN",9.8,"NM","B","RGUTIN18",48)
+
+"BLD",8503,"KRN",9.8,"NM","B","RGUTIN19",88)
 
 "BLD",8503,"KRN",9.8,"NM","B","RGUTIN58",70)
 
@@ -511,9 +515,9 @@ RUN TIME LIBRARY^RGUT^RUN TIME LIBRARY
 "PKG",172,22,0)
 ^9.49I^1^1
 "PKG",172,22,1,0)
-3.0^3150303^3150202^1
+3.0^3150305^3150202^1
 "PKG",172,22,1,1,0)
-^^3^3^3150303
+^^3^3^3150305
 "PKG",172,22,1,1,1,0)
 This is the set of routines common to all modules occupying the RG namespace.  
 "PKG",172,22,1,1,2,0)
@@ -593,7 +597,7 @@ NO
 "QUES","XPZ2","M")
 D XPZ2^XPDIQ
 "RTN")
-53
+54
 "RTN","RGCVTDT")
 1^75
 "RTN","RGCVTUU")
@@ -619,11 +623,11 @@ D XPZ2^XPDIQ
 "RTN","RGMSCUSR")
 1^86
 "RTN","RGUT")
-0^18^B36193720
+0^18^B41131960
 "RTN","RGUT",1,0)
-RGUT ;RI/CBMI/DKM - General purpose utilities;03-Mar-2015 14:24;DKM
+RGUT ;RI/CBMI/DKM - General purpose utilities;05-Mar-2015 18:49;DKM
 "RTN","RGUT",2,0)
- ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 162
 "RTN","RGUT",3,0)
  ;;
 "RTN","RGUT",4,0)
@@ -1030,12 +1034,58 @@ DTF(X) S X=X#1*100
 DTT(X) S X=X*86400
 "RTN","RGUT",205,0)
  Q X\3600*100+(X#3600/3600*60)/10000
+"RTN","RGUT",206,0)
+ ; Save buffer to routine
+"RTN","RGUT",207,0)
+ ; RTN = Routine name
+"RTN","RGUT",208,0)
+ ; BUF = Buffer containing routine contents (terminal subscript must be 0).
+"RTN","RGUT",209,0)
+ ; KILL = If true, delete buffer after completion
+"RTN","RGUT",210,0)
+RTNSAVE(RTN,BUF,KILL) ;
+"RTN","RGUT",211,0)
+ N XCM,XCN,DIE,X
+"RTN","RGUT",212,0)
+ S XCN=0,DIE=BUF,X=RTN
+"RTN","RGUT",213,0)
+ S:$E(DIE,$L(DIE))=")" $E(DIE,$L(DIE))=","
+"RTN","RGUT",214,0)
+ X ^%ZOSF("SAVE")
+"RTN","RGUT",215,0)
+ K:$G(KILL) @BUF
+"RTN","RGUT",216,0)
+ Q
+"RTN","RGUT",217,0)
+ ; Copy one routine to another
+"RTN","RGUT",218,0)
+RTNCOPY(SRC,DST) ;
+"RTN","RGUT",219,0)
+ N BUF,X,Y
+"RTN","RGUT",220,0)
+ Q:'$L($T(+0^@SRC))
+"RTN","RGUT",221,0)
+ S BUF=$$TMPGBL^RGUTRPC("RTN")
+"RTN","RGUT",222,0)
+ F X=1:1 S Y=$T(+X^@SRC) Q:'$L(Y)  S @BUF@(X,0)=Y
+"RTN","RGUT",223,0)
+ D RTNSAVE(DST,BUF,1)
+"RTN","RGUT",224,0)
+ Q
+"RTN","RGUT",225,0)
+ ; Delete a routine
+"RTN","RGUT",226,0)
+RTNDEL(RTN) ;
+"RTN","RGUT",227,0)
+ D RTNSAVE(RTN,$$TMPGBL^RGUTRPC("RTN"),1)
+"RTN","RGUT",228,0)
+ Q
 "RTN","RGUT1")
 0^71^B805876
 "RTN","RGUT1",1,0)
 RGUT1 ;RG/IND/PLS - General Purpose Utilites - Con't ;03-Mar-2015 14:24;DKM
 "RTN","RGUT1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUT1",3,0)
  ;;
 "RTN","RGUT1",4,0)
@@ -1105,7 +1155,7 @@ ASKDATE(PMT,DFL,MIN,OPT) ;
 "RTN","RGUTALR",1,0)
 RGUTALR ;RI/CBMI/DKM - Send alert to user(s) via kernel or mail;03-Mar-2015 14:24;DKM
 "RTN","RGUTALR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTALR",3,0)
  ;;
 "RTN","RGUTALR",4,0)
@@ -1165,7 +1215,7 @@ MAIL(RGMSG,XMY,XMSUB,XMDUZ) ;
 "RTN","RGUTBC28",1,0)
 RGUTBC28 ;RI/CBMI/DKM/PLS - Convert 128 barcode to HPCL-compatible form ;03-Mar-2015 14:24;DKM
 "RTN","RGUTBC28",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTBC28",3,0)
  ;;
 "RTN","RGUTBC28",4,0)
@@ -1501,7 +1551,7 @@ BC(TXT,ORN,HGT,HOR,VER,WID) ;
 "RTN","RGUTBC39",1,0)
 RGUTBC39 ;RG/IND/PLS - Converts barcode 39 to HPCL-compatible format ;03-Mar-2015 14:24;DKM
 "RTN","RGUTBC39",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTBC39",3,0)
  ;;
 "RTN","RGUTBC39",4,0)
@@ -1695,7 +1745,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","RGUTBCDA",1,0)
 RGUTBCDA ;RG/IND/PLS - Converts barcode CODABAR to HPCL-compatible format ;03-Mar-2015 14:24;DKM
 "RTN","RGUTBCDA",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTBCDA",3,0)
  ;;
 "RTN","RGUTBCDA",4,0)
@@ -1849,7 +1899,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","RGUTBIG",1,0)
 RGUTBIG ;RG/IND/PLS - Print a banner in large letters;03-Mar-2015 14:24;DKM
 "RTN","RGUTBIG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTBIG",3,0)
  ;;
 "RTN","RGUTBIG",4,0)
@@ -2017,7 +2067,7 @@ TBL ;; Table of character "raster images"
 "RTN","RGUTDAT",1,0)
 RGUTDAT ;RI/CBMI/DKM - Date range input;03-Mar-2015 14:24;DKM
 "RTN","RGUTDAT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTDAT",3,0)
  ;;
 "RTN","RGUTDAT",4,0)
@@ -2169,7 +2219,7 @@ PAUSE(%RGZ) ;
 "RTN","RGUTDATF",1,0)
 RGUTDATF ;RI/CBMI/DKM - Date Formatter;03-Mar-2015 14:24;DKM
 "RTN","RGUTDATF",2,0)
- ;;3.0;RG UTILITIES;;Feb 20, 2015;Build 144
+ ;;3.0;RG UTILITIES;;Feb 20, 2015;Build 162
 "RTN","RGUTDATF",3,0)
  ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 1
 "RTN","RGUTDATF",4,0)
@@ -2357,7 +2407,7 @@ FMTX() N TZ
 "RTN","RGUTDDR",1,0)
 RGUTDDR ;RI/CBMI/DKM - FileMan RPC Extensions ;03-Mar-2015 14:24;DKM
 "RTN","RGUTDDR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTDDR",3,0)
  ;;
 "RTN","RGUTDDR",4,0)
@@ -2873,7 +2923,7 @@ XREFFLD(FNUM,XREF) ;EP
 "RTN","RGUTDIC",1,0)
 RGUTDIC ;RI/CBMI/DKM - Encapsulated FileMan API;03-Mar-2015 14:24;DKM
 "RTN","RGUTDIC",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTDIC",3,0)
  ;;
 "RTN","RGUTDIC",4,0)
@@ -3205,7 +3255,7 @@ DA N %RGZ,%RGZ1,%RGZ2
 "RTN","RGUTDT",1,0)
 RGUTDT ;RI/CBMI/DKM - FM date to formatted date;03-Mar-2015 14:24;DKM
 "RTN","RGUTDT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTDT",3,0)
  ;;
 "RTN","RGUTDT",4,0)
@@ -3279,11 +3329,11 @@ ENTRY(RGDAT,RGFMT) ; EP
 "RTN","RGUTDT",38,0)
  Q RGZ1_$S('$L(RGZ2):"",$L(RGZ1):RGDLM,1:"")_RGZ2
 "RTN","RGUTEDT")
-0^38^B47112821
+0^38^B44841730
 "RTN","RGUTEDT",1,0)
-RGUTEDT ;RI/CBMI/DKM - Screen-oriented line editor;03-Mar-2015 14:24;DKM
+RGUTEDT ;RI/CBMI/DKM - Screen-oriented line editor;05-Mar-2015 18:11;DKM
 "RTN","RGUTEDT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTEDT",3,0)
  ;;
 "RTN","RGUTEDT",4,0)
@@ -3379,255 +3429,245 @@ ENTRY(RGDATA,RGLEN,RGX,RGY,RGVALD,RGOPT,RGDISV,RGTERM,RGABRT,RGRM,RGQUIT) ;
 "RTN","RGUTEDT",49,0)
  S (RGSAVE,RGDATA)=$E($G(RGDATA),1,RGMAX)                              ; Truncate data if too long
 "RTN","RGUTEDT",50,0)
- I $$NEWERR^%ZTER N $ET S $ET=""
-"RTN","RGUTEDT",51,0)
- S @$$TRAP^RGUTOS("ERROR^RGUTEDT")
-"RTN","RGUTEDT",52,0)
  D RM^RGUTOS(0)
-"RTN","RGUTEDT",53,0)
+"RTN","RGUTEDT",51,0)
  X ^%ZOSF("EOFF")
-"RTN","RGUTEDT",54,0)
+"RTN","RGUTEDT",52,0)
  F  Q:RGDATA'[RGTAB  S RGZ=$P(RGDATA,RGTAB),RGDATA=RGZ_$J("",8-($L(RGZ)#8))_$P(RGDATA,RGTAB,2,999)
-"RTN","RGUTEDT",55,0)
+"RTN","RGUTEDT",53,0)
 RESTART D RESET
-"RTN","RGUTEDT",56,0)
+"RTN","RGUTEDT",54,0)
 AGAIN F RGQUIT=0:0 Q:RGQUIT  D NXT S RGAE=0
-"RTN","RGUTEDT",57,0)
+"RTN","RGUTEDT",55,0)
  X ^%ZOSF("EON")
-"RTN","RGUTEDT",58,0)
+"RTN","RGUTEDT",56,0)
  W $$XY^RGUT(RGX,RGY),$S(RGOPT["R":RGRVOFF,1:"")
-"RTN","RGUTEDT",59,0)
+"RTN","RGUTEDT",57,0)
  I RGDISV'="" Q:"^^"[RGDATA RGDATA S:RGDATA=" " RGDATA=$G(^DISV(DUZ,RGDISV))
-"RTN","RGUTEDT",60,0)
+"RTN","RGUTEDT",58,0)
  S:RGDISV'="" ^DISV(DUZ,RGDISV)=RGDATA
-"RTN","RGUTEDT",61,0)
+"RTN","RGUTEDT",59,0)
  Q RGDATA                                                              ; Return to calling routine
-"RTN","RGUTEDT",62,0)
+"RTN","RGUTEDT",60,0)
 NXT D POSCUR()                                                            ; Position cursor
-"RTN","RGUTEDT",63,0)
+"RTN","RGUTEDT",61,0)
  R *RGC:DTIME                                                          ; Next character typed
-"RTN","RGUTEDT",64,0)
+"RTN","RGUTEDT",62,0)
  I RGC=27 D ESC Q:'RGC
-"RTN","RGUTEDT",65,0)
+"RTN","RGUTEDT",63,0)
  I RGC<1!(RGABRT[$C(RGC)) S RGDATA=U,RGQUIT=1 Q
-"RTN","RGUTEDT",66,0)
+"RTN","RGUTEDT",64,0)
  I RGTERM[$C(RGC) D TERM Q
-"RTN","RGUTEDT",67,0)
+"RTN","RGUTEDT",65,0)
  I RGC<28 D:RGC'=27 @("CTL"_$C(RGC+64)) Q
-"RTN","RGUTEDT",68,0)
+"RTN","RGUTEDT",66,0)
  I RGC=127!(RGC=240) D CTLH Q
-"RTN","RGUTEDT",69,0)
+"RTN","RGUTEDT",67,0)
  I RGC>64,RGC<91,RGOPT["L" S RGC=RGC+32
-"RTN","RGUTEDT",70,0)
+"RTN","RGUTEDT",68,0)
  E  I RGC>96,RGC<123,RGOPT["U" S RGC=RGC-32
-"RTN","RGUTEDT",71,0)
- I $L(RGVALD),RGVALD'[$C(RGC) D RAISE^RGUTOS()
-"RTN","RGUTEDT",72,0)
+"RTN","RGUTEDT",69,0)
+ I $L(RGVALD),RGVALD'[$C(RGC) W RGBEL Q
+"RTN","RGUTEDT",70,0)
  D:RGAE CTLK,POSCUR()                                                  ; Erase buffer if auto erase on
-"RTN","RGUTEDT",73,0)
+"RTN","RGUTEDT",71,0)
  D INSW($C(RGC))
-"RTN","RGUTEDT",74,0)
+"RTN","RGUTEDT",72,0)
  S RGQUIT=RGPOS=RGLEN&(RGOPT["T")
+"RTN","RGUTEDT",73,0)
+ Q
+"RTN","RGUTEDT",74,0)
+CTLA S RGINS='RGINS                                                        ; Toggle insert mode
 "RTN","RGUTEDT",75,0)
  Q
 "RTN","RGUTEDT",76,0)
-CTLA S RGINS='RGINS                                                        ; Toggle insert mode
+CTLB D MOVETO(0)                                                           ; Move cursor to beginning
 "RTN","RGUTEDT",77,0)
  Q
 "RTN","RGUTEDT",78,0)
-CTLB D MOVETO(0)                                                           ; Move cursor to beginning
-"RTN","RGUTEDT",79,0)
- Q
-"RTN","RGUTEDT",80,0)
 CTLX S RGDATA=RGSAVE                                                       ; Restore buffer to original
-"RTN","RGUTEDT",81,0)
+"RTN","RGUTEDT",79,0)
  G RESET
-"RTN","RGUTEDT",82,0)
+"RTN","RGUTEDT",80,0)
 CTLE D MOVETO($L(RGDATA))                                                  ; Move cursor to end
+"RTN","RGUTEDT",81,0)
+ Q
+"RTN","RGUTEDT",82,0)
+CTLI D INSW($J("",8-(RGPOS#8)))                                            ; Insert expanded tab
 "RTN","RGUTEDT",83,0)
  Q
 "RTN","RGUTEDT",84,0)
-CTLI D INSW($J("",8-(RGPOS#8)))                                            ; Insert expanded tab
-"RTN","RGUTEDT",85,0)
- Q
-"RTN","RGUTEDT",86,0)
 CTLJ F RGZ=RGPOS:-1:1 Q:$A(RGDATA,RGZ)'=32                                     ; Find previous nonspace
-"RTN","RGUTEDT",87,0)
+"RTN","RGUTEDT",85,0)
  F RGZ=RGZ:-1:1 Q:$A(RGDATA,RGZ)=32                                          ; Find previous space
-"RTN","RGUTEDT",88,0)
+"RTN","RGUTEDT",86,0)
  S RGBUF=$E(RGDATA,RGZ,RGPOS)                                            ; Save deleted portion
-"RTN","RGUTEDT",89,0)
+"RTN","RGUTEDT",87,0)
  S RGDATA=$E(RGDATA,1,RGZ-1)_$E(RGDATA,RGPOS+1,RGLEN)                    ; Remove word
-"RTN","RGUTEDT",90,0)
+"RTN","RGUTEDT",88,0)
  D MOVETO(RGZ-1)
-"RTN","RGUTEDT",91,0)
+"RTN","RGUTEDT",89,0)
  Q
-"RTN","RGUTEDT",92,0)
+"RTN","RGUTEDT",90,0)
 CTLK S RGBUF=RGDATA                                                        ; Save buffer
-"RTN","RGUTEDT",93,0)
+"RTN","RGUTEDT",91,0)
  S RGDATA=""                                                           ; Erase buffer
-"RTN","RGUTEDT",94,0)
+"RTN","RGUTEDT",92,0)
  D RESET
-"RTN","RGUTEDT",95,0)
+"RTN","RGUTEDT",93,0)
  Q
-"RTN","RGUTEDT",96,0)
+"RTN","RGUTEDT",94,0)
 CTLL S RGBUF=$E(RGDATA,RGPOS+1,RGLEN)                                      ; Save deleted portion
-"RTN","RGUTEDT",97,0)
+"RTN","RGUTEDT",95,0)
  S RGDATA=$E(RGDATA,1,RGPOS)                                           ; Truncate at current position
-"RTN","RGUTEDT",98,0)
+"RTN","RGUTEDT",96,0)
  D DSPLY(RGPOS)
+"RTN","RGUTEDT",97,0)
+ Q
+"RTN","RGUTEDT",98,0)
+CTLM D POSCUR(RGPOS),INSW("~"):RGOPT["C",MOVETO(RGPOS-$X+RGX+RGW)
 "RTN","RGUTEDT",99,0)
  Q
 "RTN","RGUTEDT",100,0)
-CTLM D POSCUR(RGPOS),INSW("~"):RGOPT["C",MOVETO(RGPOS-$X+RGX+RGW)
+CTLR D INSW(RGBUF)                                                         ; Insert at current position
 "RTN","RGUTEDT",101,0)
  Q
 "RTN","RGUTEDT",102,0)
-CTLR D INSW(RGBUF)                                                         ; Insert at current position
+CTLT D CTLL
 "RTN","RGUTEDT",103,0)
  Q
 "RTN","RGUTEDT",104,0)
-CTLT D CTLL
-"RTN","RGUTEDT",105,0)
- Q
-"RTN","RGUTEDT",106,0)
 CTLU S RGBUF=$E(RGDATA,1,RGPOS)                                            ; Save deleted portion
-"RTN","RGUTEDT",107,0)
+"RTN","RGUTEDT",105,0)
  S RGDATA=$E(RGDATA,RGPOS+1,RGLEN)                                     ; Remove to left of cursor
-"RTN","RGUTEDT",108,0)
+"RTN","RGUTEDT",106,0)
  D RESET
-"RTN","RGUTEDT",109,0)
+"RTN","RGUTEDT",107,0)
  Q
-"RTN","RGUTEDT",110,0)
+"RTN","RGUTEDT",108,0)
 CTLH I 'RGPOS W RGBEL Q
-"RTN","RGUTEDT",111,0)
+"RTN","RGUTEDT",109,0)
  D LEFT
-"RTN","RGUTEDT",112,0)
+"RTN","RGUTEDT",110,0)
 CTLD S RGDATA=$E(RGDATA,1,RGPOS)_$E(RGDATA,RGPOS+2,RGMAX)                  ; Delete character to left
-"RTN","RGUTEDT",113,0)
+"RTN","RGUTEDT",111,0)
  D DSPLY(RGPOS,1)
+"RTN","RGUTEDT",112,0)
+ Q
+"RTN","RGUTEDT",113,0)
+TERM S RGQUIT=2
 "RTN","RGUTEDT",114,0)
  Q
 "RTN","RGUTEDT",115,0)
-TERM S RGQUIT=2
-"RTN","RGUTEDT",116,0)
- Q
-"RTN","RGUTEDT",117,0)
 ESC R *RGZ:1
-"RTN","RGUTEDT",118,0)
+"RTN","RGUTEDT",116,0)
  R:RGZ>0 *RGZ:1
-"RTN","RGUTEDT",119,0)
+"RTN","RGUTEDT",117,0)
  S RGC=0
-"RTN","RGUTEDT",120,0)
+"RTN","RGUTEDT",118,0)
  G UP:RGZ=65,DOWN:RGZ=66,RIGHT:RGZ=67,LEFT:RGZ=68                              ;Execute code
-"RTN","RGUTEDT",121,0)
+"RTN","RGUTEDT",119,0)
  S RGC=27
-"RTN","RGUTEDT",122,0)
+"RTN","RGUTEDT",120,0)
  Q
-"RTN","RGUTEDT",123,0)
+"RTN","RGUTEDT",121,0)
 DSPLY(RGP1,RGP2) ;
-"RTN","RGUTEDT",124,0)
+"RTN","RGUTEDT",122,0)
  Q:'RGEON                                                              ; Refresh buffer display starting at position RGP1
-"RTN","RGUTEDT",125,0)
+"RTN","RGUTEDT",123,0)
  N RGZ,RGZ1
-"RTN","RGUTEDT",126,0)
+"RTN","RGUTEDT",124,0)
  S RGP1=+$G(RGP1,RGLEFT),RGZ=$E(RGDATA,RGP1+1,RGLEFT+RGLEN),RGP2=$S($D(RGP2):RGP2+$L(RGZ),1:RGLEN-RGP1+RGLEFT)
-"RTN","RGUTEDT",127,0)
+"RTN","RGUTEDT",125,0)
  S:RGP2>RGLEN RGP2=RGLEN
-"RTN","RGUTEDT",128,0)
+"RTN","RGUTEDT",126,0)
  S RGZ=RGZ_$J("",RGP2-$L(RGZ))
-"RTN","RGUTEDT",129,0)
+"RTN","RGUTEDT",127,0)
  F  D  Q:RGZ=""
-"RTN","RGUTEDT",130,0)
+"RTN","RGUTEDT",128,0)
  .D POSCUR(RGP1)
-"RTN","RGUTEDT",131,0)
+"RTN","RGUTEDT",129,0)
  .S RGZ1=RGRM-$X
-"RTN","RGUTEDT",132,0)
+"RTN","RGUTEDT",130,0)
  .S:RGZ1<1 RGZ1=1
-"RTN","RGUTEDT",133,0)
+"RTN","RGUTEDT",131,0)
  .W $E(RGZ,1,RGZ1)
-"RTN","RGUTEDT",134,0)
+"RTN","RGUTEDT",132,0)
  .S RGZ=$E(RGZ,RGZ1+1,999),RGP1=RGP1+RGZ1
-"RTN","RGUTEDT",135,0)
+"RTN","RGUTEDT",133,0)
  Q
-"RTN","RGUTEDT",136,0)
+"RTN","RGUTEDT",134,0)
 INSW(RGTXT) ;
-"RTN","RGUTEDT",137,0)
+"RTN","RGUTEDT",135,0)
  S:RGPOS>$L(RGDATA) RGDATA=RGDATA_$J("",RGPOS-$L(RGDATA))              ; Pad if past end of buffer
-"RTN","RGUTEDT",138,0)
+"RTN","RGUTEDT",136,0)
  S RGDATA=$E($E(RGDATA,1,RGPOS)_RGTXT_$E(RGDATA,RGPOS+2-RGINS,RGMAX),1,RGMAX)
-"RTN","RGUTEDT",139,0)
+"RTN","RGUTEDT",137,0)
  D DSPLY(RGPOS,0),MOVETO(RGPOS+$L(RGTXT))
-"RTN","RGUTEDT",140,0)
+"RTN","RGUTEDT",138,0)
  Q
-"RTN","RGUTEDT",141,0)
+"RTN","RGUTEDT",139,0)
 POSCUR(RGP) ;
-"RTN","RGUTEDT",142,0)
+"RTN","RGUTEDT",140,0)
  N RGZX,RGZY
-"RTN","RGUTEDT",143,0)
+"RTN","RGUTEDT",141,0)
  S RGP=+$G(RGP,RGPOS),RGZX=RGP-RGLEFT,RGZY=RGZX\RGW+RGY,RGZX=RGZX#RGW+RGX
-"RTN","RGUTEDT",144,0)
+"RTN","RGUTEDT",142,0)
  W $$XY^RGUT(RGZX,RGZY)
-"RTN","RGUTEDT",145,0)
+"RTN","RGUTEDT",143,0)
  Q
-"RTN","RGUTEDT",146,0)
+"RTN","RGUTEDT",144,0)
 MOVETO(RGP) ;
-"RTN","RGUTEDT",147,0)
+"RTN","RGUTEDT",145,0)
  I RGP>RGMAX!(RGP<0) W RGBEL Q
-"RTN","RGUTEDT",148,0)
+"RTN","RGUTEDT",146,0)
  S RGPOS=RGP,RGP=RGLEFT
-"RTN","RGUTEDT",149,0)
+"RTN","RGUTEDT",147,0)
  S:RGPOS<RGLEFT RGLEFT=RGPOS-RGW-1
-"RTN","RGUTEDT",150,0)
+"RTN","RGUTEDT",148,0)
  S:RGLEFT+RGLEN<RGPOS RGLEFT=RGPOS-RGW+1
-"RTN","RGUTEDT",151,0)
+"RTN","RGUTEDT",149,0)
  S:RGLEFT'<RGMAX RGLEFT=RGMAX-RGW
-"RTN","RGUTEDT",152,0)
+"RTN","RGUTEDT",150,0)
  S:RGLEFT<0 RGLEFT=0
-"RTN","RGUTEDT",153,0)
+"RTN","RGUTEDT",151,0)
  D DSPLY():RGLEFT'=RGP,POSCUR()
-"RTN","RGUTEDT",154,0)
+"RTN","RGUTEDT",152,0)
  Q
-"RTN","RGUTEDT",155,0)
+"RTN","RGUTEDT",153,0)
 UP I RGOPT["V" S RGQUIT=3
-"RTN","RGUTEDT",156,0)
+"RTN","RGUTEDT",154,0)
  E  D MOVETO(RGPOS-RGW)
-"RTN","RGUTEDT",157,0)
+"RTN","RGUTEDT",155,0)
  Q
-"RTN","RGUTEDT",158,0)
+"RTN","RGUTEDT",156,0)
 DOWN I RGOPT["V" S RGQUIT=4
-"RTN","RGUTEDT",159,0)
+"RTN","RGUTEDT",157,0)
  E  D MOVETO(RGPOS+RGW)
+"RTN","RGUTEDT",158,0)
+ Q
+"RTN","RGUTEDT",159,0)
+RIGHT D MOVETO(RGPOS+1)
 "RTN","RGUTEDT",160,0)
  Q
 "RTN","RGUTEDT",161,0)
-RIGHT D MOVETO(RGPOS+1)
+LEFT D MOVETO(RGPOS-1)
 "RTN","RGUTEDT",162,0)
  Q
 "RTN","RGUTEDT",163,0)
-LEFT D MOVETO(RGPOS-1)
-"RTN","RGUTEDT",164,0)
- Q
-"RTN","RGUTEDT",165,0)
 RESET W $S(RGOPT["R":RGRVON,1:RGRVOFF)
-"RTN","RGUTEDT",166,0)
+"RTN","RGUTEDT",164,0)
  S (RGPOS,RGLEFT)=0                                                    ; Current edit offset
-"RTN","RGUTEDT",167,0)
+"RTN","RGUTEDT",165,0)
  D DSPLY()                                                             ; Refresh display
-"RTN","RGUTEDT",168,0)
+"RTN","RGUTEDT",166,0)
  Q
-"RTN","RGUTEDT",169,0)
-ERROR W RGBEL                                                               ; Sound bell
-"RTN","RGUTEDT",170,0)
- S @$$TRAP^RGUTOS("ERROR^RGUTEDT")
-"RTN","RGUTEDT",171,0)
- G AGAIN
 "RTN","RGUTHFS")
 0^61^B5078426
 "RTN","RGUTHFS",1,0)
 RGUTHFS ;RI/CBMI/DKM - Host IO Support ;03-Mar-2015 14:24;DKM
 "RTN","RGUTHFS",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTHFS",3,0)
  ;;
 "RTN","RGUTHFS",4,0)
@@ -3741,7 +3781,7 @@ STRIP N I,J,K,X
 "RTN","RGUTIMP",1,0)
 RGUTIMP ;RI/CBMI/DKM - Import text into FileMan file;03-Mar-2015 14:24;DKM
 "RTN","RGUTIMP",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTIMP",3,0)
  ;;
 "RTN","RGUTIMP",4,0)
@@ -3903,9 +3943,9 @@ ERR(RGMSG,RGX) ;
 "RTN","RGUTIN0")
 0^46^B1324180
 "RTN","RGUTIN0",1,0)
-RGUTIN0 ;RI/CBMI/DKM - Platform-dependent operations;03-Mar-2015 14:24;DKM
+RGUTIN0 ;RI/CBMI/DKM - Platform-dependent operations;05-Mar-2015 15:03;DKM
 "RTN","RGUTIN0",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTIN0",3,0)
  ;;
 "RTN","RGUTIN0",4,0)
@@ -3961,11 +4001,11 @@ OPENX(X1,X2) ;EP
 "RTN","RGUTIN0",29,0)
  Q X1
 "RTN","RGUTIN16")
-0^47^B4324901
+0^47^B4251434
 "RTN","RGUTIN16",1,0)
-RGUTIN16 ;RI/CBMI/DKM - Inits for VMS;03-Mar-2015 14:24;DKM
+RGUTIN16 ;RI/CBMI/DKM - Inits for VMS;05-Mar-2015 15:03;DKM
 "RTN","RGUTIN16",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTIN16",3,0)
  ;;
 "RTN","RGUTIN16",4,0)
@@ -4093,7 +4133,7 @@ RAISE(X) ;EP
 "RTN","RGUTIN16",65,0)
 TRAP(X) ;EP
 "RTN","RGUTIN16",66,0)
- Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+ Q "$ZT="""_$G(X)_""""
 "RTN","RGUTIN16",67,0)
  ; Return size of a file
 "RTN","RGUTIN16",68,0)
@@ -4129,11 +4169,11 @@ CLIENTIP() ;EP
 "RTN","RGUTIN16",83,0)
  Q $A(IP,1)_"."_$A(IP,2)_"."_$A(IP,3)_"."_$A(IP,4)
 "RTN","RGUTIN18")
-0^48^B4545277
+0^48^B4464090
 "RTN","RGUTIN18",1,0)
-RGUTIN18 ;RI/CBMI/DKM - Inits for Cache (Windows);03-Mar-2015 14:24;DKM
+RGUTIN18 ;RI/CBMI/DKM - Inits for Cache (Windows);05-Mar-2015 15:03;DKM
 "RTN","RGUTIN18",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTIN18",3,0)
  ;;
 "RTN","RGUTIN18",4,0)
@@ -4281,7 +4321,7 @@ RAISE(X) ;EP
 "RTN","RGUTIN18",75,0)
 TRAP(X) ;EP
 "RTN","RGUTIN18",76,0)
- Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+ Q "$ZT="""_$G(X)_""""
 "RTN","RGUTIN18",77,0)
  ; Return size of file
 "RTN","RGUTIN18",78,0)
@@ -4316,12 +4356,194 @@ CLIENTIP() ;EP
  S $ET="S $EC=""""",IP=$ZU(111,0)
 "RTN","RGUTIN18",93,0)
  Q $A(IP,1)_"."_$A(IP,2)_"."_$A(IP,3)_"."_$A(IP,4)
+"RTN","RGUTIN19")
+0^88^B3750582
+"RTN","RGUTIN19",1,0)
+RGUTIN19 ;RI/CBMI/DKM - Inits for GT.M (Unix);05-Mar-2015 17:26;DKM
+"RTN","RGUTIN19",2,0)
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
+"RTN","RGUTIN19",3,0)
+ ;;
+"RTN","RGUTIN19",4,0)
+ ;=================================================================
+"RTN","RGUTIN19",5,0)
+ ; Open a host file
+"RTN","RGUTIN19",6,0)
+OPEN(X1,X2) ;EP
+"RTN","RGUTIN19",7,0)
+ O X1:@($S("Rr"[$G(X2):"readonly","Ww"[X2:"newversion","Bb"[X2:"stream",1:""))
+"RTN","RGUTIN19",8,0)
+ U X1
+"RTN","RGUTIN19",9,0)
+ S ^TMP("RGUTHFS",$J,X1)=""
+"RTN","RGUTIN19",10,0)
+ Q
+"RTN","RGUTIN19",11,0)
+ ; Close a host file
+"RTN","RGUTIN19",12,0)
+CLOSE(X) ;EP
+"RTN","RGUTIN19",13,0)
+ C X
+"RTN","RGUTIN19",14,0)
+ K ^TMP("RGUTHFS",$J,X)
+"RTN","RGUTIN19",15,0)
+ Q
+"RTN","RGUTIN19",16,0)
+ ; Close all open host files
+"RTN","RGUTIN19",17,0)
+CLOSEALL ;EP
+"RTN","RGUTIN19",18,0)
+ N Z
+"RTN","RGUTIN19",19,0)
+ S Z=""
+"RTN","RGUTIN19",20,0)
+ F  S Z=$O(^TMP("RGUTHFS",$J,Z)) Q:Z=""  C Z
+"RTN","RGUTIN19",21,0)
+ K ^TMP("RGUTHFS",$J)
+"RTN","RGUTIN19",22,0)
+ Q
+"RTN","RGUTIN19",23,0)
+EOF ZM:$ZEOF 150340312
+"RTN","RGUTIN19",24,0)
+ Q
+"RTN","RGUTIN19",25,0)
+EOFERR() Q $ZT["IOEOF"
+"RTN","RGUTIN19",26,0)
+ ; Read a line of data
+"RTN","RGUTIN19",27,0)
+READ(X,Y) ;EP
+"RTN","RGUTIN19",28,0)
+ N $ET
+"RTN","RGUTIN19",29,0)
+ S $ET="",$ZT="G READX"
+"RTN","RGUTIN19",30,0)
+ U $G(Y,$I)
+"RTN","RGUTIN19",31,0)
+ Q:$ZEOF 1
+"RTN","RGUTIN19",32,0)
+ R X:5
+"RTN","RGUTIN19",33,0)
+ Q:$T 0
+"RTN","RGUTIN19",34,0)
+READX Q 1
+"RTN","RGUTIN19",35,0)
+ ; Delete a host file
+"RTN","RGUTIN19",36,0)
+DELETE(X) ;EP
+"RTN","RGUTIN19",37,0)
+ O X:(exception="G DELX")
+"RTN","RGUTIN19",38,0)
+ C X:(delete)
+"RTN","RGUTIN19",39,0)
+DELX Q
+"RTN","RGUTIN19",40,0)
+ ; Rename a host file
+"RTN","RGUTIN19",41,0)
+RENAME(X1,X2) ;EP
+"RTN","RGUTIN19",42,0)
+ O X1
+"RTN","RGUTIN19",43,0)
+ C X1:(rename=X2)
+"RTN","RGUTIN19",44,0)
+ Q
+"RTN","RGUTIN19",45,0)
+ ; Generate directory listing
+"RTN","RGUTIN19",46,0)
+DIR(X1,X2,X3) ;EP
+"RTN","RGUTIN19",47,0)
+ N Z,Z1,FDLM
+"RTN","RGUTIN19",48,0)
+ S FDLM=$E($$DIRDLM,1)
+"RTN","RGUTIN19",49,0)
+ S X3=$G(X3,$NA(^UTILITY("DIR",$J)))
+"RTN","RGUTIN19",50,0)
+ K @X3
+"RTN","RGUTIN19",51,0)
+ S:'$G(X2) X2=99999999
+"RTN","RGUTIN19",52,0)
+ F Z=1:1:X2 S Z1=$ZSEARCH(X1) Q:Z1=""  D
+"RTN","RGUTIN19",53,0)
+ .S Z1=$ZPARSE(Z1,"NAME")_$ZPARSE(Z1,"TYPE")
+"RTN","RGUTIN19",54,0)
+ .S:$TR(Z1,".")'="" @X3@(Z1)=""
+"RTN","RGUTIN19",55,0)
+ Q
+"RTN","RGUTIN19",56,0)
+ ; Return path delimiters
+"RTN","RGUTIN19",57,0)
+DIRDLM() ;EP
+"RTN","RGUTIN19",58,0)
+ Q "///"
+"RTN","RGUTIN19",59,0)
+ ; Return default working directory
+"RTN","RGUTIN19",60,0)
+DEFDIR(X) ;EP
+"RTN","RGUTIN19",61,0)
+ N FDLM
+"RTN","RGUTIN19",62,0)
+ S FDLM=$E($$DIRDLM,1)
+"RTN","RGUTIN19",63,0)
+ S X=$G(X,$P($G(^XTV(8989.3,1,"DEV")),U))
+"RTN","RGUTIN19",64,0)
+ S:$E(X,$L(X))'=FDLM X=X_FDLM
+"RTN","RGUTIN19",65,0)
+ Q X
+"RTN","RGUTIN19",66,0)
+ ; Parse current error
+"RTN","RGUTIN19",67,0)
+ERR(X1,X2,X3) ;EP
+"RTN","RGUTIN19",68,0)
+ S X1=$ZSTATUS,X2=$P(X1,",",2),X3=$P(X1,",",4),X1=$P($P(X1,",",3),"-",3)
+"RTN","RGUTIN19",69,0)
+ Q
+"RTN","RGUTIN19",70,0)
+ ; Raise an exception
+"RTN","RGUTIN19",71,0)
+RAISE(X) ;EP
+"RTN","RGUTIN19",72,0)
+ ZM 150342768:$G(X)
+"RTN","RGUTIN19",73,0)
+ ; Set error trap
+"RTN","RGUTIN19",74,0)
+TRAP(X) ;EP
+"RTN","RGUTIN19",75,0)
+ Q "$ZT="""_$S($D(X):"G "_X,1:"")_""""
+"RTN","RGUTIN19",76,0)
+ ; Return size of a file
+"RTN","RGUTIN19",77,0)
+SIZE(X) ;EP
+"RTN","RGUTIN19",78,0)
+ Q 0
+"RTN","RGUTIN19",79,0)
+ ; Return free disk space
+"RTN","RGUTIN19",80,0)
+FREE(X) ;EP
+"RTN","RGUTIN19",81,0)
+ Q 0
+"RTN","RGUTIN19",82,0)
+ ; Return host ip address
+"RTN","RGUTIN19",83,0)
+HOSTIP() ;EP
+"RTN","RGUTIN19",84,0)
+ Q ""
+"RTN","RGUTIN19",85,0)
+ ; Return host name
+"RTN","RGUTIN19",86,0)
+HOSTNAME() ;EP
+"RTN","RGUTIN19",87,0)
+ Q ""
+"RTN","RGUTIN19",88,0)
+ ; Return client ip address
+"RTN","RGUTIN19",89,0)
+CLIENTIP() ;EP
+"RTN","RGUTIN19",90,0)
+ Q ""
 "RTN","RGUTIN58")
-0^70^B5603465
+0^70^B5514558
 "RTN","RGUTIN58",1,0)
-RGUTIN58 ;RI/CBMI/DKM/PLS - Inits for MSM-UNIX;03-Mar-2015 14:24;DKM
+RGUTIN58 ;RI/CBMI/DKM/PLS - Inits for MSM-UNIX;05-Mar-2015 15:03;DKM
 "RTN","RGUTIN58",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTIN58",3,0)
  ;;
 "RTN","RGUTIN58",4,0)
@@ -4489,7 +4711,7 @@ RAISE(X) ;EP
 "RTN","RGUTIN58",85,0)
 TRAP(X) ;EP
 "RTN","RGUTIN58",86,0)
- Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+ Q "$ZT="""_$G(X)_""""
 "RTN","RGUTIN58",87,0)
  ; Return size of a file
 "RTN","RGUTIN58",88,0)
@@ -4531,11 +4753,11 @@ JW(ZOSHC) ;msm extrinsic
 "RTN","RGUTIN58",106,0)
  Q
 "RTN","RGUTIN68")
-0^69^B4493128
+0^69^B4411941
 "RTN","RGUTIN68",1,0)
-RGUTIN68 ;RI/CBMI/DKM - Inits for Cache (Unix);03-Mar-2015 14:24;DKM
+RGUTIN68 ;RI/CBMI/DKM - Inits for Cache (Unix);05-Mar-2015 15:03;DKM
 "RTN","RGUTIN68",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTIN68",3,0)
  ;;
 "RTN","RGUTIN68",4,0)
@@ -4683,7 +4905,7 @@ RAISE(X) ;EP
 "RTN","RGUTIN68",75,0)
 TRAP(X) ;EP
 "RTN","RGUTIN68",76,0)
- Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+ Q "$ZT="""_$G(X)_""""
 "RTN","RGUTIN68",77,0)
  ; Return size of a file
 "RTN","RGUTIN68",78,0)
@@ -4719,11 +4941,11 @@ CLIENTIP() ;EP
 "RTN","RGUTIN68",93,0)
  Q $A(IP,1)_"."_$A(IP,2)_"."_$A(IP,3)_"."_$A(IP,4)
 "RTN","RGUTIN8")
-0^49^B4187174
+0^49^B4105987
 "RTN","RGUTIN8",1,0)
-RGUTIN8 ;RI/CBMI/DKM - Inits for MSM;03-Mar-2015 14:24;DKM
+RGUTIN8 ;RI/CBMI/DKM - Inits for MSM;05-Mar-2015 15:03;DKM
 "RTN","RGUTIN8",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTIN8",3,0)
  ;;
 "RTN","RGUTIN8",4,0)
@@ -4871,7 +5093,7 @@ RAISE(X) ;EP
 "RTN","RGUTIN8",75,0)
 TRAP(X) ;EP
 "RTN","RGUTIN8",76,0)
- Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+ Q "$ZT="""_$G(X)_""""
 "RTN","RGUTIN8",77,0)
  ; Return size of a file
 "RTN","RGUTIN8",78,0)
@@ -4905,11 +5127,11 @@ CLIENTIP() ;EP
 "RTN","RGUTIN8U")
 1^68
 "RTN","RGUTINIT")
-0^60^B5939477
+0^60^B5948579
 "RTN","RGUTINIT",1,0)
-RGUTINIT ;RI/CBMI/DKM - Platform specific inits;03-Mar-2015 14:24;DKM
+RGUTINIT ;RI/CBMI/DKM - Platform specific inits;05-Mar-2015 18:39;DKM
 "RTN","RGUTINIT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTINIT",3,0)
  ;;
 "RTN","RGUTINIT",4,0)
@@ -4953,33 +5175,33 @@ INIT(RGOS) ;
 "RTN","RGUTINIT",23,0)
  K ^TMP(N,$J)
 "RTN","RGUTINIT",24,0)
- F Z=0,1 F X=$S(Z:3,1:1):1 S Y=$T(+X^@$S(Z:RGOSZ,1:"RGUTIN0")) Q:Y=""  S I=I+1,^TMP(N,$J,I)=Y
+ F Z=0,1 F X=$S(Z:3,1:1):1 S Y=$T(+X^@$S(Z:RGOSZ,1:"RGUTIN0")) Q:Y=""  S I=I+1,^TMP(N,$J,I,0)=Y
 "RTN","RGUTINIT",25,0)
- S $P(^TMP(N,$J,1),";")="RGUTOS "
+ S $P(^TMP(N,$J,1,0),";")="RGUTOS "
 "RTN","RGUTINIT",26,0)
- X "ZR  F Z=1:1:I ZI ^TMP(N,$J,Z) ZS:Z=I RGUTOS"
+ D RTNSAVE^RGUT("RGUTOS",$NA(^TMP(N,$J)),1)
 "RTN","RGUTINIT",27,0)
- K ^TMP(N,$J)
-"RTN","RGUTINIT",28,0)
  F Z=1:1 S X=$P($T(DEVICE+Z),";;",2,99) Q:X=""  S ^TMP(N,$J,Z)=$$MSG^RGUT(X,"|")
-"RTN","RGUTINIT",29,0)
+"RTN","RGUTINIT",28,0)
  I $$ENTRY^RGUTIMP($NA(^TMP(N,$J))) D
-"RTN","RGUTINIT",30,0)
+"RTN","RGUTINIT",29,0)
  .D MES("Unable to install RGUT HFS DEVICE.")
-"RTN","RGUTINIT",31,0)
+"RTN","RGUTINIT",30,0)
  W !!,"Initialization completed for "_$P(^DD("OS",RGOS,0),"^")_" operating system.",!!
-"RTN","RGUTINIT",32,0)
+"RTN","RGUTINIT",31,0)
  K ^TMP(N,$J)
-"RTN","RGUTINIT",33,0)
+"RTN","RGUTINIT",32,0)
  Q
-"RTN","RGUTINIT",34,0)
+"RTN","RGUTINIT",33,0)
 OSRTN(X) Q $P($T(@("OS"_X)),";",4,99)
-"RTN","RGUTINIT",35,0)
+"RTN","RGUTINIT",34,0)
 OS8 ;;MSM;$S($ZV["UNIX":"RGUTIN58",1:"RGUTIN8")
+"RTN","RGUTINIT",35,0)
+OS16 ;;DSM;"RGUTIN16"
 "RTN","RGUTINIT",36,0)
-OS16 ;;DSM;RGUTIN16
-"RTN","RGUTINIT",37,0)
 OS18 ;;Cache;$S($ZV["UNIX":"RGUTIN68",1:"RGUTIN18")
+"RTN","RGUTINIT",37,0)
+OS19 ;;GT.M;"RGUTIN19"
 "RTN","RGUTINIT",38,0)
 MES(X) D BMES^XPDUTL(X)
 "RTN","RGUTINIT",39,0)
@@ -5023,7 +5245,7 @@ DEVICE ; Device setup
 "RTN","RGUTLK2",1,0)
 RGUTLK2 ;RI/CBMI/DKM - Continuation of RGUTLKP;03-Mar-2015 14:24;DKM
 "RTN","RGUTLK2",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTLK2",3,0)
  ;;
 "RTN","RGUTLK2",4,0)
@@ -5427,7 +5649,7 @@ XY(X,Y) ;I %RGRS W:'X *13 S $X=X,$Y=Y Q ""
 "RTN","RGUTLKP",1,0)
 RGUTLKP ;RI/CBMI/DKM - File lookup utility;03-Mar-2015 14:24;DKM
 "RTN","RGUTLKP",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTLKP",3,0)
  ;;
 "RTN","RGUTLKP",4,0)
@@ -5725,7 +5947,7 @@ ERROR W:'%RGHTML $$XY(0,%RGY+1),*7,%RGEOL,$$EC^%ZOSV
 "RTN","RGUTMTL",1,0)
 RGUTMTL ;RI/CBMI/DKM - Multi-term lookup support ;03-Mar-2015 14:24;DKM
 "RTN","RGUTMTL",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTMTL",3,0)
  ;;
 "RTN","RGUTMTL",4,0)
@@ -5945,7 +6167,7 @@ STEM(RGLAST,RGSTEM,RGF) ;
 "RTN","RGUTNTEG",1,0)
 RGUTNTEG ;ISC/XTSUMBLD KERNEL - Package checksum checker ;03-Mar-2015 14:24;DKM
 "RTN","RGUTNTEG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20,2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20,2007;Build 162
 "RTN","RGUTNTEG",3,0)
  ;;7.3;3070531.172703
 "RTN","RGUTNTEG",4,0)
@@ -6035,11 +6257,11 @@ RGUTIN58 ;;1357669
 "RTN","RGUTNTEG",46,0)
 RGUT1 ;;508281
 "RTN","RGUTOS")
-0^53^B7709338
+0^53^B7607307
 "RTN","RGUTOS",1,0)
-RGUTOS ;RI/CBMI/DKM - Platform-dependent operations;03-Mar-2015 14:24;DKM
+RGUTOS ;RI/CBMI/DKM - Platform-dependent operations;05-Mar-2015 15:03;DKM
 "RTN","RGUTOS",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTOS",3,0)
  ;;
 "RTN","RGUTOS",4,0)
@@ -6241,7 +6463,7 @@ RAISE(X) ;EP
 "RTN","RGUTOS",102,0)
 TRAP(X) ;EP
 "RTN","RGUTOS",103,0)
- Q $S($D(X):"$ZT="""_X_"""",1:"$ZT")
+ Q "$ZT="""_$G(X)_""""
 "RTN","RGUTOS",104,0)
  ; Return size of a file
 "RTN","RGUTOS",105,0)
@@ -6281,7 +6503,7 @@ CLIENTIP() ;EP
 "RTN","RGUTOS1",1,0)
 RGUTOS ;RI/CBMI/DKM - Platform-dependent operations;03-Mar-2015 14:24;DKM
 "RTN","RGUTOS1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTOS1",3,0)
  ;;
 "RTN","RGUTOS1",4,0)
@@ -6513,7 +6735,7 @@ ERRDSM S X1=$P($P(X,", ",2),"-",3),X2=$P($P(X,", "),":"),X3=$$TRIM^RGUT($P(X,", 
 "RTN","RGUTREG",1,0)
 RGUTREG ;RI/CBMI/DKM - Various registration actions ;03-Mar-2015 14:24;DKM
 "RTN","RGUTREG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTREG",3,0)
  ;;
 "RTN","RGUTREG",4,0)
@@ -6551,7 +6773,7 @@ REGPROT(P,C,ERR) ;
 "RTN","RGUTRPC",1,0)
 RGUTRPC ;RI/CBMI/DKM - RPC Encapsulations for RGUT routines ;03-Mar-2015 14:24;DKM
 "RTN","RGUTRPC",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTRPC",3,0)
  ;;
 "RTN","RGUTRPC",4,0)
@@ -6837,7 +7059,7 @@ GETRPC(X) ;EP
 "RTN","RGUTRPRT",1,0)
 RGUTRPRT ;RI/CBMI/DKM - Routine Pretty Print Program ;03-Mar-2015 14:24;DKM
 "RTN","RGUTRPRT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTRPRT",3,0)
  ;;
 "RTN","RGUTRPRT",4,0)
@@ -6919,7 +7141,7 @@ RJ(X) W ?(IOM-$L(X)),X
 "RTN","RGUTSTX",1,0)
 RGUTSTX ;RI/CBMI/DKM - M syntax analyzer;03-Mar-2015 14:24;DKM
 "RTN","RGUTSTX",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTSTX",3,0)
  ;;
 "RTN","RGUTSTX",4,0)
@@ -7205,7 +7427,7 @@ ERRORS ;;*Error messages*
 "RTN","RGUTSTX0",1,0)
 RGUTSTX0 ;RI/CBMI/DKM - Continuation of RGUTSTX;03-Mar-2015 14:24;DKM
 "RTN","RGUTSTX0",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTSTX0",3,0)
  ;;
 "RTN","RGUTSTX0",4,0)
@@ -7535,7 +7757,7 @@ NEXT(RGC,RGI) ;
 "RTN","RGUTSTX1",1,0)
 RGUTSTX1 ;RI/CBMI/DKM - Continuation of RGUTSTX;03-Mar-2015 14:24;DKM
 "RTN","RGUTSTX1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTSTX1",3,0)
  ;;
 "RTN","RGUTSTX1",4,0)
@@ -7873,7 +8095,7 @@ NEXT(RGC,RGI) ;
 "RTN","RGUTTSK",1,0)
 RGUTTSK ;RI/CBMI/DKM - Encapsulates TaskMan API ;03-Mar-2015 14:24;DKM
 "RTN","RGUTTSK",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTTSK",3,0)
  ;;
 "RTN","RGUTTSK",4,0)
@@ -7907,7 +8129,7 @@ QUEUE(ZTRTN,ZTDESC,ZTDTH,ZTSAVE,ZTIO,ZTUCI,ZTPRI) ;
 "RTN","RGUTUSR",1,0)
 RGUTUSR ;RI/CBMI/DKM - Parse recipient list;03-Mar-2015 14:24;DKM
 "RTN","RGUTUSR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTUSR",3,0)
  ;;
 "RTN","RGUTUSR",4,0)
@@ -8021,7 +8243,7 @@ MGRP2(RGMGRP) ;
 "RTN","RGUTUU",1,0)
 RGUTUU ;RI/CBMI/DKM - UUEncode and UUDecode functions.;03-Mar-2015 14:24;DKM
 "RTN","RGUTUU",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 144
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 162
 "RTN","RGUTUU",3,0)
  ;;
 "RTN","RGUTUU",4,0)
