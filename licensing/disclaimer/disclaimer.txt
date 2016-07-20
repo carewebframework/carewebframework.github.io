@@ -1,4 +1,3 @@
-<html><body><pre>
 Health-Related Additional Disclaimer of Warranty and Limitation of Liability
 ============================================================================
 
@@ -29,4 +28,3 @@ into the terms and conditions of Apache License 2.0:
      the covered code to comply with privacy laws and regulations or clinical care
      industry standards and protocols), even if such party shall have been informed of
      the possibility of such damages.
-</pre></body></html>
