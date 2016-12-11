@@ -1,0 +1,2525 @@
+<xs:schema elementFormDefault="qualified" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="a">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="href" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="image" type="xs:string"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="target" type="xs:string"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="button">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="image" type="xs:string"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="cell">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="checkbox">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="checked" type="xs:boolean"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="position">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="left"/>
+                        <xs:enumeration value="right"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="colorpicker">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpickeritem"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="showHints" type="xs:boolean"/>
+            <xs:attribute name="showText" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="colorpickeritem">
+        <xs:complexType>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="column">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="sortBy" type="xs:string"/>
+            <xs:attribute name="sortColumn" type="xs:boolean"/>
+            <xs:attribute name="sortOrder">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="ascending"/>
+                        <xs:enumeration value="descending"/>
+                        <xs:enumeration value="native"/>
+                        <xs:enumeration value="unsorted"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="sortToggle">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="binary"/>
+                        <xs:enumeration value="tristate"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="columns">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="column"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="combobox">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="comboitem"/>
+            </xs:all>
+            <xs:attribute name="autoFilter" type="xs:boolean"/>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="comboitem">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="selected" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="container">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="datebox">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="format" type="xs:string"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="div">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="doublebox">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxValue" type="xs:string"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="minValue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="groupbox">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="title" type="xs:string"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="html">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="balloon" type="xs:string"/>
+                    <xs:attribute name="class" type="xs:string"/>
+                    <xs:attribute name="context" type="xs:string"/>
+                    <xs:attribute name="controller" type="xs:string"/>
+                    <xs:attribute name="css" type="xs:string"/>
+                    <xs:attribute name="data" type="xs:string"/>
+                    <xs:attribute name="disabled" type="xs:boolean"/>
+                    <xs:attribute name="dragid" type="xs:string"/>
+                    <xs:attribute name="dropid" type="xs:string"/>
+                    <xs:attribute name="focus" type="xs:boolean"/>
+                    <xs:attribute name="forward" type="xs:string"/>
+                    <xs:attribute name="height" type="xs:string"/>
+                    <xs:attribute name="hint" type="xs:string"/>
+                    <xs:attribute name="if" type="xs:boolean"/>
+                    <xs:attribute name="impl" type="xs:string"/>
+                    <xs:attribute name="keycapture" type="xs:string"/>
+                    <xs:attribute name="name" type="xs:string"/>
+                    <xs:attribute name="style" type="xs:string"/>
+                    <xs:attribute name="tabindex" type="xs:integer"/>
+                    <xs:attribute name="unless" type="xs:boolean"/>
+                    <xs:attribute name="visible" type="xs:boolean"/>
+                    <xs:attribute name="width" type="xs:string"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="iframe">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="sandbox" type="xs:string"/>
+            <xs:attribute name="src" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="image">
+        <xs:complexType>
+            <xs:attribute name="alt" type="xs:string"/>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="src" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="imagepicker">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepickeritem"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="showHints" type="xs:boolean"/>
+            <xs:attribute name="showText" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="imagepickeritem">
+        <xs:complexType>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="import">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="src" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="integerbox">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxValue" type="xs:string"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="minValue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="label">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="listbox">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listitem"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="multiple" type="xs:boolean"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="size" type="xs:integer"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="listitem">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="selected" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="longbox">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxValue" type="xs:string"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="minValue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="memobox">
+        <xs:complexType>
+            <xs:attribute name="autoScroll" type="xs:boolean"/>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="synchronized" type="xs:boolean"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="menu">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuheader"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuitem"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuseparator"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="image" type="xs:string"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="open" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="menuheader">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="image" type="xs:string"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="menuitem">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuheader"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuitem"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuseparator"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="checkable" type="xs:boolean"/>
+            <xs:attribute name="checked" type="xs:boolean"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="image" type="xs:string"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="menupopup">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuheader"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuitem"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menuseparator"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="menuseparator">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="messagepane">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="messagewindow">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="messagepane"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="page">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="messagewindow"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="title" type="xs:string"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="pane">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="splittable" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="title" type="xs:string"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="paneview">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="pane"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="orientation">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="horizontal"/>
+                        <xs:enumeration value="vertical"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="popup">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="popupbox">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="1" minOccurs="0" ref="popup"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="open" type="xs:boolean"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="popup" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="progressbar">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="maxValue" type="xs:integer"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:integer"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="radiobutton">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="checked" type="xs:boolean"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="position">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="left"/>
+                        <xs:enumeration value="right"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="radiogroup">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="orientation">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="horizontal"/>
+                        <xs:enumeration value="vertical"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="row">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="rowcell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="selected" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rowcell">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="colspan" type="xs:integer"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rows">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="selectable">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="multiple"/>
+                        <xs:enumeration value="no"/>
+                        <xs:enumeration value="single"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="script">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="balloon" type="xs:string"/>
+                    <xs:attribute name="class" type="xs:string"/>
+                    <xs:attribute name="context" type="xs:string"/>
+                    <xs:attribute name="controller" type="xs:string"/>
+                    <xs:attribute name="css" type="xs:string"/>
+                    <xs:attribute name="data" type="xs:string"/>
+                    <xs:attribute name="disabled" type="xs:boolean"/>
+                    <xs:attribute name="dragid" type="xs:string"/>
+                    <xs:attribute name="dropid" type="xs:string"/>
+                    <xs:attribute name="focus" type="xs:boolean"/>
+                    <xs:attribute name="forward" type="xs:string"/>
+                    <xs:attribute name="height" type="xs:string"/>
+                    <xs:attribute name="hint" type="xs:string"/>
+                    <xs:attribute name="if" type="xs:boolean"/>
+                    <xs:attribute name="impl" type="xs:string"/>
+                    <xs:attribute name="keycapture" type="xs:string"/>
+                    <xs:attribute name="name" type="xs:string"/>
+                    <xs:attribute name="src" type="xs:string"/>
+                    <xs:attribute name="style" type="xs:string"/>
+                    <xs:attribute name="tabindex" type="xs:integer"/>
+                    <xs:attribute name="type" type="xs:string"/>
+                    <xs:attribute name="unless" type="xs:boolean"/>
+                    <xs:attribute name="visible" type="xs:boolean"/>
+                    <xs:attribute name="width" type="xs:string"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="span">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="style">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="balloon" type="xs:string"/>
+                    <xs:attribute name="class" type="xs:string"/>
+                    <xs:attribute name="context" type="xs:string"/>
+                    <xs:attribute name="controller" type="xs:string"/>
+                    <xs:attribute name="css" type="xs:string"/>
+                    <xs:attribute name="data" type="xs:string"/>
+                    <xs:attribute name="disabled" type="xs:boolean"/>
+                    <xs:attribute name="dragid" type="xs:string"/>
+                    <xs:attribute name="dropid" type="xs:string"/>
+                    <xs:attribute name="focus" type="xs:boolean"/>
+                    <xs:attribute name="forward" type="xs:string"/>
+                    <xs:attribute name="height" type="xs:string"/>
+                    <xs:attribute name="hint" type="xs:string"/>
+                    <xs:attribute name="if" type="xs:boolean"/>
+                    <xs:attribute name="impl" type="xs:string"/>
+                    <xs:attribute name="keycapture" type="xs:string"/>
+                    <xs:attribute name="name" type="xs:string"/>
+                    <xs:attribute name="style" type="xs:string"/>
+                    <xs:attribute name="tabindex" type="xs:integer"/>
+                    <xs:attribute name="unless" type="xs:boolean"/>
+                    <xs:attribute name="visible" type="xs:boolean"/>
+                    <xs:attribute name="width" type="xs:string"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="stylesheet">
+        <xs:complexType>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="href" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tab">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="closable" type="xs:boolean"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="image" type="xs:string"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="selected" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="table">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="1" minOccurs="0" ref="columns"/>
+                <xs:element maxOccurs="1" minOccurs="0" ref="rows"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tabview">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tab"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="tabPosition">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="bottom"/>
+                        <xs:enumeration value="left"/>
+                        <xs:enumeration value="right"/>
+                        <xs:enumeration value="top"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="textbox">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="masked" type="xs:boolean"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="synchronized" type="xs:boolean"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="timebox">
+        <xs:complexType>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="format" type="xs:string"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maxlength" type="xs:integer"/>
+            <xs:attribute name="maxvalue" type="xs:string"/>
+            <xs:attribute name="minvalue" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="pattern" type="xs:string"/>
+            <xs:attribute name="placeholder" type="xs:string"/>
+            <xs:attribute name="readonly" type="xs:boolean"/>
+            <xs:attribute name="required" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="value" type="xs:string"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="timer">
+        <xs:complexType>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="interval" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="repeat" type="xs:integer"/>
+            <xs:attribute name="running" type="xs:boolean"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="toolbar">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="align">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="center"/>
+                        <xs:enumeration value="end"/>
+                        <xs:enumeration value="start"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="orientation">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="horizontal"/>
+                        <xs:enumeration value="vertical"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="treenode">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treenode"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="collapsed" type="xs:boolean"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="image" type="xs:string"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="label" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="selected" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="treeview">
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treenode"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="showLines" type="xs:boolean"/>
+            <xs:attribute name="showRoot" type="xs:boolean"/>
+            <xs:attribute name="showToggles" type="xs:boolean"/>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="window">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="a"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="button"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="cell"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="checkbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="colorpicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="combobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="container"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="datebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="div"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="doublebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="groupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="html"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="iframe"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="imagepicker"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="import"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="integerbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="label"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="listbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="longbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="memobox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menu"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="menupopup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="paneview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="popupbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="progressbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiobutton"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="radiogroup"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="row"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="script"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="span"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="style"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="stylesheet"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="table"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="tabview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="textbox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timebox"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="timer"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="toolbar"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="treeview"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" ref="window"/>
+            </xs:all>
+            <xs:attribute name="balloon" type="xs:string"/>
+            <xs:attribute name="class" type="xs:string"/>
+            <xs:attribute name="closable" type="xs:boolean"/>
+            <xs:attribute name="closeAction">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="destroy"/>
+                        <xs:enumeration value="detach"/>
+                        <xs:enumeration value="hide"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="context" type="xs:string"/>
+            <xs:attribute name="controller" type="xs:string"/>
+            <xs:attribute name="css" type="xs:string"/>
+            <xs:attribute name="data" type="xs:string"/>
+            <xs:attribute name="disabled" type="xs:boolean"/>
+            <xs:attribute name="dragid" type="xs:string"/>
+            <xs:attribute name="dropid" type="xs:string"/>
+            <xs:attribute name="focus" type="xs:boolean"/>
+            <xs:attribute name="forward" type="xs:string"/>
+            <xs:attribute name="height" type="xs:string"/>
+            <xs:attribute name="hint" type="xs:string"/>
+            <xs:attribute name="if" type="xs:boolean"/>
+            <xs:attribute name="image" type="xs:string"/>
+            <xs:attribute name="impl" type="xs:string"/>
+            <xs:attribute name="keycapture" type="xs:string"/>
+            <xs:attribute name="maximizable" type="xs:boolean"/>
+            <xs:attribute name="minimizable" type="xs:boolean"/>
+            <xs:attribute name="mode">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="inline"/>
+                        <xs:enumeration value="modal"/>
+                        <xs:enumeration value="popup"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="sizable" type="xs:boolean"/>
+            <xs:attribute name="size">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="maximized"/>
+                        <xs:enumeration value="minimized"/>
+                        <xs:enumeration value="normal"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="style" type="xs:string"/>
+            <xs:attribute name="tabindex" type="xs:integer"/>
+            <xs:attribute name="title" type="xs:string"/>
+            <xs:attribute name="unless" type="xs:boolean"/>
+            <xs:attribute name="visible" type="xs:boolean"/>
+            <xs:attribute name="width" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
